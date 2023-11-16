@@ -5,7 +5,7 @@
 
 This Building Block serves as a template to create new ones
 
-[*Status*](http://www.opengis.net/def/status): Under development
+[*Status*](http://www.opengis.net/def/status): Invalid
 
 ## Description
 
@@ -32,19 +32,31 @@ In **Markdown** format.
 
 ### Examples can have content and/or code snippets.
 The content of this example. 
-#### shell
-```shell
-echo 'Hello, world!'
+#### json
+```json
+{
+ "a": "frog",
+ "b": "jeremiah"
+ }
 ```
 
-#### python
-```python
-print('Hello, world!')
+#### jsonld
+```jsonld
+{
+  "a": "frog",
+  "b": "jeremiah",
+  "@context": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld"
+}
 ```
 
-#### javascript
-```javascript
-console.log('Hello, world!')
+#### ttl
+```ttl
+@prefix ns1: <https://example.org/my-bb-model/> .
+
+[] ns1:a <file:///github/workspace/frog> ;
+    ns1:b "jeremiah" .
+
+
 ```
 
 ## Schema

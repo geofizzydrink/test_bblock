@@ -2,9 +2,9 @@
 title: My Building Block (Schema)
 
 language_tabs:
-  - shell
-  - python: Python
-  - javascript: Javascript
+  - json: JSON
+  - jsonld: JSON-LD
+  - turtle: RDF/Turtle
 
 toc_footers:
   - Version 0.1
@@ -26,11 +26,11 @@ This Building Block serves as a template to create new ones
 
 <p class="status">
     <span data-rainbow-uri="http://www.opengis.net/def/status">Status</span>:
-    <a href="http://www.opengis.net/def/status/under-development" target="_blank" data-rainbow-uri>Under development</a>
+    <a href="http://www.opengis.net/def/status/invalid" target="_blank" data-rainbow-uri>Invalid</a>
 </p>
 
-<aside class="success">
-This building block is <strong>valid</strong>
+<aside class="warning">
+Validation for this building block has <strong><a href="https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/my-building-block/" target="_blank">failed</a></strong>
 </aside>
 
 # Description
@@ -64,21 +64,53 @@ The content of this example.
 
 
 
-```shell
-echo 'Hello, world!'
+```json
+{
+ "a": "frog",
+ "b": "jeremiah"
+ }
 ```
 
+<blockquote class="lang-specific json">
+  <p class="example-links">
+    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_1.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2Fmy-building-block%2Fexample_2_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+</blockquote>
 
 
-```python
-print('Hello, world!')
+
+
+```jsonld
+{
+  "a": "frog",
+  "b": "jeremiah",
+  "@context": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld"
+}
 ```
 
+<blockquote class="lang-specific jsonld">
+  <p class="example-links">
+    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_1.jsonld">Open in new window</a>
+    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2Fmy-building-block%2Fexample_2_1.jsonld">View on JSON-LD Playground</a>
+</blockquote>
 
 
-```javascript
-console.log('Hello, world!')
+
+
+```turtle
+@prefix ns1: <https://example.org/my-bb-model/> .
+
+[] ns1:a <file:///github/workspace/frog> ;
+    ns1:b "jeremiah" .
+
+
 ```
+
+<blockquote class="lang-specific turtle">
+  <p class="example-links">
+    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_1.ttl">Open in new window</a>
+</blockquote>
+
 
 
 # JSON Schema
