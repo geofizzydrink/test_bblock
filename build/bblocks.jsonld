@@ -96,24 +96,24 @@
       ],
       "shaclRules": {},
       "schema": {
-        "application/yaml": "https://raw.githubusercontent.com/geofizzydrink/test_bblock/master/build/annotated/bbr/template/my-building-block/schema.yaml",
-        "application/json": "https://raw.githubusercontent.com/geofizzydrink/test_bblock/master/build/annotated/bbr/template/my-building-block/schema.json"
+        "application/yaml": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/schema.yaml",
+        "application/json": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/schema.json"
       },
-      "ldContext": "https://raw.githubusercontent.com/geofizzydrink/test_bblock/master/build/annotated/bbr/template/my-building-block/context.jsonld",
-      "sourceFiles": "https://raw.githubusercontent.com/geofizzydrink/test_bblock/master/_sources/my-building-block/",
+      "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld",
+      "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/my-building-block/",
       "validationPassed": true,
       "documentation": {
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/geofizzydrink/test_bblock/master/build/generateddocs/json-full/bbr/template/my-building-block/index.json"
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/my-building-block/index.json"
         },
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/geofizzydrink/test_bblock/master/build/generateddocs/markdown/bbr/template/my-building-block/index.md"
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/my-building-block/index.md"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/geofizzydrink/test_bblock/master/build/generateddocs/slate-build/bbr/template/my-building-block/"
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/my-building-block/"
         }
       },
       "@type": [

@@ -25,11 +25,11 @@
   ],
   "shaclRules": {},
   "schema": {
-    "application/yaml": "https://raw.githubusercontent.com/geofizzydrink/test_bblock/master/build/annotated/bbr/template/my-building-block/schema.yaml",
-    "application/json": "https://raw.githubusercontent.com/geofizzydrink/test_bblock/master/build/annotated/bbr/template/my-building-block/schema.json"
+    "application/yaml": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/schema.yaml",
+    "application/json": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/schema.json"
   },
-  "ldContext": "https://raw.githubusercontent.com/geofizzydrink/test_bblock/master/build/annotated/bbr/template/my-building-block/context.jsonld",
-  "sourceFiles": "https://raw.githubusercontent.com/geofizzydrink/test_bblock/master/_sources/my-building-block/",
+  "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld",
+  "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/my-building-block/",
   "validationPassed": true,
   "description": "## Qui hastarum tectus Cithaeron iuvabat\n\nLorem markdownum vestigia sanguine rursus undis, suspenderat meo mox conlegerat\ntemperat sucos. Est graves dant sentire sanguinis flores respondent testari.\n\n> Videri vias quid Ausoniae sua flores ante, reminiscitur fuit est. Semel\n> [hectora](http://silvaque.org/) peregrinaeque rudem exercent in, Troiana si\n> Asida instabilesque somno sed.\n\n## Iam vota cui dilataque peterem\n\nTinxit lumina lacer liquidarum Aiax si mergitur sed fueris capitisque **et\ncadit** contigerant rectum [ferar](http://prosternit.com/quoque.html) temperat.\nMonet caput adsensere Ityn furentibus gelidos.",
   "examples": [
