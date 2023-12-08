@@ -67,7 +67,7 @@ The content of this example.
 ```json
 {
  "a": "frog",
- "b": "jeremiah"
+ "b": "1"
  }
 ```
 
@@ -80,18 +80,33 @@ The content of this example.
 
 
 
+```json
+{
+ "a": "frog"
+ 
+ }
+```
+
+<blockquote class="lang-specific json">
+  <p class="example-links">
+    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_2.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2Fmy-building-block%2Fexample_2_2.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+</blockquote>
+
+
+
+
 ```jsonld
 {
   "a": "frog",
-  "b": "jeremiah",
   "@context": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld"
 }
 ```
 
 <blockquote class="lang-specific jsonld">
   <p class="example-links">
-    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_1.jsonld">Open in new window</a>
-    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2Fmy-building-block%2Fexample_2_1.jsonld">View on JSON-LD Playground</a>
+    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_2.jsonld">Open in new window</a>
+    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2Fmy-building-block%2Fexample_2_2.jsonld">View on JSON-LD Playground</a>
 </blockquote>
 
 
@@ -100,15 +115,14 @@ The content of this example.
 ```turtle
 @prefix ns1: <https://example.org/my-bb-model/> .
 
-[] ns1:a <file:///github/workspace/frog> ;
-    ns1:b "jeremiah" .
+[] ns1:a <file:///github/workspace/frog> .
 
 
 ```
 
 <blockquote class="lang-specific turtle">
   <p class="example-links">
-    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_1.ttl">Open in new window</a>
+    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_2.ttl">Open in new window</a>
 </blockquote>
 
 

@@ -45,18 +45,24 @@
         {
           "language": "json",
           "ref": "examples/test.json",
-          "code": "{\n \"a\": \"frog\",\n \"b\": \"jeremiah\"\n }",
+          "code": "{\n \"a\": \"frog\",\n \"b\": \"1\"\n }",
           "url": "https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_1.json"
         },
         {
+          "language": "json",
+          "ref": "examples/test-fail.json",
+          "code": "{\n \"a\": \"frog\"\n \n }",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_2.json"
+        },
+        {
           "language": "jsonld",
-          "code": "{\n  \"a\": \"frog\",\n  \"b\": \"jeremiah\",\n  \"@context\": \"https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld\"\n}",
-          "url": "https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_1.jsonld"
+          "code": "{\n  \"a\": \"frog\",\n  \"@context\": \"https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld\"\n}",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_2.jsonld"
         },
         {
           "language": "ttl",
-          "code": "@prefix ns1: <https://example.org/my-bb-model/> .\n\n[] ns1:a <file:///github/workspace/frog> ;\n    ns1:b \"jeremiah\" .\n\n",
-          "url": "https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_1.ttl"
+          "code": "@prefix ns1: <https://example.org/my-bb-model/> .\n\n[] ns1:a <file:///github/workspace/frog> .\n\n",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_2.ttl"
         }
       ]
     }

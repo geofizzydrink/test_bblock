@@ -1,0 +1,30 @@
+Validation report for ogc.bbr.template.my-building-block - My Building Block
+Generated 2023-12-08T05:25:25.216929+00:00
+=== Files ===
+Using example_2_2.json from examples
+JSON-LD context is present - uplifting
+Output JSON-LD example_2_2.jsonld created
+Output Turtle example_2_2.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+
+** Validation error **
+ValidationError: 'b' is a required property
+
+Failed validating 'required' in schema:
+    {'$schema': 'https://json-schema.org/draft/2020-12/schema',
+     'description': 'Schema for my building block',
+     'properties': {'a': {'format': 'uri',
+                          'type': 'string',
+                          'x-jsonld-id': 'https://example.org/my-bb-model/a',
+                          'x-jsonld-type': '@id'},
+                    'b': {'type': 'number',
+                          'x-jsonld-id': 'https://example.org/my-bb-model/b'}},
+     'required': ['a', 'b'],
+     'type': 'object'}
+
+On instance:
+    {'a': 'frog'}
+=== End JSON Schema ===
+

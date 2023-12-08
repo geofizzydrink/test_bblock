@@ -36,7 +36,15 @@ The content of this example.
 ```json
 {
  "a": "frog",
- "b": "jeremiah"
+ "b": "1"
+ }
+```
+
+#### json
+```json
+{
+ "a": "frog"
+ 
  }
 ```
 
@@ -44,7 +52,6 @@ The content of this example.
 ```jsonld
 {
   "a": "frog",
-  "b": "jeremiah",
   "@context": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld"
 }
 ```
@@ -53,8 +60,7 @@ The content of this example.
 ```ttl
 @prefix ns1: <https://example.org/my-bb-model/> .
 
-[] ns1:a <file:///github/workspace/frog> ;
-    ns1:b "jeremiah" .
+[] ns1:a <file:///github/workspace/frog> .
 
 
 ```

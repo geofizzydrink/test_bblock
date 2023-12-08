@@ -294,7 +294,7 @@
     </script>
   </head>
 
-  <body class="bbr bbr_template bbr_template_cwl-terranexus bbr_template_cwl-terranexus_index" data-languages="[&quot;json&quot;,&quot;jsonld&quot;,&quot;turtle&quot;]">
+  <body class="bbr bbr_template bbr_template_terranexus-json-fg-feature_with-prov bbr_template_terranexus-json-fg-feature_with-prov_index" data-languages="[&quot;json&quot;,&quot;jsonld&quot;]">
     <a href="#" id="nav-button">
       <span>
         NAV
@@ -306,7 +306,6 @@
         <div class="lang-selector">
               <a href="#" data-language-name="json">JSON</a>
               <a href="#" data-language-name="jsonld">JSON-LD</a>
-              <a href="#" data-language-name="turtle">RDF/Turtle</a>
         </div>
         <div class="search">
           <input type="text" class="search" id="input-search" placeholder="Search">
@@ -314,7 +313,7 @@
         <ul class="search-results"></ul>
       <ul id="toc" class="toc-list-h1">
           <li>
-            <a href="#my-building-block-ogc-bbr-template-cwl-terranexus" class="toc-h1 toc-link" data-title="My Building Block ogc.bbr.template.cwl-terranexus">My Building Block <code>ogc.bbr.template.cwl-terranexus</code></a>
+            <a href="#my-building-block-ogc-bbr-template-terranexus-json-fg-feature_with-prov" class="toc-h1 toc-link" data-title="My Building Block ogc.bbr.template.terranexus-json-fg-feature_with-prov">My Building Block <code>ogc.bbr.template.terranexus-json-fg-feature_with-prov</code></a>
           </li>
           <li>
             <a href="#description" class="toc-h1 toc-link" data-title="Description">Description</a>
@@ -360,16 +359,16 @@
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
-        <h1 id='my-building-block-ogc-bbr-template-cwl-terranexus'>My Building Block <code>ogc.bbr.template.cwl-terranexus</code></h1>
+        <h1 id='my-building-block-ogc-bbr-template-terranexus-json-fg-feature_with-prov'>My Building Block <code>ogc.bbr.template.terranexus-json-fg-feature_with-prov</code></h1>
 <p>This Building Block serves as a template to create new ones</p>
 
 <p class="status">
     <span data-rainbow-uri="http://www.opengis.net/def/status">Status</span>:
-    <a href="http://www.opengis.net/def/status/under-development" target="_blank" data-rainbow-uri>Under development</a>
+    <a href="http://www.opengis.net/def/status/invalid" target="_blank" data-rainbow-uri>Invalid</a>
 </p>
 
-<aside class="success">
-This building block is <strong><a href="https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/cwl-terranexus/" target="_blank">valid</a></strong>
+<aside class="warning">
+Validation for this building block has <strong><a href="https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/terranexus-json-fg-feature_with-prov/" target="_blank">failed</a></strong>
 </aside>
 <h1 id='description'>Description</h1><h2 id='qui-hastarum-tectus-cithaeron-iuvabat'>Qui hastarum tectus Cithaeron iuvabat</h2>
 <p>Lorem markdownum vestigia sanguine rursus undis, suspenderat meo mox conlegerat
@@ -391,587 +390,83 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
 <h2 id='examples-can-have-content-and-or-code-snippets'>Examples can have content and/or code snippets.</h2>
 <p>The content of this example. </p>
 <div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:071d1b5c-1b2b-4995-a6e0-80821af85abd"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-    </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"wf4ever:File"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"wfprov:Artifact"</span><span class="w">
-  </span><span class="p">],</span><span class="w">
-  </span><span class="nl">"qualifiedGeneration"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-    </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generation"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"activity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:d7e8b17e-2d80-4c42-a797-bc3628f52c44"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-          </span><span class="s2">"wfprov:ProcessRun"</span><span class="p">,</span><span class="w">
-          </span><span class="s2">"Activity"</span><span class="w">
-        </span><span class="p">],</span><span class="w">
-        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Run of workflow/packed.cwl#main/sorted"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"qualifiedAssociation"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Association"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"hadPlan"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"id"</span><span class="p">:</span><span class="s2">" wf:main/sorted"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-              </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-              </span><span class="s2">"Plan"</span><span class="p">,</span><span class="w">
-              </span><span class="s2">"wfdesc:Process"</span><span class="w">
-            </span><span class="p">]</span><span class="w">
-          </span><span class="p">}</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"qualifiedEnd"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"End"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:38.069110"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:1f767ad4-ac52-4623-b5bc-dd9faf2b869f"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-              </span><span class="s2">"wfprov:WorkflowRun"</span><span class="p">,</span><span class="w">
-              </span><span class="s2">"Activity"</span><span class="w">
-            </span><span class="p">],</span><span class="w">
-            </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Run of workflow/packed.cwl#main"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"qualifiedAssociation"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Association"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"hadPlan"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                  </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-                  </span><span class="s2">"Plan"</span><span class="p">,</span><span class="w">
-                  </span><span class="s2">"wfdesc:Workflow"</span><span class="w">
-                </span><span class="p">],</span><span class="w">
-                </span><span class="nl">"wfdesc:hasSubProcess"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                  </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/rev"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                      </span><span class="s2">"Plan"</span><span class="p">,</span><span class="w">
-                      </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-                      </span><span class="s2">"wfdesc:Process"</span><span class="w">
-                    </span><span class="p">]</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/sorted"</span><span class="w">
-                  </span><span class="p">}</span><span class="w">
-                </span><span class="p">],</span><span class="w">
-                </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Prospective provenance"</span><span class="w">
-              </span><span class="p">}</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"qualifiedEnd"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"End"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:43.020168"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:ac9c1653-4291-47bc-86f8-6dedcff13519"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                  </span><span class="s2">"Agent"</span><span class="p">,</span><span class="w">
-                  </span><span class="s2">"SoftwareAgent"</span><span class="p">,</span><span class="w">
-                  </span><span class="s2">"wfprov:WorkflowEngine"</span><span class="w">
-                </span><span class="p">],</span><span class="w">
-                </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"cwltool 1.0.20181012180214"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"qualifiedStart"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Start"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.210973"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:7fa2c8d0-9a3e-4512-9171-fc3b729c2210"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Agent"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                      </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://orcid.org/0000-0001-9842-9718"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                        </span><span class="s2">"schemaorg:Person"</span><span class="p">,</span><span class="w">
-                        </span><span class="s2">"Person"</span><span class="p">,</span><span class="w">
-                        </span><span class="s2">"Agent"</span><span class="w">
-                      </span><span class="p">],</span><span class="w">
-                      </span><span class="nl">"schemaorg:name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Stian Soiland-Reyes"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Stian Soiland-Reyes"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"foaf:name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Stian Soiland-Reyes"</span><span class="w">
-                    </span><span class="p">}</span><span class="w">
-                  </span><span class="p">}</span><span class="w">
-                </span><span class="p">}</span><span class="w">
-              </span><span class="p">}</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"qualifiedStart"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Start"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.211153"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:ac9c1653-4291-47bc-86f8-6dedcff13519"</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"qualifiedUsage"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-              </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Usage"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.303484"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"entity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:fe16801a-7995-4968-a8bb-5e9d46255bb7"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                    </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"wfprov:Artifact"</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"wf4ever:File"</span><span class="w">
-                  </span><span class="p">],</span><span class="w">
-                  </span><span class="nl">"specializationOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sha1:327fc7aedf4f6b69a42a7c8b808dc5a7aff61376"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                      </span><span class="s2">"wfprov:Artifact"</span><span class="p">,</span><span class="w">
-                      </span><span class="s2">"Entity"</span><span class="w">
-                    </span><span class="p">]</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="nl">"cwlprov:basename"</span><span class="p">:</span><span class="w"> </span><span class="s2">"whale.txt"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"cwlprov:nameext"</span><span class="p">:</span><span class="w"> </span><span class="s2">".txt"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"cwlprov:nameroot"</span><span class="p">:</span><span class="w"> </span><span class="s2">"whale"</span><span class="w">
-                </span><span class="p">},</span><span class="w">
-                </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/input"</span><span class="w">
-              </span><span class="p">},</span><span class="w">
-              </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Usage"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.303643"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"entity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:ed8d007b-a1f3-4bfe-b390-08df074d712d"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-                </span><span class="p">},</span><span class="w">
-                </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/reverse_sort"</span><span class="w">
-              </span><span class="p">}</span><span class="w">
-            </span><span class="p">],</span><span class="w">
-            </span><span class="nl">"startedAtTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.211026"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"wasAssociatedWith"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:ac9c1653-4291-47bc-86f8-6dedcff13519"</span><span class="w">
-          </span><span class="p">}</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"qualifiedStart"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Start"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:36.975235"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:1f767ad4-ac52-4623-b5bc-dd9faf2b869f"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"qualifiedUsage"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-          </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Usage"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:37.067604"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"entity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:feabfc2c-e5eb-49d0-ad5c-c19076482265"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                </span><span class="s2">"wf4ever:File"</span><span class="p">,</span><span class="w">
-                </span><span class="s2">"wfprov:Artifact"</span><span class="p">,</span><span class="w">
-                </span><span class="s2">"Entity"</span><span class="w">
-              </span><span class="p">],</span><span class="w">
-              </span><span class="nl">"qualifiedGeneration"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generation"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"activity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:f81dd60b-46db-4e58-b9f9-5606de1f10de"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                    </span><span class="s2">"wfprov:ProcessRun"</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"Activity"</span><span class="w">
-                  </span><span class="p">],</span><span class="w">
-                  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Run of workflow/packed.cwl#main/rev"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"qualifiedAssociation"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Association"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"hadPlan"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/rev"</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="nl">"qualifiedEnd"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"End"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:36.967359"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:1f767ad4-ac52-4623-b5bc-dd9faf2b869f"</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="nl">"qualifiedStart"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Start"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.314101"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:1f767ad4-ac52-4623-b5bc-dd9faf2b869f"</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="nl">"qualifiedUsage"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Usage"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.597726"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"entity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                      </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:6e84364f-faa9-4a27-aaba-5e4b80d9564b"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                        </span><span class="s2">"wfprov:Artifact"</span><span class="p">,</span><span class="w">
-                        </span><span class="s2">"wf4ever:File"</span><span class="p">,</span><span class="w">
-                        </span><span class="s2">"Entity"</span><span class="w">
-                      </span><span class="p">],</span><span class="w">
-                      </span><span class="nl">"specializationOf"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sha1:327fc7aedf4f6b69a42a7c8b808dc5a7aff61376"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"cwlprov:basename"</span><span class="p">:</span><span class="w"> </span><span class="s2">"whale.txt"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"cwlprov:nameext"</span><span class="p">:</span><span class="w"> </span><span class="s2">".txt"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"cwlprov:nameroot"</span><span class="p">:</span><span class="w"> </span><span class="s2">"whale"</span><span class="w">
-                    </span><span class="p">},</span><span class="w">
-                    </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/rev/input"</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="nl">"wasAssociatedWith"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                    </span><span class="p">{</span><span class="w">
-                      </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:f5ce6344-3b3b-4653-84fd-1f5abfa57fb0"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                        </span><span class="s2">"SoftwareAgent"</span><span class="p">,</span><span class="w">
-                        </span><span class="s2">"Agent"</span><span class="w">
-                      </span><span class="p">],</span><span class="w">
-                      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Container execution of image debian:8"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"cwlprov:image"</span><span class="p">:</span><span class="w"> </span><span class="s2">"debian:8"</span><span class="w">
-                    </span><span class="p">},</span><span class="w">
-                    </span><span class="s2">"uuid:ac9c1653-4291-47bc-86f8-6dedcff13519"</span><span class="w">
-                  </span><span class="p">]</span><span class="w">
-                </span><span class="p">},</span><span class="w">
-                </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:36.963254"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/rev/output"</span><span class="w">
-              </span><span class="p">},</span><span class="w">
-              </span><span class="nl">"specializationOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sha1:97fe1b50b4582cebc7d853796ebd62e3e163aa3f"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                  </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-                  </span><span class="s2">"wfprov:Artifact"</span><span class="w">
-                </span><span class="p">]</span><span class="w">
-              </span><span class="p">},</span><span class="w">
-              </span><span class="nl">"cwlprov:basename"</span><span class="p">:</span><span class="w"> </span><span class="s2">"output.txt"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"cwlprov:nameext"</span><span class="p">:</span><span class="w"> </span><span class="s2">".txt"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"cwlprov:nameroot"</span><span class="p">:</span><span class="w"> </span><span class="s2">"output"</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/sorted/input"</span><span class="w">
-          </span><span class="p">},</span><span class="w">
-          </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Usage"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:37.067864"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"entity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:4ab5a3fe-e481-4f7f-98c4-af8e5dfccb93"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/sorted/reverse"</span><span class="w">
-          </span><span class="p">}</span><span class="w">
-        </span><span class="p">],</span><span class="w">
-        </span><span class="nl">"wasAssociatedWith"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-          </span><span class="s2">"uuid:ac9c1653-4291-47bc-86f8-6dedcff13519"</span><span class="p">,</span><span class="w">
-          </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:ba0fe122-124e-417b-8a2a-95e721320a2d"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-              </span><span class="s2">"SoftwareAgent"</span><span class="p">,</span><span class="w">
-              </span><span class="s2">"Agent"</span><span class="w">
-            </span><span class="p">],</span><span class="w">
-            </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Container execution of image debian:8"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"cwlprov:image"</span><span class="p">:</span><span class="w"> </span><span class="s2">"debian:8"</span><span class="w">
-          </span><span class="p">}</span><span class="w">
-        </span><span class="p">]</span><span class="w">
-      </span><span class="p">},</span><span class="w">
-      </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:38.058365"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/sorted/output"</span><span class="w">
-    </span><span class="p">},</span><span class="w">
-    </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generation"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"activity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:1f767ad4-ac52-4623-b5bc-dd9faf2b869f"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:43.020002"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/primary/output"</span><span class="w">
-    </span><span class="p">}</span><span class="w">
-  </span><span class="p">],</span><span class="w">
-  </span><span class="nl">"specializationOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sha1:b9214658cc453331b62c2282b772a5c063dbd284"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-      </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-      </span><span class="s2">"wfprov:Artifact"</span><span class="w">
+  </span><span class="nl">"provType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Activity"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"surveyreg-nz:DP-1-S2"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"endedAtTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2029-01-01T22:05:19+02:00"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"wasAssociatedWith"</span><span class="p">:</span><span class="w"> </span><span class="s2">"linz-registered-surveyors:bc-3"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"used"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"provType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Act3"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"wasAttributedTo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"icsm-jurisdictions:nz"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"links"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://some.gov/linktoact/"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"related"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
     </span><span class="p">]</span><span class="w">
   </span><span class="p">},</span><span class="w">
-  </span><span class="nl">"cwlprov:basename"</span><span class="p">:</span><span class="w"> </span><span class="s2">"output.txt"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"cwlprov:nameext"</span><span class="p">:</span><span class="w"> </span><span class="s2">".txt"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"cwlprov:nameroot"</span><span class="p">:</span><span class="w"> </span><span class="s2">"output"</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Feature"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"date"</span><span class="p">:</span><span class="s2">"2023-12-10"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"place"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"null"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"geometry"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Point"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"coordinates"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mf">100.0</span><span class="p">,</span><span class="mf">-0.5</span><span class="p">]</span><span class="w">
+  </span><span class="p">},</span><span class="w">  
+  </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"prop1"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bla"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>
 <blockquote class="lang-specific json">
   <p class="example-links">
-    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/cwl-terranexus/example_2_1.json">Open in new window</a>
-    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2Fcwl-terranexus%2Fexample_2_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/terranexus-json-fg-feature_with-prov/example_2_1.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2Fterranexus-json-fg-feature_with-prov%2Fexample_2_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+ </span><span class="nl">"a"</span><span class="p">:</span><span class="w"> </span><span class="s2">"frog"</span><span class="w">
+
+ </span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote class="lang-specific json">
+  <p class="example-links">
+    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/terranexus-json-fg-feature_with-prov/example_2_2.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2Fterranexus-json-fg-feature_with-prov%2Fexample_2_2.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
 </blockquote>
 <div class="highlight"><pre class="highlight json tab-jsonld"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:071d1b5c-1b2b-4995-a6e0-80821af85abd"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-    </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"wf4ever:File"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"wfprov:Artifact"</span><span class="w">
-  </span><span class="p">],</span><span class="w">
-  </span><span class="nl">"qualifiedGeneration"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-    </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generation"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"activity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:d7e8b17e-2d80-4c42-a797-bc3628f52c44"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-          </span><span class="s2">"wfprov:ProcessRun"</span><span class="p">,</span><span class="w">
-          </span><span class="s2">"Activity"</span><span class="w">
-        </span><span class="p">],</span><span class="w">
-        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Run of workflow/packed.cwl#main/sorted"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"qualifiedAssociation"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Association"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"hadPlan"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">" wf:main/sorted"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-              </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-              </span><span class="s2">"Plan"</span><span class="p">,</span><span class="w">
-              </span><span class="s2">"wfdesc:Process"</span><span class="w">
-            </span><span class="p">]</span><span class="w">
-          </span><span class="p">}</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"qualifiedEnd"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"End"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:38.069110"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:1f767ad4-ac52-4623-b5bc-dd9faf2b869f"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-              </span><span class="s2">"wfprov:WorkflowRun"</span><span class="p">,</span><span class="w">
-              </span><span class="s2">"Activity"</span><span class="w">
-            </span><span class="p">],</span><span class="w">
-            </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Run of workflow/packed.cwl#main"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"qualifiedAssociation"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Association"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"hadPlan"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                  </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-                  </span><span class="s2">"Plan"</span><span class="p">,</span><span class="w">
-                  </span><span class="s2">"wfdesc:Workflow"</span><span class="w">
-                </span><span class="p">],</span><span class="w">
-                </span><span class="nl">"wfdesc:hasSubProcess"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                  </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/rev"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                      </span><span class="s2">"Plan"</span><span class="p">,</span><span class="w">
-                      </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-                      </span><span class="s2">"wfdesc:Process"</span><span class="w">
-                    </span><span class="p">]</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/sorted"</span><span class="w">
-                  </span><span class="p">}</span><span class="w">
-                </span><span class="p">],</span><span class="w">
-                </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Prospective provenance"</span><span class="w">
-              </span><span class="p">}</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"qualifiedEnd"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"End"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:43.020168"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:ac9c1653-4291-47bc-86f8-6dedcff13519"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                  </span><span class="s2">"Agent"</span><span class="p">,</span><span class="w">
-                  </span><span class="s2">"SoftwareAgent"</span><span class="p">,</span><span class="w">
-                  </span><span class="s2">"wfprov:WorkflowEngine"</span><span class="w">
-                </span><span class="p">],</span><span class="w">
-                </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"cwltool 1.0.20181012180214"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"qualifiedStart"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Start"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.210973"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:7fa2c8d0-9a3e-4512-9171-fc3b729c2210"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Agent"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                      </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://orcid.org/0000-0001-9842-9718"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                        </span><span class="s2">"schemaorg:Person"</span><span class="p">,</span><span class="w">
-                        </span><span class="s2">"Person"</span><span class="p">,</span><span class="w">
-                        </span><span class="s2">"Agent"</span><span class="w">
-                      </span><span class="p">],</span><span class="w">
-                      </span><span class="nl">"schemaorg:name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Stian Soiland-Reyes"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Stian Soiland-Reyes"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"foaf:name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Stian Soiland-Reyes"</span><span class="w">
-                    </span><span class="p">}</span><span class="w">
-                  </span><span class="p">}</span><span class="w">
-                </span><span class="p">}</span><span class="w">
-              </span><span class="p">}</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"qualifiedStart"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Start"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.211153"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:ac9c1653-4291-47bc-86f8-6dedcff13519"</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"qualifiedUsage"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-              </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Usage"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.303484"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"entity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:fe16801a-7995-4968-a8bb-5e9d46255bb7"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                    </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"wfprov:Artifact"</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"wf4ever:File"</span><span class="w">
-                  </span><span class="p">],</span><span class="w">
-                  </span><span class="nl">"specializationOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sha1:327fc7aedf4f6b69a42a7c8b808dc5a7aff61376"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                      </span><span class="s2">"wfprov:Artifact"</span><span class="p">,</span><span class="w">
-                      </span><span class="s2">"Entity"</span><span class="w">
-                    </span><span class="p">]</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="nl">"cwlprov:basename"</span><span class="p">:</span><span class="w"> </span><span class="s2">"whale.txt"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"cwlprov:nameext"</span><span class="p">:</span><span class="w"> </span><span class="s2">".txt"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"cwlprov:nameroot"</span><span class="p">:</span><span class="w"> </span><span class="s2">"whale"</span><span class="w">
-                </span><span class="p">},</span><span class="w">
-                </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/input"</span><span class="w">
-              </span><span class="p">},</span><span class="w">
-              </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Usage"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.303643"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"entity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:ed8d007b-a1f3-4bfe-b390-08df074d712d"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-                </span><span class="p">},</span><span class="w">
-                </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/reverse_sort"</span><span class="w">
-              </span><span class="p">}</span><span class="w">
-            </span><span class="p">],</span><span class="w">
-            </span><span class="nl">"startedAtTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.211026"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"wasAssociatedWith"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:ac9c1653-4291-47bc-86f8-6dedcff13519"</span><span class="w">
-          </span><span class="p">}</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"qualifiedStart"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Start"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:36.975235"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:1f767ad4-ac52-4623-b5bc-dd9faf2b869f"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"qualifiedUsage"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-          </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Usage"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:37.067604"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"entity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:feabfc2c-e5eb-49d0-ad5c-c19076482265"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                </span><span class="s2">"wf4ever:File"</span><span class="p">,</span><span class="w">
-                </span><span class="s2">"wfprov:Artifact"</span><span class="p">,</span><span class="w">
-                </span><span class="s2">"Entity"</span><span class="w">
-              </span><span class="p">],</span><span class="w">
-              </span><span class="nl">"qualifiedGeneration"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generation"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"activity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:f81dd60b-46db-4e58-b9f9-5606de1f10de"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                    </span><span class="s2">"wfprov:ProcessRun"</span><span class="p">,</span><span class="w">
-                    </span><span class="s2">"Activity"</span><span class="w">
-                  </span><span class="p">],</span><span class="w">
-                  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Run of workflow/packed.cwl#main/rev"</span><span class="p">,</span><span class="w">
-                  </span><span class="nl">"qualifiedAssociation"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Association"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"hadPlan"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/rev"</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="nl">"qualifiedEnd"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"End"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:36.967359"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:1f767ad4-ac52-4623-b5bc-dd9faf2b869f"</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="nl">"qualifiedStart"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Start"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.314101"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"hadActivity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:1f767ad4-ac52-4623-b5bc-dd9faf2b869f"</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="nl">"qualifiedUsage"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Usage"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:35.597726"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"entity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                      </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:6e84364f-faa9-4a27-aaba-5e4b80d9564b"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                        </span><span class="s2">"wfprov:Artifact"</span><span class="p">,</span><span class="w">
-                        </span><span class="s2">"wf4ever:File"</span><span class="p">,</span><span class="w">
-                        </span><span class="s2">"Entity"</span><span class="w">
-                      </span><span class="p">],</span><span class="w">
-                      </span><span class="nl">"specializationOf"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sha1:327fc7aedf4f6b69a42a7c8b808dc5a7aff61376"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"cwlprov:basename"</span><span class="p">:</span><span class="w"> </span><span class="s2">"whale.txt"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"cwlprov:nameext"</span><span class="p">:</span><span class="w"> </span><span class="s2">".txt"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"cwlprov:nameroot"</span><span class="p">:</span><span class="w"> </span><span class="s2">"whale"</span><span class="w">
-                    </span><span class="p">},</span><span class="w">
-                    </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/rev/input"</span><span class="w">
-                  </span><span class="p">},</span><span class="w">
-                  </span><span class="nl">"wasAssociatedWith"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                    </span><span class="p">{</span><span class="w">
-                      </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:f5ce6344-3b3b-4653-84fd-1f5abfa57fb0"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                        </span><span class="s2">"SoftwareAgent"</span><span class="p">,</span><span class="w">
-                        </span><span class="s2">"Agent"</span><span class="w">
-                      </span><span class="p">],</span><span class="w">
-                      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Container execution of image debian:8"</span><span class="p">,</span><span class="w">
-                      </span><span class="nl">"cwlprov:image"</span><span class="p">:</span><span class="w"> </span><span class="s2">"debian:8"</span><span class="w">
-                    </span><span class="p">},</span><span class="w">
-                    </span><span class="s2">"uuid:ac9c1653-4291-47bc-86f8-6dedcff13519"</span><span class="w">
-                  </span><span class="p">]</span><span class="w">
-                </span><span class="p">},</span><span class="w">
-                </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:36.963254"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/rev/output"</span><span class="w">
-              </span><span class="p">},</span><span class="w">
-              </span><span class="nl">"specializationOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sha1:97fe1b50b4582cebc7d853796ebd62e3e163aa3f"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                  </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-                  </span><span class="s2">"wfprov:Artifact"</span><span class="w">
-                </span><span class="p">]</span><span class="w">
-              </span><span class="p">},</span><span class="w">
-              </span><span class="nl">"cwlprov:basename"</span><span class="p">:</span><span class="w"> </span><span class="s2">"output.txt"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"cwlprov:nameext"</span><span class="p">:</span><span class="w"> </span><span class="s2">".txt"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"cwlprov:nameroot"</span><span class="p">:</span><span class="w"> </span><span class="s2">"output"</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/sorted/input"</span><span class="w">
-          </span><span class="p">},</span><span class="w">
-          </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Usage"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:37.067864"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"entity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:4ab5a3fe-e481-4f7f-98c4-af8e5dfccb93"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/sorted/reverse"</span><span class="w">
-          </span><span class="p">}</span><span class="w">
-        </span><span class="p">],</span><span class="w">
-        </span><span class="nl">"wasAssociatedWith"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-          </span><span class="s2">"uuid:ac9c1653-4291-47bc-86f8-6dedcff13519"</span><span class="p">,</span><span class="w">
-          </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:ba0fe122-124e-417b-8a2a-95e721320a2d"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-              </span><span class="s2">"SoftwareAgent"</span><span class="p">,</span><span class="w">
-              </span><span class="s2">"Agent"</span><span class="w">
-            </span><span class="p">],</span><span class="w">
-            </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Container execution of image debian:8"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"cwlprov:image"</span><span class="p">:</span><span class="w"> </span><span class="s2">"debian:8"</span><span class="w">
-          </span><span class="p">}</span><span class="w">
-        </span><span class="p">]</span><span class="w">
-      </span><span class="p">},</span><span class="w">
-      </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:38.058365"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/sorted/output"</span><span class="w">
-    </span><span class="p">},</span><span class="w">
-    </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generation"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"activity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid:1f767ad4-ac52-4623-b5bc-dd9faf2b869f"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2018-10-25T15:46:43.020002"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"hadRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf:main/primary/output"</span><span class="w">
-    </span><span class="p">}</span><span class="w">
-  </span><span class="p">],</span><span class="w">
-  </span><span class="nl">"specializationOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sha1:b9214658cc453331b62c2282b772a5c063dbd284"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-      </span><span class="s2">"Entity"</span><span class="p">,</span><span class="w">
-      </span><span class="s2">"wfprov:Artifact"</span><span class="w">
-    </span><span class="p">]</span><span class="w">
-  </span><span class="p">},</span><span class="w">
-  </span><span class="nl">"cwlprov:basename"</span><span class="p">:</span><span class="w"> </span><span class="s2">"output.txt"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"cwlprov:nameext"</span><span class="p">:</span><span class="w"> </span><span class="s2">".txt"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"cwlprov:nameroot"</span><span class="p">:</span><span class="w"> </span><span class="s2">"output"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/context.jsonld"</span><span class="w">
+  </span><span class="nl">"a"</span><span class="p">:</span><span class="w"> </span><span class="s2">"frog"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/context.jsonld"</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>
 <blockquote class="lang-specific jsonld">
   <p class="example-links">
-    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/cwl-terranexus/example_2_1.jsonld">Open in new window</a>
-    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2Fcwl-terranexus%2Fexample_2_1.jsonld">View on JSON-LD Playground</a>
-</blockquote>
-<div class="highlight"><pre class="highlight turtle tab-turtle"><code><span class="kd">@prefix</span><span class="w"> </span><span class="nn">ns1:</span><span class="w"> </span><span class="nl">&lt;cwlprov:&gt;</span><span class="w"> </span><span class="p">.</span><span class="w">
-</span><span class="kd">@prefix</span><span class="w"> </span><span class="nn">prov:</span><span class="w"> </span><span class="nl">&lt;http://www.w3.org/ns/prov#&gt;</span><span class="w"> </span><span class="p">.</span><span class="w">
-</span><span class="kd">@prefix</span><span class="w"> </span><span class="nn">xsd:</span><span class="w"> </span><span class="nl">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span><span class="w"> </span><span class="p">.</span><span class="w">
-
-</span><span class="nl">&lt;uuid:071d1b5c-1b2b-4995-a6e0-80821af85abd&gt;</span><span class="w"> </span><span class="nn">ns1:</span><span class="n">basename</span><span class="w"> </span><span class="s">"output.txt"</span><span class="w"> </span><span class="p">;</span><span class="w">
-    </span><span class="nn">ns1:</span><span class="n">nameext</span><span class="w"> </span><span class="s">".txt"</span><span class="w"> </span><span class="p">;</span><span class="w">
-    </span><span class="nn">ns1:</span><span class="n">nameroot</span><span class="w"> </span><span class="s">"output"</span><span class="w"> </span><span class="p">;</span><span class="w">
-    </span><span class="nn">prov:</span><span class="n">qualifiedGeneration</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="nn">prov:</span><span class="n">atTime</span><span class="w"> </span><span class="s">"2018-10-25T15:46:38.058365"</span><span class="p">^^</span><span class="nn">xsd:</span><span class="n">dateTime</span><span class="w"> </span><span class="p">],</span><span class="w">
-        </span><span class="p">[</span><span class="w"> </span><span class="nn">prov:</span><span class="n">atTime</span><span class="w"> </span><span class="s">"2018-10-25T15:46:43.020002"</span><span class="p">^^</span><span class="nn">xsd:</span><span class="n">dateTime</span><span class="w"> </span><span class="p">]</span><span class="w"> </span><span class="p">;</span><span class="w">
-    </span><span class="nn">prov:</span><span class="n">specializationOf</span><span class="w"> </span><span class="nl">&lt;sha1:b9214658cc453331b62c2282b772a5c063dbd284&gt;</span><span class="w"> </span><span class="p">.</span><span class="w">
-
-
-</span></code></pre></div>
-<blockquote class="lang-specific turtle">
-  <p class="example-links">
-    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/cwl-terranexus/example_2_1.ttl">Open in new window</a>
+    <a target="_blank" href="https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/terranexus-json-fg-feature_with-prov/example_2_2.jsonld">Open in new window</a>
+    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2Fterranexus-json-fg-feature_with-prov%2Fexample_2_2.jsonld">View on JSON-LD Playground</a>
 </blockquote>
 <h1 id='json-schema'>JSON Schema</h1><div class="highlight"><pre class="highlight yaml tab-yaml--schema"><code><span class="na">$schema</span><span class="pi">:</span> <span class="s">https://json-schema.org/draft/2020-12/schema</span>
 <span class="na">description</span><span class="pi">:</span> <span class="s">CWL Provenance Chain for DGGS actions</span>
-<span class="na">$ref</span><span class="pi">:</span> <span class="s">https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov/schema.yaml</span>
+<span class="na">allOf</span><span class="pi">:</span>
+<span class="pi">-</span> <span class="na">$ref</span><span class="pi">:</span> <span class="s">https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov/schema.yaml</span>
+<span class="pi">-</span> <span class="na">$ref</span><span class="pi">:</span> <span class="s">https://opengeospatial.github.io/bblocks/annotated-schemas/geo/json-fg/feature/schema.yaml</span>
+<span class="pi">-</span> <span class="na">type</span><span class="pi">:</span> <span class="s">object</span>
+<span class="pi">-</span> <span class="na">properties</span><span class="pi">:</span>
+    <span class="na">a</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+      <span class="na">format</span><span class="pi">:</span> <span class="s">uri</span>
+    <span class="na">b</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">number</span>
 
 </code></pre></div>
 <blockquote>
-<p><a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2Fcwl-terranexus%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a></p>
+<p><a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2Fterranexus-json-fg-feature_with-prov%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a></p>
 </blockquote>
 
 <p>Links to the schema:</p>
 
 <ul>
-<li>YAML version: <a href="https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/schema.yaml" target="_blank">https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/schema.yaml</a></li>
-<li>JSON version: <a href="https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/schema.json" target="_blank">https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/schema.json</a></li>
+<li>YAML version: <a href="https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/schema.yaml" target="_blank">https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/schema.yaml</a></li>
+<li>JSON version: <a href="https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/schema.json" target="_blank">https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/schema.json</a></li>
 </ul>
 <h1 id='json-ld-context'>JSON-LD Context</h1><div class="highlight"><pre class="highlight json tab-json--ldContext"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
@@ -1115,13 +610,40 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:asInBundle"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
     </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"Feature"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:Feature"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"FeatureCollection"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:FeatureCollection"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"GeometryCollection"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:GeometryCollection"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"LineString"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:LineString"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"MultiLineString"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:MultiLineString"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"MultiPoint"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:MultiPoint"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"MultiPolygon"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:MultiPolygon"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"Point"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:Point"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"Polygon"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:Polygon"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"bbox"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"@container"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@list"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:bbox"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"coordinates"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"@container"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@list"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:coordinates"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"features"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"@container"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@set"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:features"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
     </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"featureType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"entityType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"has_provenance"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+              </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+            </span><span class="p">},</span><span class="w">
             </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
               </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
                 </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
@@ -1162,6 +684,22 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
     </span><span class="p">},</span><span class="w">
     </span><span class="nl">"wasAttributedTo"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:actedOnBehalfOf"</span><span class="p">,</span><span class="w">
@@ -1180,19 +718,7 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
           </span><span class="p">},</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedDelegation"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
-          </span><span class="p">},</span><span class="w">
-          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:wasAttributedTo"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
@@ -1215,6 +741,22 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
     </span><span class="p">},</span><span class="w">
     </span><span class="nl">"wasInvalidatedBy"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:actedOnBehalfOf"</span><span class="p">,</span><span class="w">
@@ -1233,25 +775,29 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
           </span><span class="p">},</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedDelegation"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
-          </span><span class="p">},</span><span class="w">
-          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:wasInvalidatedBy"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="nl">"wasQuotedFrom"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:actedOnBehalfOf"</span><span class="p">,</span><span class="w">
@@ -1270,25 +816,29 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
           </span><span class="p">},</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedDelegation"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
-          </span><span class="p">},</span><span class="w">
-          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:wasQuotedFrom"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="nl">"wasRevisionOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:actedOnBehalfOf"</span><span class="p">,</span><span class="w">
@@ -1307,25 +857,29 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
           </span><span class="p">},</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedDelegation"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
-          </span><span class="p">},</span><span class="w">
-          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:wasRevisionOf"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="nl">"mentionOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:actedOnBehalfOf"</span><span class="p">,</span><span class="w">
@@ -1344,19 +898,7 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
           </span><span class="p">},</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedDelegation"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
-          </span><span class="p">},</span><span class="w">
-          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:mentionOf"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
@@ -1367,7 +909,10 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
     </span><span class="p">},</span><span class="w">
     </span><span class="nl">"links"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
         </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
             </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
@@ -1387,10 +932,6 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
         </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:atTime"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/2001/XMLSchema#dateTime"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"activityType"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:activity"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
         </span><span class="p">}</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedGeneration"</span><span class="p">,</span><span class="w">
@@ -1401,10 +942,6 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
         </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:atTime"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/2001/XMLSchema#dateTime"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"activityType"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:activity"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
         </span><span class="p">}</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedInvalidation"</span><span class="p">,</span><span class="w">
@@ -1417,10 +954,6 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
             </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
               </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:atTime"</span><span class="p">,</span><span class="w">
               </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/2001/XMLSchema#dateTime"</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"activityType"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:activity"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
             </span><span class="p">}</span><span class="w">
           </span><span class="p">},</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:hadGeneration"</span><span class="p">,</span><span class="w">
@@ -1452,10 +985,14 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
         </span><span class="nl">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
             </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
             </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
               </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+                  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+                </span><span class="p">},</span><span class="w">
                 </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
                   </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
                     </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
@@ -1489,12 +1026,29 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedAttribution"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
     </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"activityType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"endedAtTime"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:endedAtTime"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/2001/XMLSchema#dateTime"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="nl">"wasAssociatedWith"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:actedOnBehalfOf"</span><span class="p">,</span><span class="w">
@@ -1513,19 +1067,7 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
           </span><span class="p">},</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedDelegation"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
-          </span><span class="p">},</span><span class="w">
-          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:wasAssociatedWith"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
@@ -1575,10 +1117,6 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
     </span><span class="p">},</span><span class="w">
     </span><span class="nl">"qualifiedCommunication"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"activityType"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:activity"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
         </span><span class="nl">"atTime"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:atTime"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/2001/XMLSchema#dateTime"</span><span class="w">
@@ -1627,10 +1165,14 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
         </span><span class="nl">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
             </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
             </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
               </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                  </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+                  </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+                </span><span class="p">},</span><span class="w">
                 </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
                   </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
                     </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
@@ -1672,13 +1214,27 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedAssociation"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
     </span><span class="p">},</span><span class="w">
-    </span><span class="nl">"hadMember"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
-      </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:hadMember"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"properties"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@nest"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"geometry"</span><span class="p">:</span><span class="w"> </span><span class="s2">"geojson:geometry"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"wasInfluencedBy"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:actedOnBehalfOf"</span><span class="p">,</span><span class="w">
@@ -1697,19 +1253,7 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
           </span><span class="p">},</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedDelegation"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
-          </span><span class="p">},</span><span class="w">
-          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:wasInfluencedBy"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
@@ -1718,6 +1262,22 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
       </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
         </span><span class="nl">"influencer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+              </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
+              </span><span class="p">},</span><span class="w">
+              </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
+              </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
             </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
             </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
               </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:actedOnBehalfOf"</span><span class="p">,</span><span class="w">
@@ -1732,19 +1292,7 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
               </span><span class="p">},</span><span class="w">
               </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedDelegation"</span><span class="p">,</span><span class="w">
               </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
-              </span><span class="p">},</span><span class="w">
-              </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
           </span><span class="p">},</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:influencer"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
@@ -1753,12 +1301,24 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:entity"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
         </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"activityType"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:activity"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
         </span><span class="nl">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
           </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="p">,</span><span class="w">
+              </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
+              </span><span class="p">},</span><span class="w">
+              </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
+              </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"agentType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
             </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
             </span><span class="nl">"actedOnBehalfOf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
               </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:actedOnBehalfOf"</span><span class="p">,</span><span class="w">
@@ -1773,19 +1333,7 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
               </span><span class="p">},</span><span class="w">
               </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedDelegation"</span><span class="p">,</span><span class="w">
               </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"href"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oa:hasTarget"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"rel"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-              </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"@base"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation/"</span><span class="w">
-              </span><span class="p">},</span><span class="w">
-              </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.iana.org/assignments/relation"</span><span class="p">,</span><span class="w">
-              </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
-            </span><span class="p">},</span><span class="w">
-            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:type"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"hreflang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:language"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rdfs:label"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"length"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dct:extent"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
           </span><span class="p">},</span><span class="w">
           </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:agent"</span><span class="p">,</span><span class="w">
           </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
@@ -1794,10 +1342,17 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
       </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:qualifiedInfluence"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
     </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"provType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@type"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"hadMember"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
+      </span><span class="nl">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prov:hadMember"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@id"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
     </span><span class="nl">"prov"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/ns/prov#"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"xsd"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/2001/XMLSchema#"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"rdfs"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/2000/01/rdf-schema#"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"rdf"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/1999/02/22-rdf-syntax-ns#"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"geojson"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://purl.org/geojson/vocab#"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"oa"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/ns/oa#"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"dct"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://purl.org/dc/terms/"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"@version"</span><span class="p">:</span><span class="w"> </span><span class="mf">1.1</span><span class="w">
@@ -1805,11 +1360,11 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>
 <blockquote>
-<p><a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2Fcwl-terranexus%2Fcontext.jsonld">View on JSON-LD Playground</a></p>
+<p><a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fgeofizzydrink.github.io%2Ftest_bblock%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2Fterranexus-json-fg-feature_with-prov%2Fcontext.jsonld">View on JSON-LD Playground</a></p>
 </blockquote>
 
 <p>You can find the full JSON-LD context here:
-<a href="https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/context.jsonld" target="_blank">https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/context.jsonld</a></p>
+<a href="https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/context.jsonld" target="_blank">https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/context.jsonld</a></p>
 <h1 id='references'>References</h1>
 <ul>
 <li><a href="https://example.com/sources/1">Sample source document</a></li>
@@ -1820,7 +1375,7 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
 <ul>
 <li>URL: <a href="https://github.com/geofizzydrink/test_bblock" target="_blank">https://github.com/geofizzydrink/test_bblock</a></li>
 <li>Path:
-<code><a href="https://github.com/geofizzydrink/test_bblock/blob/HEAD/_sources/cwl-terranexus" target="_blank">_sources/cwl-terranexus</a></code></li>
+<code><a href="https://github.com/geofizzydrink/test_bblock/blob/HEAD/_sources/terranexus-json-fg-feature_with-prov" target="_blank">_sources/terranexus-json-fg-feature_with-prov</a></code></li>
 </ul>
 
       </div>
@@ -1828,7 +1383,6 @@ Monet caput adsensere Ityn furentibus gelidos.</p>
           <div class="lang-selector">
                 <a href="#" data-language-name="json">JSON</a>
                 <a href="#" data-language-name="jsonld">JSON-LD</a>
-                <a href="#" data-language-name="turtle">RDF/Turtle</a>
           </div>
       </div>
     </div>

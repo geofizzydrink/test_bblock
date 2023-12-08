@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.template.my-building-block - My Building Block",
   "bblockName": "My Building Block",
   "bblockId": "ogc.bbr.template.my-building-block",
-  "generated": "2023-11-16T03:00:48.937751+00:00",
+  "generated": "2023-12-08T05:25:25.216983+00:00",
   "result": false,
   "items": [
     {
@@ -58,9 +58,90 @@
               "op": "validation",
               "result": false,
               "exception": "ValidationError",
-              "errorMessage": "'jeremiah' is not of type 'number'",
+              "errorMessage": "'1' is not of type 'number'",
               "isError": true,
-              "message": "ValidationError: 'jeremiah' is not of type 'number'\n\nFailed validating 'type' in schema['properties']['b']:\n    {'type': 'number', 'x-jsonld-id': 'https://example.org/my-bb-model/b'}\n\nOn instance['b']:\n    'jeremiah'"
+              "message": "ValidationError: '1' is not of type 'number'\n\nFailed validating 'type' in schema['properties']['b']:\n    {'type': 'number', 'x-jsonld-id': 'https://example.org/my-bb-model/b'}\n\nOn instance['b']:\n    '1'"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "EXAMPLE",
+        "requireFail": false,
+        "filename": "https://geofizzydrink.github.io/test_bblock/_sources/my-building-block/example_2_2.json",
+        "exampleIndex": 2,
+        "snippetIndex": 2,
+        "language": "json"
+      },
+      "result": false,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": []
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using example_2_2.json from examples"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "example_2_2.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD example_2_2.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "example_2_2.ttl",
+              "size": 1,
+              "isError": false,
+              "message": "Output Turtle example_2_2.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'b' is a required property",
+              "isError": true,
+              "message": "ValidationError: 'b' is a required property\n\nFailed validating 'required' in schema:\n    {'$schema': 'https://json-schema.org/draft/2020-12/schema',\n     'description': 'Schema for my building block',\n     'properties': {'a': {'format': 'uri',\n                          'type': 'string',\n                          'x-jsonld-id': 'https://example.org/my-bb-model/a',\n                          'x-jsonld-type': '@id'},\n                    'b': {'type': 'number',\n                          'x-jsonld-id': 'https://example.org/my-bb-model/b'}},\n     'required': ['a', 'b'],\n     'type': 'object'}\n\nOn instance:\n    {'a': 'frog'}"
             }
           ]
         },
@@ -89,8 +170,8 @@
   ],
   "globalErrors": {},
   "counts": {
-    "total": 1,
+    "total": 2,
     "passed": 0,
-    "failed": 1
+    "failed": 2
   }
 }

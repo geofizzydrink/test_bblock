@@ -1,0 +1,21 @@
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix ns1: <http://www.iana.org/assignments/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<surveyreg-nz:DP-1-S2> a prov:Activity,
+        geojson:Feature ;
+    prov:endedAtTime "2029-01-01T22:05:19+02:00"^^xsd:dateTime ;
+    prov:used <file:///github/workspace/Act3> ;
+    prov:wasAssociatedWith <linz-registered-surveyors:bc-3> ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 1e+02 -5e-01 ) ] .
+
+<file:///github/workspace/Act3> a prov:Entity ;
+    rdfs:seeAlso [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            oa:hasTarget <https://some.gov/linktoact/> ] ;
+    prov:wasAttributedTo <icsm-jurisdictions:nz> .
+

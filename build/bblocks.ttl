@@ -6,38 +6,17 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-bblocks:ogc.bbr.template.cwl-terranexus a skos:Concept,
-        bblocks:Schema ;
-    rdfs:label "My Building Block" ;
-    dct:abstract "This Building Block serves as a template to create new ones" ;
-    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/cwl-terranexus/index.json" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/cwl-terranexus/index.md" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/cwl-terranexus/" ] ;
-    dct:hasVersion "0.1" ;
-    dct:modified "2023-04-05"^^xsd:date ;
-    dct:source <https://example.com/sources/1> ;
-    skos:inScheme <https://www.opengis.net/def/bblocks> ;
-    bblocks:hasJsonLdContext <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/context.jsonld> ;
-    bblocks:hasSchema <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/schema.json>,
-        <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/schema.yaml> ;
-    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
-    bblocks:status <http://www.opengis.net/def/status/under-development> .
-
 bblocks:ogc.bbr.template.my-building-block a skos:Concept,
         bblocks:Schema ;
     rdfs:label "My Building Block" ;
     dct:abstract "This Building Block serves as a template to create new ones" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/my-building-block/index.json" ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/my-building-block/" ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/my-building-block/index.md" ] ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/my-building-block/index.md" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/my-building-block/index.json" ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2023-04-05"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
@@ -48,23 +27,45 @@ bblocks:ogc.bbr.template.my-building-block a skos:Concept,
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/invalid> .
 
+bblocks:ogc.bbr.template.terranexus-json-fg-feature_with-prov a skos:Concept,
+        bblocks:Schema ;
+    rdfs:label "My Building Block" ;
+    dct:abstract "This Building Block serves as a template to create new ones" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/terranexus-json-fg-feature_with-prov/" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/terranexus-json-fg-feature_with-prov/index.md" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/terranexus-json-fg-feature_with-prov/index.json" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2023-04-05"^^xsd:date ;
+    dct:source <https://example.com/sources/1> ;
+    skos:inScheme <https://www.opengis.net/def/bblocks> ;
+    bblocks:dependsOn bblocks:ogc.geo.json-fg.feature ;
+    bblocks:hasJsonLdContext <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/context.jsonld> ;
+    bblocks:hasSchema <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/schema.json>,
+        <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/schema.yaml> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/invalid> .
+
 <https://example.com/sources/1> rdfs:label "Sample source document" .
 
 <https://www.opengis.net/def/bblocks> a skos:ConceptScheme ;
     skos:prefLabel "OGC Building Blocks Register" .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2023-11-16T03:00:49.010369"^^xsd:dateTime ;
-    prov:startedAtTime "2023-11-16T03:00:48.950340"^^xsd:dateTime ;
+    prov:endedAtTime "2023-12-08T05:25:26.977613"^^xsd:dateTime ;
+    prov:startedAtTime "2023-12-08T05:25:26.918368"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
-            dct:format "application/json" ;
-            rdfs:seeAlso <https://geofizzydrink.github.io/test_bblock/build/register.json> ],
-        [ a prov:Entity ;
             dct:format "application/yaml" ;
-            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
+        [ a prov:Entity ;
+            dct:format "application/json" ;
+            rdfs:seeAlso <https://geofizzydrink.github.io/test_bblock/build/register.json> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.26" ;
+            dct:hasVersion "0.3.29" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] .
 

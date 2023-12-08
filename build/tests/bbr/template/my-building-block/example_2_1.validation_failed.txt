@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.my-building-block - My Building Block
-Generated 2023-11-16T03:00:48.937699+00:00
+Generated 2023-12-08T05:25:25.215357+00:00
 === Files ===
 Using example_2_1.json from examples
 JSON-LD context is present - uplifting
@@ -10,12 +10,12 @@ Output Turtle example_2_1.ttl created
 === JSON Schema ===
 
 ** Validation error **
-ValidationError: 'jeremiah' is not of type 'number'
+ValidationError: '1' is not of type 'number'
 
 Failed validating 'type' in schema['properties']['b']:
     {'type': 'number', 'x-jsonld-id': 'https://example.org/my-bb-model/b'}
 
 On instance['b']:
-    'jeremiah'
+    '1'
 === End JSON Schema ===
 
