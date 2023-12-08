@@ -4,11 +4,58 @@
   ],
   "bblocks": [
     {
-      "itemIdentifier": "ogc.bbr.template.my-building-block",
+      "itemIdentifier": "ogc.bbr.template.cwl-terranexus",
       "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
       "name": "My Building Block",
       "abstract": "This Building Block serves as a template to create new ones",
       "status": "under-development",
+      "dateTimeAddition": "2023-04-05T00:00:00Z",
+      "itemClass": "schema",
+      "register": "ogc-building-block-register",
+      "version": "0.1",
+      "dateOfLastChange": "2023-04-05",
+      "link": "https://github.com/opengeospatial/bblock-template",
+      "sources": [
+        {
+          "title": "Sample source document",
+          "link": "https://example.com/sources/1"
+        }
+      ],
+      "maturity": "mature",
+      "scope": "unstable",
+      "tags": [
+        "templates"
+      ],
+      "shaclRules": {},
+      "schema": {
+        "application/yaml": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/schema.yaml",
+        "application/json": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/schema.json"
+      },
+      "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/cwl-terranexus/context.jsonld",
+      "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/cwl-terranexus/",
+      "validationPassed": true,
+      "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/cwl-terranexus/",
+      "documentation": {
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/cwl-terranexus/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/cwl-terranexus/index.md"
+        },
+        "slate": {
+          "mediatype": "text/html",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/cwl-terranexus/"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "ogc.bbr.template.my-building-block",
+      "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
+      "name": "My Building Block",
+      "abstract": "This Building Block serves as a template to create new ones",
+      "status": "invalid",
       "dateTimeAddition": "2023-04-05T00:00:00Z",
       "itemClass": "schema",
       "register": "ogc-building-block-register",
@@ -33,7 +80,8 @@
       },
       "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld",
       "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/my-building-block/",
-      "validationPassed": true,
+      "validationPassed": false,
+      "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/my-building-block/",
       "documentation": {
         "json-full": {
           "mediatype": "application/json",

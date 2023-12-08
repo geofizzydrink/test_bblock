@@ -1,0 +1,5 @@
+{
+  "a": "frog",
+  "b": "jeremiah",
+  "@context": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld"
+}

@@ -5,7 +5,7 @@
   "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
   "name": "My Building Block",
   "abstract": "This Building Block serves as a template to create new ones",
-  "status": "under-development",
+  "status": "invalid",
   "dateTimeAddition": "2023-04-05T00:00:00Z",
   "itemClass": "schema",
   "register": "ogc-building-block-register",
@@ -30,7 +30,8 @@
   },
   "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld",
   "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/my-building-block/",
-  "validationPassed": true,
+  "validationPassed": false,
+  "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/my-building-block/",
   "description": "## Qui hastarum tectus Cithaeron iuvabat\n\nLorem markdownum vestigia sanguine rursus undis, suspenderat meo mox conlegerat\ntemperat sucos. Est graves dant sentire sanguinis flores respondent testari.\n\n> Videri vias quid Ausoniae sua flores ante, reminiscitur fuit est. Semel\n> [hectora](http://silvaque.org/) peregrinaeque rudem exercent in, Troiana si\n> Asida instabilesque somno sed.\n\n## Iam vota cui dilataque peterem\n\nTinxit lumina lacer liquidarum Aiax si mergitur sed fueris capitisque **et\ncadit** contigerant rectum [ferar](http://prosternit.com/quoque.html) temperat.\nMonet caput adsensere Ityn furentibus gelidos.",
   "examples": [
     {
@@ -42,16 +43,20 @@
       "content": "The content of this example. ",
       "snippets": [
         {
-          "language": "shell",
-          "code": "echo 'Hello, world!'"
+          "language": "json",
+          "ref": "examples/test.json",
+          "code": "{\n \"a\": \"frog\",\n \"b\": \"jeremiah\"\n }",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_1.json"
         },
         {
-          "language": "python",
-          "code": "print('Hello, world!')"
+          "language": "jsonld",
+          "code": "{\n  \"a\": \"frog\",\n  \"b\": \"jeremiah\",\n  \"@context\": \"https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld\"\n}",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_1.jsonld"
         },
         {
-          "language": "javascript",
-          "code": "console.log('Hello, world!')"
+          "language": "ttl",
+          "code": "@prefix ns1: <https://example.org/my-bb-model/> .\n\n[] ns1:a <file:///github/workspace/frog> ;\n    ns1:b \"jeremiah\" .\n\n",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/tests/bbr/template/my-building-block/example_2_1.ttl"
         }
       ]
     }
