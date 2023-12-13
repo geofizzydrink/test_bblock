@@ -1,0 +1,13 @@
+Validation report for ogc.bbr.template.json-fg-feature_with-prov - My Building Block
+Generated 2023-12-13T04:41:03.734392+00:00
+=== Files ===
+Using example_2_2.json from examples
+JSON-LD context is present - uplifting
+Output JSON-LD example_2_2.jsonld created
+Output Turtle example_2_2.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+

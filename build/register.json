@@ -36,13 +36,13 @@
       "validationPassed": false,
       "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/my-building-block/",
       "documentation": {
-        "json-full": {
-          "mediatype": "application/json",
-          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/my-building-block/index.json"
-        },
         "markdown": {
           "mediatype": "text/markdown",
           "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/my-building-block/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/my-building-block/index.json"
         },
         "slate": {
           "mediatype": "text/html",
@@ -51,11 +51,11 @@
       }
     },
     {
-      "itemIdentifier": "ogc.bbr.template.terranexus-json-fg-feature_with-prov",
+      "itemIdentifier": "ogc.bbr.template.json-fg-feature_with-prov",
       "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
       "name": "My Building Block",
-      "abstract": "This Building Block serves as a template to create new ones",
-      "status": "invalid",
+      "abstract": "This Building Block serves as a template to combine a JSON-FG Feature Object with a Provenance Chain",
+      "status": "under-development",
       "dateTimeAddition": "2023-04-05T00:00:00Z",
       "itemClass": "schema",
       "register": "ogc-building-block-register",
@@ -78,25 +78,25 @@
         "ogc.geo.json-fg.feature"
       ],
       "schema": {
-        "application/yaml": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/schema.yaml",
-        "application/json": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/schema.json"
+        "application/yaml": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/schema.yaml",
+        "application/json": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/schema.json"
       },
-      "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/context.jsonld",
-      "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/terranexus-json-fg-feature_with-prov/",
-      "validationPassed": false,
-      "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/terranexus-json-fg-feature_with-prov/",
+      "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/context.jsonld",
+      "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature_with-prov/",
+      "validationPassed": true,
+      "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/json-fg-feature_with-prov/",
       "documentation": {
-        "json-full": {
-          "mediatype": "application/json",
-          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/terranexus-json-fg-feature_with-prov/index.json"
-        },
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/terranexus-json-fg-feature_with-prov/index.md"
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/json-fg-feature_with-prov/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/json-fg-feature_with-prov/index.json"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/terranexus-json-fg-feature_with-prov/"
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/json-fg-feature_with-prov/"
         }
       }
     }
