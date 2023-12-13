@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "@base": "https://example.org/aThing/",
+    "base_href": "https://terranexus.pangaeainnovations.com/",
+    "agents": "https://someAgentRegister.eg/",
+    "roles": "https://someRolesRegister.eg/",
+    "dggsOperations": "https://someDGGSOperationsRegister.eg",
+    "terranexusProcesses": "base_href:ogcapi/processes/",
+    "terranexusCollections": "base_href:ogcapi/collections/",
+    "terranexusJobs": "base_href:ogcapi/jobs/",
+    "terranexusTempData": "https://someTempDataRegister.eg/",
+    "featureType": {
+      "@id": "@type",
+      "@context": {
+        "@base": "http://example.org/myEntities/"
+      }
+    },
+    "activityType": {
+      "@id": "@type",
+      "@context": {
+        "@base": "http://example.org/myActivityTypes/"
+      },
+      "oneOf": [
+      		"DataIngestion",
+      		"Registration",
+      		"ogcapiProcess",
+      		"dggsOperation"
+      ]
+    }
+  }
+}

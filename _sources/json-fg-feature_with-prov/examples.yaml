@@ -12,4 +12,4 @@
     - language: json
       ref: examples/test.json
     - language: json
-      ref: examples/test-fail.json
+      ref: examples/wasGenerated_prov_example.json
