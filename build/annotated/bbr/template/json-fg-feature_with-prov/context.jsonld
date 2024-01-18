@@ -1,166 +1,5 @@
 {
   "@context": {
-    "Activity": "prov:Activity",
-    "ActivityInfluence": "prov:ActivityInfluence",
-    "Agent": "prov:Agent",
-    "AgentInfluence": "prov:AgentInfluence",
-    "Association": "prov:Association",
-    "Attribution": "prov:Attribution",
-    "Bundle": "prov:Bundle",
-    "Collection": "prov:Collection",
-    "Communication": "prov:Communication",
-    "Delegation": "prov:Delegation",
-    "Derivation": "prov:Derivation",
-    "EmptyCollection": "prov:EmptyCollection",
-    "End": "prov:End",
-    "Entity": "prov:Entity",
-    "EntityInfluence": "prov:EntityInfluence",
-    "Generation": "prov:Generation",
-    "Influence": "prov:Influence",
-    "InstantaneousEvent": "prov:InstantaneousEvent",
-    "Invalidation": "prov:Invalidation",
-    "Location": "prov:Location",
-    "Organization": "prov:Organization",
-    "Person": "prov:Person",
-    "Plan": "prov:Plan",
-    "PrimarySource": "prov:PrimarySource",
-    "Quotation": "prov:Quotation",
-    "Revision": "prov:Revision",
-    "Role": "prov:Role",
-    "SoftwareAgent": "prov:SoftwareAgent",
-    "Start": "prov:Start",
-    "Usage": "prov:Usage",
-    "ServiceDescription": "prov:ServiceDescription",
-    "DirectQueryService": "prov:DirectQueryService",
-    "Accept": "prov:Accept",
-    "Contribute": "prov:Contribute",
-    "Contributor": "prov:Contributor",
-    "Copyright": "prov:Copyright",
-    "Create": "prov:Create",
-    "Creator": "prov:Creator",
-    "Modify": "prov:Modify",
-    "Publish": "prov:Publish",
-    "Publisher": "prov:Publisher",
-    "Replace": "prov:Replace",
-    "RightsAssignment": "prov:RightsAssignment",
-    "RightsHolder": "prov:RightsHolder",
-    "Submit": "prov:Submit",
-    "Dictionary": "prov:Dictionary",
-    "EmptyDictionary": "prov:EmptyDictionary",
-    "KeyEntityPair": "prov:KeyEntityPair",
-    "Insertion": "prov:Insertion",
-    "Removal": "prov:Removal",
-    "generatedAtTime": {
-      "@id": "prov:generatedAtTime",
-      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-    },
-    "invalidatedAtTime": {
-      "@id": "prov:invalidatedAtTime",
-      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-    },
-    "startedAtTime": {
-      "@id": "prov:startedAtTime",
-      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-    },
-    "value": "prov:value",
-    "provenanceUriTemplate": "prov:provenanceUriTemplate",
-    "pairKey": {
-      "@id": "prov:pairKey",
-      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "removedKey": {
-      "@id": "prov:removedKey",
-      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "influenced": {
-      "@id": "prov:influenced",
-      "@type": "@id"
-    },
-    "qualifiedPrimarySource": {
-      "@id": "prov:qualifiedPrimarySource",
-      "@type": "@id"
-    },
-    "qualifiedQuotation": {
-      "@id": "prov:qualifiedQuotation",
-      "@type": "@id"
-    },
-    "qualifiedRevision": {
-      "@id": "prov:qualifiedRevision",
-      "@type": "@id"
-    },
-    "has_anchor": {
-      "@id": "prov:has_anchor",
-      "@type": "@id"
-    },
-    "has_query_service": {
-      "@id": "prov:has_query_service",
-      "@type": "@id"
-    },
-    "describesService": {
-      "@id": "prov:describesService",
-      "@type": "@id"
-    },
-    "pingback": {
-      "@id": "prov:pingback",
-      "@type": "@id"
-    },
-    "dictionary": {
-      "@id": "prov:dictionary",
-      "@type": "@id"
-    },
-    "derivedByInsertionFrom": {
-      "@id": "prov:derivedByInsertionFrom",
-      "@type": "@id"
-    },
-    "derivedByRemovalFrom": {
-      "@id": "prov:derivedByRemovalFrom",
-      "@type": "@id"
-    },
-    "insertedKeyEntityPair": {
-      "@id": "prov:insertedKeyEntityPair",
-      "@type": "@id"
-    },
-    "hadDictionaryMember": {
-      "@id": "prov:hadDictionaryMember",
-      "@type": "@id"
-    },
-    "pairEntity": {
-      "@id": "prov:pairEntity",
-      "@type": "@id"
-    },
-    "qualifiedInsertion": {
-      "@id": "prov:qualifiedInsertion",
-      "@type": "@id"
-    },
-    "qualifiedRemoval": {
-      "@id": "prov:qualifiedRemoval",
-      "@type": "@id"
-    },
-    "asInBundle": {
-      "@id": "prov:asInBundle",
-      "@type": "@id"
-    },
-    "Feature": "geojson:Feature",
-    "FeatureCollection": "geojson:FeatureCollection",
-    "GeometryCollection": "geojson:GeometryCollection",
-    "LineString": "geojson:LineString",
-    "MultiLineString": "geojson:MultiLineString",
-    "MultiPoint": "geojson:MultiPoint",
-    "MultiPolygon": "geojson:MultiPolygon",
-    "Point": "geojson:Point",
-    "Polygon": "geojson:Polygon",
-    "bbox": {
-      "@container": "@list",
-      "@id": "geojson:bbox"
-    },
-    "coordinates": {
-      "@container": "@list",
-      "@id": "geojson:coordinates"
-    },
-    "features": {
-      "@container": "@set",
-      "@id": "geojson:features"
-    },
     "id": "@id",
     "featureType": "@type",
     "entityType": "@type",
@@ -556,6 +395,137 @@
       "@id": "prov:qualifiedAttribution",
       "@type": "@id"
     },
+    "wasInfluencedBy": {
+      "@context": {
+        "href": {
+          "@type": "@id",
+          "@id": "oa:hasTarget"
+        },
+        "rel": {
+          "@context": {
+            "@base": "http://www.iana.org/assignments/relation/"
+          },
+          "@id": "http://www.iana.org/assignments/relation",
+          "@type": "@id"
+        },
+        "type": "dct:type",
+        "hreflang": "dct:language",
+        "title": "rdfs:label",
+        "length": "dct:extent",
+        "agentType": "@type",
+        "name": "rdfs:label",
+        "actedOnBehalfOf": {
+          "@id": "prov:actedOnBehalfOf",
+          "@type": "@id"
+        },
+        "qualifiedDelegation": {
+          "@context": {
+            "agent": {
+              "@id": "prov:agent",
+              "@type": "@id"
+            },
+            "hadActivity": {
+              "@id": "prov:hadActivity",
+              "@type": "@id"
+            }
+          },
+          "@id": "prov:qualifiedDelegation",
+          "@type": "@id"
+        }
+      },
+      "@id": "prov:wasInfluencedBy",
+      "@type": "@id"
+    },
+    "qualifiedInfluence": {
+      "@context": {
+        "influencer": {
+          "@context": {
+            "href": {
+              "@type": "@id",
+              "@id": "oa:hasTarget"
+            },
+            "rel": {
+              "@context": {
+                "@base": "http://www.iana.org/assignments/relation/"
+              },
+              "@id": "http://www.iana.org/assignments/relation",
+              "@type": "@id"
+            },
+            "type": "dct:type",
+            "hreflang": "dct:language",
+            "title": "rdfs:label",
+            "length": "dct:extent",
+            "agentType": "@type",
+            "name": "rdfs:label",
+            "actedOnBehalfOf": {
+              "@id": "prov:actedOnBehalfOf",
+              "@type": "@id"
+            },
+            "qualifiedDelegation": {
+              "@context": {
+                "hadActivity": {
+                  "@id": "prov:hadActivity",
+                  "@type": "@id"
+                }
+              },
+              "@id": "prov:qualifiedDelegation",
+              "@type": "@id"
+            }
+          },
+          "@id": "prov:influencer",
+          "@type": "@id"
+        },
+        "entity": {
+          "@id": "prov:entity",
+          "@type": "@id"
+        },
+        "agent": {
+          "@context": {
+            "href": {
+              "@type": "@id",
+              "@id": "oa:hasTarget"
+            },
+            "rel": {
+              "@context": {
+                "@base": "http://www.iana.org/assignments/relation/"
+              },
+              "@id": "http://www.iana.org/assignments/relation",
+              "@type": "@id"
+            },
+            "type": "dct:type",
+            "hreflang": "dct:language",
+            "title": "rdfs:label",
+            "length": "dct:extent",
+            "agentType": "@type",
+            "name": "rdfs:label",
+            "actedOnBehalfOf": {
+              "@id": "prov:actedOnBehalfOf",
+              "@type": "@id"
+            },
+            "qualifiedDelegation": {
+              "@context": {
+                "hadActivity": {
+                  "@id": "prov:hadActivity",
+                  "@type": "@id"
+                }
+              },
+              "@id": "prov:qualifiedDelegation",
+              "@type": "@id"
+            }
+          },
+          "@id": "prov:agent",
+          "@type": "@id"
+        }
+      },
+      "@id": "prov:qualifiedInfluence",
+      "@type": "@id"
+    },
+    "provType": "@type",
+    "hadMember": {
+      "@context": {},
+      "@id": "prov:hadMember",
+      "@type": "@id"
+    },
     "activityType": "@type",
     "endedAtTime": {
       "@id": "prov:endedAtTime",
@@ -744,147 +714,188 @@
       "@id": "prov:qualifiedAssociation",
       "@type": "@id"
     },
-    "properties": "@nest",
+    "Activity": "prov:Activity",
+    "ActivityInfluence": "prov:ActivityInfluence",
+    "Agent": "prov:Agent",
+    "AgentInfluence": "prov:AgentInfluence",
+    "Association": "prov:Association",
+    "Attribution": "prov:Attribution",
+    "Bundle": "prov:Bundle",
+    "Collection": "prov:Collection",
+    "Communication": "prov:Communication",
+    "Delegation": "prov:Delegation",
+    "Derivation": "prov:Derivation",
+    "EmptyCollection": "prov:EmptyCollection",
+    "End": "prov:End",
+    "Entity": "prov:Entity",
+    "EntityInfluence": "prov:EntityInfluence",
+    "Generation": "prov:Generation",
+    "Influence": "prov:Influence",
+    "InstantaneousEvent": "prov:InstantaneousEvent",
+    "Invalidation": "prov:Invalidation",
+    "Location": "prov:Location",
+    "Organization": "prov:Organization",
+    "Person": "prov:Person",
+    "Plan": "prov:Plan",
+    "PrimarySource": "prov:PrimarySource",
+    "Quotation": "prov:Quotation",
+    "Revision": "prov:Revision",
+    "Role": "prov:Role",
+    "SoftwareAgent": "prov:SoftwareAgent",
+    "Start": "prov:Start",
+    "Usage": "prov:Usage",
+    "ServiceDescription": "prov:ServiceDescription",
+    "DirectQueryService": "prov:DirectQueryService",
+    "Accept": "prov:Accept",
+    "Contribute": "prov:Contribute",
+    "Contributor": "prov:Contributor",
+    "Copyright": "prov:Copyright",
+    "Create": "prov:Create",
+    "Creator": "prov:Creator",
+    "Modify": "prov:Modify",
+    "Publish": "prov:Publish",
+    "Publisher": "prov:Publisher",
+    "Replace": "prov:Replace",
+    "RightsAssignment": "prov:RightsAssignment",
+    "RightsHolder": "prov:RightsHolder",
+    "Submit": "prov:Submit",
+    "Dictionary": "prov:Dictionary",
+    "EmptyDictionary": "prov:EmptyDictionary",
+    "KeyEntityPair": "prov:KeyEntityPair",
+    "Insertion": "prov:Insertion",
+    "Removal": "prov:Removal",
+    "generatedAtTime": {
+      "@id": "prov:generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "invalidatedAtTime": {
+      "@id": "prov:invalidatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "startedAtTime": {
+      "@id": "prov:startedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "value": "prov:value",
+    "provenanceUriTemplate": "prov:provenanceUriTemplate",
+    "pairKey": {
+      "@id": "prov:pairKey",
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "removedKey": {
+      "@id": "prov:removedKey",
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "influenced": {
+      "@id": "prov:influenced",
+      "@type": "@id"
+    },
+    "qualifiedPrimarySource": {
+      "@id": "prov:qualifiedPrimarySource",
+      "@type": "@id"
+    },
+    "qualifiedQuotation": {
+      "@id": "prov:qualifiedQuotation",
+      "@type": "@id"
+    },
+    "qualifiedRevision": {
+      "@id": "prov:qualifiedRevision",
+      "@type": "@id"
+    },
+    "has_anchor": {
+      "@id": "prov:has_anchor",
+      "@type": "@id"
+    },
+    "has_query_service": {
+      "@id": "prov:has_query_service",
+      "@type": "@id"
+    },
+    "describesService": {
+      "@id": "prov:describesService",
+      "@type": "@id"
+    },
+    "pingback": {
+      "@id": "prov:pingback",
+      "@type": "@id"
+    },
+    "dictionary": {
+      "@id": "prov:dictionary",
+      "@type": "@id"
+    },
+    "derivedByInsertionFrom": {
+      "@id": "prov:derivedByInsertionFrom",
+      "@type": "@id"
+    },
+    "derivedByRemovalFrom": {
+      "@id": "prov:derivedByRemovalFrom",
+      "@type": "@id"
+    },
+    "insertedKeyEntityPair": {
+      "@id": "prov:insertedKeyEntityPair",
+      "@type": "@id"
+    },
+    "hadDictionaryMember": {
+      "@id": "prov:hadDictionaryMember",
+      "@type": "@id"
+    },
+    "pairEntity": {
+      "@id": "prov:pairEntity",
+      "@type": "@id"
+    },
+    "qualifiedInsertion": {
+      "@id": "prov:qualifiedInsertion",
+      "@type": "@id"
+    },
+    "qualifiedRemoval": {
+      "@id": "prov:qualifiedRemoval",
+      "@type": "@id"
+    },
+    "asInBundle": {
+      "@id": "prov:asInBundle",
+      "@type": "@id"
+    },
     "type": "@type",
-    "geometry": "geojson:geometry",
-    "wasInfluencedBy": {
-      "@context": {
-        "href": {
-          "@type": "@id",
-          "@id": "oa:hasTarget"
-        },
-        "rel": {
-          "@context": {
-            "@base": "http://www.iana.org/assignments/relation/"
-          },
-          "@id": "http://www.iana.org/assignments/relation",
-          "@type": "@id"
-        },
-        "type": "dct:type",
-        "hreflang": "dct:language",
-        "title": "rdfs:label",
-        "length": "dct:extent",
-        "agentType": "@type",
-        "name": "rdfs:label",
-        "actedOnBehalfOf": {
-          "@id": "prov:actedOnBehalfOf",
-          "@type": "@id"
-        },
-        "qualifiedDelegation": {
-          "@context": {
-            "agent": {
-              "@id": "prov:agent",
-              "@type": "@id"
-            },
-            "hadActivity": {
-              "@id": "prov:hadActivity",
-              "@type": "@id"
-            }
-          },
-          "@id": "prov:qualifiedDelegation",
-          "@type": "@id"
-        }
-      },
-      "@id": "prov:wasInfluencedBy",
-      "@type": "@id"
-    },
-    "qualifiedInfluence": {
-      "@context": {
-        "influencer": {
-          "@context": {
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent",
-            "agentType": "@type",
-            "name": "rdfs:label",
-            "actedOnBehalfOf": {
-              "@id": "prov:actedOnBehalfOf",
-              "@type": "@id"
-            },
-            "qualifiedDelegation": {
-              "@context": {
-                "hadActivity": {
-                  "@id": "prov:hadActivity",
-                  "@type": "@id"
-                }
-              },
-              "@id": "prov:qualifiedDelegation",
-              "@type": "@id"
-            }
-          },
-          "@id": "prov:influencer",
-          "@type": "@id"
-        },
-        "entity": {
-          "@id": "prov:entity",
-          "@type": "@id"
-        },
-        "agent": {
-          "@context": {
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent",
-            "agentType": "@type",
-            "name": "rdfs:label",
-            "actedOnBehalfOf": {
-              "@id": "prov:actedOnBehalfOf",
-              "@type": "@id"
-            },
-            "qualifiedDelegation": {
-              "@context": {
-                "hadActivity": {
-                  "@id": "prov:hadActivity",
-                  "@type": "@id"
-                }
-              },
-              "@id": "prov:qualifiedDelegation",
-              "@type": "@id"
-            }
-          },
-          "@id": "prov:agent",
-          "@type": "@id"
-        }
-      },
-      "@id": "prov:qualifiedInfluence",
-      "@type": "@id"
-    },
-    "provType": "@type",
-    "hadMember": {
+    "properties": "@nest",
+    "geometry": {
       "@context": {},
-      "@id": "prov:hadMember",
-      "@type": "@id"
+      "@id": "geojson:geometry"
     },
+    "bbox": {
+      "@container": "@list",
+      "@id": "geojson:bbox"
+    },
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "LineString": "geojson:LineString",
+    "MultiLineString": "geojson:MultiLineString",
+    "MultiPoint": "geojson:MultiPoint",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Point": "geojson:Point",
+    "Polygon": "geojson:Polygon",
+    "features": {
+      "@container": "@set",
+      "@id": "geojson:features"
+    },
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "dggsOperations": "https://someDGGSOperationsRegister.eg",
     "prov": "http://www.w3.org/ns/prov#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "geojson": "https://purl.org/geojson/vocab#",
     "oa": "http://www.w3.org/ns/oa#",
     "dct": "http://purl.org/dc/terms/",
+    "base_href": "https://terranexus.pangaeainnovations.com/",
+    "agents": "https://someAgentRegister.eg/",
+    "roles": "https://someRolesRegister.eg/",
+    "terranexusProcesses": "base_href:ogcapi/processes/",
+    "terranexusCollections": "base_href:ogcapi/collections/",
+    "terranexusJobs": "base_href:ogcapi/jobs/",
+    "terranexusTempData": "https://someTempDataRegister.eg/",
+    "geojson": "https://purl.org/geojson/vocab#",
     "@version": 1.1
   }
 }

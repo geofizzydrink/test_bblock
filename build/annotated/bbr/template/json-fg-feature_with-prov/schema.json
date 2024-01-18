@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "CWL Provenance Chain for DGGS actions",
+  "allOf": [
+    {
+      "$ref": "https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov/schema.yaml"
+    },
+    {
+      "$ref": "https://opengeospatial.github.io/bblocks/annotated-schemas/geo/json-fg/feature/schema.json"
+    },
+    {
+      "type": "object"
+    },
+    {
+      "properties": {
+        "a": {
+          "type": "string",
+          "format": "uri"
+        },
+        "b": {
+          "type": "number"
+        }
+      }
+    }
+  ],
+  "x-jsonld-extra-terms": {
+    "dggsOperations": "https://someDGGSOperationsRegister.eg",
+    "featureType": {
+      "x-jsonld-id": "@type",
+      "x-jsonld-context": {
+        "@base": "http://example.org/myEntities/"
+      }
+    },
+    "activityType": {
+      "x-jsonld-id": "@type",
+      "x-jsonld-context": {
+        "@base": "http://example.org/myActivityTypes/"
+      }
+    }
+  },
+  "x-jsonld-prefixes": {
+    "base_href": "https://terranexus.pangaeainnovations.com/",
+    "agents": "https://someAgentRegister.eg/",
+    "roles": "https://someRolesRegister.eg/",
+    "terranexusProcesses": "https://terranexus.pangaeainnovations.com/ogcapi/processes/",
+    "terranexusCollections": "https://terranexus.pangaeainnovations.com/ogcapi/collections/",
+    "terranexusJobs": "https://terranexus.pangaeainnovations.com/ogcapi/jobs/",
+    "terranexusTempData": "https://someTempDataRegister.eg/"
+  }
+}

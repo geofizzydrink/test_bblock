@@ -31,5 +31,5 @@
   "properties": {
     "prop1": "bla"
   },
-  "@context": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/terranexus-json-fg-feature_with-prov/context.jsonld"
+  "@context": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/context.jsonld"
 }
