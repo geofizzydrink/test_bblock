@@ -10,4 +10,4 @@
 
   snippets:
     - language: json
-      ref: examples/Feature-wasGeneratedBy_prov_example.json
+      ref: examples/GeoJSONFeatureCollection-_prov_example.json
