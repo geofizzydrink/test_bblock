@@ -22,29 +22,5 @@
         }
       }
     }
-  ],
-  "x-jsonld-extra-terms": {
-    "dggsOperations": "https://someDGGSOperationsRegister.eg",
-    "featureType": {
-      "x-jsonld-id": "@type",
-      "x-jsonld-context": {
-        "@base": "http://example.org/myEntities/"
-      }
-    },
-    "activityType": {
-      "x-jsonld-id": "@type",
-      "x-jsonld-context": {
-        "@base": "http://example.org/myActivityTypes/"
-      }
-    }
-  },
-  "x-jsonld-prefixes": {
-    "base_href": "https://terranexus.pangaeainnovations.com/",
-    "agents": "https://someAgentRegister.eg/",
-    "roles": "https://someRolesRegister.eg/",
-    "terranexusProcesses": "https://terranexus.pangaeainnovations.com/ogcapi/processes/",
-    "terranexusCollections": "https://terranexus.pangaeainnovations.com/ogcapi/collections/",
-    "terranexusJobs": "https://terranexus.pangaeainnovations.com/ogcapi/jobs/",
-    "terranexusTempData": "https://someTempDataRegister.eg/"
-  }
+  ]
 }

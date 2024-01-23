@@ -1,82 +1,121 @@
 {
-  "@context": {
-    "bblocks": "https://www.opengis.net/def/bblocks/",
-    "@base": "https://www.opengis.net/def/bblocks/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "dct": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "itemIdentifier": "@id",
-    "name": "rdfs:label",
-    "abstract": "dct:abstract",
-    "status": {
-      "@id": "bblocks:status",
-      "@type": "@id",
-      "@context": {
-        "@base": "http://www.opengis.net/def/status/"
+  "@context": [
+    {
+      "@base": "https://geofizzydrink.github.io/test_bblock"
+    },
+    {
+      "bblocks": "https://www.opengis.net/def/bblocks/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "prof": "http://www.w3.org/ns/dx/prof/",
+      "dcat": "http://www.w3.org/ns/dcat#",
+      "itemIdentifier": "@id",
+      "baseURL": "@id",
+      "name": "rdfs:label",
+      "abstract": "dct:abstract",
+      "description": "dct:description",
+      "status": {
+        "@id": "bblocks:status",
+        "@type": "@id",
+        "@context": {
+          "@base": "http://www.opengis.net/def/status/"
+        }
+      },
+      "dateTimeAddition": {
+        "@id": "dct:created",
+        "@type": "xsd:dateTime"
+      },
+      "version": "dct:hasVersion",
+      "dateOfLastChange": {
+        "@id": "dct:modified",
+        "@type": "xsd:date"
+      },
+      "scope": {
+        "@id": "bblocks:scope",
+        "@type": "@id",
+        "@context": {
+          "@base": "http://www.opengis.net/def/bblocks/scope/"
+        }
+      },
+      "sources": {
+        "@id": "dct:source",
+        "@context": {
+          "title": "rdfs:label",
+          "link": "@id"
+        }
+      },
+      "schema": {
+        "@id": "bblocks:hasSchema",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "dct:format"
+      },
+      "ldContext": {
+        "@id": "bblocks:hasJsonLdContext",
+        "@type": "@id"
+      },
+      "sourceLdContext": {
+        "@id": "bblocks:hasSourceJsonLdContext",
+        "@type": "@id"
+      },
+      "documentation": {
+        "@id": "dct:description",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "dct:identifier",
+        "@context": {
+          "mediatype": "dct:format",
+          "url": "rdfs:isDefinedBy"
+        }
+      },
+      "hasConcepts": {
+        "@reverse": "skos:inScheme"
+      },
+      "dependsOn": {
+        "@id": "bblocks:dependsOn",
+        "@type": "@id"
+      },
+      "profileOf": {
+        "@id": "prof:isProfileOf",
+        "@type": "@id"
+      },
+      "tags": "dcat:keyword",
+      "shaclRules": {
+        "@id": "bblocks:hasShaclRule",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "rdfs:seeAlso"
+      },
+      "validationReport": {
+        "@id": "bblocks:hasValidationReport",
+        "@type": "@id"
+      },
+      "imports": {
+        "@id": "bblocks:imports",
+        "@type": "@id"
       }
-    },
-    "dateTimeAddition": {
-      "@id": "dct:created",
-      "@type": "xsd:dateTime"
-    },
-    "version": "dct:hasVersion",
-    "dateOfLastChange": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "scope": {
-      "@id": "bblocks:scope",
-      "@type": "@id",
-      "@context": {
-        "@base": "http://www.opengis.net/def/bblocks/scope/"
-      }
-    },
-    "sources": {
-      "@id": "dct:source",
-      "@context": {
-        "title": "rdfs:label",
-        "link": "@id"
-      }
-    },
-    "schema": {
-      "@id": "bblocks:hasSchema",
-      "@type": "@id",
-      "@container": "@index",
-      "@index": "dct:format"
-    },
-    "ldContext": {
-      "@id": "bblocks:hasJsonLdContext",
-      "@type": "@id"
-    },
-    "documentation": {
-      "@id": "dct:description",
-      "@type": "@id",
-      "@container": "@index",
-      "@index": "dct:identifier",
-      "@context": {
-        "mediatype": "dct:format",
-        "url": "rdfs:isDefinedBy"
-      }
-    },
-    "hasConcepts": {
-      "@reverse": "skos:inScheme"
-    },
-    "dependsOn": {
-      "@id": "bblocks:dependsOn",
-      "@type": "@id"
     }
-  },
-  "@id": "https://www.opengis.net/def/bblocks",
-  "@type": "skos:ConceptScheme",
-  "skos:prefLabel": "OGC Building Blocks Register",
+  ],
+  "imports": [
+    "https://opengeospatial.github.io/bblocks/register.json"
+  ],
+  "baseURL": "https://geofizzydrink.github.io/test_bblock/",
+  "viewerURL": "https://geofizzydrink.github.io/test_bblock/",
+  "validationReport": "https://geofizzydrink.github.io/test_bblock/build/tests/report.html",
+  "@type": [
+    "skos:ConceptScheme",
+    "dcat:Catalog"
+  ],
+  "skos:prefLabel": null,
   "hasConcepts": [
     {
-      "itemIdentifier": "ogc.bbr.template.my-building-block",
+      "itemIdentifier": "ogc.bbr.template.geojson-feature_with-prov",
       "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
-      "name": "My Building Block",
-      "abstract": "This Building Block serves as a template to create new ones",
-      "status": "invalid",
+      "name": "OGC API Features Feature with PROV Building Block",
+      "abstract": "This Building Block serves as a template to combine an OGC API Features Feature Object with a Provenance Chain",
+      "status": "under-development",
       "dateTimeAddition": "2023-04-05T00:00:00Z",
       "itemClass": "schema",
       "register": "ogc-building-block-register",
@@ -95,37 +134,106 @@
         "templates"
       ],
       "shaclRules": {},
+      "dependsOn": [
+        "ogc.geo.features.feature"
+      ],
+      "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-feature_with-prov/context.jsonld",
       "schema": {
-        "application/yaml": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/schema.yaml",
-        "application/json": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/schema.json"
+        "application/yaml": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-feature_with-prov/schema.yaml",
+        "application/json": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-feature_with-prov/schema.json"
       },
-      "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/my-building-block/context.jsonld",
-      "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/my-building-block/",
+      "sourceLdContext": "https://geofizzydrink.github.io/test_bblock/_sources/geojson-feature_with-prov/context.jsonld",
+      "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/geojson-feature_with-prov/",
       "validationPassed": false,
-      "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/my-building-block/",
+      "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/geojson-feature_with-prov/",
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/my-building-block/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/my-building-block/index.json"
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/geojson-feature_with-prov/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/geojson-feature_with-prov/index.md"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/my-building-block/"
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/geojson-feature_with-prov/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://geofizzydrink.github.io/test_bblock/bblock/ogc.bbr.template.geojson-feature_with-prov"
         }
       },
       "@type": [
         "bblocks:Schema",
-        "skos:Concept"
+        "skos:Concept",
+        "dcat:Dataset"
+      ]
+    },
+    {
+      "itemIdentifier": "ogc.bbr.template.geojson-featureCollection_with-prov",
+      "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
+      "name": "OGC API Features Feature Collection with PROV Building Block",
+      "abstract": "This Building Block serves as a template to combine an OGC API Features Feature Object with a Provenance Chain",
+      "status": "under-development",
+      "dateTimeAddition": "2023-04-05T00:00:00Z",
+      "itemClass": "schema",
+      "register": "ogc-building-block-register",
+      "version": "0.1",
+      "dateOfLastChange": "2023-04-05",
+      "link": "https://github.com/opengeospatial/bblock-template",
+      "sources": [
+        {
+          "title": "Sample source document",
+          "link": "https://example.com/sources/1"
+        }
+      ],
+      "maturity": "mature",
+      "scope": "unstable",
+      "tags": [
+        "templates"
+      ],
+      "shaclRules": {},
+      "dependsOn": [
+        "ogc.geo.features.featureCollection"
+      ],
+      "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-featureCollection_with-prov/context.jsonld",
+      "schema": {
+        "application/yaml": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-featureCollection_with-prov/schema.yaml",
+        "application/json": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-featureCollection_with-prov/schema.json"
+      },
+      "sourceLdContext": "https://geofizzydrink.github.io/test_bblock/_sources/geojson-featureCollection_with-prov/context.jsonld",
+      "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/geojson-featureCollection_with-prov/",
+      "validationPassed": false,
+      "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/geojson-featureCollection_with-prov/",
+      "documentation": {
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/geojson-featureCollection_with-prov/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/geojson-featureCollection_with-prov/index.md"
+        },
+        "slate": {
+          "mediatype": "text/html",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/geojson-featureCollection_with-prov/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://geofizzydrink.github.io/test_bblock/bblock/ogc.bbr.template.geojson-featureCollection_with-prov"
+        }
+      },
+      "@type": [
+        "bblocks:Schema",
+        "skos:Concept",
+        "dcat:Dataset"
       ]
     },
     {
       "itemIdentifier": "ogc.bbr.template.json-fg-feature_with-prov",
       "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
-      "name": "My Building Block",
+      "name": "JSON-FG Feature with PROV Building Block",
       "abstract": "This Building Block serves as a template to combine a JSON-FG Feature Object with a Provenance Chain",
       "status": "under-development",
       "dateTimeAddition": "2023-04-05T00:00:00Z",
@@ -149,31 +257,97 @@
       "dependsOn": [
         "ogc.geo.json-fg.feature"
       ],
+      "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/context.jsonld",
       "schema": {
         "application/yaml": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/schema.yaml",
         "application/json": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/schema.json"
       },
-      "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/context.jsonld",
+      "sourceLdContext": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature_with-prov/context.jsonld",
       "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature_with-prov/",
-      "validationPassed": true,
+      "validationPassed": false,
       "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/json-fg-feature_with-prov/",
       "documentation": {
-        "markdown": {
-          "mediatype": "text/markdown",
-          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/json-fg-feature_with-prov/index.md"
-        },
         "json-full": {
           "mediatype": "application/json",
           "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/json-fg-feature_with-prov/index.json"
         },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/json-fg-feature_with-prov/index.md"
+        },
         "slate": {
           "mediatype": "text/html",
           "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/json-fg-feature_with-prov/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://geofizzydrink.github.io/test_bblock/bblock/ogc.bbr.template.json-fg-feature_with-prov"
         }
       },
       "@type": [
         "bblocks:Schema",
-        "skos:Concept"
+        "skos:Concept",
+        "dcat:Dataset"
+      ]
+    },
+    {
+      "itemIdentifier": "ogc.bbr.template.json-fg-feature-collection_with-prov",
+      "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
+      "name": "JSON-FG Feature Collection with PROV Building Block",
+      "abstract": "This Building Block serves as a template to combine a JSON-FG Feature Object with a Provenance Chain",
+      "status": "under-development",
+      "dateTimeAddition": "2023-04-05T00:00:00Z",
+      "itemClass": "schema",
+      "register": "ogc-building-block-register",
+      "version": "0.1",
+      "dateOfLastChange": "2023-04-05",
+      "link": "https://github.com/opengeospatial/bblock-template",
+      "sources": [
+        {
+          "title": "Sample source document",
+          "link": "https://example.com/sources/1"
+        }
+      ],
+      "maturity": "mature",
+      "scope": "unstable",
+      "tags": [
+        "templates"
+      ],
+      "shaclRules": {},
+      "dependsOn": [
+        "ogc.geo.json-fg.featureCollection"
+      ],
+      "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature-collection_with-prov/context.jsonld",
+      "schema": {
+        "application/yaml": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature-collection_with-prov/schema.yaml",
+        "application/json": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature-collection_with-prov/schema.json"
+      },
+      "sourceLdContext": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature-collection_with-prov/context.jsonld",
+      "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature-collection_with-prov/",
+      "validationPassed": false,
+      "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/json-fg-feature-collection_with-prov/",
+      "documentation": {
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/json-fg-feature-collection_with-prov/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/json-fg-feature-collection_with-prov/index.md"
+        },
+        "slate": {
+          "mediatype": "text/html",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/json-fg-feature-collection_with-prov/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://geofizzydrink.github.io/test_bblock/bblock/ogc.bbr.template.json-fg-feature-collection_with-prov"
+        }
+      },
+      "@type": [
+        "bblocks:Schema",
+        "skos:Concept",
+        "dcat:Dataset"
       ]
     }
   ]

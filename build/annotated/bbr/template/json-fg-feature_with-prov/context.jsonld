@@ -881,20 +881,12 @@
       "@container": "@list",
       "@id": "geojson:coordinates"
     },
-    "dggsOperations": "https://someDGGSOperationsRegister.eg",
     "prov": "http://www.w3.org/ns/prov#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "oa": "http://www.w3.org/ns/oa#",
     "dct": "http://purl.org/dc/terms/",
-    "base_href": "https://terranexus.pangaeainnovations.com/",
-    "agents": "https://someAgentRegister.eg/",
-    "roles": "https://someRolesRegister.eg/",
-    "terranexusProcesses": "base_href:ogcapi/processes/",
-    "terranexusCollections": "base_href:ogcapi/collections/",
-    "terranexusJobs": "base_href:ogcapi/jobs/",
-    "terranexusTempData": "https://someTempDataRegister.eg/",
     "geojson": "https://purl.org/geojson/vocab#",
     "@version": 1.1
   }
