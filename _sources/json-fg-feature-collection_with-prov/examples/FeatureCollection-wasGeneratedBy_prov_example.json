@@ -49,20 +49,20 @@
                 "y_min": 6239978.749965917,
                 "z_max": 337695.36020748876,
                 "z_min": 337619.4573208119,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -164,7 +164,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -208,15 +208,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -258,7 +258,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:23:26.385690+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -335,7 +335,7 @@
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -382,7 +382,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -422,7 +422,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -549,7 +549,7 @@
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -569,19 +569,19 @@
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:23:25.507396+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -629,20 +629,20 @@
                 "y_min": 6239970.787292116,
                 "z_max": 337686.8355395783,
                 "z_min": 337604.9811109423,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -747,7 +747,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -791,15 +791,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -831,7 +831,7 @@
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -878,7 +878,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -918,7 +918,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -1020,7 +1020,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:23:41.969677+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -1076,7 +1076,7 @@
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -1156,15 +1156,15 @@
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:23:41.381234+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -1212,20 +1212,20 @@
                 "y_min": 6239965.272903057,
                 "z_max": 337676.8530694004,
                 "z_min": 337594.5358394981,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -1328,7 +1328,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -1372,15 +1372,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -1420,7 +1420,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789",
                         "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
                     ],
-                    "wasInformedBy": NaN
+                    "wasInformedBy": "null"
                 },
                 {
                     "provType": "Activity",
@@ -1456,7 +1456,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones"
                     ]
@@ -1495,7 +1495,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data"
@@ -1595,7 +1595,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:23:58.034751+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data",
@@ -1698,7 +1698,7 @@
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -1733,19 +1733,19 @@
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:23:57.834082+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -1788,7 +1788,7 @@
             },
             "properties": {
                 "feature::id": 2305843009231960589,
-                "created_by": NaN,
+                "created_by": "null",
                 "landuse": "residential",
                 "building": "yes",
                 "id": "2305843009231960589",
@@ -1816,19 +1816,19 @@
                         ]
                     }
                 ],
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -1939,7 +1939,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -1983,15 +1983,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2031,7 +2031,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789",
                         "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
                     ],
-                    "wasInformedBy": NaN
+                    "wasInformedBy": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2067,7 +2067,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones"
                     ]
@@ -2106,7 +2106,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data"
@@ -2251,7 +2251,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:24:15.882453+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data",
@@ -2324,7 +2324,7 @@
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -2344,19 +2344,19 @@
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:24:15.553951+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -2427,19 +2427,19 @@
                         ]
                     }
                 ],
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -2551,7 +2551,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -2595,15 +2595,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2635,7 +2635,7 @@
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -2682,7 +2682,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2722,7 +2722,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2824,7 +2824,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:24:39.307410+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2880,7 +2880,7 @@
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -2960,15 +2960,15 @@
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:24:39.057589+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -3016,20 +3016,20 @@
                 "y_min": 6239958.167388152,
                 "z_max": 337662.2796796035,
                 "z_min": 337587.6448291851,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -3134,7 +3134,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -3178,15 +3178,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3263,7 +3263,7 @@
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -3310,7 +3310,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3350,7 +3350,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3452,7 +3452,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:25:05.226533+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Entity",
@@ -3463,7 +3463,7 @@
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -3543,15 +3543,15 @@
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:25:05.050331+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -3622,19 +3622,19 @@
                         ]
                     }
                 ],
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -3739,7 +3739,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -3783,15 +3783,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3833,7 +3833,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:25:28.676283+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3865,7 +3865,7 @@
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -3912,7 +3912,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3952,7 +3952,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -4068,7 +4068,7 @@
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -4148,15 +4148,15 @@
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:25:28.478210+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -4199,8 +4199,8 @@
             },
             "properties": {
                 "feature::id": 2305843009231960865,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009231960865",
                 "record_type": "Feature",
@@ -4229,17 +4229,17 @@
                 ],
                 "amenity": "parking",
                 "parking": "multi-storey",
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -4348,7 +4348,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -4392,15 +4392,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -4432,7 +4432,7 @@
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -4479,7 +4479,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -4519,7 +4519,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -4621,7 +4621,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:25:59.783035+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -4677,7 +4677,7 @@
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -4757,15 +4757,15 @@
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:25:59.542518+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -4800,8 +4800,8 @@
             },
             "properties": {
                 "feature::id": 2305843009232899975,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "commercial",
                 "id": "2305843009232899975",
                 "record_type": "Feature",
@@ -4813,20 +4813,20 @@
                 "y_min": 6240954.894049214,
                 "z_max": 336482.36612796935,
                 "z_min": 336426.2841626774,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
                 "name": "Giant",
                 "is_in": "Seksyen 18, Shah Alam, Selangor, Malaysia",
                 "shop": "supermarket",
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -4932,7 +4932,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -4976,15 +4976,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5016,7 +5016,7 @@
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -5063,7 +5063,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5103,7 +5103,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5205,7 +5205,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:26:25.997827+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5261,7 +5261,7 @@
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -5341,15 +5341,15 @@
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:26:25.820867+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -5400,8 +5400,8 @@
             },
             "properties": {
                 "feature::id": 2305843009232900002,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "commercial",
                 "id": "2305843009232900002",
                 "record_type": "Feature",
@@ -5413,20 +5413,20 @@
                 "y_min": 6240972.719726458,
                 "z_max": 336596.6542250734,
                 "z_min": 336509.51852749335,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
                 "name": "Mydin",
                 "is_in": "Seksyen 18, Shah Alam, Selangor, Malaysia",
                 "shop": "supermarket",
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -5543,7 +5543,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -5587,15 +5587,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5672,7 +5672,7 @@
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -5719,7 +5719,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5759,7 +5759,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5861,7 +5861,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:26:50.678018+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Entity",
@@ -5928,7 +5928,7 @@
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -5948,19 +5948,19 @@
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:26:50.531820+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -5999,8 +5999,8 @@
             },
             "properties": {
                 "feature::id": 2305843009232901459,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009232901459",
                 "record_type": "Feature",
@@ -6012,20 +6012,20 @@
                 "y_min": 6240000.655100508,
                 "z_max": 340166.5166379938,
                 "z_min": 340022.89597160293,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
                 "name": "Tesco Extra",
-                "is_in": NaN,
+                "is_in": "null",
                 "shop": "supermarket",
                 "name:zh": "\u7279\u6613\u8d2d\u7279\u5927\u5e97",
                 "addr:city": "Shah Alam",
                 "addr:place": "Section 13",
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -6135,7 +6135,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -6179,15 +6179,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -6227,7 +6227,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789",
                         "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
                     ],
-                    "wasInformedBy": NaN
+                    "wasInformedBy": "null"
                 },
                 {
                     "provType": "Activity",
@@ -6263,7 +6263,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones"
                     ]
@@ -6302,7 +6302,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data"
@@ -6402,7 +6402,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:27:20.349755+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data",
@@ -6464,7 +6464,7 @@
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -6544,15 +6544,15 @@
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:27:20.169756+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -6603,8 +6603,8 @@
             },
             "properties": {
                 "feature::id": 2305843009232901461,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009232901461",
                 "record_type": "Feature",
@@ -6616,20 +6616,20 @@
                 "y_min": 6240064.255301031,
                 "z_max": 340477.58617624646,
                 "z_min": 340357.68355863984,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
                 "name": "Stadium Malawati",
                 "is_in": "Seksyen 13, Shah Alam, Selangor, Malaysia",
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
                 "name:en": "Malawati Stadium",
                 "name:it": "Malawati",
                 "leisure": "stadium",
-                "sport": NaN,
-                "emergency": NaN,
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -6748,7 +6748,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -6792,15 +6792,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -6840,7 +6840,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789",
                         "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
                     ],
-                    "wasInformedBy": NaN
+                    "wasInformedBy": "null"
                 },
                 {
                     "provType": "Activity",
@@ -6876,7 +6876,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones"
                     ]
@@ -6915,7 +6915,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data"
@@ -7015,7 +7015,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:27:56.452169+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data",
@@ -7133,7 +7133,7 @@
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -7153,19 +7153,19 @@
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:27:56.109661+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -7261,7 +7261,7 @@
             "properties": {
                 "feature::id": 2305843009232901565,
                 "created_by": "Potlatch 0.6a",
-                "landuse": NaN,
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009232901565",
                 "record_type": "Feature",
@@ -7300,19 +7300,19 @@
                         ]
                     }
                 ],
-                "amenity": NaN,
-                "parking": NaN,
+                "amenity": "null",
+                "parking": "null",
                 "name": "Pusat Akuatik Darul Ehsan",
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
                 "name:en": "Darul Ehsan Aquatic Center",
-                "name:it": NaN,
+                "name:it": "null",
                 "leisure": "stadium",
                 "sport": "swimming",
-                "emergency": NaN,
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -7461,7 +7461,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -7505,15 +7505,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -7553,7 +7553,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789",
                         "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
                     ],
-                    "wasInformedBy": NaN
+                    "wasInformedBy": "null"
                 },
                 {
                     "provType": "Activity",
@@ -7589,7 +7589,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones"
                     ]
@@ -7628,7 +7628,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data"
@@ -7728,7 +7728,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:28:39.005025+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data",
@@ -7846,7 +7846,7 @@
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -7866,19 +7866,19 @@
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:28:38.783226+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -7913,8 +7913,8 @@
             },
             "properties": {
                 "feature::id": 2305843009233038522,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009233038522",
                 "record_type": "Feature",
@@ -7926,19 +7926,19 @@
                 "y_min": 6239043.944169954,
                 "z_max": 340260.36469540495,
                 "z_min": 340169.0341863229,
-                "line::hidden": NaN,
+                "line::hidden": "null",
                 "amenity": "hospital",
-                "parking": NaN,
+                "parking": "null",
                 "name": "Sime Darby Medical Hospital Subang Jaya",
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
                 "emergency": "yes",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
@@ -8044,7 +8044,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -8088,15 +8088,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8138,7 +8138,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:30:00.413889+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8215,7 +8215,7 @@
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -8262,7 +8262,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8302,7 +8302,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8373,7 +8373,7 @@
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -8453,15 +8453,15 @@
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:29:59.992287+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         },
         {
@@ -8512,8 +8512,8 @@
             },
             "properties": {
                 "feature::id": 2305843009233494536,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009233494536",
                 "record_type": "Feature",
@@ -8544,19 +8544,19 @@
                         ]
                     }
                 ],
-                "amenity": NaN,
-                "parking": NaN,
+                "amenity": "null",
+                "parking": "null",
                 "name": "Tesco",
                 "is_in": "Seksyen 13, Shah Alam, Selangor, Malaysia",
                 "shop": "supermarket",
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -8675,7 +8675,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_provenance": [
+            "has_prove"null"ce": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -8719,15 +8719,15 @@
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8769,7 +8769,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:31:22.431125+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8846,7 +8846,7 @@
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -8893,7 +8893,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8933,7 +8933,7 @@
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -9004,7 +9004,7 @@
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -9084,15 +9084,15 @@
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
                 "timestamp": "2024-01-18T05:31:22.172753+00:00"
             },
             "place": {
-                "type": "null"
+                "type": ""null""
             }
         }
     ],
@@ -9129,7 +9129,7 @@
         }
     ],
     "wasGeneratedBy": "dggsOperations:processData_task",
-    "has_provenance": [
+    "has_prove"null"ce": [
         {
             "provType": "Agent",
             "name": "agents:TerraNexus",
@@ -9173,15 +9173,15 @@
             "provType": "Agent",
             "name": "agents:PangaeaInnovations",
             "agentType": "organization",
-            "actedOnBehalfOf": NaN,
-            "qualifiedDelegation": NaN
+            "actedOnBehalfOf": "null",
+            "qualifiedDelegation": "null"
         },
         {
             "provType": "Agent",
             "name": "agents:%3COrganisation%3E",
             "agentType": "organization",
-            "actedOnBehalfOf": NaN,
-            "qualifiedDelegation": NaN
+            "actedOnBehalfOf": "null",
+            "qualifiedDelegation": "null"
         },
         {
             "provType": "Activity",
@@ -9213,7 +9213,7 @@
                     "hadRole": "roles:User"
                 }
             ],
-            "wasInformedBy": NaN,
+            "wasInformedBy": "null",
             "used": [
                 "terranexusJobs:MapDataToZones_cae879d1d789"
             ],
@@ -9260,7 +9260,7 @@
                 "terranexusJobs:MapDataToZones_cae879d1d789"
             ],
             "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-            "generated": NaN
+            "generated": "null"
         },
         {
             "provType": "Activity",
@@ -9300,7 +9300,7 @@
                 "terranexusJobs:MapDataToZones_cae879d1d789"
             ],
             "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-            "generated": NaN
+            "generated": "null"
         },
         {
             "provType": "Activity",
@@ -9371,7 +9371,7 @@
             ],
             "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
             "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-            "wasDerivedFrom": NaN
+            "wasDerivedFrom": "null"
         },
         {
             "provType": "Entity",
@@ -9436,8 +9436,8 @@
                 "agents:TerraNexus"
             ],
             "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-            "wasGeneratedBy": NaN,
-            "wasDerivedFrom": NaN
+            "wasGeneratedBy": "null",
+            "wasDerivedFrom": "null"
         }
     ],
     "@context": [
