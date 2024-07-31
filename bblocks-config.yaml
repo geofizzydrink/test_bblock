@@ -2,3 +2,4 @@ identifier-prefix: ogc.bbr.template.
 
 imports:
   - default
+#  - https://geofizzydrink.github.io/test_bblock/build/register.json
