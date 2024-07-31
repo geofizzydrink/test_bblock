@@ -68,7 +68,7 @@ properties:
       CRS:
         allOf:
         - description: Coordinate Reference System (CRS)
-        - $ref: './crs.yaml'
+        - $ref: bblocks://ogc.ogc-utils.iri-or-curie
         example: EPSG:7789
       GLOBE:
         description: Globe Reference System Identifier/Specification

@@ -164,7 +164,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -581,7 +581,7 @@
                 "timestamp": "2024-01-18T05:23:25.507396+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -747,7 +747,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -1164,7 +1164,7 @@
                 "timestamp": "2024-01-18T05:23:41.381234+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -1328,7 +1328,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -1745,7 +1745,7 @@
                 "timestamp": "2024-01-18T05:23:57.834082+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -1939,7 +1939,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -2356,7 +2356,7 @@
                 "timestamp": "2024-01-18T05:24:15.553951+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -2551,7 +2551,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -2968,7 +2968,7 @@
                 "timestamp": "2024-01-18T05:24:39.057589+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -3134,7 +3134,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -3551,7 +3551,7 @@
                 "timestamp": "2024-01-18T05:25:05.050331+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -3739,7 +3739,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -4156,7 +4156,7 @@
                 "timestamp": "2024-01-18T05:25:28.478210+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -4348,7 +4348,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -4765,7 +4765,7 @@
                 "timestamp": "2024-01-18T05:25:59.542518+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -4932,7 +4932,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -5349,7 +5349,7 @@
                 "timestamp": "2024-01-18T05:26:25.820867+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -5543,7 +5543,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -5960,7 +5960,7 @@
                 "timestamp": "2024-01-18T05:26:50.531820+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -6135,7 +6135,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -6552,7 +6552,7 @@
                 "timestamp": "2024-01-18T05:27:20.169756+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -6748,7 +6748,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -7165,7 +7165,7 @@
                 "timestamp": "2024-01-18T05:27:56.109661+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -7461,7 +7461,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -7878,7 +7878,7 @@
                 "timestamp": "2024-01-18T05:28:38.783226+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -8044,7 +8044,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -8461,7 +8461,7 @@
                 "timestamp": "2024-01-18T05:29:59.992287+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         },
         {
@@ -8675,7 +8675,7 @@
                 }
             ],
             "wasGeneratedBy": "dggsOperations:processData_task",
-            "has_prove"null"ce": [
+            "has_provenance": [
                 {
                     "provType": "Agent",
                     "name": "agents:TerraNexus",
@@ -9092,7 +9092,7 @@
                 "timestamp": "2024-01-18T05:31:22.172753+00:00"
             },
             "place": {
-                "type": ""null""
+                "type": "null"
             }
         }
     ],
@@ -9129,7 +9129,7 @@
         }
     ],
     "wasGeneratedBy": "dggsOperations:processData_task",
-    "has_prove"null"ce": [
+    "has_provenance": [
         {
             "provType": "Agent",
             "name": "agents:TerraNexus",
