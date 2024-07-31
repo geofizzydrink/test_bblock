@@ -3,7 +3,7 @@
   "description": "CWL Provenance Chain for DGGS actions",
   "allOf": [
     {
-      "$ref": "https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov/schema.yaml"
+      "$ref": "https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov/schema.json"
     },
     {
       "$ref": "https://opengeospatial.github.io/bblocks/annotated-schemas/geo/json-fg/feature/schema.json"

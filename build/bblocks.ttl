@@ -7,6 +7,31 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://geofizzydrink.github.io/ogc.bbr.template.DGGRS> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "OGC API DGGS - Discrete Global Grid Reference System (DGGRS)" ;
+    dct:abstract "This Building Block serves as a template to define and test the schema specification for a DGGRS which will underpin the DGGS Registry" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/DGGRS/index.md" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/bblock/ogc.bbr.template.DGGRS" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/DGGRS/index.json" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-07-31"^^xsd:date ;
+    dct:source <https://example.com/sources/1> ;
+    skos:inScheme <https://geofizzydrink.github.io/test_bblock/> ;
+    dcat:keyword "templates" ;
+    bblocks:dependsOn <https://geofizzydrink.github.io/ogc.ogc-utils.iri-or-curie> ;
+    bblocks:hasJsonLdContext <https://geofizzydrink.github.io/test_bblock/_sources/DGGRS/context.jsonld> ;
+    bblocks:hasSchema <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/DGGRS/schema.json>,
+        <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/DGGRS/schema.yaml> ;
+    bblocks:hasSourceJsonLdContext <https://geofizzydrink.github.io/test_bblock/_sources/DGGRS/context.jsonld> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
 <https://geofizzydrink.github.io/ogc.bbr.template.geojson-featureCollection_with-prov> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
@@ -18,15 +43,14 @@
         [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/geojson-featureCollection_with-prov/index.json" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/geojson-featureCollection_with-prov/" ],
-        [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/bblock/ogc.bbr.template.geojson-featureCollection_with-prov" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2023-04-05"^^xsd:date ;
+    dct:modified "2024-07-31"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
     skos:inScheme <https://geofizzydrink.github.io/test_bblock/> ;
     dcat:keyword "templates" ;
-    bblocks:dependsOn <https://geofizzydrink.github.io/ogc.geo.features.featureCollection> ;
+    bblocks:dependsOn <https://geofizzydrink.github.io/ogc.geo.features.featureCollection>,
+        <https://geofizzydrink.github.io/ogc.ogc-utils.prov> ;
     bblocks:hasJsonLdContext <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-featureCollection_with-prov/context.jsonld> ;
     bblocks:hasSchema <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-featureCollection_with-prov/schema.json>,
         <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-featureCollection_with-prov/schema.yaml> ;
@@ -40,20 +64,19 @@
     rdfs:label "OGC API Features Feature with PROV Building Block" ;
     dct:abstract "This Building Block serves as a template to combine an OGC API Features Feature Object with a Provenance Chain" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/geojson-feature_with-prov/index.json" ],
+        [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/bblock/ogc.bbr.template.geojson-feature_with-prov" ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/geojson-feature_with-prov/index.md" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/geojson-feature_with-prov/" ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/geojson-feature_with-prov/index.json" ] ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/geojson-feature_with-prov/index.md" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2023-04-05"^^xsd:date ;
+    dct:modified "2024-07-31"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
     skos:inScheme <https://geofizzydrink.github.io/test_bblock/> ;
     dcat:keyword "templates" ;
-    bblocks:dependsOn <https://geofizzydrink.github.io/ogc.geo.features.feature> ;
+    bblocks:dependsOn <https://geofizzydrink.github.io/ogc.geo.features.feature>,
+        <https://geofizzydrink.github.io/ogc.ogc-utils.prov> ;
     bblocks:hasJsonLdContext <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-feature_with-prov/context.jsonld> ;
     bblocks:hasSchema <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-feature_with-prov/schema.json>,
         <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-feature_with-prov/schema.yaml> ;
@@ -67,20 +90,19 @@
     rdfs:label "JSON-FG Feature Collection with PROV Building Block" ;
     dct:abstract "This Building Block serves as a template to combine a JSON-FG Feature Object with a Provenance Chain" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/bblock/ogc.bbr.template.json-fg-feature-collection_with-prov" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/json-fg-feature-collection_with-prov/" ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/json-fg-feature-collection_with-prov/index.md" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/bblock/ogc.bbr.template.json-fg-feature-collection_with-prov" ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/json-fg-feature-collection_with-prov/index.json" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2023-04-05"^^xsd:date ;
+    dct:modified "2024-07-31"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
     skos:inScheme <https://geofizzydrink.github.io/test_bblock/> ;
     dcat:keyword "templates" ;
-    bblocks:dependsOn <https://geofizzydrink.github.io/ogc.geo.json-fg.featureCollection> ;
+    bblocks:dependsOn <https://geofizzydrink.github.io/ogc.geo.json-fg.featureCollection>,
+        <https://geofizzydrink.github.io/ogc.ogc-utils.prov> ;
     bblocks:hasJsonLdContext <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature-collection_with-prov/context.jsonld> ;
     bblocks:hasSchema <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature-collection_with-prov/schema.json>,
         <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature-collection_with-prov/schema.yaml> ;
@@ -94,20 +116,19 @@
     rdfs:label "JSON-FG Feature with PROV Building Block" ;
     dct:abstract "This Building Block serves as a template to combine a JSON-FG Feature Object with a Provenance Chain" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/bblock/ogc.bbr.template.json-fg-feature_with-prov" ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/json-fg-feature_with-prov/index.md" ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/json-full/bbr/template/json-fg-feature_with-prov/index.json" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/slate-build/bbr/template/json-fg-feature_with-prov/" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/build/generateddocs/markdown/bbr/template/json-fg-feature_with-prov/index.md" ] ;
+            rdfs:isDefinedBy "https://geofizzydrink.github.io/test_bblock/bblock/ogc.bbr.template.json-fg-feature_with-prov" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2023-04-05"^^xsd:date ;
+    dct:modified "2024-07-31"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
     skos:inScheme <https://geofizzydrink.github.io/test_bblock/> ;
     dcat:keyword "templates" ;
-    bblocks:dependsOn <https://geofizzydrink.github.io/ogc.geo.json-fg.feature> ;
+    bblocks:dependsOn <https://geofizzydrink.github.io/ogc.geo.json-fg.feature>,
+        <https://geofizzydrink.github.io/ogc.ogc-utils.prov> ;
     bblocks:hasJsonLdContext <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/context.jsonld> ;
     bblocks:hasSchema <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/schema.json>,
         <https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/schema.yaml> ;
@@ -119,21 +140,25 @@
 
 <https://geofizzydrink.github.io/test_bblock/> a skos:ConceptScheme,
         dcat:Catalog ;
+    rdfs:label "Building Blocks - workspace" ;
+    skos:prefLabel "Building Blocks - workspace" ;
     bblocks:hasValidationReport <https://geofizzydrink.github.io/test_bblock/build/tests/report.html> ;
-    bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
+    bblocks:imports <https://ogcincubator.github.io/bblock-prov-schema/build/register.json>,
+        <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-01-23T01:48:34.890676"^^xsd:dateTime ;
-    prov:startedAtTime "2024-01-23T01:48:34.826551"^^xsd:dateTime ;
+    prov:endedAtTime "2024-07-31T06:10:59.631523"^^xsd:dateTime ;
+    prov:startedAtTime "2024-07-31T06:10:59.540898"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/yaml" ;
             rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
         [ a prov:Entity ;
             dct:format "application/json" ;
+            dct:hasVersion "git:8a24e233270e520ca5e233a769bb09b4e635a0ae" ;
             rdfs:seeAlso <https://geofizzydrink.github.io/test_bblock/build/register.json> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.33" ;
+            dct:hasVersion "0.3.49" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] .
 

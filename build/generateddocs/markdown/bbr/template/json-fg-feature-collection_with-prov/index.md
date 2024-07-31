@@ -85,20 +85,20 @@ The content of this example.
                 "y_min": 6239978.749965917,
                 "z_max": 337695.36020748876,
                 "z_min": 337619.4573208119,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -244,15 +244,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -294,7 +294,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:23:26.385690+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -371,7 +371,7 @@ The content of this example.
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -418,7 +418,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -458,7 +458,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -585,7 +585,7 @@ The content of this example.
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -605,12 +605,12 @@ The content of this example.
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -665,20 +665,20 @@ The content of this example.
                 "y_min": 6239970.787292116,
                 "z_max": 337686.8355395783,
                 "z_min": 337604.9811109423,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -827,15 +827,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -867,7 +867,7 @@ The content of this example.
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -914,7 +914,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -954,7 +954,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -1056,7 +1056,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:23:41.969677+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -1112,7 +1112,7 @@ The content of this example.
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -1192,8 +1192,8 @@ The content of this example.
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -1248,20 +1248,20 @@ The content of this example.
                 "y_min": 6239965.272903057,
                 "z_max": 337676.8530694004,
                 "z_min": 337594.5358394981,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -1408,15 +1408,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -1456,7 +1456,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789",
                         "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
                     ],
-                    "wasInformedBy": NaN
+                    "wasInformedBy": "null"
                 },
                 {
                     "provType": "Activity",
@@ -1492,7 +1492,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones"
                     ]
@@ -1531,7 +1531,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data"
@@ -1631,7 +1631,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:23:58.034751+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data",
@@ -1734,7 +1734,7 @@ The content of this example.
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -1769,12 +1769,12 @@ The content of this example.
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -1824,7 +1824,7 @@ The content of this example.
             },
             "properties": {
                 "feature::id": 2305843009231960589,
-                "created_by": NaN,
+                "created_by": "null",
                 "landuse": "residential",
                 "building": "yes",
                 "id": "2305843009231960589",
@@ -1852,19 +1852,19 @@ The content of this example.
                         ]
                     }
                 ],
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -2019,15 +2019,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2067,7 +2067,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789",
                         "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
                     ],
-                    "wasInformedBy": NaN
+                    "wasInformedBy": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2103,7 +2103,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones"
                     ]
@@ -2142,7 +2142,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data"
@@ -2287,7 +2287,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:24:15.882453+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data",
@@ -2360,7 +2360,7 @@ The content of this example.
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -2380,12 +2380,12 @@ The content of this example.
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -2463,19 +2463,19 @@ The content of this example.
                         ]
                     }
                 ],
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -2631,15 +2631,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2671,7 +2671,7 @@ The content of this example.
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -2718,7 +2718,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2758,7 +2758,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2860,7 +2860,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:24:39.307410+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -2916,7 +2916,7 @@ The content of this example.
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -2996,8 +2996,8 @@ The content of this example.
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -3052,20 +3052,20 @@ The content of this example.
                 "y_min": 6239958.167388152,
                 "z_max": 337662.2796796035,
                 "z_min": 337587.6448291851,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -3214,15 +3214,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3299,7 +3299,7 @@ The content of this example.
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -3346,7 +3346,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3386,7 +3386,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3488,7 +3488,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:25:05.226533+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Entity",
@@ -3499,7 +3499,7 @@ The content of this example.
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -3579,8 +3579,8 @@ The content of this example.
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -3658,19 +3658,19 @@ The content of this example.
                         ]
                     }
                 ],
-                "amenity": NaN,
-                "parking": NaN,
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "amenity": "null",
+                "parking": "null",
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -3819,15 +3819,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3869,7 +3869,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:25:28.676283+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3901,7 +3901,7 @@ The content of this example.
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -3948,7 +3948,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -3988,7 +3988,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -4104,7 +4104,7 @@ The content of this example.
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -4184,8 +4184,8 @@ The content of this example.
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -4235,8 +4235,8 @@ The content of this example.
             },
             "properties": {
                 "feature::id": 2305843009231960865,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009231960865",
                 "record_type": "Feature",
@@ -4265,17 +4265,17 @@ The content of this example.
                 ],
                 "amenity": "parking",
                 "parking": "multi-storey",
-                "name": NaN,
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "name": "null",
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -4428,15 +4428,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -4468,7 +4468,7 @@ The content of this example.
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -4515,7 +4515,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -4555,7 +4555,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -4657,7 +4657,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:25:59.783035+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -4713,7 +4713,7 @@ The content of this example.
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -4793,8 +4793,8 @@ The content of this example.
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -4836,8 +4836,8 @@ The content of this example.
             },
             "properties": {
                 "feature::id": 2305843009232899975,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "commercial",
                 "id": "2305843009232899975",
                 "record_type": "Feature",
@@ -4849,20 +4849,20 @@ The content of this example.
                 "y_min": 6240954.894049214,
                 "z_max": 336482.36612796935,
                 "z_min": 336426.2841626774,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
                 "name": "Giant",
                 "is_in": "Seksyen 18, Shah Alam, Selangor, Malaysia",
                 "shop": "supermarket",
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -5012,15 +5012,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5052,7 +5052,7 @@ The content of this example.
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -5099,7 +5099,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5139,7 +5139,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5241,7 +5241,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:26:25.997827+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5297,7 +5297,7 @@ The content of this example.
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -5377,8 +5377,8 @@ The content of this example.
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -5436,8 +5436,8 @@ The content of this example.
             },
             "properties": {
                 "feature::id": 2305843009232900002,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "commercial",
                 "id": "2305843009232900002",
                 "record_type": "Feature",
@@ -5449,20 +5449,20 @@ The content of this example.
                 "y_min": 6240972.719726458,
                 "z_max": 336596.6542250734,
                 "z_min": 336509.51852749335,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
                 "name": "Mydin",
                 "is_in": "Seksyen 18, Shah Alam, Selangor, Malaysia",
                 "shop": "supermarket",
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -5623,15 +5623,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5708,7 +5708,7 @@ The content of this example.
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -5755,7 +5755,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5795,7 +5795,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -5897,7 +5897,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:26:50.678018+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Entity",
@@ -5964,7 +5964,7 @@ The content of this example.
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -5984,12 +5984,12 @@ The content of this example.
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -6035,8 +6035,8 @@ The content of this example.
             },
             "properties": {
                 "feature::id": 2305843009232901459,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009232901459",
                 "record_type": "Feature",
@@ -6048,20 +6048,20 @@ The content of this example.
                 "y_min": 6240000.655100508,
                 "z_max": 340166.5166379938,
                 "z_min": 340022.89597160293,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
                 "name": "Tesco Extra",
-                "is_in": NaN,
+                "is_in": "null",
                 "shop": "supermarket",
                 "name:zh": "\u7279\u6613\u8d2d\u7279\u5927\u5e97",
                 "addr:city": "Shah Alam",
                 "addr:place": "Section 13",
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -6215,15 +6215,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -6263,7 +6263,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789",
                         "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
                     ],
-                    "wasInformedBy": NaN
+                    "wasInformedBy": "null"
                 },
                 {
                     "provType": "Activity",
@@ -6299,7 +6299,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones"
                     ]
@@ -6338,7 +6338,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data"
@@ -6438,7 +6438,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:27:20.349755+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data",
@@ -6500,7 +6500,7 @@ The content of this example.
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -6580,8 +6580,8 @@ The content of this example.
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -6639,8 +6639,8 @@ The content of this example.
             },
             "properties": {
                 "feature::id": 2305843009232901461,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009232901461",
                 "record_type": "Feature",
@@ -6652,20 +6652,20 @@ The content of this example.
                 "y_min": 6240064.255301031,
                 "z_max": 340477.58617624646,
                 "z_min": 340357.68355863984,
-                "line::hidden": NaN,
-                "amenity": NaN,
-                "parking": NaN,
+                "line::hidden": "null",
+                "amenity": "null",
+                "parking": "null",
                 "name": "Stadium Malawati",
                 "is_in": "Seksyen 13, Shah Alam, Selangor, Malaysia",
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
                 "name:en": "Malawati Stadium",
                 "name:it": "Malawati",
                 "leisure": "stadium",
-                "sport": NaN,
-                "emergency": NaN,
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -6828,15 +6828,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -6876,7 +6876,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789",
                         "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
                     ],
-                    "wasInformedBy": NaN
+                    "wasInformedBy": "null"
                 },
                 {
                     "provType": "Activity",
@@ -6912,7 +6912,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones"
                     ]
@@ -6951,7 +6951,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data"
@@ -7051,7 +7051,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:27:56.452169+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data",
@@ -7169,7 +7169,7 @@ The content of this example.
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -7189,12 +7189,12 @@ The content of this example.
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -7297,7 +7297,7 @@ The content of this example.
             "properties": {
                 "feature::id": 2305843009232901565,
                 "created_by": "Potlatch 0.6a",
-                "landuse": NaN,
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009232901565",
                 "record_type": "Feature",
@@ -7336,19 +7336,19 @@ The content of this example.
                         ]
                     }
                 ],
-                "amenity": NaN,
-                "parking": NaN,
+                "amenity": "null",
+                "parking": "null",
                 "name": "Pusat Akuatik Darul Ehsan",
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
                 "name:en": "Darul Ehsan Aquatic Center",
-                "name:it": NaN,
+                "name:it": "null",
                 "leisure": "stadium",
                 "sport": "swimming",
-                "emergency": NaN,
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -7541,15 +7541,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -7589,7 +7589,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789",
                         "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
                     ],
-                    "wasInformedBy": NaN
+                    "wasInformedBy": "null"
                 },
                 {
                     "provType": "Activity",
@@ -7625,7 +7625,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones"
                     ]
@@ -7664,7 +7664,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data"
@@ -7764,7 +7764,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:28:39.005025+00:00",
-                    "generated": NaN,
+                    "generated": "null",
                     "wasInformedBy": [
                         "terranexusProcesses:execution/MapDataToZones",
                         "dggsOperations:map_data",
@@ -7882,7 +7882,7 @@ The content of this example.
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -7902,12 +7902,12 @@ The content of this example.
                     "provType": "Entity",
                     "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
                     "entityType": "DGGS",
-                    "wasGeneratedBy": NaN,
+                    "wasGeneratedBy": "null",
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -7949,8 +7949,8 @@ The content of this example.
             },
             "properties": {
                 "feature::id": 2305843009233038522,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009233038522",
                 "record_type": "Feature",
@@ -7962,19 +7962,19 @@ The content of this example.
                 "y_min": 6239043.944169954,
                 "z_max": 340260.36469540495,
                 "z_min": 340169.0341863229,
-                "line::hidden": NaN,
+                "line::hidden": "null",
                 "amenity": "hospital",
-                "parking": NaN,
+                "parking": "null",
                 "name": "Sime Darby Medical Hospital Subang Jaya",
-                "is_in": NaN,
-                "shop": NaN,
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
+                "is_in": "null",
+                "shop": "null",
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
                 "emergency": "yes",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
@@ -8124,15 +8124,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8174,7 +8174,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:30:00.413889+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8251,7 +8251,7 @@ The content of this example.
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -8298,7 +8298,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8338,7 +8338,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8409,7 +8409,7 @@ The content of this example.
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -8489,8 +8489,8 @@ The content of this example.
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -8548,8 +8548,8 @@ The content of this example.
             },
             "properties": {
                 "feature::id": 2305843009233494536,
-                "created_by": NaN,
-                "landuse": NaN,
+                "created_by": "null",
+                "landuse": "null",
                 "building": "yes",
                 "id": "2305843009233494536",
                 "record_type": "Feature",
@@ -8580,19 +8580,19 @@ The content of this example.
                         ]
                     }
                 ],
-                "amenity": NaN,
-                "parking": NaN,
+                "amenity": "null",
+                "parking": "null",
                 "name": "Tesco",
                 "is_in": "Seksyen 13, Shah Alam, Selangor, Malaysia",
                 "shop": "supermarket",
-                "name:zh": NaN,
-                "addr:city": NaN,
-                "addr:place": NaN,
-                "name:en": NaN,
-                "name:it": NaN,
-                "leisure": NaN,
-                "sport": NaN,
-                "emergency": NaN,
+                "name:zh": "null",
+                "addr:city": "null",
+                "addr:place": "null",
+                "name:en": "null",
+                "name:it": "null",
+                "leisure": "null",
+                "sport": "null",
+                "emergency": "null",
                 "dggsZones": {
                     "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
                         "0": [
@@ -8755,15 +8755,15 @@ The content of this example.
                     "provType": "Agent",
                     "name": "agents:PangaeaInnovations",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Agent",
                     "name": "agents:%3COrganisation%3E",
                     "agentType": "organization",
-                    "actedOnBehalfOf": NaN,
-                    "qualifiedDelegation": NaN
+                    "actedOnBehalfOf": "null",
+                    "qualifiedDelegation": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8805,7 +8805,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:31:22.431125+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8882,7 +8882,7 @@ The content of this example.
                             "hadRole": "roles:User"
                         }
                     ],
-                    "wasInformedBy": NaN,
+                    "wasInformedBy": "null",
                     "used": [
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
@@ -8929,7 +8929,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -8969,7 +8969,7 @@ The content of this example.
                         "terranexusJobs:MapDataToZones_cae879d1d789"
                     ],
                     "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-                    "generated": NaN
+                    "generated": "null"
                 },
                 {
                     "provType": "Activity",
@@ -9040,7 +9040,7 @@ The content of this example.
                     ],
                     "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
                     "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-                    "wasDerivedFrom": NaN
+                    "wasDerivedFrom": "null"
                 },
                 {
                     "provType": "Entity",
@@ -9120,8 +9120,8 @@ The content of this example.
                         "agents:TerraNexus"
                     ],
                     "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-                    "wasGeneratedBy": NaN,
-                    "wasDerivedFrom": NaN
+                    "wasGeneratedBy": "null",
+                    "wasDerivedFrom": "null"
                 }
             ],
             "time": {
@@ -9209,15 +9209,15 @@ The content of this example.
             "provType": "Agent",
             "name": "agents:PangaeaInnovations",
             "agentType": "organization",
-            "actedOnBehalfOf": NaN,
-            "qualifiedDelegation": NaN
+            "actedOnBehalfOf": "null",
+            "qualifiedDelegation": "null"
         },
         {
             "provType": "Agent",
             "name": "agents:%3COrganisation%3E",
             "agentType": "organization",
-            "actedOnBehalfOf": NaN,
-            "qualifiedDelegation": NaN
+            "actedOnBehalfOf": "null",
+            "qualifiedDelegation": "null"
         },
         {
             "provType": "Activity",
@@ -9249,7 +9249,7 @@ The content of this example.
                     "hadRole": "roles:User"
                 }
             ],
-            "wasInformedBy": NaN,
+            "wasInformedBy": "null",
             "used": [
                 "terranexusJobs:MapDataToZones_cae879d1d789"
             ],
@@ -9296,7 +9296,7 @@ The content of this example.
                 "terranexusJobs:MapDataToZones_cae879d1d789"
             ],
             "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-            "generated": NaN
+            "generated": "null"
         },
         {
             "provType": "Activity",
@@ -9336,7 +9336,7 @@ The content of this example.
                 "terranexusJobs:MapDataToZones_cae879d1d789"
             ],
             "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-            "generated": NaN
+            "generated": "null"
         },
         {
             "provType": "Activity",
@@ -9407,7 +9407,7 @@ The content of this example.
             ],
             "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
             "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-            "wasDerivedFrom": NaN
+            "wasDerivedFrom": "null"
         },
         {
             "provType": "Entity",
@@ -9472,8 +9472,8 @@ The content of this example.
                 "agents:TerraNexus"
             ],
             "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-            "wasGeneratedBy": NaN,
-            "wasDerivedFrom": NaN
+            "wasGeneratedBy": "null",
+            "wasDerivedFrom": "null"
         }
     ],
     "@context": [
@@ -9547,20 +9547,20 @@ The content of this example.
         "y_min": 6239978.749965917,
         "z_max": 337695.36020748876,
         "z_min": 337619.4573208119,
-        "line::hidden": NaN,
-        "amenity": NaN,
-        "parking": NaN,
-        "name": NaN,
-        "is_in": NaN,
-        "shop": NaN,
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "line::hidden": "null",
+        "amenity": "null",
+        "parking": "null",
+        "name": "null",
+        "is_in": "null",
+        "shop": "null",
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -9706,15 +9706,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -9756,7 +9756,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:23:26.385690+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -9833,7 +9833,7 @@ The content of this example.
               "hadRole": "roles:User"
             }
           ],
-          "wasInformedBy": NaN,
+          "wasInformedBy": "null",
           "used": [
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
@@ -9880,7 +9880,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -9920,7 +9920,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -10047,7 +10047,7 @@ The content of this example.
             "agents:admin%40terranexus.pangaeainnovations.com"
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -10067,12 +10067,12 @@ The content of this example.
           "provType": "Entity",
           "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
           "entityType": "DGGS",
-          "wasGeneratedBy": NaN,
+          "wasGeneratedBy": "null",
           "hadPrimarySource": [
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -10127,20 +10127,20 @@ The content of this example.
         "y_min": 6239970.787292116,
         "z_max": 337686.8355395783,
         "z_min": 337604.9811109423,
-        "line::hidden": NaN,
-        "amenity": NaN,
-        "parking": NaN,
-        "name": NaN,
-        "is_in": NaN,
-        "shop": NaN,
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "line::hidden": "null",
+        "amenity": "null",
+        "parking": "null",
+        "name": "null",
+        "is_in": "null",
+        "shop": "null",
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -10289,15 +10289,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -10329,7 +10329,7 @@ The content of this example.
               "hadRole": "roles:User"
             }
           ],
-          "wasInformedBy": NaN,
+          "wasInformedBy": "null",
           "used": [
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
@@ -10376,7 +10376,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -10416,7 +10416,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -10518,7 +10518,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:23:41.969677+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -10574,7 +10574,7 @@ The content of this example.
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
           "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -10654,8 +10654,8 @@ The content of this example.
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasGeneratedBy": NaN,
-          "wasDerivedFrom": NaN
+          "wasGeneratedBy": "null",
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -10710,20 +10710,20 @@ The content of this example.
         "y_min": 6239965.272903057,
         "z_max": 337676.8530694004,
         "z_min": 337594.5358394981,
-        "line::hidden": NaN,
-        "amenity": NaN,
-        "parking": NaN,
-        "name": NaN,
-        "is_in": NaN,
-        "shop": NaN,
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "line::hidden": "null",
+        "amenity": "null",
+        "parking": "null",
+        "name": "null",
+        "is_in": "null",
+        "shop": "null",
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -10870,15 +10870,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -10918,7 +10918,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789",
             "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
           ],
-          "wasInformedBy": NaN
+          "wasInformedBy": "null"
         },
         {
           "provType": "Activity",
@@ -10954,7 +10954,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones"
           ]
@@ -10993,7 +10993,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones",
             "dggsOperations:map_data"
@@ -11093,7 +11093,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:23:58.034751+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones",
             "dggsOperations:map_data",
@@ -11196,7 +11196,7 @@ The content of this example.
             "agents:admin%40terranexus.pangaeainnovations.com"
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -11231,12 +11231,12 @@ The content of this example.
           "provType": "Entity",
           "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
           "entityType": "DGGS",
-          "wasGeneratedBy": NaN,
+          "wasGeneratedBy": "null",
           "hadPrimarySource": [
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -11286,7 +11286,7 @@ The content of this example.
       },
       "properties": {
         "feature::id": 2305843009231960589,
-        "created_by": NaN,
+        "created_by": "null",
         "landuse": "residential",
         "building": "yes",
         "id": "2305843009231960589",
@@ -11314,19 +11314,19 @@ The content of this example.
             ]
           }
         ],
-        "amenity": NaN,
-        "parking": NaN,
-        "name": NaN,
-        "is_in": NaN,
-        "shop": NaN,
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "amenity": "null",
+        "parking": "null",
+        "name": "null",
+        "is_in": "null",
+        "shop": "null",
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -11481,15 +11481,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -11529,7 +11529,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789",
             "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
           ],
-          "wasInformedBy": NaN
+          "wasInformedBy": "null"
         },
         {
           "provType": "Activity",
@@ -11565,7 +11565,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones"
           ]
@@ -11604,7 +11604,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones",
             "dggsOperations:map_data"
@@ -11749,7 +11749,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:24:15.882453+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones",
             "dggsOperations:map_data",
@@ -11822,7 +11822,7 @@ The content of this example.
             "agents:admin%40terranexus.pangaeainnovations.com"
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -11842,12 +11842,12 @@ The content of this example.
           "provType": "Entity",
           "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
           "entityType": "DGGS",
-          "wasGeneratedBy": NaN,
+          "wasGeneratedBy": "null",
           "hadPrimarySource": [
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -11925,19 +11925,19 @@ The content of this example.
             ]
           }
         ],
-        "amenity": NaN,
-        "parking": NaN,
-        "name": NaN,
-        "is_in": NaN,
-        "shop": NaN,
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "amenity": "null",
+        "parking": "null",
+        "name": "null",
+        "is_in": "null",
+        "shop": "null",
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -12093,15 +12093,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -12133,7 +12133,7 @@ The content of this example.
               "hadRole": "roles:User"
             }
           ],
-          "wasInformedBy": NaN,
+          "wasInformedBy": "null",
           "used": [
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
@@ -12180,7 +12180,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -12220,7 +12220,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -12322,7 +12322,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:24:39.307410+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -12378,7 +12378,7 @@ The content of this example.
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
           "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -12458,8 +12458,8 @@ The content of this example.
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasGeneratedBy": NaN,
-          "wasDerivedFrom": NaN
+          "wasGeneratedBy": "null",
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -12514,20 +12514,20 @@ The content of this example.
         "y_min": 6239958.167388152,
         "z_max": 337662.2796796035,
         "z_min": 337587.6448291851,
-        "line::hidden": NaN,
-        "amenity": NaN,
-        "parking": NaN,
-        "name": NaN,
-        "is_in": NaN,
-        "shop": NaN,
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "line::hidden": "null",
+        "amenity": "null",
+        "parking": "null",
+        "name": "null",
+        "is_in": "null",
+        "shop": "null",
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -12676,15 +12676,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -12761,7 +12761,7 @@ The content of this example.
               "hadRole": "roles:User"
             }
           ],
-          "wasInformedBy": NaN,
+          "wasInformedBy": "null",
           "used": [
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
@@ -12808,7 +12808,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -12848,7 +12848,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -12950,7 +12950,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:25:05.226533+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Entity",
@@ -12961,7 +12961,7 @@ The content of this example.
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
           "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -13041,8 +13041,8 @@ The content of this example.
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasGeneratedBy": NaN,
-          "wasDerivedFrom": NaN
+          "wasGeneratedBy": "null",
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -13120,19 +13120,19 @@ The content of this example.
             ]
           }
         ],
-        "amenity": NaN,
-        "parking": NaN,
-        "name": NaN,
-        "is_in": NaN,
-        "shop": NaN,
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "amenity": "null",
+        "parking": "null",
+        "name": "null",
+        "is_in": "null",
+        "shop": "null",
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -13281,15 +13281,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -13331,7 +13331,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:25:28.676283+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -13363,7 +13363,7 @@ The content of this example.
               "hadRole": "roles:User"
             }
           ],
-          "wasInformedBy": NaN,
+          "wasInformedBy": "null",
           "used": [
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
@@ -13410,7 +13410,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -13450,7 +13450,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -13566,7 +13566,7 @@ The content of this example.
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
           "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -13646,8 +13646,8 @@ The content of this example.
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasGeneratedBy": NaN,
-          "wasDerivedFrom": NaN
+          "wasGeneratedBy": "null",
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -13697,8 +13697,8 @@ The content of this example.
       },
       "properties": {
         "feature::id": 2305843009231960865,
-        "created_by": NaN,
-        "landuse": NaN,
+        "created_by": "null",
+        "landuse": "null",
         "building": "yes",
         "id": "2305843009231960865",
         "record_type": "Feature",
@@ -13727,17 +13727,17 @@ The content of this example.
         ],
         "amenity": "parking",
         "parking": "multi-storey",
-        "name": NaN,
-        "is_in": NaN,
-        "shop": NaN,
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "name": "null",
+        "is_in": "null",
+        "shop": "null",
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -13890,15 +13890,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -13930,7 +13930,7 @@ The content of this example.
               "hadRole": "roles:User"
             }
           ],
-          "wasInformedBy": NaN,
+          "wasInformedBy": "null",
           "used": [
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
@@ -13977,7 +13977,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -14017,7 +14017,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -14119,7 +14119,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:25:59.783035+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -14175,7 +14175,7 @@ The content of this example.
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
           "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -14255,8 +14255,8 @@ The content of this example.
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasGeneratedBy": NaN,
-          "wasDerivedFrom": NaN
+          "wasGeneratedBy": "null",
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -14298,8 +14298,8 @@ The content of this example.
       },
       "properties": {
         "feature::id": 2305843009232899975,
-        "created_by": NaN,
-        "landuse": NaN,
+        "created_by": "null",
+        "landuse": "null",
         "building": "commercial",
         "id": "2305843009232899975",
         "record_type": "Feature",
@@ -14311,20 +14311,20 @@ The content of this example.
         "y_min": 6240954.894049214,
         "z_max": 336482.36612796935,
         "z_min": 336426.2841626774,
-        "line::hidden": NaN,
-        "amenity": NaN,
-        "parking": NaN,
+        "line::hidden": "null",
+        "amenity": "null",
+        "parking": "null",
         "name": "Giant",
         "is_in": "Seksyen 18, Shah Alam, Selangor, Malaysia",
         "shop": "supermarket",
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -14474,15 +14474,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -14514,7 +14514,7 @@ The content of this example.
               "hadRole": "roles:User"
             }
           ],
-          "wasInformedBy": NaN,
+          "wasInformedBy": "null",
           "used": [
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
@@ -14561,7 +14561,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -14601,7 +14601,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -14703,7 +14703,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:26:25.997827+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -14759,7 +14759,7 @@ The content of this example.
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
           "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -14839,8 +14839,8 @@ The content of this example.
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasGeneratedBy": NaN,
-          "wasDerivedFrom": NaN
+          "wasGeneratedBy": "null",
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -14898,8 +14898,8 @@ The content of this example.
       },
       "properties": {
         "feature::id": 2305843009232900002,
-        "created_by": NaN,
-        "landuse": NaN,
+        "created_by": "null",
+        "landuse": "null",
         "building": "commercial",
         "id": "2305843009232900002",
         "record_type": "Feature",
@@ -14911,20 +14911,20 @@ The content of this example.
         "y_min": 6240972.719726458,
         "z_max": 336596.6542250734,
         "z_min": 336509.51852749335,
-        "line::hidden": NaN,
-        "amenity": NaN,
-        "parking": NaN,
+        "line::hidden": "null",
+        "amenity": "null",
+        "parking": "null",
         "name": "Mydin",
         "is_in": "Seksyen 18, Shah Alam, Selangor, Malaysia",
         "shop": "supermarket",
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -15085,15 +15085,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -15170,7 +15170,7 @@ The content of this example.
               "hadRole": "roles:User"
             }
           ],
-          "wasInformedBy": NaN,
+          "wasInformedBy": "null",
           "used": [
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
@@ -15217,7 +15217,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -15257,7 +15257,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -15359,7 +15359,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:26:50.678018+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Entity",
@@ -15426,7 +15426,7 @@ The content of this example.
             "agents:admin%40terranexus.pangaeainnovations.com"
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -15446,12 +15446,12 @@ The content of this example.
           "provType": "Entity",
           "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
           "entityType": "DGGS",
-          "wasGeneratedBy": NaN,
+          "wasGeneratedBy": "null",
           "hadPrimarySource": [
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -15497,8 +15497,8 @@ The content of this example.
       },
       "properties": {
         "feature::id": 2305843009232901459,
-        "created_by": NaN,
-        "landuse": NaN,
+        "created_by": "null",
+        "landuse": "null",
         "building": "yes",
         "id": "2305843009232901459",
         "record_type": "Feature",
@@ -15510,20 +15510,20 @@ The content of this example.
         "y_min": 6240000.655100508,
         "z_max": 340166.5166379938,
         "z_min": 340022.89597160293,
-        "line::hidden": NaN,
-        "amenity": NaN,
-        "parking": NaN,
+        "line::hidden": "null",
+        "amenity": "null",
+        "parking": "null",
         "name": "Tesco Extra",
-        "is_in": NaN,
+        "is_in": "null",
         "shop": "supermarket",
         "name:zh": "\u7279\u6613\u8d2d\u7279\u5927\u5e97",
         "addr:city": "Shah Alam",
         "addr:place": "Section 13",
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -15677,15 +15677,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -15725,7 +15725,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789",
             "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
           ],
-          "wasInformedBy": NaN
+          "wasInformedBy": "null"
         },
         {
           "provType": "Activity",
@@ -15761,7 +15761,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones"
           ]
@@ -15800,7 +15800,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones",
             "dggsOperations:map_data"
@@ -15900,7 +15900,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:27:20.349755+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones",
             "dggsOperations:map_data",
@@ -15962,7 +15962,7 @@ The content of this example.
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
           "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -16042,8 +16042,8 @@ The content of this example.
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasGeneratedBy": NaN,
-          "wasDerivedFrom": NaN
+          "wasGeneratedBy": "null",
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -16101,8 +16101,8 @@ The content of this example.
       },
       "properties": {
         "feature::id": 2305843009232901461,
-        "created_by": NaN,
-        "landuse": NaN,
+        "created_by": "null",
+        "landuse": "null",
         "building": "yes",
         "id": "2305843009232901461",
         "record_type": "Feature",
@@ -16114,20 +16114,20 @@ The content of this example.
         "y_min": 6240064.255301031,
         "z_max": 340477.58617624646,
         "z_min": 340357.68355863984,
-        "line::hidden": NaN,
-        "amenity": NaN,
-        "parking": NaN,
+        "line::hidden": "null",
+        "amenity": "null",
+        "parking": "null",
         "name": "Stadium Malawati",
         "is_in": "Seksyen 13, Shah Alam, Selangor, Malaysia",
-        "shop": NaN,
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
+        "shop": "null",
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
         "name:en": "Malawati Stadium",
         "name:it": "Malawati",
         "leisure": "stadium",
-        "sport": NaN,
-        "emergency": NaN,
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -16290,15 +16290,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -16338,7 +16338,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789",
             "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
           ],
-          "wasInformedBy": NaN
+          "wasInformedBy": "null"
         },
         {
           "provType": "Activity",
@@ -16374,7 +16374,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones"
           ]
@@ -16413,7 +16413,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones",
             "dggsOperations:map_data"
@@ -16513,7 +16513,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:27:56.452169+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones",
             "dggsOperations:map_data",
@@ -16631,7 +16631,7 @@ The content of this example.
             "agents:admin%40terranexus.pangaeainnovations.com"
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -16651,12 +16651,12 @@ The content of this example.
           "provType": "Entity",
           "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
           "entityType": "DGGS",
-          "wasGeneratedBy": NaN,
+          "wasGeneratedBy": "null",
           "hadPrimarySource": [
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -16759,7 +16759,7 @@ The content of this example.
       "properties": {
         "feature::id": 2305843009232901565,
         "created_by": "Potlatch 0.6a",
-        "landuse": NaN,
+        "landuse": "null",
         "building": "yes",
         "id": "2305843009232901565",
         "record_type": "Feature",
@@ -16798,19 +16798,19 @@ The content of this example.
             ]
           }
         ],
-        "amenity": NaN,
-        "parking": NaN,
+        "amenity": "null",
+        "parking": "null",
         "name": "Pusat Akuatik Darul Ehsan",
-        "is_in": NaN,
-        "shop": NaN,
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
+        "is_in": "null",
+        "shop": "null",
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
         "name:en": "Darul Ehsan Aquatic Center",
-        "name:it": NaN,
+        "name:it": "null",
         "leisure": "stadium",
         "sport": "swimming",
-        "emergency": NaN,
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -17003,15 +17003,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -17051,7 +17051,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789",
             "terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9"
           ],
-          "wasInformedBy": NaN
+          "wasInformedBy": "null"
         },
         {
           "provType": "Activity",
@@ -17087,7 +17087,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones"
           ]
@@ -17126,7 +17126,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones",
             "dggsOperations:map_data"
@@ -17226,7 +17226,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:28:39.005025+00:00",
-          "generated": NaN,
+          "generated": "null",
           "wasInformedBy": [
             "terranexusProcesses:execution/MapDataToZones",
             "dggsOperations:map_data",
@@ -17344,7 +17344,7 @@ The content of this example.
             "agents:admin%40terranexus.pangaeainnovations.com"
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -17364,12 +17364,12 @@ The content of this example.
           "provType": "Entity",
           "id": "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2",
           "entityType": "DGGS",
-          "wasGeneratedBy": NaN,
+          "wasGeneratedBy": "null",
           "hadPrimarySource": [
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -17411,8 +17411,8 @@ The content of this example.
       },
       "properties": {
         "feature::id": 2305843009233038522,
-        "created_by": NaN,
-        "landuse": NaN,
+        "created_by": "null",
+        "landuse": "null",
         "building": "yes",
         "id": "2305843009233038522",
         "record_type": "Feature",
@@ -17424,19 +17424,19 @@ The content of this example.
         "y_min": 6239043.944169954,
         "z_max": 340260.36469540495,
         "z_min": 340169.0341863229,
-        "line::hidden": NaN,
+        "line::hidden": "null",
         "amenity": "hospital",
-        "parking": NaN,
+        "parking": "null",
         "name": "Sime Darby Medical Hospital Subang Jaya",
-        "is_in": NaN,
-        "shop": NaN,
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
+        "is_in": "null",
+        "shop": "null",
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
         "emergency": "yes",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
@@ -17586,15 +17586,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -17636,7 +17636,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:30:00.413889+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -17713,7 +17713,7 @@ The content of this example.
               "hadRole": "roles:User"
             }
           ],
-          "wasInformedBy": NaN,
+          "wasInformedBy": "null",
           "used": [
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
@@ -17760,7 +17760,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -17800,7 +17800,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -17871,7 +17871,7 @@ The content of this example.
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
           "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -17951,8 +17951,8 @@ The content of this example.
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasGeneratedBy": NaN,
-          "wasDerivedFrom": NaN
+          "wasGeneratedBy": "null",
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -18010,8 +18010,8 @@ The content of this example.
       },
       "properties": {
         "feature::id": 2305843009233494536,
-        "created_by": NaN,
-        "landuse": NaN,
+        "created_by": "null",
+        "landuse": "null",
         "building": "yes",
         "id": "2305843009233494536",
         "record_type": "Feature",
@@ -18042,19 +18042,19 @@ The content of this example.
             ]
           }
         ],
-        "amenity": NaN,
-        "parking": NaN,
+        "amenity": "null",
+        "parking": "null",
         "name": "Tesco",
         "is_in": "Seksyen 13, Shah Alam, Selangor, Malaysia",
         "shop": "supermarket",
-        "name:zh": NaN,
-        "addr:city": NaN,
-        "addr:place": NaN,
-        "name:en": NaN,
-        "name:it": NaN,
-        "leisure": NaN,
-        "sport": NaN,
-        "emergency": NaN,
+        "name:zh": "null",
+        "addr:city": "null",
+        "addr:place": "null",
+        "name:en": "null",
+        "name:it": "null",
+        "leisure": "null",
+        "sport": "null",
+        "emergency": "null",
         "dggsZones": {
           "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2": {
             "0": [
@@ -18217,15 +18217,15 @@ The content of this example.
           "provType": "Agent",
           "name": "agents:PangaeaInnovations",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Agent",
           "name": "agents:%3COrganisation%3E",
           "agentType": "organization",
-          "actedOnBehalfOf": NaN,
-          "qualifiedDelegation": NaN
+          "actedOnBehalfOf": "null",
+          "qualifiedDelegation": "null"
         },
         {
           "provType": "Activity",
@@ -18267,7 +18267,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:31:22.431125+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -18344,7 +18344,7 @@ The content of this example.
               "hadRole": "roles:User"
             }
           ],
-          "wasInformedBy": NaN,
+          "wasInformedBy": "null",
           "used": [
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
@@ -18391,7 +18391,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -18431,7 +18431,7 @@ The content of this example.
             "terranexusJobs:MapDataToZones_cae879d1d789"
           ],
           "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-          "generated": NaN
+          "generated": "null"
         },
         {
           "provType": "Activity",
@@ -18502,7 +18502,7 @@ The content of this example.
           ],
           "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
           "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-          "wasDerivedFrom": NaN
+          "wasDerivedFrom": "null"
         },
         {
           "provType": "Entity",
@@ -18582,8 +18582,8 @@ The content of this example.
             "agents:TerraNexus"
           ],
           "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-          "wasGeneratedBy": NaN,
-          "wasDerivedFrom": NaN
+          "wasGeneratedBy": "null",
+          "wasDerivedFrom": "null"
         }
       ],
       "time": {
@@ -18671,15 +18671,15 @@ The content of this example.
       "provType": "Agent",
       "name": "agents:PangaeaInnovations",
       "agentType": "organization",
-      "actedOnBehalfOf": NaN,
-      "qualifiedDelegation": NaN
+      "actedOnBehalfOf": "null",
+      "qualifiedDelegation": "null"
     },
     {
       "provType": "Agent",
       "name": "agents:%3COrganisation%3E",
       "agentType": "organization",
-      "actedOnBehalfOf": NaN,
-      "qualifiedDelegation": NaN
+      "actedOnBehalfOf": "null",
+      "qualifiedDelegation": "null"
     },
     {
       "provType": "Activity",
@@ -18711,7 +18711,7 @@ The content of this example.
           "hadRole": "roles:User"
         }
       ],
-      "wasInformedBy": NaN,
+      "wasInformedBy": "null",
       "used": [
         "terranexusJobs:MapDataToZones_cae879d1d789"
       ],
@@ -18758,7 +18758,7 @@ The content of this example.
         "terranexusJobs:MapDataToZones_cae879d1d789"
       ],
       "endedAtTime": "2024-01-18T05:32:32.888834+00:00",
-      "generated": NaN
+      "generated": "null"
     },
     {
       "provType": "Activity",
@@ -18798,7 +18798,7 @@ The content of this example.
         "terranexusJobs:MapDataToZones_cae879d1d789"
       ],
       "endedAtTime": "2024-01-18T05:32:32.752525+00:00",
-      "generated": NaN
+      "generated": "null"
     },
     {
       "provType": "Activity",
@@ -18869,7 +18869,7 @@ The content of this example.
       ],
       "generatedAtTime": "2024-01-18T05:23:24.651036+00:00",
       "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
-      "wasDerivedFrom": NaN
+      "wasDerivedFrom": "null"
     },
     {
       "provType": "Entity",
@@ -18934,8 +18934,8 @@ The content of this example.
         "agents:TerraNexus"
       ],
       "generatedAtTime": "2024-01-18T05:23:22.485613+00:00",
-      "wasGeneratedBy": NaN,
-      "wasDerivedFrom": NaN
+      "wasGeneratedBy": "null",
+      "wasDerivedFrom": "null"
     }
   ],
   "@context": [
@@ -18963,10 +18963,10 @@ The content of this example.
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dggsOperations: <http://192.168.39.167:30560/prov/dggsOperations/> .
 @prefix geojson: <https://purl.org/geojson/vocab#> .
-@prefix ns1: <http://www.iana.org/assignments/> .
+@prefix ns1: <addr:> .
 @prefix ns2: <feature::> .
 @prefix ns3: <name:> .
-@prefix ns4: <addr:> .
+@prefix ns4: <http://www.iana.org/assignments/> .
 @prefix ns5: <line::> .
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -18977,54 +18977,35 @@ The content of this example.
 @prefix terranexusDGGS: <http://192.168.39.167:30560/ogcapi/dggs/> .
 @prefix terranexusJobs: <http://192.168.39.167:30560/ogcapi/jobs/> .
 @prefix terranexusTempData: <http://192.168.39.167:30560/prov/tempData/> .
+@prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <file:///github/workspace/osm_singapore_buildings> a geojson:FeatureCollection ;
-    rdfs:seeAlso [ rdfs:label "The JSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items?f=json> ],
-        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items?f=jsonfg> ],
-        [ rdfs:label "The Linked Data JSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items?f=jsonld> ],
-        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items?f=geojson> ] ;
-    prov:has_provenance [ a <file:///github/workspace/organization>,
+    dct:provenance [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a prov:Agent,
-                prov:Person ;
-            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
-            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
-            prov:qualifiedDelegation roles:User ],
+            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
+            prov:actedOnBehalfOf agents:TerraNexus ;
+            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:TerraNexus" ;
             prov:actedOnBehalfOf agents:PangaeaInnovations ;
             prov:qualifiedDelegation roles:Software ],
-        [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
-            prov:actedOnBehalfOf agents:TerraNexus ;
-            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
         [ a <file:///github/workspace/organization>,
                 prov:Agent ;
             rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
+            prov:qualifiedDelegation roles:User ],
         terranexusCollections:osm_singapore_buildings,
         terranexusCollections:osm_singapore_buildings___Properties,
         terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2,
@@ -19035,6 +19016,26 @@ The content of this example.
         dggsOperations:map_data_execution,
         dggsOperations:processData_task,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
+    rdfs:seeAlso [ rdfs:label "The Linked Data JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items?f=jsonld> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items?f=geojson> ],
+        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items?f=jsonfg> ],
+        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items> ],
+        [ rdfs:label "The JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items?f=json> ] ;
     prov:wasGeneratedBy dggsOperations:processData_task ;
     geojson:features <file:///github/workspace/2305843009229499373>,
         <file:///github/workspace/2305843009231960349>,
@@ -19053,42 +19054,25 @@ The content of this example.
         <file:///github/workspace/2305843009233494536> .
 
 <file:///github/workspace/2305843009229499373> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
+    rdfs:label "null" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
     ns2:id 2305843009229499373 ;
-    rdfs:seeAlso [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=json> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
-        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=jsonld> ],
-        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
-        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=jsonfg> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=geojson> ],
-        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373> ] ;
-    prov:has_provenance [ a <file:///github/workspace/organization>,
+    dct:provenance [ a <file:///github/workspace/organization>,
                 prov:Agent ;
             rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
+            prov:qualifiedDelegation roles:User ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:MapDataToZones_cae879d1d789" ;
@@ -19099,16 +19083,6 @@ The content of this example.
             rdfs:label "agents:TerraNexus" ;
             prov:actedOnBehalfOf agents:PangaeaInnovations ;
             prov:qualifiedDelegation roles:Software ],
-        [ a prov:Agent,
-                prov:Person ;
-            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
-            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
-            prov:qualifiedDelegation roles:User ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -19122,71 +19096,74 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009229499373,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5578365133831, 3.0547452911617], [101.5580674069986, 3.0553611890887], [101.557876707062, 3.0554326910869], [101.5576354192522, 3.0548172122807], [101.5578365133831, 3.0547452911617]]" ) ] ;
-    ns5:hidden "NaN"^^xsd:double ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009231960349> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009231960349 ;
-    rdfs:seeAlso [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:23:25.507396+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
-        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=jsonld> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=geojson> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373> ],
         [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=jsonfg> ],
-        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=jsonfg> ],
         [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=json> ] ;
-    prov:has_provenance [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=json> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=geojson> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
+        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
+        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=jsonld> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015578e+02 3.054745e+00 ) ( 1.015581e+02 3.055361e+00 ) ( 1.015579e+02 3.055433e+00 ) ( 1.015576e+02 3.054817e+00 ) ( 1.015578e+02 3.054745e+00 ) ) ) ] ;
+    ns5:hidden "null" ;
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009231960349> a geojson:Feature ;
+    rdfs:label "null" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009231960349 ;
+    dct:provenance [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
+            prov:qualifiedDelegation roles:User ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:MapDataToZones_cae879d1d789" ;
             prov:actedOnBehalfOf agents:TerraNexus ;
             prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:TerraNexus" ;
             prov:actedOnBehalfOf agents:PangaeaInnovations ;
             prov:qualifiedDelegation roles:Software ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a prov:Agent,
-                prov:Person ;
-            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
-            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
-            prov:qualifiedDelegation roles:User ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -19200,61 +19177,59 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009231960349,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5582514848274, 3.0553554890466], [101.5580114962919, 3.0546887098619], [101.5581993881195, 3.0546141901944], [101.5584426877089, 3.0552926209357], [101.5582514848274, 3.0553554890466]]" ) ] ;
-    ns5:hidden "NaN"^^xsd:double ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009231960466> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009231960466 ;
-    rdfs:seeAlso [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466?f=geojson> ],
-        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466?f=jsonfg> ],
-        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:23:41.381234+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349> ],
         [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
             oa:hasTarget terranexusCollections:osm_singapore_buildings ],
-        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466?f=jsonld> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
         [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466?f=json> ] ;
-    prov:has_provenance [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
-            prov:actedOnBehalfOf agents:TerraNexus ;
-            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
-        [ a prov:Agent,
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=json> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=geojson> ],
+        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=jsonfg> ],
+        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=jsonld> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015583e+02 3.055355e+00 ) ( 1.01558e+02 3.054689e+00 ) ( 1.015582e+02 3.054614e+00 ) ( 1.015584e+02 3.055293e+00 ) ( 1.015583e+02 3.055355e+00 ) ) ) ] ;
+    ns5:hidden "null" ;
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009231960466> a geojson:Feature ;
+    rdfs:label "null" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009231960466 ;
+    dct:provenance [ a prov:Agent,
                 prov:Person ;
             rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
             prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
             prov:qualifiedDelegation roles:User ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:TerraNexus" ;
@@ -19262,9 +19237,14 @@ The content of this example.
             prov:qualifiedDelegation roles:Software ],
         [ a <file:///github/workspace/organization>,
                 prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
+            prov:actedOnBehalfOf agents:TerraNexus ;
+            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -19278,66 +19258,69 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009231960466,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5584643981632, 3.0545195946434], [101.5587178823866, 3.0551860804436], [101.5585097051152, 3.0552650847031], [101.5582562208918, 3.0545985989028], [101.5584643981632, 3.0545195946434]]" ) ] ;
-    ns5:hidden "NaN"^^xsd:double ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009231960589> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009231960589 ;
-    rdfs:seeAlso [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:23:57.834082+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
-        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960589?f=jsonld> ],
-        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466?f=geojson> ],
         [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960589> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466> ],
         [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960589?f=jsonfg> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466?f=jsonfg> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960589?f=geojson> ],
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
         [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960589?f=json> ] ;
-    prov:has_provenance [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a <file:///github/workspace/softwareAgent>,
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466?f=json> ],
+        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466?f=jsonld> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015585e+02 3.05452e+00 ) ( 1.015587e+02 3.055186e+00 ) ( 1.015585e+02 3.055265e+00 ) ( 1.015583e+02 3.054599e+00 ) ( 1.015585e+02 3.05452e+00 ) ) ) ] ;
+    ns5:hidden "null" ;
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009231960589> a geojson:Feature ;
+    rdfs:label "null" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009231960589 ;
+    dct:provenance [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:MapDataToZones_cae879d1d789" ;
             prov:actedOnBehalfOf agents:TerraNexus ;
             prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:TerraNexus" ;
             prov:actedOnBehalfOf agents:PangaeaInnovations ;
             prov:qualifiedDelegation roles:Software ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
         [ a prov:Agent,
                 prov:Person ;
             rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
@@ -19356,71 +19339,74 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009231960589,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5579443950615, 3.0537888995459], [101.5581246169796, 3.0537228880294], [101.5583058447874, 3.05419921875], [101.5584110860051, 3.0544757965261], [101.5582260022865, 3.054542017603], [101.5580978351643, 3.05419921875], [101.5579443950615, 3.0537888995459]]" ) ] ;
-    ns5:hidden [ ] ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009231960619> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009231960619 ;
-    rdfs:seeAlso [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:24:15.553951+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960619?f=json> ],
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
         [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960619?f=jsonld> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960589?f=jsonld> ],
         [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
             oa:hasTarget terranexusCollections:osm_singapore_buildings ],
-        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960619?f=jsonfg> ],
         [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960619> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960589> ],
         [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960619?f=geojson> ] ;
-    prov:has_provenance [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a <file:///github/workspace/organization>,
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960589?f=geojson> ],
+        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960589?f=jsonfg> ],
+        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960589?f=json> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015579e+02 3.053789e+00 ) ( 1.015581e+02 3.053723e+00 ) ( 1.015583e+02 3.054199e+00 ) ( 1.015584e+02 3.054476e+00 ) ( 1.015582e+02 3.054542e+00 ) ( 1.015581e+02 3.054199e+00 ) ( 1.015579e+02 3.053789e+00 ) ) ) ] ;
+    ns5:hidden [ ] ;
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009231960619> a geojson:Feature ;
+    rdfs:label "null" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009231960619 ;
+    dct:provenance [ a <file:///github/workspace/organization>,
                 prov:Agent ;
             rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:TerraNexus" ;
-            prov:actedOnBehalfOf agents:PangaeaInnovations ;
-            prov:qualifiedDelegation roles:Software ],
-        [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
-            prov:actedOnBehalfOf agents:TerraNexus ;
-            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         [ a prov:Agent,
                 prov:Person ;
             rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
             prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
             prov:qualifiedDelegation roles:User ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
+            prov:actedOnBehalfOf agents:TerraNexus ;
+            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:TerraNexus" ;
+            prov:actedOnBehalfOf agents:PangaeaInnovations ;
+            prov:qualifiedDelegation roles:Software ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960619>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -19434,71 +19420,74 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009231960619,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5577051190312, 3.053875112682], [101.557886891696, 3.0538091011655], [101.5580292250992, 3.05419921875], [101.5581625893186, 3.0545648177712], [101.5579808166538, 3.0546299072221], [101.5578234787281, 3.05419921875], [101.5577051190312, 3.053875112682]]" ) ] ;
-    ns5:hidden [ ] ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009231960767> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009231960767 ;
-    rdfs:seeAlso [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960767?f=geojson> ],
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:24:39.057589+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960619?f=jsonfg> ],
         [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960767?f=json> ],
-        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960619?f=json> ],
         [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960767?f=jsonld> ],
-        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960767> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960619?f=jsonld> ],
         [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
             oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
-        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960767?f=jsonfg> ] ;
-    prov:has_provenance [ a <file:///github/workspace/organization>,
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960619?f=geojson> ],
+        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960619> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015577e+02 3.053875e+00 ) ( 1.015579e+02 3.053809e+00 ) ( 1.01558e+02 3.054199e+00 ) ( 1.015582e+02 3.054565e+00 ) ( 1.01558e+02 3.05463e+00 ) ( 1.015578e+02 3.054199e+00 ) ( 1.015577e+02 3.053875e+00 ) ) ) ] ;
+    ns5:hidden [ ] ;
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009231960767> a geojson:Feature ;
+    rdfs:label "null" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009231960767 ;
+    dct:provenance [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a prov:Agent,
-                prov:Person ;
-            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
-            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
-            prov:qualifiedDelegation roles:User ],
+            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
+            prov:actedOnBehalfOf agents:TerraNexus ;
+            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:TerraNexus" ;
             prov:actedOnBehalfOf agents:PangaeaInnovations ;
             prov:qualifiedDelegation roles:Software ],
-        [ a <file:///github/workspace/softwareAgent>,
+        [ a <file:///github/workspace/organization>,
                 prov:Agent ;
-            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
-            prov:actedOnBehalfOf agents:TerraNexus ;
-            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
+            prov:qualifiedDelegation roles:User ],
         [ a <file:///github/workspace/organization>,
                 prov:Agent ;
             rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960767>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -19512,47 +19501,60 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009231960767,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5588419840376, 3.0544571875653], [101.5590699018958, 3.0550587096509], [101.5588714901377, 3.0551331035822], [101.558639381072, 3.0545296954532], [101.5588419840376, 3.0544571875653]]" ) ] ;
-    ns5:hidden "NaN"^^xsd:double ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009231960798> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009231960798 ;
-    rdfs:seeAlso [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:25:05.050331+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960798?f=json> ],
-        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960798?f=jsonld> ],
-        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960798?f=jsonfg> ],
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
         [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960798?f=geojson> ],
-        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960798> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960767?f=geojson> ],
         [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ] ;
-    prov:has_provenance [ a <file:///github/workspace/softwareAgent>,
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
+        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960767?f=json> ],
+        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960767?f=jsonfg> ],
+        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960767?f=jsonld> ],
+        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960767> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015588e+02 3.054457e+00 ) ( 1.015591e+02 3.055059e+00 ) ( 1.015589e+02 3.055133e+00 ) ( 1.015586e+02 3.05453e+00 ) ( 1.015588e+02 3.054457e+00 ) ) ) ] ;
+    ns5:hidden "null" ;
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009231960798> a geojson:Feature ;
+    rdfs:label "null" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009231960798 ;
+    dct:provenance [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
+            prov:qualifiedDelegation roles:User ],
+        [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:TerraNexus" ;
             prov:actedOnBehalfOf agents:PangaeaInnovations ;
@@ -19560,23 +19562,13 @@ The content of this example.
         [ a <file:///github/workspace/organization>,
                 prov:Agent ;
             rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:MapDataToZones_cae879d1d789" ;
             prov:actedOnBehalfOf agents:TerraNexus ;
             prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a prov:Agent,
-                prov:Person ;
-            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
-            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
-            prov:qualifiedDelegation roles:User ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960798>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -19590,71 +19582,74 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009231960798,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5584495193769, 3.054149385294], [101.5586538826496, 3.0540765001974], [101.5587004050517, 3.05419921875], [101.5587553936928, 3.0543444021742], [101.5585524135185, 3.0544169938863], [101.5584686731947, 3.05419921875], [101.5584495193769, 3.054149385294]]" ) ] ;
-    ns5:hidden [ ] ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009231960865> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009231960865 ;
-    rdfs:seeAlso [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:25:28.478210+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960865?f=geojson> ],
-        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960865?f=json> ],
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960798?f=json> ],
         [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960865?f=jsonld> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960798?f=jsonld> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960798?f=geojson> ],
         [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
             oa:hasTarget terranexusCollections:osm_singapore_buildings ],
-        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
         [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960865> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960798> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
         [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960865?f=jsonfg> ] ;
-    prov:has_provenance [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a prov:Agent,
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960798?f=jsonfg> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015584e+02 3.054149e+00 ) ( 1.015587e+02 3.054077e+00 ) ( 1.015587e+02 3.054199e+00 ) ( 1.015588e+02 3.054344e+00 ) ( 1.015586e+02 3.054417e+00 ) ( 1.015585e+02 3.054199e+00 ) ( 1.015584e+02 3.054149e+00 ) ) ) ] ;
+    ns5:hidden [ ] ;
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009231960865> a geojson:Feature ;
+    rdfs:label "null" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009231960865 ;
+    dct:provenance [ a prov:Agent,
                 prov:Person ;
             rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
             prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
             prov:qualifiedDelegation roles:User ],
-        [ a <file:///github/workspace/softwareAgent>,
+        [ a <file:///github/workspace/organization>,
                 prov:Agent ;
-            rdfs:label "agents:TerraNexus" ;
-            prov:actedOnBehalfOf agents:PangaeaInnovations ;
-            prov:qualifiedDelegation roles:Software ],
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:MapDataToZones_cae879d1d789" ;
             prov:actedOnBehalfOf agents:TerraNexus ;
             prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:TerraNexus" ;
+            prov:actedOnBehalfOf agents:PangaeaInnovations ;
+            prov:qualifiedDelegation roles:Software ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960865>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -19668,66 +19663,69 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009231960865,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5587754276641, 3.05419921875], [101.5587182176832, 3.0540495088218], [101.5590028844896, 3.0539479139545], [101.5590964322386, 3.05419921875], [101.5593548201747, 3.0548932826949], [101.559080212266, 3.0549963025727], [101.5587754276641, 3.05419921875]]" ) ] ;
-    ns5:hidden [ ] ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009232899975> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009232899975 ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:25:59.542518+00:00"^^xsd:dateTime ] ;
     rdfs:seeAlso [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232899975?f=json> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232899975?f=geojson> ],
-        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
-        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960865?f=json> ],
         [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232899975?f=jsonld> ],
-        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232899975?f=jsonfg> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960865?f=jsonld> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960865?f=geojson> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
         [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232899975> ] ;
-    prov:has_provenance [ a <file:///github/workspace/organization>,
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960865> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
+        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009231960865?f=jsonfg> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015588e+02 3.054199e+00 ) ( 1.015587e+02 3.05405e+00 ) ( 1.01559e+02 3.053948e+00 ) ( 1.015591e+02 3.054199e+00 ) ( 1.015594e+02 3.054893e+00 ) ( 1.015591e+02 3.054996e+00 ) ( 1.015588e+02 3.054199e+00 ) ) ) ] ;
+    ns5:hidden [ ] ;
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009232899975> a geojson:Feature ;
+    rdfs:label "Giant" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009232899975 ;
+    dct:provenance [ a <file:///github/workspace/organization>,
                 prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
-            prov:actedOnBehalfOf agents:TerraNexus ;
-            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         [ a prov:Agent,
                 prov:Person ;
             rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
             prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
             prov:qualifiedDelegation roles:User ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
+            prov:actedOnBehalfOf agents:TerraNexus ;
+            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
         [ a <file:///github/workspace/organization>,
                 prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:TerraNexus" ;
@@ -19746,56 +19744,54 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009232899975,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5170950017292, 3.0440544012461], [101.5169714030231, 3.0444474945879], [101.5166065165071, 3.0443326974173], [101.5167301152133, 3.0439396040755], [101.5170950017292, 3.0440544012461]]" ) ] ;
-    ns5:hidden "NaN"^^xsd:double ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009232900002> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009232900002 ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:26:25.820867+00:00"^^xsd:dateTime ] ;
     rdfs:seeAlso [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232900002> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232899975> ],
         [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232900002?f=json> ],
-        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232900002?f=jsonld> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232900002?f=geojson> ],
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232899975?f=json> ],
         [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232900002?f=jsonfg> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232899975?f=jsonfg> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232899975?f=geojson> ],
+        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232899975?f=jsonld> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
         [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
             oa:hasTarget terranexusCollections:osm_singapore_buildings ] ;
-    prov:has_provenance [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015171e+02 3.044054e+00 ) ( 1.01517e+02 3.044447e+00 ) ( 1.015166e+02 3.044333e+00 ) ( 1.015167e+02 3.04394e+00 ) ( 1.015171e+02 3.044054e+00 ) ) ) ] ;
+    ns5:hidden "null" ;
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009232900002> a geojson:Feature ;
+    rdfs:label "Mydin" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009232900002 ;
+    dct:provenance [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
+            prov:qualifiedDelegation roles:User ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:MapDataToZones_cae879d1d789" ;
@@ -19806,11 +19802,16 @@ The content of this example.
             rdfs:label "agents:TerraNexus" ;
             prov:actedOnBehalfOf agents:PangaeaInnovations ;
             prov:qualifiedDelegation roles:Software ],
-        [ a prov:Agent,
-                prov:Person ;
-            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
-            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
-            prov:qualifiedDelegation roles:User ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232900002>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -19824,71 +19825,74 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009232900002,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5158121988813, 3.0451234106047], [101.5159503829892, 3.0453711109619], [101.5157614852718, 3.0454825132545], [101.5156056980929, 3.0451745852471], [101.5156228820432, 3.0449524931671], [101.5157057841255, 3.0446933927258], [101.5158238085258, 3.0447117083022], [101.5158601043818, 3.0447487166635], [101.5158121988813, 3.0451234106047]]" ) ] ;
-    ns5:hidden "NaN"^^xsd:double ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009232901459> a geojson:Feature ;
-    ns4:city "Shah Alam" ;
-    ns4:place "Section 13" ;
-    ns2:id 2305843009232901459 ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:26:50.531820+00:00"^^xsd:dateTime ] ;
     rdfs:seeAlso [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901459?f=jsonld> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
-        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232900002?f=jsonld> ],
         [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901459?f=json> ],
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232900002?f=json> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
         [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901459> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901459?f=geojson> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232900002> ],
         [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901459?f=jsonfg> ] ;
-    prov:has_provenance [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:TerraNexus" ;
-            prov:actedOnBehalfOf agents:PangaeaInnovations ;
-            prov:qualifiedDelegation roles:Software ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a prov:Agent,
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232900002?f=jsonfg> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232900002?f=geojson> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015158e+02 3.045123e+00 ) ( 1.01516e+02 3.045371e+00 ) ( 1.015158e+02 3.045483e+00 ) ( 1.015156e+02 3.045175e+00 ) ( 1.015156e+02 3.044952e+00 ) ( 1.015157e+02 3.044693e+00 ) ( 1.015158e+02 3.044712e+00 ) ( 1.015159e+02 3.044749e+00 ) ( 1.015158e+02 3.045123e+00 ) ) ) ] ;
+    ns5:hidden "null" ;
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009232901459> a geojson:Feature ;
+    rdfs:label "Tesco Extra" ;
+    ns1:city "Shah Alam" ;
+    ns1:place "Section 13" ;
+    ns2:id 2305843009232901459 ;
+    dct:provenance [ a prov:Agent,
                 prov:Person ;
             rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
             prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
             prov:qualifiedDelegation roles:User ],
         [ a <file:///github/workspace/organization>,
                 prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
             rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:MapDataToZones_cae879d1d789" ;
             prov:actedOnBehalfOf agents:TerraNexus ;
             prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:TerraNexus" ;
+            prov:actedOnBehalfOf agents:PangaeaInnovations ;
+            prov:qualifiedDelegation roles:Software ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901459>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -19902,61 +19906,54 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009232901459,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:27:20.169756+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901459> ],
+        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901459?f=jsonld> ],
+        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901459?f=jsonfg> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901459?f=geojson> ],
+        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901459?f=json> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ] ;
     prov:wasGeneratedBy dggsOperations:processData_task ;
     geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5499142093375, 3.0774648205698], [101.5500360058245, 3.0770293960334], [101.5501728906581, 3.0765117819199], [101.5514844032767, 3.0768443123147], [101.5512397205888, 3.0778124812234], [101.5499142093375, 3.0774648205698]]" ) ] ;
-    ns5:hidden "NaN"^^xsd:double ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
+            geojson:coordinates ( ( ( 1.015499e+02 3.077465e+00 ) ( 1.0155e+02 3.077029e+00 ) ( 1.015502e+02 3.076512e+00 ) ( 1.015515e+02 3.076844e+00 ) ( 1.015512e+02 3.077812e+00 ) ( 1.015499e+02 3.077465e+00 ) ) ) ] ;
+    ns5:hidden "null" ;
+    ns3:en "null" ;
+    ns3:it "null" ;
     ns3:zh "特易购特大店" .
 
 <file:///github/workspace/2305843009232901461> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
+    rdfs:label "Stadium Malawati" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
     ns2:id 2305843009232901461 ;
-    rdfs:seeAlso [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
-        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901461?f=jsonld> ],
-        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901461> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901461?f=geojson> ],
-        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901461?f=jsonfg> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
-        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901461?f=json> ] ;
-    prov:has_provenance [ a <file:///github/workspace/softwareAgent>,
+    dct:provenance [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:MapDataToZones_cae879d1d789" ;
             prov:actedOnBehalfOf agents:TerraNexus ;
             prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a prov:Agent,
-                prov:Person ;
-            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
-            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
-            prov:qualifiedDelegation roles:User ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:TerraNexus" ;
@@ -19965,8 +19962,18 @@ The content of this example.
         [ a <file:///github/workspace/organization>,
                 prov:Agent ;
             rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
+            prov:qualifiedDelegation roles:User ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901461>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -19980,51 +19987,54 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009232901461,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5474172137068, 3.0795437851748], [101.547719902705, 3.0798328946611], [101.5477292071854, 3.0803091834696], [101.5474367028212, 3.0806104893694], [101.5469939017597, 3.0806296850993], [101.5466431815247, 3.0802798869299], [101.546638780757, 3.0798953855634], [101.5469557198603, 3.0795484793271], [101.5474172137068, 3.0795437851748]]" ) ] ;
-    ns5:hidden "NaN"^^xsd:double ;
-    ns3:en "Malawati Stadium" ;
-    ns3:it "Malawati" ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009232901565> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009232901565 ;
-    rdfs:seeAlso [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:27:56.109661+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901565?f=geojson> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901461> ],
         [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901565?f=jsonfg> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901461?f=jsonfg> ],
         [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901565?f=jsonld> ],
-        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901565> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901461?f=jsonld> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901461?f=geojson> ],
         [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901565?f=json> ] ;
-    prov:has_provenance [ a prov:Agent,
-                prov:Person ;
-            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
-            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
-            prov:qualifiedDelegation roles:User ],
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901461?f=json> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015474e+02 3.079544e+00 ) ( 1.015477e+02 3.079833e+00 ) ( 1.015477e+02 3.080309e+00 ) ( 1.015474e+02 3.08061e+00 ) ( 1.01547e+02 3.08063e+00 ) ( 1.015466e+02 3.08028e+00 ) ( 1.015466e+02 3.079895e+00 ) ( 1.01547e+02 3.079548e+00 ) ( 1.015474e+02 3.079544e+00 ) ) ) ] ;
+    ns5:hidden "null" ;
+    ns3:en "Malawati Stadium" ;
+    ns3:it "Malawati" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009232901565> a geojson:Feature ;
+    rdfs:label "Pusat Akuatik Darul Ehsan" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009232901565 ;
+    dct:provenance [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:MapDataToZones_cae879d1d789" ;
@@ -20035,16 +20045,16 @@ The content of this example.
             rdfs:label "agents:TerraNexus" ;
             prov:actedOnBehalfOf agents:PangaeaInnovations ;
             prov:qualifiedDelegation roles:Software ],
+        [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
+            prov:qualifiedDelegation roles:User ],
         [ a <file:///github/workspace/organization>,
                 prov:Agent ;
             rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901565>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -20058,71 +20068,74 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009232901565,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5364629064063, 3.0734719830191], [101.5364628225822, 3.0734252929688], [101.5364627806701, 3.073414689214], [101.5371518989903, 3.0734177068834], [101.5371518989903, 3.0734252929688], [101.5371500967711, 3.0743803014862], [101.5370101942682, 3.0743807206069], [101.5370130023771, 3.0746557057242], [101.5367290899881, 3.0746546998344], [101.5364644990651, 3.0743823970899], [101.5364585056385, 3.074256116011], [101.5362406885901, 3.0742590917683], [101.5361587923976, 3.074154688792], [101.5361548107506, 3.0739649109211], [101.5360478930499, 3.0739372070402], [101.5359929044088, 3.0738530895077], [101.535977103557, 3.0737419805996], [101.53600828614, 3.073635104811], [101.536264410824, 3.0734742881832], [101.5364629064063, 3.0734719830191]]" ) ] ;
-    ns5:hidden [ ] ;
-    ns3:en "Darul Ehsan Aquatic Center" ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009233038522> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009233038522 ;
-    rdfs:seeAlso [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233038522?f=jsonld> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:28:38.783226+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233038522?f=geojson> ],
-        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901565?f=geojson> ],
+        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901565?f=jsonld> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233038522> ],
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
         [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233038522?f=json> ],
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901565?f=json> ],
+        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901565> ],
         [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
             oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
         [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233038522?f=jsonfg> ],
-        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ] ;
-    prov:has_provenance [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
-        [ a <file:///github/workspace/softwareAgent>,
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009232901565?f=jsonfg> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015365e+02 3.073472e+00 ) ( 1.015365e+02 3.073425e+00 ) ( 1.015365e+02 3.073415e+00 ) ( 1.015372e+02 3.073418e+00 ) ( 1.015372e+02 3.073425e+00 ) ( 1.015372e+02 3.07438e+00 ) ( 1.01537e+02 3.074381e+00 ) ( 1.01537e+02 3.074656e+00 ) ( 1.015367e+02 3.074655e+00 ) ( 1.015365e+02 3.074382e+00 ) ( 1.015365e+02 3.074256e+00 ) ( 1.015362e+02 3.074259e+00 ) ( 1.015362e+02 3.074155e+00 ) ( 1.015362e+02 3.073965e+00 ) ( 1.01536e+02 3.073937e+00 ) ( 1.01536e+02 3.073853e+00 ) ( 1.01536e+02 3.073742e+00 ) ( 1.01536e+02 3.073635e+00 ) ( 1.015363e+02 3.073474e+00 ) ( 1.015365e+02 3.073472e+00 ) ) ) ] ;
+    ns5:hidden [ ] ;
+    ns3:en "Darul Ehsan Aquatic Center" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009233038522> a geojson:Feature ;
+    rdfs:label "Sime Darby Medical Hospital Subang Jaya" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009233038522 ;
+    dct:provenance [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:TerraNexus" ;
             prov:actedOnBehalfOf agents:PangaeaInnovations ;
             prov:qualifiedDelegation roles:Software ],
-        [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
-            prov:actedOnBehalfOf agents:TerraNexus ;
-            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
         [ a prov:Agent,
                 prov:Person ;
             rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
             prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
             prov:qualifiedDelegation roles:User ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:MapDataToZones_cae879d1d789" ;
+            prov:actedOnBehalfOf agents:TerraNexus ;
+            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233038522>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -20136,71 +20149,74 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009233038522,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
-    prov:wasGeneratedBy dggsOperations:processData_task ;
-    geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5933582115208, 3.0778352813916], [101.5939204200811, 3.0778352813916], [101.5939204200811, 3.0786624161714], [101.5933582115208, 3.0786622904352], [101.5933582115208, 3.0778352813916]]" ) ] ;
-    ns5:hidden "NaN"^^xsd:double ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
-
-<file:///github/workspace/2305843009233494536> a geojson:Feature ;
-    ns4:city "NaN"^^xsd:double ;
-    ns4:place "NaN"^^xsd:double ;
-    ns2:id 2305843009233494536 ;
-    rdfs:seeAlso [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
-        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233494536?f=json> ],
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:29:59.992287+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
         [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233494536?f=jsonfg> ],
-        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233038522?f=jsonfg> ],
         [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233494536> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233038522> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233494536?f=geojson> ],
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
         [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233494536?f=jsonld> ] ;
-    prov:has_provenance [ a prov:Agent,
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233038522?f=jsonld> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233038522?f=geojson> ],
+        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233038522?f=json> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015934e+02 3.077835e+00 ) ( 1.015939e+02 3.077835e+00 ) ( 1.015939e+02 3.078662e+00 ) ( 1.015934e+02 3.078662e+00 ) ( 1.015934e+02 3.077835e+00 ) ) ) ] ;
+    ns5:hidden "null" ;
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
+
+<file:///github/workspace/2305843009233494536> a geojson:Feature ;
+    rdfs:label "Tesco" ;
+    ns1:city "null" ;
+    ns1:place "null" ;
+    ns2:id 2305843009233494536 ;
+    dct:provenance [ a prov:Agent,
                 prov:Person ;
             rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
             prov:actedOnBehalfOf <http://192.168.39.167:30560/prov/agents/%3COrganisation%3E> ;
             prov:qualifiedDelegation roles:User ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:MapDataToZones_cae879d1d789" ;
             prov:actedOnBehalfOf agents:TerraNexus ;
             prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ;
-            prov:actedOnBehalfOf "NaN"^^xsd:double ;
-            prov:qualifiedDelegation "NaN"^^xsd:double ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:TerraNexus" ;
             prov:actedOnBehalfOf agents:PangaeaInnovations ;
             prov:qualifiedDelegation roles:Software ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ;
+            prov:actedOnBehalfOf <file:///github/workspace/null> ;
+            prov:qualifiedDelegation <file:///github/workspace/null> ],
         terranexusCollections:osm_singapore_buildings,
         <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233494536>,
         terranexusCollections:osm_singapore_buildings___Properties,
@@ -20214,13 +20230,43 @@ The content of this example.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009233494536,
         terranexusTempData:osm_singapore_buildings__b9b766419fa051bf99d2808a7ff55ae9 ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-01-18T05:31:22.172753+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings?f=json> ],
+        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233494536?f=jsonld> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233494536?f=geojson> ],
+        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233494536> ],
+        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233494536?f=jsonfg> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns4:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
+        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns4:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:30560/ogcapi/collections/osm_singapore_buildings/items/2305843009233494536?f=json> ] ;
     prov:wasGeneratedBy dggsOperations:processData_task ;
     geojson:geometry [ a geojson:Polygon ;
-            geojson:coordinates ( "[[101.5378867014711, 3.0720647851357], [101.5383911132813, 3.0714835065818], [101.5386065832535, 3.0712352194556], [101.5387849191283, 3.0712233164266], [101.5394376996803, 3.0718156178559], [101.5386484953275, 3.0727402820318], [101.5383911132813, 3.0725120707891], [101.5381551902169, 3.0723028876279], [101.5378867014711, 3.0720647851357]]" ) ] ;
+            geojson:coordinates ( ( ( 1.015379e+02 3.072065e+00 ) ( 1.015384e+02 3.071484e+00 ) ( 1.015386e+02 3.071235e+00 ) ( 1.015388e+02 3.071223e+00 ) ( 1.015394e+02 3.071816e+00 ) ( 1.015386e+02 3.07274e+00 ) ( 1.015384e+02 3.072512e+00 ) ( 1.015382e+02 3.072303e+00 ) ( 1.015379e+02 3.072065e+00 ) ) ) ] ;
     ns5:hidden [ ] ;
-    ns3:en "NaN"^^xsd:double ;
-    ns3:it "NaN"^^xsd:double ;
-    ns3:zh "NaN"^^xsd:double .
+    ns3:en "null" ;
+    ns3:it "null" ;
+    ns3:zh "null" .
 
 dggsOperations:map_featureData_task-2305843009231960349 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
@@ -20495,7 +20541,7 @@ dggsOperations:map_featureData_task-2305843009229499373 a <file:///github/worksp
 dggsOperations:reorganiseData_task-2305843009229499373 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:23:26.385690+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20512,7 +20558,7 @@ dggsOperations:reorganiseData_task-2305843009229499373 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009231960349 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:23:41.969677+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20529,7 +20575,7 @@ dggsOperations:reorganiseData_task-2305843009231960349 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009231960466 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:23:58.034751+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20546,7 +20592,7 @@ dggsOperations:reorganiseData_task-2305843009231960466 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009231960589 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:24:15.882453+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20563,7 +20609,7 @@ dggsOperations:reorganiseData_task-2305843009231960589 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009231960619 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:24:39.307410+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20580,7 +20626,7 @@ dggsOperations:reorganiseData_task-2305843009231960619 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009231960767 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:25:05.226533+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20597,7 +20643,7 @@ dggsOperations:reorganiseData_task-2305843009231960767 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009231960798 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:25:28.676283+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20614,7 +20660,7 @@ dggsOperations:reorganiseData_task-2305843009231960798 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009231960865 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:25:59.783035+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20631,7 +20677,7 @@ dggsOperations:reorganiseData_task-2305843009231960865 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009232899975 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:26:25.997827+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20648,7 +20694,7 @@ dggsOperations:reorganiseData_task-2305843009232899975 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009232900002 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:26:50.678018+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20665,7 +20711,7 @@ dggsOperations:reorganiseData_task-2305843009232900002 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009232901459 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:27:20.349755+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20682,7 +20728,7 @@ dggsOperations:reorganiseData_task-2305843009232901459 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009232901461 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:27:56.452169+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20699,7 +20745,7 @@ dggsOperations:reorganiseData_task-2305843009232901461 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009232901565 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:28:39.005025+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20716,7 +20762,7 @@ dggsOperations:reorganiseData_task-2305843009232901565 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009233038522 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:30:00.413889+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20733,7 +20779,7 @@ dggsOperations:reorganiseData_task-2305843009233038522 a <file:///github/workspa
 dggsOperations:reorganiseData_task-2305843009233494536 a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:31:22.431125+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20911,8 +20957,8 @@ terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2 a <file:///github/workspa
         prov:Entity ;
     prov:generatedAtTime "2024-01-18T05:23:22.485613+00:00"^^xsd:dateTime ;
     prov:hadPrimarySource agents:TerraNexus ;
-    prov:wasDerivedFrom "NaN"^^xsd:double ;
-    prov:wasGeneratedBy "NaN"^^xsd:double .
+    prov:wasDerivedFrom <file:///github/workspace/null> ;
+    prov:wasGeneratedBy <file:///github/workspace/null> .
 
 terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2 a <file:///github/workspace/FeatureCollectionDGGSZones>,
         prov:Entity ;
@@ -20927,7 +20973,7 @@ terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2
 dggsOperations:map_data_execution a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:32:32.752525+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20942,7 +20988,7 @@ dggsOperations:map_data_execution a <file:///github/workspace/dggsOperation>,
 dggsOperations:map_data a <file:///github/workspace/dggsOperation>,
         prov:Activity ;
     prov:endedAtTime "2024-01-18T05:32:32.888834+00:00"^^xsd:dateTime ;
-    prov:generated "NaN"^^xsd:double ;
+    prov:generated <file:///github/workspace/null> ;
     prov:qualifiedAssociation agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
@@ -20974,7 +21020,7 @@ terranexusCollections:osm_singapore_buildings a prov:Entity,
     prov:wasAssociatedWith agents:MapDataToZones_cae879d1d789,
         agents:TerraNexus,
         agents:admin%40terranexus.pangaeainnovations.com ;
-    prov:wasInformedBy "NaN"^^xsd:double .
+    prov:wasInformedBy <file:///github/workspace/null> .
 
 agents:MapDataToZones_cae879d1d789 a prov:Association ;
     prov:agent agents:MapDataToZones_cae879d1d789 ;
@@ -20984,7 +21030,7 @@ terranexusJobs:MapDataToZones_cae879d1d789 a <file:///github/workspace/ogcapiPro
         prov:Entity ;
     prov:generatedAtTime "2024-01-18T05:23:24.651036+00:00"^^xsd:dateTime ;
     prov:hadPrimarySource agents:admin%40terranexus.pangaeainnovations.com ;
-    prov:wasDerivedFrom "NaN"^^xsd:double ;
+    prov:wasDerivedFrom <file:///github/workspace/null> ;
     prov:wasGeneratedBy <http://192.168.39.167:30560/ogcapi/processes/execution/MapDataToZones> .
 
 agents:admin%40terranexus.pangaeainnovations.com a prov:Association ;
@@ -21064,50 +21110,10 @@ Links to the schema:
     "featureType": "geojson:collectionFeatureType",
     "entityType": "@type",
     "has_provenance": {
-      "@context": {
-        "agentType": "@type",
-        "name": "rdfs:label",
-        "actedOnBehalfOf": {
-          "@context": {
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent"
-          },
-          "@id": "prov:actedOnBehalfOf",
-          "@type": "@id"
-        },
-        "qualifiedDelegation": {
-          "@context": {
-            "agent": {
-              "@id": "prov:agent",
-              "@type": "@id"
-            },
-            "hadActivity": {
-              "@id": "prov:hadActivity",
-              "@type": "@id"
-            }
-          },
-          "@id": "prov:qualifiedDelegation",
-          "@type": "@id"
-        }
-      },
-      "@id": "prov:has_provenance",
+      "@id": "dct:provenance",
       "@type": "@id"
     },
     "wasGeneratedBy": {
-      "@context": {},
       "@id": "prov:wasGeneratedBy",
       "@type": "@id"
     },
@@ -21127,27 +21133,7 @@ Links to the schema:
         "type": "dct:type",
         "hreflang": "dct:language",
         "title": "rdfs:label",
-        "length": "dct:extent",
-        "agentType": "@type",
-        "name": "rdfs:label",
-        "actedOnBehalfOf": {
-          "@id": "prov:actedOnBehalfOf",
-          "@type": "@id"
-        },
-        "qualifiedDelegation": {
-          "@context": {
-            "agent": {
-              "@id": "prov:agent",
-              "@type": "@id"
-            },
-            "hadActivity": {
-              "@id": "prov:hadActivity",
-              "@type": "@id"
-            }
-          },
-          "@id": "prov:qualifiedDelegation",
-          "@type": "@id"
-        }
+        "length": "dct:extent"
       },
       "@id": "prov:wasAttributedTo",
       "@type": "@id"
@@ -21169,167 +21155,15 @@ Links to the schema:
       "@type": "@id"
     },
     "wasInvalidatedBy": {
-      "@context": {
-        "href": {
-          "@type": "@id",
-          "@id": "oa:hasTarget"
-        },
-        "rel": {
-          "@context": {
-            "@base": "http://www.iana.org/assignments/relation/"
-          },
-          "@id": "http://www.iana.org/assignments/relation",
-          "@type": "@id"
-        },
-        "type": "dct:type",
-        "hreflang": "dct:language",
-        "title": "rdfs:label",
-        "length": "dct:extent",
-        "agentType": "@type",
-        "name": "rdfs:label",
-        "actedOnBehalfOf": {
-          "@id": "prov:actedOnBehalfOf",
-          "@type": "@id"
-        },
-        "qualifiedDelegation": {
-          "@context": {
-            "agent": {
-              "@id": "prov:agent",
-              "@type": "@id"
-            },
-            "hadActivity": {
-              "@id": "prov:hadActivity",
-              "@type": "@id"
-            }
-          },
-          "@id": "prov:qualifiedDelegation",
-          "@type": "@id"
-        }
-      },
       "@id": "prov:wasInvalidatedBy",
       "@type": "@id"
     },
     "wasQuotedFrom": {
-      "@context": {
-        "href": {
-          "@type": "@id",
-          "@id": "oa:hasTarget"
-        },
-        "rel": {
-          "@context": {
-            "@base": "http://www.iana.org/assignments/relation/"
-          },
-          "@id": "http://www.iana.org/assignments/relation",
-          "@type": "@id"
-        },
-        "type": "dct:type",
-        "hreflang": "dct:language",
-        "title": "rdfs:label",
-        "length": "dct:extent",
-        "agentType": "@type",
-        "name": "rdfs:label",
-        "actedOnBehalfOf": {
-          "@id": "prov:actedOnBehalfOf",
-          "@type": "@id"
-        },
-        "qualifiedDelegation": {
-          "@context": {
-            "agent": {
-              "@id": "prov:agent",
-              "@type": "@id"
-            },
-            "hadActivity": {
-              "@id": "prov:hadActivity",
-              "@type": "@id"
-            }
-          },
-          "@id": "prov:qualifiedDelegation",
-          "@type": "@id"
-        }
-      },
       "@id": "prov:wasQuotedFrom",
       "@type": "@id"
     },
     "wasRevisionOf": {
-      "@context": {
-        "href": {
-          "@type": "@id",
-          "@id": "oa:hasTarget"
-        },
-        "rel": {
-          "@context": {
-            "@base": "http://www.iana.org/assignments/relation/"
-          },
-          "@id": "http://www.iana.org/assignments/relation",
-          "@type": "@id"
-        },
-        "type": "dct:type",
-        "hreflang": "dct:language",
-        "title": "rdfs:label",
-        "length": "dct:extent",
-        "agentType": "@type",
-        "name": "rdfs:label",
-        "actedOnBehalfOf": {
-          "@id": "prov:actedOnBehalfOf",
-          "@type": "@id"
-        },
-        "qualifiedDelegation": {
-          "@context": {
-            "agent": {
-              "@id": "prov:agent",
-              "@type": "@id"
-            },
-            "hadActivity": {
-              "@id": "prov:hadActivity",
-              "@type": "@id"
-            }
-          },
-          "@id": "prov:qualifiedDelegation",
-          "@type": "@id"
-        }
-      },
       "@id": "prov:wasRevisionOf",
-      "@type": "@id"
-    },
-    "mentionOf": {
-      "@context": {
-        "href": {
-          "@type": "@id",
-          "@id": "oa:hasTarget"
-        },
-        "rel": {
-          "@context": {
-            "@base": "http://www.iana.org/assignments/relation/"
-          },
-          "@id": "http://www.iana.org/assignments/relation",
-          "@type": "@id"
-        },
-        "type": "dct:type",
-        "hreflang": "dct:language",
-        "title": "rdfs:label",
-        "length": "dct:extent",
-        "agentType": "@type",
-        "name": "rdfs:label",
-        "actedOnBehalfOf": {
-          "@id": "prov:actedOnBehalfOf",
-          "@type": "@id"
-        },
-        "qualifiedDelegation": {
-          "@context": {
-            "agent": {
-              "@id": "prov:agent",
-              "@type": "@id"
-            },
-            "hadActivity": {
-              "@id": "prov:hadActivity",
-              "@type": "@id"
-            }
-          },
-          "@id": "prov:qualifiedDelegation",
-          "@type": "@id"
-        }
-      },
-      "@id": "prov:mentionOf",
       "@type": "@id"
     },
     "atLocation": {
@@ -21360,7 +21194,23 @@ Links to the schema:
       "@context": {
         "atTime": {
           "@id": "prov:atTime",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          "@type": "xsd:dateTime"
+        },
+        "hadRole": {
+          "@id": "prov:hadRole",
+          "@type": "@id"
+        },
+        "influencer": {
+          "@id": "prov:influencer",
+          "@type": "@id"
+        },
+        "hadActivity": {
+          "@id": "prov:hadActivity",
+          "@type": "@id"
+        },
+        "activity": {
+          "@id": "prov:activity",
+          "@type": "@id"
         }
       },
       "@id": "prov:qualifiedGeneration",
@@ -21370,7 +21220,23 @@ Links to the schema:
       "@context": {
         "atTime": {
           "@id": "prov:atTime",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          "@type": "xsd:dateTime"
+        },
+        "hadRole": {
+          "@id": "prov:hadRole",
+          "@type": "@id"
+        },
+        "influencer": {
+          "@id": "prov:influencer",
+          "@type": "@id"
+        },
+        "hadActivity": {
+          "@id": "prov:hadActivity",
+          "@type": "@id"
+        },
+        "activity": {
+          "@id": "prov:activity",
+          "@type": "@id"
         }
       },
       "@id": "prov:qualifiedInvalidation",
@@ -21382,7 +21248,19 @@ Links to the schema:
           "@context": {
             "atTime": {
               "@id": "prov:atTime",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+              "@type": "xsd:dateTime"
+            },
+            "hadRole": {
+              "@id": "prov:hadRole",
+              "@type": "@id"
+            },
+            "influencer": {
+              "@id": "prov:influencer",
+              "@type": "@id"
+            },
+            "activity": {
+              "@id": "prov:activity",
+              "@type": "@id"
             }
           },
           "@id": "prov:hadGeneration",
@@ -21396,7 +21274,7 @@ Links to the schema:
           "@context": {
             "atTime": {
               "@id": "prov:atTime",
-              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+              "@type": "xsd:dateTime"
             }
           },
           "@id": "prov:hadUsage",
@@ -21413,41 +21291,6 @@ Links to the schema:
     "qualifiedAttribution": {
       "@context": {
         "agent": {
-          "@context": {
-            "agentType": "@type",
-            "name": "rdfs:label",
-            "actedOnBehalfOf": {
-              "@context": {
-                "href": {
-                  "@type": "@id",
-                  "@id": "oa:hasTarget"
-                },
-                "rel": {
-                  "@context": {
-                    "@base": "http://www.iana.org/assignments/relation/"
-                  },
-                  "@id": "http://www.iana.org/assignments/relation",
-                  "@type": "@id"
-                },
-                "type": "dct:type",
-                "hreflang": "dct:language",
-                "title": "rdfs:label",
-                "length": "dct:extent"
-              },
-              "@id": "prov:actedOnBehalfOf",
-              "@type": "@id"
-            },
-            "qualifiedDelegation": {
-              "@context": {
-                "hadActivity": {
-                  "@id": "prov:hadActivity",
-                  "@type": "@id"
-                }
-              },
-              "@id": "prov:qualifiedDelegation",
-              "@type": "@id"
-            }
-          },
           "@id": "prov:agent",
           "@type": "@id"
         }
@@ -21456,150 +21299,24 @@ Links to the schema:
       "@type": "@id"
     },
     "wasInfluencedBy": {
-      "@context": {
-        "featureType": "@type",
-        "links": "rdfs:seeAlso",
-        "href": {
-          "@type": "@id",
-          "@id": "oa:hasTarget"
-        },
-        "rel": {
-          "@context": {
-            "@base": "http://www.iana.org/assignments/relation/"
-          },
-          "@id": "http://www.iana.org/assignments/relation",
-          "@type": "@id"
-        },
-        "type": "dct:type",
-        "hreflang": "dct:language",
-        "title": "rdfs:label",
-        "length": "dct:extent",
-        "agentType": "@type",
-        "name": "rdfs:label",
-        "actedOnBehalfOf": {
-          "@id": "prov:actedOnBehalfOf",
-          "@type": "@id"
-        },
-        "qualifiedDelegation": {
-          "@context": {
-            "agent": {
-              "@id": "prov:agent",
-              "@type": "@id"
-            },
-            "hadActivity": {
-              "@id": "prov:hadActivity",
-              "@type": "@id"
-            }
-          },
-          "@id": "prov:qualifiedDelegation",
-          "@type": "@id"
-        }
-      },
       "@id": "prov:wasInfluencedBy",
       "@type": "@id"
     },
     "qualifiedInfluence": {
       "@context": {
         "influencer": {
-          "@context": {
-            "featureType": "@type",
-            "links": "rdfs:seeAlso",
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent",
-            "agentType": "@type",
-            "name": "rdfs:label",
-            "actedOnBehalfOf": {
-              "@id": "prov:actedOnBehalfOf",
-              "@type": "@id"
-            },
-            "qualifiedDelegation": {
-              "@context": {
-                "hadActivity": {
-                  "@id": "prov:hadActivity",
-                  "@type": "@id"
-                }
-              },
-              "@id": "prov:qualifiedDelegation",
-              "@type": "@id"
-            }
-          },
           "@id": "prov:influencer",
           "@type": "@id"
         },
         "entity": {
-          "@context": {
-            "featureType": "@type",
-            "links": {
-              "@context": {
-                "href": {
-                  "@type": "@id",
-                  "@id": "oa:hasTarget"
-                },
-                "rel": {
-                  "@context": {
-                    "@base": "http://www.iana.org/assignments/relation/"
-                  },
-                  "@id": "http://www.iana.org/assignments/relation",
-                  "@type": "@id"
-                },
-                "type": "dct:type",
-                "hreflang": "dct:language",
-                "title": "rdfs:label",
-                "length": "dct:extent"
-              },
-              "@id": "rdfs:seeAlso"
-            }
-          },
           "@id": "prov:entity",
           "@type": "@id"
         },
+        "activity": {
+          "@id": "prov:activity",
+          "@type": "@id"
+        },
         "agent": {
-          "@context": {
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent",
-            "agentType": "@type",
-            "name": "rdfs:label",
-            "actedOnBehalfOf": {
-              "@id": "prov:actedOnBehalfOf",
-              "@type": "@id"
-            },
-            "qualifiedDelegation": {
-              "@context": {
-                "hadActivity": {
-                  "@id": "prov:hadActivity",
-                  "@type": "@id"
-                }
-              },
-              "@id": "prov:qualifiedDelegation",
-              "@type": "@id"
-            }
-          },
           "@id": "prov:agent",
           "@type": "@id"
         }
@@ -21609,36 +21326,13 @@ Links to the schema:
     },
     "provType": "@type",
     "hadMember": {
-      "@context": {
-        "featureType": "@type",
-        "links": {
-          "@context": {
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent"
-          },
-          "@id": "rdfs:seeAlso"
-        }
-      },
       "@id": "prov:hadMember",
       "@type": "@id"
     },
     "activityType": "@type",
     "endedAtTime": {
       "@id": "prov:endedAtTime",
-      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      "@type": "xsd:dateTime"
     },
     "wasAssociatedWith": {
       "@context": {
@@ -21656,27 +21350,7 @@ Links to the schema:
         "type": "dct:type",
         "hreflang": "dct:language",
         "title": "rdfs:label",
-        "length": "dct:extent",
-        "agentType": "@type",
-        "name": "rdfs:label",
-        "actedOnBehalfOf": {
-          "@id": "prov:actedOnBehalfOf",
-          "@type": "@id"
-        },
-        "qualifiedDelegation": {
-          "@context": {
-            "agent": {
-              "@id": "prov:agent",
-              "@type": "@id"
-            },
-            "hadActivity": {
-              "@id": "prov:hadActivity",
-              "@type": "@id"
-            }
-          },
-          "@id": "prov:qualifiedDelegation",
-          "@type": "@id"
-        }
+        "length": "dct:extent"
       },
       "@id": "prov:wasAssociatedWith",
       "@type": "@id"
@@ -21686,137 +21360,22 @@ Links to the schema:
       "@type": "@id"
     },
     "used": {
-      "@context": {
-        "featureType": "@type",
-        "links": {
-          "@context": {
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent"
-          },
-          "@id": "rdfs:seeAlso"
-        }
-      },
       "@id": "prov:used",
       "@type": "@id"
     },
     "wasStartedBy": {
-      "@context": {
-        "featureType": "@type",
-        "links": {
-          "@context": {
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent"
-          },
-          "@id": "rdfs:seeAlso"
-        }
-      },
       "@id": "prov:wasStartedBy",
       "@type": "@id"
     },
     "wasEndedBy": {
-      "@context": {
-        "featureType": "@type",
-        "links": {
-          "@context": {
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent"
-          },
-          "@id": "rdfs:seeAlso"
-        }
-      },
       "@id": "prov:wasEndedBy",
       "@type": "@id"
     },
     "invalidated": {
-      "@context": {
-        "featureType": "@type",
-        "links": {
-          "@context": {
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent"
-          },
-          "@id": "rdfs:seeAlso"
-        }
-      },
       "@id": "prov:invalidated",
       "@type": "@id"
     },
     "generated": {
-      "@context": {
-        "featureType": "@type",
-        "links": {
-          "@context": {
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent"
-          },
-          "@id": "rdfs:seeAlso"
-        }
-      },
       "@id": "prov:generated",
       "@type": "@id"
     },
@@ -21824,32 +21383,9 @@ Links to the schema:
       "@context": {
         "atTime": {
           "@id": "prov:atTime",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          "@type": "xsd:dateTime"
         },
         "entity": {
-          "@context": {
-            "featureType": "@type",
-            "links": {
-              "@context": {
-                "href": {
-                  "@type": "@id",
-                  "@id": "oa:hasTarget"
-                },
-                "rel": {
-                  "@context": {
-                    "@base": "http://www.iana.org/assignments/relation/"
-                  },
-                  "@id": "http://www.iana.org/assignments/relation",
-                  "@type": "@id"
-                },
-                "type": "dct:type",
-                "hreflang": "dct:language",
-                "title": "rdfs:label",
-                "length": "dct:extent"
-              },
-              "@id": "rdfs:seeAlso"
-            }
-          },
           "@id": "prov:entity",
           "@type": "@id"
         }
@@ -21861,7 +21397,23 @@ Links to the schema:
       "@context": {
         "atTime": {
           "@id": "prov:atTime",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          "@type": "xsd:dateTime"
+        },
+        "hadRole": {
+          "@id": "prov:hadRole",
+          "@type": "@id"
+        },
+        "influencer": {
+          "@id": "prov:influencer",
+          "@type": "@id"
+        },
+        "hadActivity": {
+          "@id": "prov:hadActivity",
+          "@type": "@id"
+        },
+        "activity": {
+          "@id": "prov:activity",
+          "@type": "@id"
         }
       },
       "@id": "prov:qualifiedCommunication",
@@ -21871,32 +21423,9 @@ Links to the schema:
       "@context": {
         "atTime": {
           "@id": "prov:atTime",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          "@type": "xsd:dateTime"
         },
         "entity": {
-          "@context": {
-            "featureType": "@type",
-            "links": {
-              "@context": {
-                "href": {
-                  "@type": "@id",
-                  "@id": "oa:hasTarget"
-                },
-                "rel": {
-                  "@context": {
-                    "@base": "http://www.iana.org/assignments/relation/"
-                  },
-                  "@id": "http://www.iana.org/assignments/relation",
-                  "@type": "@id"
-                },
-                "type": "dct:type",
-                "hreflang": "dct:language",
-                "title": "rdfs:label",
-                "length": "dct:extent"
-              },
-              "@id": "rdfs:seeAlso"
-            }
-          },
           "@id": "prov:entity",
           "@type": "@id"
         },
@@ -21912,32 +21441,9 @@ Links to the schema:
       "@context": {
         "atTime": {
           "@id": "prov:atTime",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          "@type": "xsd:dateTime"
         },
         "entity": {
-          "@context": {
-            "featureType": "@type",
-            "links": {
-              "@context": {
-                "href": {
-                  "@type": "@id",
-                  "@id": "oa:hasTarget"
-                },
-                "rel": {
-                  "@context": {
-                    "@base": "http://www.iana.org/assignments/relation/"
-                  },
-                  "@id": "http://www.iana.org/assignments/relation",
-                  "@type": "@id"
-                },
-                "type": "dct:type",
-                "hreflang": "dct:language",
-                "title": "rdfs:label",
-                "length": "dct:extent"
-              },
-              "@id": "rdfs:seeAlso"
-            }
-          },
           "@id": "prov:entity",
           "@type": "@id"
         },
@@ -21952,41 +21458,6 @@ Links to the schema:
     "qualifiedAssociation": {
       "@context": {
         "agent": {
-          "@context": {
-            "agentType": "@type",
-            "name": "rdfs:label",
-            "actedOnBehalfOf": {
-              "@context": {
-                "href": {
-                  "@type": "@id",
-                  "@id": "oa:hasTarget"
-                },
-                "rel": {
-                  "@context": {
-                    "@base": "http://www.iana.org/assignments/relation/"
-                  },
-                  "@id": "http://www.iana.org/assignments/relation",
-                  "@type": "@id"
-                },
-                "type": "dct:type",
-                "hreflang": "dct:language",
-                "title": "rdfs:label",
-                "length": "dct:extent"
-              },
-              "@id": "prov:actedOnBehalfOf",
-              "@type": "@id"
-            },
-            "qualifiedDelegation": {
-              "@context": {
-                "hadActivity": {
-                  "@id": "prov:hadActivity",
-                  "@type": "@id"
-                }
-              },
-              "@id": "prov:qualifiedDelegation",
-              "@type": "@id"
-            }
-          },
           "@id": "prov:agent",
           "@type": "@id"
         },
@@ -22000,6 +21471,26 @@ Links to the schema:
         }
       },
       "@id": "prov:qualifiedAssociation",
+      "@type": "@id"
+    },
+    "agentType": "@type",
+    "name": "rdfs:label",
+    "actedOnBehalfOf": {
+      "@id": "prov:actedOnBehalfOf",
+      "@type": "@id"
+    },
+    "qualifiedDelegation": {
+      "@context": {
+        "agent": {
+          "@id": "prov:agent",
+          "@type": "@id"
+        },
+        "hadActivity": {
+          "@id": "prov:hadActivity",
+          "@type": "@id"
+        }
+      },
+      "@id": "prov:qualifiedDelegation",
       "@type": "@id"
     },
     "Activity": "prov:Activity",
@@ -22054,25 +21545,25 @@ Links to the schema:
     "Removal": "prov:Removal",
     "generatedAtTime": {
       "@id": "prov:generatedAtTime",
-      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      "@type": "xsd:dateTime"
     },
     "invalidatedAtTime": {
       "@id": "prov:invalidatedAtTime",
-      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      "@type": "xsd:dateTime"
     },
     "startedAtTime": {
       "@id": "prov:startedAtTime",
-      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      "@type": "xsd:dateTime"
     },
     "value": "prov:value",
     "provenanceUriTemplate": "prov:provenanceUriTemplate",
     "pairKey": {
       "@id": "prov:pairKey",
-      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
+      "@type": "rdfs:Literal"
     },
     "removedKey": {
       "@id": "prov:removedKey",
-      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
+      "@type": "rdfs:Literal"
     },
     "influenced": {
       "@id": "prov:influenced",
@@ -22142,12 +21633,13 @@ Links to the schema:
       "@id": "prov:asInBundle",
       "@type": "@id"
     },
+    "mentionOf": {
+      "@id": "prov:mentionOf",
+      "@type": "@id"
+    },
     "type": "@type",
     "properties": "@nest",
-    "geometry": {
-      "@context": {},
-      "@id": "geojson:geometry"
-    },
+    "geometry": "geojson:geometry",
     "bbox": {
       "@container": "@list",
       "@id": "geojson:bbox"
@@ -22185,20 +21677,61 @@ Links to the schema:
           },
           "@id": "rdfs:seeAlso"
         },
-        "featureType": "@type"
+        "featureType": "@type",
+        "time": {
+          "@context": {
+            "date": {
+              "@id": "owlTime:hasTime",
+              "@type": "xsd:date"
+            },
+            "timestamp": {
+              "@id": "owlTime:hasTime",
+              "@type": "xsd:dateTime"
+            },
+            "interval": {
+              "@id": "owlTime:hasTime",
+              "@container": "@list"
+            }
+          },
+          "@id": "dct:time"
+        },
+        "coordRefSys": "http://www.opengis.net/def/glossary/term/CoordinateReferenceSystemCRS",
+        "place": "dct:spatial"
+      }
+    },
+    "Polyhedron": "geojson:Polyhedron",
+    "MultiPolyhedron": "geojson:MultiPolyhedron",
+    "Prism": {
+      "@id": "geojson:Prism",
+      "@context": {
+        "base": "geojson:prismBase",
+        "lower": "geojson:prismLower",
+        "upper": "geojson:prismUpper"
+      }
+    },
+    "MultiPrism": {
+      "@id": "geojson:MultiPrism",
+      "@context": {
+        "prisms": "geojson:prisms"
       }
     },
     "coordinates": {
       "@container": "@list",
       "@id": "geojson:coordinates"
     },
+    "geometries": {
+      "@id": "geojson:geometry",
+      "@container": "@list"
+    },
     "prov": "http://www.w3.org/ns/prov#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "oa": "http://www.w3.org/ns/oa#",
-    "dct": "http://purl.org/dc/terms/",
     "geojson": "https://purl.org/geojson/vocab#",
+    "owlTime": "http://www.w3.org/2006/time#",
+    "time": "http://www.w3.org/2006/time#",
     "@version": 1.1
   }
 }
