@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.geojson-feature_with-prov - OGC API Features Feature with PROV Building Block
-Generated 2024-07-31T06:10:55.168707+00:00
+Generated 2024-08-01T06:42:09.906969+00:00
 === Files ===
 Using example_2_1.json from examples
 JSON-LD context is present - uplifting

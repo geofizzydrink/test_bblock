@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.json-fg-feature-collection_with-prov - JSON-FG Feature Collection with PROV Building Block
-Generated 2024-07-31T06:10:59.513488+00:00
+Generated 2024-08-01T06:42:15.950981+00:00
 === Files ===
 Using example_2_1.json from examples
 JSON-LD context is present - uplifting

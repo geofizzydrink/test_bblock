@@ -1,5 +1,5 @@
 {
-  "modified": "2024-07-31T06:10:52.551188",
+  "modified": "2024-08-01T06:42:05.512170",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"242a321dc89ec9f95a87b3427118b9092d648efc",
@@ -28,7 +28,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-07-31",
+      "dateOfLastChange": "2024-08-01",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -80,7 +80,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-07-31",
+      "dateOfLastChange": "2024-08-01",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -95,8 +95,8 @@
       ],
       "shaclRules": {},
       "dependsOn": [
-        "ogc.geo.features.feature",
-        "ogc.ogc-utils.prov"
+        "ogc.ogc-utils.prov",
+        "ogc.geo.features.feature"
       ],
       "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-feature_with-prov/context.jsonld",
       "schema": {
@@ -133,7 +133,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-07-31",
+      "dateOfLastChange": "2024-08-01",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -148,8 +148,8 @@
       ],
       "shaclRules": {},
       "dependsOn": [
-        "ogc.geo.features.featureCollection",
-        "ogc.ogc-utils.prov"
+        "ogc.ogc-utils.prov",
+        "ogc.geo.features.featureCollection"
       ],
       "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/geojson-featureCollection_with-prov/context.jsonld",
       "schema": {
@@ -159,7 +159,7 @@
       "sourceSchema": "https://geofizzydrink.github.io/test_bblock/_sources/geojson-featureCollection_with-prov/schema.yaml",
       "sourceLdContext": "https://geofizzydrink.github.io/test_bblock/_sources/geojson-featureCollection_with-prov/context.jsonld",
       "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/geojson-featureCollection_with-prov/",
-      "validationPassed": false,
+      "validationPassed": true,
       "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/geojson-featureCollection_with-prov/",
       "documentation": {
         "markdown": {
@@ -186,7 +186,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-07-31",
+      "dateOfLastChange": "2024-08-01",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -239,7 +239,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-07-31",
+      "dateOfLastChange": "2024-08-01",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
