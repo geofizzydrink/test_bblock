@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.DGGRS - OGC API DGGS - Discrete Global Grid Reference System (DGGRS)
-Generated 2024-08-02T06:29:05.372594+00:00
+Generated 2024-08-02T11:21:29.574227+00:00
 === Files ===
 Using example_2_1.json from examples
 === End Files ===

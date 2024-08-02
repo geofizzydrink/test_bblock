@@ -551,23 +551,7 @@
       "@container": "@set",
       "@id": "geojson:features"
     },
-    "time": {
-      "@context": {
-        "date": {
-          "@id": "owlTime:hasTime",
-          "@type": "xsd:date"
-        },
-        "timestamp": {
-          "@id": "owlTime:hasTime",
-          "@type": "xsd:dateTime"
-        },
-        "interval": {
-          "@id": "owlTime:hasTime",
-          "@container": "@list"
-        }
-      },
-      "@id": "dct:time"
-    },
+    "time": "dct:time",
     "coordRefSys": "http://www.opengis.net/def/glossary/term/CoordinateReferenceSystemCRS",
     "place": "dct:spatial",
     "Polyhedron": "geojson:Polyhedron",

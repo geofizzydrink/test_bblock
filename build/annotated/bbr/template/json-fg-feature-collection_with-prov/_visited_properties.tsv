@@ -137,9 +137,9 @@ path	@id
 /coordRefSys/epoch	
 /features/featureType	@type
 /features/time	http://purl.org/dc/terms/time
-/features/time/date	http://www.w3.org/2006/time#hasTime
-/features/time/timestamp	http://www.w3.org/2006/time#hasTime
-/features/time/interval	http://www.w3.org/2006/time#hasTime
+/features/time/date	
+/features/time/timestamp	
+/features/time/interval	
 /features/coordRefSys	http://www.opengis.net/def/glossary/term/CoordinateReferenceSystemCRS
 /features/place	http://purl.org/dc/terms/spatial
 /features/place/type	

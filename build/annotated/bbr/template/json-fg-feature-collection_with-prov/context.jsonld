@@ -533,7 +533,15 @@
     },
     "type": "@type",
     "properties": "@nest",
-    "geometry": "geojson:geometry",
+    "geometry": {
+      "@context": {
+        "coordinates": {
+          "@container": "@list",
+          "@id": "geojson:coordinates"
+        }
+      },
+      "@id": "geojson:geometry"
+    },
     "bbox": {
       "@container": "@list",
       "@id": "geojson:bbox"
@@ -572,50 +580,34 @@
           "@id": "rdfs:seeAlso"
         },
         "featureType": "@type",
-        "time": {
-          "@context": {
-            "date": {
-              "@id": "owlTime:hasTime",
-              "@type": "xsd:date"
-            },
-            "timestamp": {
-              "@id": "owlTime:hasTime",
-              "@type": "xsd:dateTime"
-            },
-            "interval": {
-              "@id": "owlTime:hasTime",
-              "@container": "@list"
-            }
-          },
-          "@id": "dct:time"
-        },
+        "time": "dct:time",
         "coordRefSys": "http://www.opengis.net/def/glossary/term/CoordinateReferenceSystemCRS",
-        "place": "dct:spatial"
+        "place": "dct:spatial",
+        "Polyhedron": "geojson:Polyhedron",
+        "MultiPolyhedron": "geojson:MultiPolyhedron",
+        "Prism": {
+          "@id": "geojson:Prism",
+          "@context": {
+            "base": "geojson:prismBase",
+            "lower": "geojson:prismLower",
+            "upper": "geojson:prismUpper"
+          }
+        },
+        "MultiPrism": {
+          "@id": "geojson:MultiPrism",
+          "@context": {
+            "prisms": "geojson:prisms"
+          }
+        },
+        "coordinates": {
+          "@container": "@list",
+          "@id": "geojson:coordinates"
+        },
+        "geometries": {
+          "@id": "geojson:geometry",
+          "@container": "@list"
+        }
       }
-    },
-    "Polyhedron": "geojson:Polyhedron",
-    "MultiPolyhedron": "geojson:MultiPolyhedron",
-    "Prism": {
-      "@id": "geojson:Prism",
-      "@context": {
-        "base": "geojson:prismBase",
-        "lower": "geojson:prismLower",
-        "upper": "geojson:prismUpper"
-      }
-    },
-    "MultiPrism": {
-      "@id": "geojson:MultiPrism",
-      "@context": {
-        "prisms": "geojson:prisms"
-      }
-    },
-    "coordinates": {
-      "@container": "@list",
-      "@id": "geojson:coordinates"
-    },
-    "geometries": {
-      "@id": "geojson:geometry",
-      "@container": "@list"
     },
     "prov": "http://www.w3.org/ns/prov#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
@@ -625,7 +617,6 @@
     "oa": "http://www.w3.org/ns/oa#",
     "geojson": "https://purl.org/geojson/vocab#",
     "owlTime": "http://www.w3.org/2006/time#",
-    "time": "http://www.w3.org/2006/time#",
     "@version": 1.1
   }
 }
