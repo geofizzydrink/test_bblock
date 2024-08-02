@@ -3284,10 +3284,7 @@ In **Markdown** format.
 <file:///github/workspace/2305843009240255693> a geojson:Feature ;
     rdfs:label "Terminal 1" ;
     ns4:id 2305843009240255693 ;
-    dct:provenance [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ],
-        [ a prov:Agent,
+    dct:provenance [ a prov:Agent,
                 prov:Person ;
             rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
             prov:actedOnBehalfOf <http://192.168.39.167:32255/prov/agents/%3COrganisation%3E> ;
@@ -3300,6 +3297,9 @@ In **Markdown** format.
             rdfs:label "agents:MapDataToZones_8026b1a076ac" ;
             prov:actedOnBehalfOf agents:TerraNexus ;
             prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:TerraNexus" ;
@@ -3318,14 +3318,26 @@ In **Markdown** format.
         dggsOperations:processData_task,
         dggsOperations:reorganiseData_task-2305843009240255693,
         terranexusTempData:osm_singapore_buildings__898fb5ef399d0237e61a854f196edf4b ;
-    rdfs:seeAlso [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/vnd.ogc.fg+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:32255/ogcapi/collections/osm_singapore_buildings/items/2305843009240255693/2305843009240255693?f=jsonfg> ],
-        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
+    rdfs:seeAlso [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/ld+json" ;
             ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
             oa:hasTarget <http://192.168.39.167:32255/ogcapi/collections/osm_singapore_buildings/items/2305843009240255693/2305843009240255693?f=jsonld> ],
+        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:32255/ogcapi/collections/osm_singapore_buildings/items/2305843009240255693/2305843009240255693?f=jsonfg> ],
+        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "text/html" ;
+            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://192.168.39.167:32255/ogcapi/collections/osm_singapore_buildings/items/2305843009240255693/2305843009240255693> ],
+        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://192.168.39.167:32255/ogcapi/collections/osm_singapore_buildings/items/2305843009240255693/2305843009240255693?f=json> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
         [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
             ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
@@ -3333,19 +3345,7 @@ In **Markdown** format.
         [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "application/geo+json" ;
             ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <http://192.168.39.167:32255/ogcapi/collections/osm_singapore_buildings?f=json> ],
-        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <http://192.168.39.167:32255/ogcapi/collections/osm_singapore_buildings/items/2305843009240255693/2305843009240255693> ],
-        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
-        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <http://192.168.39.167:32255/ogcapi/collections/osm_singapore_buildings/items/2305843009240255693/2305843009240255693?f=json> ] ;
+            oa:hasTarget <http://192.168.39.167:32255/ogcapi/collections/osm_singapore_buildings?f=json> ] ;
     prov:wasGeneratedBy dggsOperations:processData_task ;
     geojson:geometry [ a geojson:Polygon ;
             geojson:coordinates ( ( ( 1.039913e+02 1.359558e+00 ) ( 1.039911e+02 1.359164e+00 ) ( 1.039909e+02 1.358738e+00 ) ( 1.039911e+02 1.358656e+00 ) ( 1.039911e+02 1.358636e+00 ) ( 1.039911e+02 1.358647e+00 ) ( 1.039914e+02 1.359267e+00 ) ( 1.039916e+02 1.359558e+00 ) ( 1.039917e+02 1.359904e+00 ) ( 1.03992e+02 1.360529e+00 ) ( 1.03992e+02 1.360568e+00 ) ( 1.039921e+02 1.360717e+00 ) ( 1.039922e+02 1.360944e+00 ) ( 1.039923e+02 1.361135e+00 ) ( 1.039923e+02 1.361156e+00 ) ( 1.039924e+02 1.361488e+00 ) ( 1.039923e+02 1.361523e+00 ) ( 1.039924e+02 1.361726e+00 ) ( 1.039924e+02 1.361816e+00 ) ( 1.039925e+02 1.36187e+00 ) ( 1.039926e+02 1.362305e+00 ) ( 1.039927e+02 1.362423e+00 ) ( 1.039927e+02 1.362452e+00 ) ( 1.039927e+02 1.362488e+00 ) ( 1.039929e+02 1.36294e+00 ) ( 1.03993e+02 1.363043e+00 ) ( 1.03993e+02 1.363092e+00 ) ( 1.03993e+02 1.363122e+00 ) ( 1.039932e+02 1.363501e+00 ) ( 1.039931e+02 1.363518e+00 ) ( 1.039932e+02 1.36361e+00 ) ( 1.039932e+02 1.363665e+00 ) ( 1.039933e+02 1.363698e+00 ) ( 1.039935e+02 1.363888e+00 ) ( 1.039936e+02 1.363905e+00 ) ( 1.039936e+02 1.363915e+00 ) ( 1.039938e+02 1.364106e+00 ) ( 1.03994e+02 1.364201e+00 ) ( 1.03994e+02 1.364221e+00 ) ( 1.039941e+02 1.364305e+00 ) ( 1.039942e+02 1.364366e+00 ) ( 1.039945e+02 1.364593e+00 ) ( 1.039945e+02 1.364618e+00 ) ( 1.039944e+02 1.364699e+00 ) ( 1.039945e+02 1.364753e+00 ) ( 1.039944e+02 1.364938e+00 ) ( 1.039943e+02 1.364888e+00 ) ( 1.039943e+02 1.364941e+00 ) ( 1.039942e+02 1.364925e+00 ) ( 1.039938e+02 1.364623e+00 ) ( 1.039938e+02 1.364611e+00 ) ( 1.039938e+02 1.364605e+00 ) ( 1.039938e+02 1.364593e+00 ) ( 1.039934e+02 1.364311e+00 ) ( 1.039934e+02 1.364284e+00 ) ( 1.039934e+02 1.364272e+00 ) ( 1.039931e+02 1.36403e+00 ) ( 1.03993e+02 1.363991e+00 ) ( 1.03993e+02 1.363908e+00 ) ( 1.03993e+02 1.363897e+00 ) ( 1.039929e+02 1.363876e+00 ) ( 1.039929e+02 1.363856e+00 ) ( 1.039929e+02 1.363847e+00 ) ( 1.039928e+02 1.363783e+00 ) ( 1.039927e+02 1.363642e+00 ) ( 1.039928e+02 1.363628e+00 ) ( 1.039928e+02 1.363605e+00 ) ( 1.039928e+02 1.363581e+00 ) ( 1.039925e+02 1.363009e+00 ) ( 1.039925e+02 1.362978e+00 ) ( 1.039925e+02 1.362953e+00 ) ( 1.039923e+02 1.362452e+00 ) ( 1.039922e+02 1.362379e+00 ) ( 1.039922e+02 1.362337e+00 ) ( 1.039922e+02 1.362307e+00 ) ( 1.039922e+02 1.362305e+00 ) ( 1.039921e+02 1.361972e+00 ) ( 1.03992e+02 1.361879e+00 ) ( 1.03992e+02 1.361839e+00 ) ( 1.039918e+02 1.361918e+00 ) ( 1.039918e+02 1.361934e+00 ) ( 1.039916e+02 1.361844e+00 ) ( 1.039916e+02 1.361857e+00 ) ( 1.039915e+02 1.361871e+00 ) ( 1.039916e+02 1.362037e+00 ) ( 1.039916e+02 1.362123e+00 ) ( 1.039914e+02 1.362206e+00 ) ( 1.039912e+02 1.362305e+00 ) ( 1.039911e+02 1.362352e+00 ) ( 1.039911e+02 1.362353e+00 ) ( 1.03991e+02 1.362389e+00 ) ( 1.039909e+02 1.362419e+00 ) ( 1.039905e+02 1.362589e+00 ) ( 1.039905e+02 1.362601e+00 ) ( 1.039904e+02 1.362654e+00 ) ( 1.039901e+02 1.362785e+00 ) ( 1.039898e+02 1.362882e+00 ) ( 1.039898e+02 1.362821e+00 ) ( 1.039897e+02 1.362592e+00 ) ( 1.039897e+02 1.362615e+00 ) ( 1.039897e+02 1.362648e+00 ) ( 1.039896e+02 1.362887e+00 ) ( 1.039896e+02 1.362899e+00 ) ( 1.039894e+02 1.362973e+00 ) ( 1.039894e+02 1.362995e+00 ) ( 1.039894e+02 1.363037e+00 ) ( 1.039894e+02 1.363093e+00 ) ( 1.039894e+02 1.363109e+00 ) ( 1.039897e+02 1.363695e+00 ) ( 1.039897e+02 1.363727e+00 ) ( 1.039897e+02 1.363741e+00 ) ( 1.039899e+02 1.364212e+00 ) ( 1.039899e+02 1.364311e+00 ) ( 1.0399e+02 1.364351e+00 ) ( 1.0399e+02 1.364328e+00 ) ( 1.0399e+02 1.364347e+00 ) ( 1.039901e+02 1.364626e+00 ) ( 1.039902e+02 1.364664e+00 ) ( 1.039902e+02 1.364685e+00 ) ( 1.039903e+02 1.364903e+00 ) ( 1.039903e+02 1.364964e+00 ) ( 1.039903e+02 1.365015e+00 ) ( 1.039903e+02 1.365044e+00 ) ( 1.039902e+02 1.365051e+00 ) ( 1.039902e+02 1.365108e+00 ) ( 1.039902e+02 1.365148e+00 ) ( 1.039901e+02 1.365186e+00 ) ( 1.039901e+02 1.365219e+00 ) ( 1.039901e+02 1.36524e+00 ) ( 1.039902e+02 1.365242e+00 ) ( 1.039902e+02 1.365686e+00 ) ( 1.039901e+02 1.365705e+00 ) ( 1.039901e+02 1.366081e+00 ) ( 1.039901e+02 1.366108e+00 ) ( 1.039901e+02 1.366214e+00 ) ( 1.039901e+02 1.366352e+00 ) ( 1.0399e+02 1.366739e+00 ) ( 1.0399e+02 1.366737e+00 ) ( 1.0399e+02 1.366778e+00 ) ( 1.039899e+02 1.366788e+00 ) ( 1.039898e+02 1.366786e+00 ) ( 1.039898e+02 1.366781e+00 ) ( 1.039897e+02 1.366763e+00 ) ( 1.039897e+02 1.366752e+00 ) ( 1.039897e+02 1.366714e+00 ) ( 1.039896e+02 1.36671e+00 ) ( 1.039896e+02 1.366689e+00 ) ( 1.039896e+02 1.366158e+00 ) ( 1.039897e+02 1.365992e+00 ) ( 1.039897e+02 1.365977e+00 ) ( 1.039897e+02 1.365555e+00 ) ( 1.039898e+02 1.36556e+00 ) ( 1.039898e+02 1.365312e+00 ) ( 1.039898e+02 1.365051e+00 ) ( 1.039898e+02 1.364993e+00 ) ( 1.039898e+02 1.364937e+00 ) ( 1.039898e+02 1.364898e+00 ) ( 1.039895e+02 1.364273e+00 ) ( 1.039895e+02 1.364233e+00 ) ( 1.039895e+02 1.364228e+00 ) ( 1.039893e+02 1.363737e+00 ) ( 1.039892e+02 1.363643e+00 ) ( 1.039892e+02 1.363618e+00 ) ( 1.039892e+02 1.36363e+00 ) ( 1.039892e+02 1.363608e+00 ) ( 1.039891e+02 1.363275e+00 ) ( 1.03989e+02 1.363253e+00 ) ( 1.03989e+02 1.363132e+00 ) ( 1.039889e+02 1.362978e+00 ) ( 1.039889e+02 1.363009e+00 ) ( 1.039888e+02 1.362944e+00 ) ( 1.039888e+02 1.362923e+00 ) ( 1.039889e+02 1.362909e+00 ) ( 1.039887e+02 1.362467e+00 ) ( 1.039886e+02 1.362351e+00 ) ( 1.039886e+02 1.362309e+00 ) ( 1.039886e+02 1.362305e+00 ) ( 1.039886e+02 1.362284e+00 ) ( 1.039885e+02 1.362057e+00 ) ( 1.039884e+02 1.361835e+00 ) ( 1.039883e+02 1.36171e+00 ) ( 1.039883e+02 1.361647e+00 ) ( 1.039881e+02 1.361037e+00 ) ( 1.039878e+02 1.3604e+00 ) ( 1.039876e+02 1.360064e+00 ) ( 1.039879e+02 1.359983e+00 ) ( 1.039883e+02 1.361092e+00 ) ( 1.039887e+02 1.361961e+00 ) ( 1.039888e+02 1.361919e+00 ) ( 1.039888e+02 1.361791e+00 ) ( 1.039889e+02 1.361726e+00 ) ( 1.039889e+02 1.361782e+00 ) ( 1.03989e+02 1.361745e+00 ) ( 1.039891e+02 1.361701e+00 ) ( 1.039891e+02 1.361655e+00 ) ( 1.039892e+02 1.361614e+00 ) ( 1.039894e+02 1.361534e+00 ) ( 1.039897e+02 1.361394e+00 ) ( 1.039901e+02 1.36125e+00 ) ( 1.039905e+02 1.361072e+00 ) ( 1.039909e+02 1.360893e+00 ) ( 1.039911e+02 1.360825e+00 ) ( 1.039911e+02 1.360808e+00 ) ( 1.039912e+02 1.360741e+00 ) ( 1.039913e+02 1.360721e+00 ) ( 1.039914e+02 1.360684e+00 ) ( 1.039914e+02 1.360783e+00 ) ( 1.039913e+02 1.36082e+00 ) ( 1.039913e+02 1.360838e+00 ) ( 1.039914e+02 1.361204e+00 ) ( 1.039913e+02 1.361251e+00 ) ( 1.039914e+02 1.361316e+00 ) ( 1.039914e+02 1.361397e+00 ) ( 1.039918e+02 1.361212e+00 ) ( 1.039917e+02 1.360889e+00 ) ( 1.039917e+02 1.360872e+00 ) ( 1.039918e+02 1.360838e+00 ) ( 1.039918e+02 1.360819e+00 ) ( 1.039913e+02 1.359558e+00 ) ) ) ] ;

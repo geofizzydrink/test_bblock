@@ -1232,7 +1232,7 @@
       "provType": "Activity",
       "id": "dggsOperations:reorganiseData_task-2305843009240255693",
       "activityType": "dggsOperation",
-      "startedAtTime": "2024-01-28T10:44:50.895475+00:00",
+      "startedAtTime": "2024-01-28T10:44:50.895475Z",
       "wasAssociatedWith": [
         "agents:TerraNexus",
         "agents:MapDataToZones_8026b1a076ac",
@@ -1267,13 +1267,13 @@
       "used": [
         "terranexusJobs:MapDataToZones_8026b1a076ac"
       ],
-      "endedAtTime": "2024-01-28T10:44:51.122604+00:00"
+      "endedAtTime": "2024-01-28T10:44:51.122604Z"
     },
     {
       "provType": "Activity",
       "id": "terranexusProcesses:execution/MapDataToZones",
       "activityType": "ogcapiProcess",
-      "startedAtTime": "2024-01-28T10:44:45.161917+00:00",
+      "startedAtTime": "2024-01-28T10:44:45.161917Z",
       "wasAssociatedWith": [
         "agents:TerraNexus",
         "agents:MapDataToZones_8026b1a076ac",
@@ -1302,7 +1302,7 @@
       "used": [
         "terranexusJobs:MapDataToZones_8026b1a076ac"
       ],
-      "endedAtTime": "2024-01-28T10:44:49.363864+00:00",
+      "endedAtTime": "2024-01-28T10:44:49.363864Z",
       "generated": [
         "terranexusJobs:MapDataToZones_8026b1a076ac",
         "terranexusTempData:osm_singapore_buildings__898fb5ef399d0237e61a854f196edf4b"
@@ -1312,7 +1312,7 @@
       "provType": "Activity",
       "id": "dggsOperations:map_data",
       "activityType": "dggsOperation",
-      "startedAtTime": "2024-01-28T10:44:49.384834+00:00",
+      "startedAtTime": "2024-01-28T10:44:49.384834Z",
       "wasAssociatedWith": [
         "agents:TerraNexus",
         "agents:MapDataToZones_8026b1a076ac",
@@ -1344,13 +1344,13 @@
       "used": [
         "terranexusJobs:MapDataToZones_8026b1a076ac"
       ],
-      "endedAtTime": "2024-01-28T11:12:45.320768+00:00"
+      "endedAtTime": "2024-01-28T11:12:45.320768Z"
     },
     {
       "provType": "Activity",
       "id": "dggsOperations:map_data_execution",
       "activityType": "dggsOperation",
-      "startedAtTime": "2024-01-28T10:44:49.477823+00:00",
+      "startedAtTime": "2024-01-28T10:44:49.477823Z",
       "wasAssociatedWith": [
         "agents:TerraNexus",
         "agents:MapDataToZones_8026b1a076ac",
@@ -1383,13 +1383,13 @@
       "used": [
         "terranexusJobs:MapDataToZones_8026b1a076ac"
       ],
-      "endedAtTime": "2024-01-28T11:12:45.255877+00:00"
+      "endedAtTime": "2024-01-28T11:12:45.255877Z"
     },
     {
       "provType": "Activity",
       "id": "dggsOperations:processData_task",
       "activityType": "dggsOperation",
-      "startedAtTime": "2024-01-28T10:44:49.640308+00:00",
+      "startedAtTime": "2024-01-28T10:44:49.640308Z",
       "wasAssociatedWith": [
         "agents:TerraNexus",
         "agents:MapDataToZones_8026b1a076ac",
@@ -1424,7 +1424,7 @@
         "terranexusJobs:MapDataToZones_8026b1a076ac",
         "terranexusTempData:osm_singapore_buildings__898fb5ef399d0237e61a854f196edf4b.json"
       ],
-      "endedAtTime": "2024-01-28T11:12:45.192382+00:00",
+      "endedAtTime": "2024-01-28T11:12:45.192382Z",
       "generated": [
         "terranexusCollections:osm_singapore_buildings",
         "terranexusCollections:osm_singapore_buildings___Properties",
@@ -1435,7 +1435,7 @@
       "provType": "Activity",
       "id": "dggsOperations:map_featureData_task-2305843009240255693",
       "activityType": "dggsOperation",
-      "startedAtTime": "2024-01-28T10:44:51.291659+00:00",
+      "startedAtTime": "2024-01-28T10:44:51.291659Z",
       "wasAssociatedWith": [
         "agents:TerraNexus",
         "agents:MapDataToZones_8026b1a076ac",
@@ -1471,7 +1471,7 @@
       "used": [
         "terranexusJobs:MapDataToZones_8026b1a076ac"
       ],
-      "endedAtTime": "2024-01-28T11:12:45.156847+00:00",
+      "endedAtTime": "2024-01-28T11:12:45.156847Z",
       "generated": [
         "terranexusCollections:osm_singapore_buildings___TerraNexus_V_IT9_GRS80_2d10b58e2088c7e2"
       ]
@@ -1483,7 +1483,7 @@
       "hadPrimarySource": [
         "agents:admin%40terranexus.pangaeainnovations.com"
       ],
-      "generatedAtTime": "2024-01-28T10:44:49.294314+00:00",
+      "generatedAtTime": "2024-01-28T10:44:49.294314Z",
       "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones"
     },
     {
@@ -1493,7 +1493,7 @@
       "hadPrimarySource": [
         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items/2305843009240255693.json"
       ],
-      "generatedAtTime": "2024-01-28T10:44:50.123920+00:00",
+      "generatedAtTime": "2024-01-28T10:44:50.123920Z",
       "wasGeneratedBy": "dggsOperations:processData_task",
       "wasDerivedFrom": [
         "terranexusJobs:MapDataToZones_8026b1a076ac",
@@ -1507,7 +1507,7 @@
       "hadPrimarySource": [
         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items/2305843009240255693.json"
       ],
-      "generatedAtTime": "2024-01-28T10:44:50.198760+00:00",
+      "generatedAtTime": "2024-01-28T10:44:50.198760Z",
       "wasGeneratedBy": "dggsOperations:processData_task",
       "wasDerivedFrom": [
         "terranexusJobs:MapDataToZones_8026b1a076ac",
@@ -1522,7 +1522,7 @@
       "hadPrimarySource": [
         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items/2305843009240255693.json"
       ],
-      "generatedAtTime": "2024-01-28T10:44:49.314694+00:00",
+      "generatedAtTime": "2024-01-28T10:44:49.314694Z",
       "wasGeneratedBy": "terranexusProcesses:execution/MapDataToZones",
       "wasDerivedFrom": "terranexusJobs:MapDataToZones_8026b1a076ac"
     },
@@ -1533,7 +1533,7 @@
       "hadPrimarySource": [
         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items/2305843009240255693.json"
       ],
-      "generatedAtTime": "2024-01-28T10:44:50.050599+00:00",
+      "generatedAtTime": "2024-01-28T10:44:50.050599Z",
       "wasGeneratedBy": "dggsOperations:processData_task",
       "wasDerivedFrom": [
         "terranexusJobs:MapDataToZones_8026b1a076ac",
@@ -1548,7 +1548,7 @@
         "terranexusCollections:osm_singapore_buildings",
         "terranexusDGGS:TerraNexus_V_IT9_GRS80_2d10b58e2088c7e2"
       ],
-      "generatedAtTime": "2024-01-28T10:44:52.609606+00:00",
+      "generatedAtTime": "2024-01-28T10:44:52.609606Z",
       "wasGeneratedBy": "dggsOperations:map_featureData_task-2305843009240255693",
       "wasDerivedFrom": [
         "terranexusJobs:MapDataToZones_8026b1a076ac",
@@ -1563,14 +1563,14 @@
       "hadPrimarySource": [
         "agents:TerraNexus"
       ],
-      "generatedAtTime": "2024-01-28T10:44:46.855101+00:00",
+      "generatedAtTime": "2024-01-28T10:44:46.855101Z",
       "wasDerivedFrom": [
         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
       ]
     }
   ],
   "time": {
-    "timestamp": "2024-01-28T10:44:50.198760+00:00"
+    "timestamp": "2024-01-28T10:44:50.198760Z"
   },
   "place": {
     "type": "null"

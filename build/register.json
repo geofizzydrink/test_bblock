@@ -1,10 +1,10 @@
 {
-  "modified": "2024-07-31T06:10:52.551188",
+  "modified": "2024-08-02T06:29:02.954383",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"242a321dc89ec9f95a87b3427118b9092d648efc",
-      "shortCommitId": "\"242a32",
-      "date": "2024-07-30T10:29:12+00:00\""
+      "commitId": "\"3e8700f308cde8c3c84ff49fe2c0167688146ad4",
+      "shortCommitId": "\"3e8700",
+      "date": "2024-08-01T10:59:23+00:00\""
     }
   },
   "gitRepository": "https://github.com/geofizzydrink/test_bblock",
@@ -28,7 +28,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-07-31",
+      "dateOfLastChange": "2024-08-02",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -80,7 +80,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-07-31",
+      "dateOfLastChange": "2024-08-02",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -133,7 +133,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-07-31",
+      "dateOfLastChange": "2024-08-02",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -159,7 +159,7 @@
       "sourceSchema": "https://geofizzydrink.github.io/test_bblock/_sources/geojson-featureCollection_with-prov/schema.yaml",
       "sourceLdContext": "https://geofizzydrink.github.io/test_bblock/_sources/geojson-featureCollection_with-prov/context.jsonld",
       "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/geojson-featureCollection_with-prov/",
-      "validationPassed": false,
+      "validationPassed": true,
       "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/geojson-featureCollection_with-prov/",
       "documentation": {
         "markdown": {
@@ -186,7 +186,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-07-31",
+      "dateOfLastChange": "2024-08-02",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -201,8 +201,8 @@
       ],
       "shaclRules": {},
       "dependsOn": [
-        "ogc.ogc-utils.prov",
-        "ogc.geo.json-fg.feature"
+        "ogc.geo.json-fg.feature",
+        "ogc.ogc-utils.prov"
       ],
       "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature_with-prov/context.jsonld",
       "schema": {
@@ -212,7 +212,7 @@
       "sourceSchema": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature_with-prov/schema.yaml",
       "sourceLdContext": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature_with-prov/context.jsonld",
       "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature_with-prov/",
-      "validationPassed": false,
+      "validationPassed": true,
       "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/bbr/template/json-fg-feature_with-prov/",
       "documentation": {
         "markdown": {
@@ -239,7 +239,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-07-31",
+      "dateOfLastChange": "2024-08-02",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -254,8 +254,8 @@
       ],
       "shaclRules": {},
       "dependsOn": [
-        "ogc.ogc-utils.prov",
-        "ogc.geo.json-fg.featureCollection"
+        "ogc.geo.json-fg.featureCollection",
+        "ogc.ogc-utils.prov"
       ],
       "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/bbr/template/json-fg-feature-collection_with-prov/context.jsonld",
       "schema": {

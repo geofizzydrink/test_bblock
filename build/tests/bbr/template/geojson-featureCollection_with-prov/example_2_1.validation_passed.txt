@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.geojson-featureCollection_with-prov - OGC API Features Feature Collection with PROV Building Block
-Generated 2024-07-31T06:10:55.584624+00:00
+Generated 2024-08-02T06:29:06.679836+00:00
 === Files ===
 Using example_2_1.json from examples
 JSON-LD context is present - uplifting
@@ -8,14 +8,6 @@ Output Turtle example_2_1.ttl created
 === End Files ===
 
 === JSON Schema ===
-
-** Validation error **
-ValidationError: 'FeatureCollection' is not one of ['Activity', 'prov:Activity']
-
-Failed validating 'enum' in schema[0]:
-    {'enum': ['Activity', 'prov:Activity'], 'type': 'string'}
-
-On instance:
-    'FeatureCollection'
+Validation passed
 === End JSON Schema ===
 
