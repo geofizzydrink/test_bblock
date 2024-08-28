@@ -885,8 +885,8 @@
         ]
     },
     "properties": {
-        "feature::id": 2305843009240255693,
-        "line::hidden": [
+        "feature-id": 2305843009240255693,
+        "line-hidden": [
             {
                 "contour": 0,
                 "segments": [
@@ -923,7 +923,7 @@
         ],
         "building": "yes",
         "name": "Terminal 1",
-        "name:zh": "1\u53f7\u822a\u7ad9\u697c",
+        "name-zh": "1\u53f7\u822a\u7ad9\u697c",
         "wikidata": "Q55721632",
         "wheelchair": "yes",
         "height": "30",
@@ -1204,6 +1204,7 @@
             }
         },
         {
+            "id" : "agents:MapDataToZones_8026b1a076ac",
             "provType": "Agent",
             "name": "agents:MapDataToZones_8026b1a076ac",
             "agentType": "softwareAgent",
@@ -1246,7 +1247,7 @@
                     "hadRole": "roles:Software"
                 },
                 {
-                    "id": "agents:MapDataToZones_8026b1a076ac",
+                    "id": "agent-associations:MapDataToZones_8026b1a076ac",
                     "type": "Association",
                     "agent": "agents:MapDataToZones_8026b1a076ac",
                     "hadRole": "roles:ogcapiProcessJob"

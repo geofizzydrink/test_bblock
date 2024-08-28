@@ -1,12 +1,6 @@
-- title: This is an example with just a description and no code snippets.
+- title: Feature Collection
   content: |-
-    This is the content of the example.
-    
-    In **Markdown** format.
-
-- title: Examples can have content and/or code snippets.
-  content: |-
-    The content of this example. 
+    Terranexus derived Feature Collection with provenance
 
   snippets:
     - language: json

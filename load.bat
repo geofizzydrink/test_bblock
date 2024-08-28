@@ -1,0 +1,1 @@
+sd data add -- --named-graph urn:terranexus:json-fg-feature_with-prov build-local\tests\terranexus\dggs\api\json-fg-feature_with-prov\example_1_1.ttl
