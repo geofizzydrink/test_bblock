@@ -1,0 +1,419 @@
+@prefix agents: <https://terranexus.pangaeainnovations.com/prov/agents/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dggsOperations: <https://terranexus.pangaeainnovations.com/prov/dggsOperations/> .
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix ns1: <feature::> .
+@prefix ns2: <http://www.iana.org/assignments/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix roles: <https://terranexus.pangaeainnovations.com/prov/roles/> .
+@prefix terranexusCollections: <https://terranexus.pangaeainnovations.com/ogcapi/collections/> .
+@prefix terranexusDGGS: <https://terranexus.pangaeainnovations.com/ogcapi/dggs/> .
+@prefix terranexusJobs: <https://terranexus.pangaeainnovations.com/ogcapi/jobs/> .
+@prefix terranexusTempData: <https://terranexus.pangaeainnovations.com/prov/tempData/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///github/workspace/osm_singapore_buildings> a geojson:FeatureCollection ;
+    dct:provenance [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:TerraNexus" ;
+            prov:actedOnBehalfOf agents:PangaeaInnovations ;
+            prov:qualifiedDelegation roles:Software ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:MapDataToZones_47fbab073054" ;
+            prov:actedOnBehalfOf agents:TerraNexus ;
+            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+        [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <https://terranexus.pangaeainnovations.com/prov/agents/%3COrganisation%3E> ;
+            prov:qualifiedDelegation roles:User ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ],
+        terranexusCollections:osm_singapore_buildings,
+        terranexusCollections:osm_singapore_buildings___Properties,
+        terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2,
+        terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2,
+        terranexusJobs:MapDataToZones_47fbab073054,
+        <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones>,
+        dggsOperations:map_data,
+        dggsOperations:map_data_execution,
+        dggsOperations:processData_task,
+        terranexusTempData:osm_singapore_buildings__f58dba1aa47069ba0a88713a14b14605 ;
+    rdfs:seeAlso [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items?f=jsonfg> ],
+        [ rdfs:label "The JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items?f=json> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items?f=geojson> ],
+        [ rdfs:label "The Linked Data JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items?f=jsonld> ],
+        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "text/html" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:features <file:///github/workspace/2305843009229499373>,
+        <file:///github/workspace/2305843009231960349> .
+
+<file:///github/workspace/2305843009229499373> a geojson:Feature ;
+    ns1:id 2305843009229499373 ;
+    dct:provenance [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:TerraNexus" ;
+            prov:actedOnBehalfOf agents:PangaeaInnovations ;
+            prov:qualifiedDelegation roles:Software ],
+        [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <https://terranexus.pangaeainnovations.com/prov/agents/%3COrganisation%3E> ;
+            prov:qualifiedDelegation roles:User ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:MapDataToZones_47fbab073054" ;
+            prov:actedOnBehalfOf agents:TerraNexus ;
+            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+        terranexusCollections:osm_singapore_buildings,
+        <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373>,
+        terranexusCollections:osm_singapore_buildings___Properties,
+        terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2,
+        terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2,
+        terranexusJobs:MapDataToZones_47fbab073054,
+        <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones>,
+        dggsOperations:map_data,
+        dggsOperations:map_data_execution,
+        dggsOperations:map_featureData_task-2305843009229499373-Polygon_0,
+        dggsOperations:processData_task,
+        dggsOperations:reorganiseData_task-2305843009229499373-Polygon_0,
+        terranexusTempData:osm_singapore_buildings__f58dba1aa47069ba0a88713a14b14605 ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-08-01T06:36:24.345926+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=jsonld> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=geojson> ],
+        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "text/html" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings?f=json> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns2:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
+        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=json> ],
+        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373?f=jsonfg> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015578e+02 3.054745e+00 ) ( 1.015581e+02 3.055361e+00 ) ( 1.015579e+02 3.055433e+00 ) ( 1.015576e+02 3.054817e+00 ) ( 1.015578e+02 3.054745e+00 ) ) ) ] .
+
+<file:///github/workspace/2305843009231960349> a geojson:Feature ;
+    ns1:id 2305843009231960349 ;
+    dct:provenance [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:MapDataToZones_47fbab073054" ;
+            prov:actedOnBehalfOf agents:TerraNexus ;
+            prov:qualifiedDelegation <file:///github/workspace/ogcapiProcess> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:TerraNexus" ;
+            prov:actedOnBehalfOf agents:PangaeaInnovations ;
+            prov:qualifiedDelegation roles:Software ],
+        [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <https://terranexus.pangaeainnovations.com/prov/agents/%3COrganisation%3E> ;
+            prov:qualifiedDelegation roles:User ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:PangaeaInnovations" ],
+        terranexusCollections:osm_singapore_buildings,
+        <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349>,
+        terranexusCollections:osm_singapore_buildings___Properties,
+        terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2,
+        terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2,
+        terranexusJobs:MapDataToZones_47fbab073054,
+        <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones>,
+        dggsOperations:map_data,
+        dggsOperations:map_data_execution,
+        dggsOperations:map_featureData_task-2305843009231960349-Polygon_0,
+        dggsOperations:processData_task,
+        dggsOperations:reorganiseData_task-2305843009231960349-Polygon_0,
+        terranexusTempData:osm_singapore_buildings__f58dba1aa47069ba0a88713a14b14605 ;
+    dct:spatial [ a <file:///github/workspace/null> ] ;
+    dct:time [ time:hasTime "2024-08-01T06:38:13.428950+00:00"^^xsd:dateTime ] ;
+    rdfs:seeAlso [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings?f=json> ],
+        [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/ld+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=jsonld> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=geojson> ],
+        [ rdfs:label "The Feature Geometry JSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/vnd.ogc.fg+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=jsonfg> ],
+        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349?f=json> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns2:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget terranexusCollections:osm_singapore_buildings ],
+        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "text/html" ;
+            ns2:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349> ] ;
+    prov:wasGeneratedBy dggsOperations:processData_task ;
+    geojson:geometry [ a geojson:Polygon ;
+            geojson:coordinates ( ( ( 1.015583e+02 3.055355e+00 ) ( 1.01558e+02 3.054689e+00 ) ( 1.015582e+02 3.054614e+00 ) ( 1.015584e+02 3.055293e+00 ) ( 1.015583e+02 3.055355e+00 ) ) ) ] .
+
+dggsOperations:map_featureData_task-2305843009231960349-Polygon_0 a <file:///github/workspace/dggsOperation>,
+        prov:Activity ;
+    prov:qualifiedAssociation agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:startedAtTime "2024-08-01T06:38:14.748519+00:00"^^xsd:dateTime ;
+    prov:used terranexusJobs:MapDataToZones_47fbab073054 ;
+    prov:wasAssociatedWith agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:wasInformedBy <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones>,
+        dggsOperations:map_data,
+        dggsOperations:map_data_execution,
+        dggsOperations:processData_task,
+        dggsOperations:reorganiseData_task-2305843009231960349 .
+
+dggsOperations:reorganiseData_task-2305843009229499373-Polygon_0 a <file:///github/workspace/dggsOperation>,
+        prov:Activity ;
+    prov:endedAtTime "2024-08-01T06:36:25.776828+00:00"^^xsd:dateTime ;
+    prov:qualifiedAssociation agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:startedAtTime "2024-08-01T06:36:25.624668+00:00"^^xsd:dateTime ;
+    prov:used terranexusJobs:MapDataToZones_47fbab073054 ;
+    prov:wasAssociatedWith agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:wasInformedBy <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones>,
+        dggsOperations:map_data,
+        dggsOperations:map_data_execution,
+        dggsOperations:processData_task .
+
+dggsOperations:reorganiseData_task-2305843009231960349-Polygon_0 a <file:///github/workspace/dggsOperation>,
+        prov:Activity ;
+    prov:endedAtTime "2024-08-01T06:38:14.382261+00:00"^^xsd:dateTime ;
+    prov:qualifiedAssociation agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:startedAtTime "2024-08-01T06:38:14.249362+00:00"^^xsd:dateTime ;
+    prov:used terranexusJobs:MapDataToZones_47fbab073054 ;
+    prov:wasAssociatedWith agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:wasInformedBy <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones>,
+        dggsOperations:map_data,
+        dggsOperations:map_data_execution,
+        dggsOperations:processData_task .
+
+<https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009229499373> a prov:Entity,
+        geojson:Feature ;
+    prov:generatedAtTime "2024-08-01T06:36:24.345926+00:00"^^xsd:dateTime ;
+    prov:hadPrimarySource <https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=5> ;
+    prov:wasDerivedFrom terranexusCollections:osm_singapore_buildings,
+        terranexusJobs:MapDataToZones_47fbab073054,
+        terranexusTempData:osm_singapore_buildings__f58dba1aa47069ba0a88713a14b14605.json ;
+    prov:wasGeneratedBy dggsOperations:processData_task .
+
+<https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960349> a prov:Entity,
+        geojson:Feature ;
+    prov:generatedAtTime "2024-08-01T06:38:13.428950+00:00"^^xsd:dateTime ;
+    prov:hadPrimarySource <https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=5> ;
+    prov:wasDerivedFrom terranexusCollections:osm_singapore_buildings,
+        terranexusJobs:MapDataToZones_47fbab073054,
+        terranexusTempData:osm_singapore_buildings__f58dba1aa47069ba0a88713a14b14605.json ;
+    prov:wasGeneratedBy dggsOperations:processData_task .
+
+dggsOperations:map_featureData_task-2305843009229499373-Polygon_0 a <file:///github/workspace/dggsOperation>,
+        prov:Activity ;
+    prov:endedAtTime "2024-08-01T06:38:13.351488+00:00"^^xsd:dateTime ;
+    prov:generated terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2 ;
+    prov:qualifiedAssociation agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:startedAtTime "2024-08-01T06:36:26.142218+00:00"^^xsd:dateTime ;
+    prov:used terranexusJobs:MapDataToZones_47fbab073054 ;
+    prov:wasAssociatedWith agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:wasInformedBy <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones>,
+        dggsOperations:map_data,
+        dggsOperations:map_data_execution,
+        dggsOperations:processData_task,
+        dggsOperations:reorganiseData_task-2305843009229499373 .
+
+terranexusCollections:osm_singapore_buildings___Properties a <file:///github/workspace/FeatureCollectionProperties>,
+        prov:Entity ;
+    prov:generatedAtTime "2024-08-01T06:36:24.173862+00:00"^^xsd:dateTime ;
+    prov:hadPrimarySource <https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=5> ;
+    prov:wasDerivedFrom terranexusJobs:MapDataToZones_47fbab073054,
+        terranexusTempData:osm_singapore_buildings__f58dba1aa47069ba0a88713a14b14605.json ;
+    prov:wasGeneratedBy dggsOperations:processData_task .
+
+<file:///github/workspace/ogcapiProcess> a prov:Delegation ;
+    prov:agent agents:TerraNexus ;
+    prov:hadActivity <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones> .
+
+terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2 a <file:///github/workspace/FeatureCollectionDGGSZones>,
+        prov:Entity ;
+    prov:generatedAtTime "2024-08-01T06:36:28.014547+00:00"^^xsd:dateTime ;
+    prov:hadPrimarySource terranexusCollections:osm_singapore_buildings,
+        terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2 ;
+    prov:wasDerivedFrom terranexusCollections:osm_singapore_buildings,
+        terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2,
+        terranexusJobs:MapDataToZones_47fbab073054 ;
+    prov:wasGeneratedBy dggsOperations:map_featureData_task-2305843009229499373-Polygon_0 .
+
+roles:Software a prov:Delegation ;
+    prov:agent agents:PangaeaInnovations .
+
+roles:User a prov:Delegation ;
+    prov:agent <https://terranexus.pangaeainnovations.com/prov/agents/%3COrganisation%3E> .
+
+terranexusTempData:osm_singapore_buildings__f58dba1aa47069ba0a88713a14b14605 a <file:///github/workspace/rawData>,
+        prov:Entity ;
+    prov:generatedAtTime "2024-08-01T06:36:19.145246+00:00"^^xsd:dateTime ;
+    prov:hadPrimarySource <https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=5> ;
+    prov:wasDerivedFrom terranexusJobs:MapDataToZones_47fbab073054 ;
+    prov:wasGeneratedBy <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones> .
+
+terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2 a <file:///github/workspace/DGGS>,
+        prov:Entity ;
+    prov:generatedAtTime "2024-07-30T20:54:30.425150+00:00"^^xsd:dateTime ;
+    prov:hadPrimarySource agents:TerraNexus ;
+    prov:wasGeneratedBy agents:TerraNexus .
+
+dggsOperations:map_data_execution a <file:///github/workspace/dggsOperation>,
+        prov:Activity ;
+    prov:qualifiedAssociation agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:startedAtTime "2024-08-01T06:36:20.113007+00:00"^^xsd:dateTime ;
+    prov:used terranexusJobs:MapDataToZones_47fbab073054 ;
+    prov:wasAssociatedWith agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:wasInformedBy <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones>,
+        dggsOperations:map_data .
+
+terranexusCollections:osm_singapore_buildings a prov:Entity,
+        geojson:FeatureCollection ;
+    prov:generatedAtTime "2024-08-01T06:36:23.016609+00:00"^^xsd:dateTime ;
+    prov:hadPrimarySource <https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=5> ;
+    prov:wasDerivedFrom terranexusJobs:MapDataToZones_47fbab073054,
+        terranexusTempData:osm_singapore_buildings__f58dba1aa47069ba0a88713a14b14605.json ;
+    prov:wasGeneratedBy dggsOperations:processData_task .
+
+dggsOperations:map_data a <file:///github/workspace/dggsOperation>,
+        prov:Activity ;
+    prov:qualifiedAssociation agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:startedAtTime "2024-08-01T06:36:19.306985+00:00"^^xsd:dateTime ;
+    prov:used terranexusJobs:MapDataToZones_47fbab073054 ;
+    prov:wasAssociatedWith agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:wasInformedBy <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones> .
+
+<https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones> a <file:///github/workspace/ogcapiProcess>,
+        prov:Activity ;
+    prov:endedAtTime "2024-08-01T06:36:19.266405+00:00"^^xsd:dateTime ;
+    prov:generated terranexusJobs:MapDataToZones_47fbab073054,
+        terranexusTempData:osm_singapore_buildings__f58dba1aa47069ba0a88713a14b14605 ;
+    prov:qualifiedAssociation agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:startedAtTime "2024-08-01T06:36:14.966889+00:00"^^xsd:dateTime ;
+    prov:used terranexusJobs:MapDataToZones_47fbab073054 ;
+    prov:wasAssociatedWith agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com .
+
+dggsOperations:processData_task a <file:///github/workspace/dggsOperation>,
+        prov:Activity ;
+    prov:qualifiedAssociation agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:startedAtTime "2024-08-01T06:36:21.653215+00:00"^^xsd:dateTime ;
+    prov:used terranexusJobs:MapDataToZones_47fbab073054,
+        terranexusTempData:osm_singapore_buildings__f58dba1aa47069ba0a88713a14b14605.json ;
+    prov:wasAssociatedWith agents:MapDataToZones_47fbab073054,
+        agents:TerraNexus,
+        agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:wasInformedBy <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones>,
+        dggsOperations:map_data,
+        dggsOperations:map_data_execution .
+
+agents:MapDataToZones_47fbab073054 a prov:Association ;
+    prov:agent agents:MapDataToZones_47fbab073054 ;
+    prov:hadRole roles:ogcapiProcessJob .
+
+terranexusJobs:MapDataToZones_47fbab073054 a <file:///github/workspace/ogcapiProcessJob>,
+        prov:Entity ;
+    prov:generatedAtTime "2024-08-01T06:36:19.115272+00:00"^^xsd:dateTime ;
+    prov:hadPrimarySource agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:wasGeneratedBy <https://terranexus.pangaeainnovations.com/ogcapi/processes/execution/MapDataToZones> .
+
+agents:admin%40terranexus.pangaeainnovations.com a prov:Association ;
+    prov:agent agents:admin%40terranexus.pangaeainnovations.com ;
+    prov:hadRole roles:User .
+
+agents:TerraNexus a prov:Association ;
+    prov:agent agents:TerraNexus ;
+    prov:hadRole roles:Software .
+

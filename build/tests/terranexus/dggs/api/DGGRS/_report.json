@@ -1,0 +1,64 @@
+{
+  "title": "Validation report for pangaea.terranexus.dggs.api.DGGRS - OGC API DGGS - Discrete Global Grid Reference System (DGGRS)",
+  "bblockName": "OGC API DGGS - Discrete Global Grid Reference System (DGGRS)",
+  "bblockId": "pangaea.terranexus.dggs.api.DGGRS",
+  "generated": "2024-08-28T04:32:39.887597+00:00",
+  "result": false,
+  "items": [
+    {
+      "source": {
+        "type": "EXAMPLE",
+        "requireFail": false,
+        "filename": "build/tests/terranexus/dggs/api/DGGRS/example_2_1.json",
+        "url": "https://geofizzydrink.github.io/test_bblock/build/tests/terranexus/dggs/api/DGGRS/example_2_1.json",
+        "exampleIndex": 2,
+        "snippetIndex": 1,
+        "language": "json"
+      },
+      "result": false,
+      "sections": [
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using example_2_1.json from examples"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'Icosahedron' is not of type 'object'",
+              "isError": true,
+              "message": "ValidationError: 'Icosahedron' is not of type 'object'\n\nFailed validating 'type' in schema['properties']['basePolyhedron']:\n    {'properties': {'orientation': {'properties': {'latitude': {'description': 'Reference '\n                                                                               'Latitude '\n                                                                               'to '\n                                                                               'fix '\n                                                                               'the '\n                                                                               'orientation '\n                                                                               'of '\n                                                                               'the '\n                                                                               'polyhedron.',\n                                                                'example': 0.0,\n                                                                'type': 'number'},\n                                                   'longitude': {'description': 'Reference '\n                                                                                'Longitude '\n                                                                                'to '\n                                                                                'fix '\n                                                                                'the '\n                                                                                'orientation '\n                                                                                'of '\n                                                                                'the '\n                                                                                'polyhedron.',\n                                                                 'example': 0.0,\n                                                                 'type': 'number'}},\n                                    'required': ['longitude', 'latitude'],\n                                    'type': 'object'},\n                    'polyhedronType': {'description': 'The Type/Class of '\n                                                      'Polyhedron used to '\n                                                      'construct the '\n                                                      'Discrete Global '\n                                                      'Grid System - if it '\n                                                      'is constructued '\n                                                      'using a Base '\n                                                      'Polyhedron.',\n                                       'example': 'icosahedron',\n                                       'type': 'string'}},\n     'required': ['polyhedronType', 'orientation'],\n     'type': 'object'}\n\nOn instance['basePolyhedron']:\n    'Icosahedron'"
+            }
+          ]
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": [
+            {
+              "exception": "AttributeError",
+              "isError": true,
+              "message": "Traceback (most recent call last):\n,  File \"/src/ogc/bblocks/validate.py\", line 184, in _validate_resource\n    result = validator.validate(filename, output_filename, report,\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 299, in validate\n    graph = self._load_graph(filename, output_filename, report, contents, base_uri, prefixes)\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 146, in _load_graph\n    if not self.jsonld_context and not self.prefixes:\n,AttributeError: 'RdfValidator' object has no attribute 'prefixes'\n"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "globalErrors": {},
+  "counts": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1
+  }
+}
