@@ -2,7 +2,7 @@
   "title": "Validation report for pangaea.terranexus.dggs.api.geojson-featureCollection_with-prov - OGC API Features Feature Collection with PROV Building Block",
   "bblockName": "OGC API Features Feature Collection with PROV Building Block",
   "bblockId": "pangaea.terranexus.dggs.api.geojson-featureCollection_with-prov",
-  "generated": "2024-09-07T13:39:51.069298+00:00",
+  "generated": "2024-09-07T13:45:42.903731+00:00",
   "result": true,
   "items": [
     {
@@ -40,7 +40,7 @@
               "op": "ttl-create",
               "empty": false,
               "filename": "example_2_1.ttl",
-              "size": 480,
+              "size": 2276,
               "isError": false,
               "message": "Output Turtle example_2_1.ttl created"
             }

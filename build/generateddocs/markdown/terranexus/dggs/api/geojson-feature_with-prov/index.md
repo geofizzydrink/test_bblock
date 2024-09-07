@@ -1127,25 +1127,7 @@ The content of this example.
 
 <file:///github/workspace/2305843009231960466> a geojson:Feature ;
     ns2:id 2305843009231960466 ;
-    dct:provenance [ a prov:Agent,
-                prov:Person ;
-            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
-            prov:actedOnBehalfOf <agents:%3COrganisation%3E> ;
-            prov:qualifiedDelegation <roles:User> ],
-        [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:TerraNexus" ;
-            prov:actedOnBehalfOf <agents:PangaeaInnovations> ;
-            prov:qualifiedDelegation <roles:Software> ],
-        [ a <file:///github/workspace/organization>,
-                prov:Agent ;
-            rdfs:label "agents:PangaeaInnovations" ],
-        [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:MapDataToZones" ;
-            prov:actedOnBehalfOf <agents:TerraNexus> ;
-            prov:qualifiedDelegation <terranexusProcesses:MapDataToZones> ],
-        [ a <file:///github/workspace/softwareAgent>,
+    dct:provenance [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:map_featureData_task" ;
             prov:actedOnBehalfOf <agents:processData_task> ;
@@ -1155,21 +1137,6 @@ The content of this example.
             rdfs:label "agents:processData_task" ;
             prov:actedOnBehalfOf <agents:map_data_execution> ;
             prov:qualifiedDelegation <dggsOperations:map_data_execution> ],
-        [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:map_data_execution" ;
-            prov:actedOnBehalfOf <agents:map_data> ;
-            prov:qualifiedDelegation <dggsOperations:map_data> ],
-        [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:_executeMapDataToZones_process" ;
-            prov:actedOnBehalfOf <terranexusProcesses:MapDataToZones> ;
-            prov:qualifiedDelegation <agents:_executeMapDataToZones_process> ],
-        [ a <file:///github/workspace/softwareAgent>,
-                prov:Agent ;
-            rdfs:label "agents:_validate_ogcapi_execute_document" ;
-            prov:actedOnBehalfOf <terranexusProcesses:MapDataToZones> ;
-            prov:qualifiedDelegation <agents:_validate_ogcapi_execute_document> ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:get_mapped_child_zones_task" ;
@@ -1182,12 +1149,45 @@ The content of this example.
             prov:qualifiedDelegation <dggsOperations:processData_task> ],
         [ a <file:///github/workspace/organization>,
                 prov:Agent ;
-            rdfs:label "agents:%3COrganisation%3E" ],
+            rdfs:label "agents:PangaeaInnovations" ],
         [ a <file:///github/workspace/softwareAgent>,
                 prov:Agent ;
             rdfs:label "agents:map_data" ;
             prov:actedOnBehalfOf <agents:_executeMapDataToZones_process> ;
             prov:qualifiedDelegation <dggsOperations:map_data> ],
+        [ a prov:Agent,
+                prov:Person ;
+            rdfs:label "agents:admin%40terranexus.pangaeainnovations.com" ;
+            prov:actedOnBehalfOf <agents:%3COrganisation%3E> ;
+            prov:qualifiedDelegation <roles:User> ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:TerraNexus" ;
+            prov:actedOnBehalfOf <agents:PangaeaInnovations> ;
+            prov:qualifiedDelegation <roles:Software> ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:_validate_ogcapi_execute_document" ;
+            prov:actedOnBehalfOf <terranexusProcesses:MapDataToZones> ;
+            prov:qualifiedDelegation <agents:_validate_ogcapi_execute_document> ],
+        [ a <file:///github/workspace/organization>,
+                prov:Agent ;
+            rdfs:label "agents:%3COrganisation%3E" ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:map_data_execution" ;
+            prov:actedOnBehalfOf <agents:map_data> ;
+            prov:qualifiedDelegation <dggsOperations:map_data> ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:MapDataToZones" ;
+            prov:actedOnBehalfOf <agents:TerraNexus> ;
+            prov:qualifiedDelegation <terranexusProcesses:MapDataToZones> ],
+        [ a <file:///github/workspace/softwareAgent>,
+                prov:Agent ;
+            rdfs:label "agents:_executeMapDataToZones_process" ;
+            prov:actedOnBehalfOf <terranexusProcesses:MapDataToZones> ;
+            prov:qualifiedDelegation <agents:_executeMapDataToZones_process> ],
         <activities:MapDataToZones_64169fd6ebbc>,
         <dggsOperations:map_featureData_task-2305843009231960466-Polygon_0>,
         <dggsOperations:reorganiseData_task-2305843009231960466-Polygon_0>,
@@ -1199,22 +1199,22 @@ The content of this example.
         <terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2>,
         <terranexusJobs:MapDataToZones_64169fd6ebbc>,
         <terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7> ;
-    rdfs:seeAlso [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466/2305843009231960466> ],
-        [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
+    rdfs:seeAlso [ rdfs:label "The GeoJSON  representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/geo+json" ;
             ns1:relation <http://www.iana.org/assignments/relation/self> ;
             oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466/2305843009231960466?f=json> ],
-        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
-            dct:type "text/html" ;
-            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
-            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings> ],
+        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "application/geo+json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466/2305843009231960466?f=geojson> ],
         [ rdfs:label "The GeoJSON representation of the resources served from the OGC API Feature Collection Endpoint" ;
             dct:type "application/geo+json" ;
             ns1:relation <http://www.iana.org/assignments/relation/collection> ;
             oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings?f=json> ],
+        [ rdfs:label "The HTML representation of the resources served from the OGC API Feature Collection Endpoint" ;
+            dct:type "text/html" ;
+            ns1:relation <http://www.iana.org/assignments/relation/collection> ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings> ],
         [ rdfs:label "The Linked Data JSON (Feature Geometry JSON + PROV) representation of the resources served from this OGC API Implementation Endpoint" ;
             dct:type "application/ld+json" ;
             ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
@@ -1223,10 +1223,10 @@ The content of this example.
             dct:type "application/vnd.ogc.fg+json" ;
             ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
             oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466/2305843009231960466?f=jsonfg> ],
-        [ rdfs:label "The GeoJSON representation of the resources served from this OGC API Implementation Endpoint" ;
-            dct:type "application/geo+json" ;
+        [ rdfs:label "The HTML representation of the resources served from this OGC API Implementation Endpoint" ;
+            dct:type "text/html" ;
             ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
-            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466/2305843009231960466?f=geojson> ] ;
+            oa:hasTarget <https://terranexus.pangaeainnovations.com/ogcapi/collections/osm_singapore_buildings/items/2305843009231960466/2305843009231960466> ] ;
     prov:wasGeneratedBy <activities:MapDataToZones_64169fd6ebbc> ;
     geojson:geometry [ a geojson:Polygon ;
             geojson:coordinates ( ( ( 1.015585e+02 3.05452e+00 ) ( 1.015587e+02 3.055186e+00 ) ( 1.015585e+02 3.055265e+00 ) ( 1.015583e+02 3.054599e+00 ) ( 1.015585e+02 3.05452e+00 ) ) ) ] .

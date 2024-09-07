@@ -103,7 +103,7 @@
       }
     }
   ],
-  "modified": "2024-09-07T13:39:47.069575",
+  "modified": "2024-09-07T13:45:35.781757",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"34b61f9a9f65e036163cb351828202cc5af9f964",
@@ -209,8 +209,8 @@
       ],
       "shaclRules": {},
       "dependsOn": [
-        "ogc.geo.features.feature",
-        "ogc.ogc-utils.prov"
+        "ogc.ogc-utils.prov",
+        "ogc.geo.features.feature"
       ],
       "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/terranexus/dggs/api/geojson-feature_with-prov/context.jsonld",
       "schema": {
@@ -267,9 +267,9 @@
       ],
       "shaclRules": {},
       "dependsOn": [
-        "ogc.geo.features.feature",
+        "ogc.ogc-utils.prov",
         "ogc.ogc-utils.json-link",
-        "ogc.ogc-utils.prov"
+        "ogc.geo.features.feature"
       ],
       "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/terranexus/dggs/api/json-fg-feature_with-prov/context.jsonld",
       "schema": {
@@ -384,10 +384,10 @@
       ],
       "shaclRules": {},
       "dependsOn": [
-        "ogc.geo.features.feature",
-        "ogc.ogc-utils.json-link",
         "ogc.ogc-utils.prov",
-        "ogc.geo.features.featureCollection"
+        "ogc.geo.features.featureCollection",
+        "ogc.ogc-utils.json-link",
+        "ogc.geo.features.feature"
       ],
       "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/terranexus/dggs/api/json-fg-feature-collection_with-prov/context.jsonld",
       "schema": {
