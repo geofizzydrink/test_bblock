@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-08-28",
+  "dateOfLastChange": "2024-09-07",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
