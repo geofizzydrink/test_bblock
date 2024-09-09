@@ -1,5 +1,5 @@
 {
-  "modified": "2024-09-07T13:45:35.781757",
+  "modified": "2024-09-09T02:02:49.526918",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"34b61f9a9f65e036163cb351828202cc5af9f964",
@@ -28,7 +28,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-09-07",
+      "dateOfLastChange": "2024-09-09",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -80,7 +80,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-09-07",
+      "dateOfLastChange": "2024-09-09",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -133,7 +133,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-09-07",
+      "dateOfLastChange": "2024-09-09",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -160,7 +160,7 @@
       "sourceSchema": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature_with-prov/schema.yaml",
       "sourceLdContext": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature_with-prov/context.jsonld",
       "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature_with-prov/",
-      "validationPassed": false,
+      "validationPassed": true,
       "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/terranexus/dggs/api/json-fg-feature_with-prov/",
       "documentation": {
         "json-full": {
@@ -187,7 +187,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-09-07",
+      "dateOfLastChange": "2024-09-09",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -240,7 +240,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-09-07",
+      "dateOfLastChange": "2024-09-09",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -257,8 +257,8 @@
       "dependsOn": [
         "ogc.ogc-utils.prov",
         "ogc.geo.features.featureCollection",
-        "ogc.ogc-utils.json-link",
-        "ogc.geo.features.feature"
+        "ogc.geo.features.feature",
+        "ogc.ogc-utils.json-link"
       ],
       "ldContext": "https://geofizzydrink.github.io/test_bblock/build/annotated/terranexus/dggs/api/json-fg-feature-collection_with-prov/context.jsonld",
       "schema": {
@@ -268,7 +268,7 @@
       "sourceSchema": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature-collection_with-prov/schema.yaml",
       "sourceLdContext": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature-collection_with-prov/context.jsonld",
       "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/json-fg-feature-collection_with-prov/",
-      "validationPassed": false,
+      "validationPassed": true,
       "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/terranexus/dggs/api/json-fg-feature-collection_with-prov/",
       "documentation": {
         "json-full": {
