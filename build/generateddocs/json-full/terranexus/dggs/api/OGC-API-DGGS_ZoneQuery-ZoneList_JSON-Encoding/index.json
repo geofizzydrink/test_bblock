@@ -1,0 +1,59 @@
+
+
+{
+  "itemIdentifier": "pangaea.terranexus.dggs.api.OGC-API-DGGS_ZoneQuery-ZoneList_JSON-Encoding",
+  "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
+  "name": "OGC API DGGS",
+  "abstract": "This Building Block serves as a template to define and test the schema specification for an OGC API DGGS Server",
+  "status": "under-development",
+  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "itemClass": "schema",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "dateOfLastChange": "2024-09-13",
+  "link": "https://github.com/opengeospatial/bblock-template",
+  "sources": [
+    {
+      "title": "Sample source document",
+      "link": "https://example.com/sources/1"
+    }
+  ],
+  "maturity": "mature",
+  "scope": "unstable",
+  "tags": [
+    "templates"
+  ],
+  "shaclRules": {},
+  "ldContext": "https://geofizzydrink.github.io/test_bblock/_sources/OGC-API-DGGS_ZoneQuery-ZoneList_JSON-Encoding/context.jsonld",
+  "schema": {
+    "application/yaml": "https://geofizzydrink.github.io/test_bblock/build/annotated/terranexus/dggs/api/OGC-API-DGGS_ZoneQuery-ZoneList_JSON-Encoding/schema.yaml",
+    "application/json": "https://geofizzydrink.github.io/test_bblock/build/annotated/terranexus/dggs/api/OGC-API-DGGS_ZoneQuery-ZoneList_JSON-Encoding/schema.json"
+  },
+  "sourceSchema": "https://geofizzydrink.github.io/test_bblock/_sources/OGC-API-DGGS_ZoneQuery-ZoneList_JSON-Encoding/schema.yaml",
+  "sourceLdContext": "https://geofizzydrink.github.io/test_bblock/_sources/OGC-API-DGGS_ZoneQuery-ZoneList_JSON-Encoding/context.jsonld",
+  "sourceFiles": "https://geofizzydrink.github.io/test_bblock/_sources/OGC-API-DGGS_ZoneQuery-ZoneList_JSON-Encoding/",
+  "validationPassed": false,
+  "testOutputs": "https://github.com/geofizzydrink/test_bblock/blob/master/build/tests/terranexus/dggs/api/OGC-API-DGGS_ZoneQuery-ZoneList_JSON-Encoding/",
+  "description": "## Qui hastarum tectus Cithaeron iuvabat\n\nLorem markdownum vestigia sanguine rursus undis, suspenderat meo mox conlegerat\ntemperat sucos. Est graves dant sentire sanguinis flores respondent testari.\n\n> Videri vias quid Ausoniae sua flores ante, reminiscitur fuit est. Semel\n> [hectora](http://silvaque.org/) peregrinaeque rudem exercent in, Troiana si\n> Asida instabilesque somno sed.\n\n## Iam vota cui dilataque peterem\n\nTinxit lumina lacer liquidarum Aiax si mergitur sed fueris capitisque **et\ncadit** contigerant rectum [ferar](http://prosternit.com/quoque.html) temperat.\nMonet caput adsensere Ityn furentibus gelidos.",
+  "examples": [
+    {
+      "title": "This is an example with just a description and no code snippets.",
+      "content": "This is the content of the example.\n\nIn **Markdown** format."
+    },
+    {
+      "title": "Examples can have content and/or code snippets.",
+      "content": "The content of this example. ",
+      "snippets": [
+        {
+          "language": "json",
+          "ref": "examples/ogcapi-DGGS_Example1.json",
+          "code": "{\n    \"gridConstraint\": [\"cellEqualSized\",\"cellConformal\"],\n\t\"zoneGeometry\": {\"zoneType\": \"triangle\"},\n\t\"surfaceInterpolation\": \"elliptical\",\n\t\"referenceSystemType\": {\"CRS\": \"EPSG:7789\",\n    \t\t\t\t\t\t\"GLOBE\": \"EPGS:7019\",\n    \t\t\t\t\t\t\"MDRS\": \"TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2-topological\",\n    \t\t\t\t\t\t\"ZIRS\": \"TopologicalMortonCode\"},\n\t\"refinementStrategy\": \"nestedChildCell\",\n\t\"refinementRatio\": 9,\n\t\"basePolyhedron\": \"Icosahedron\"\n}",
+          "url": "https://geofizzydrink.github.io/test_bblock/build/tests/terranexus/dggs/api/OGC-API-DGGS_ZoneQuery-ZoneList_JSON-Encoding/example_2_1.json"
+        }
+      ]
+    }
+  ],
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ntitle: OGC API DGGS - Zone Query JSON encoding response.\ndescription: JSON response for the DGGRS zone list resource.type = object\nrequired:\n- zones\nproperties:\n  zones:\n    type: array\n    items:\n      type: string\n  returnedAreaMetersSquare:\n    type: number\n  returnedVolumeMetersCube:\n    type: number\n  returnedVolumeMetersSquareSeconds:\n    type: number\n  returnedHyperVolumeMetersCubeSeconds:\n    type: number\n  links:\n    type: array\n    items:\n      $ref: '#/$defs/link'\n$defs:\n  link:\n    type: object\n    required:\n    - href\n    - rel\n    properties:\n      href:\n        type: string\n        description: Supplies the URI to a remote resource (or resource fragment).\n        example: http://data.example.com/buildings/123\n      rel:\n        type: string\n        description: The type or semantics of the relation.\n        example: alternate\n      type:\n        type: string\n        description: A hint indicating what the media type of the result of dereferencing\n          the link should be.\n        example: application/geo+json\n      hreflang:\n        type: string\n        description: A hint indicating what the language of the result of dereferencing\n          the link should be.\n        example: en\n      title:\n        type: string\n        description: Used to label the destination of a link such that it can be used\n          as a human-readable identifier.\n        example: Trierer Strasse 70, 53115 Bonn\n      length:\n        type: integer\n",
+  "gitRepository": "https://github.com/geofizzydrink/test_bblock",
+  "gitPath": "_sources/OGC-API-DGGS_ZoneQuery-ZoneList_JSON-Encoding"
+}

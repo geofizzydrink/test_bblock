@@ -1,0 +1,54 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: OGC API DGGS - Zone Query JSON encoding response.
+description: JSON response for the DGGRS zone list resource.type = object
+required:
+- zones
+properties:
+  zones:
+    type: array
+    items:
+      type: string
+  returnedAreaMetersSquare:
+    type: number
+  returnedVolumeMetersCube:
+    type: number
+  returnedVolumeMetersSquareSeconds:
+    type: number
+  returnedHyperVolumeMetersCubeSeconds:
+    type: number
+  links:
+    type: array
+    items:
+      $ref: '#/$defs/link'
+$defs:
+  link:
+    type: object
+    required:
+    - href
+    - rel
+    properties:
+      href:
+        type: string
+        description: Supplies the URI to a remote resource (or resource fragment).
+        example: http://data.example.com/buildings/123
+      rel:
+        type: string
+        description: The type or semantics of the relation.
+        example: alternate
+      type:
+        type: string
+        description: A hint indicating what the media type of the result of dereferencing
+          the link should be.
+        example: application/geo+json
+      hreflang:
+        type: string
+        description: A hint indicating what the language of the result of dereferencing
+          the link should be.
+        example: en
+      title:
+        type: string
+        description: Used to label the destination of a link such that it can be used
+          as a human-readable identifier.
+        example: Trierer Strasse 70, 53115 Bonn
+      length:
+        type: integer

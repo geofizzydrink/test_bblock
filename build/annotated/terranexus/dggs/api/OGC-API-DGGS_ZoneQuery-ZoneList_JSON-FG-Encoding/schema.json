@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OGC API DGGS - Zone Query GeoJSON encoding response.",
+  "description": "GeoJSON response for the DGGRS zone list resource.",
+  "allOf": [
+    {
+      "$ref": "https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/featureCollection/schema.json"
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+Validation report for pangaea.terranexus.dggs.api.OGC-API-DGGS_Core-DGGRS - OGC API DGGS
+Generated 2024-09-13T10:21:28.173080+00:00
+=== Files ===
+Using example_2_1.json from examples
+=== End Files ===
+
+=== JSON Schema ===
+
+** Validation error **
+ValidationError: 'dggh' is a required property
+
+Failed validating 'required' in schema:
+    {'$defs': {'crs': {'oneOf': [{'description': 'Simplification of the '
+                                                 'object into a url if the '
+                                                 'other properties are not '
+                                                 'present',
+                                  'type': 'string'},
+                                 {'oneOf': [{'properties': {'uri': {'description': 'Reference '
+                                                                                   'to '
+                                                                                   'one '
+                                                                                   'coordinate '
+                                                                                   'reference '
+                                                                                   'system '
+                                                                                   '(CRS)',
+                                                                    'format': 'uri',
+                                                                    'type': 'string'}},
+                                             'required': ['uri']},
+                                            {'properties': {'wkt': {'description': 'A '
+                                                                                   'string '
+                                                                                   'defining '
+                                                                                   'the '
+                                                                                   'CRS '
+                                                                                   'using '
+                                                                                   'the '
+                                                                                   'JSON '
+                                                                                   'encodng '
+                                                                                   'for '
+                                                                                   'Well '
+                                                                                   'Known '
+                                                                                   'Text',
+                                                                    'type': 'object'}},
+                                             'required': ['wkt']},
+                                            {'properties': {'referenceSystem': {'description': 'A '
+                                                                                               'reference '
+                                                                                               'system '
+                                                                                               'data '
+                                                                                               'structure '
+                                                                                               'as '
+                                                                                               'defined '
+                                                                                               'in '
+                                                                                               'the '
+                                                                                               'MD_ReferenceSystem '
+                                                                                               'of '
+                                                                                               'the '
+                                                                                               'ISO '
+                                                                                               '19115',
+                                                                                'type': 'object'}},
+                                             'required': ['referenceSystem']}],
+                                  'type': 'object'}],
+                       'title': 'CRS'}},
+     '$schema': 'https://json-schema.org/draft/2020-12/schema',
+     'description': 'Discrete Global Grid System Reference System (DGGRS) '
+                    'Definition.',
+     'properties': {'description': {'type': 'string'},
+                    'dggh': {'description': 'The hierarchical series of '
+                                            'Discrete Global Grid upon '
+                                            'which this DGGRS is based, '
+                                            'including any parameters.',
+                             'properties': {'definition': {'description': 'The '
+                                                                          'base '
+                                                                          'definition '
+                                                                          'of '
+                                                                          'the '
+                                                                          'hierarchical '
+                                                                          'series '
+                                                                          'of '
+                                                                          'Discrete '
+                                                                          'Global '
+                                                                          'Grid, '
+                                                                          'which '
+                                                                          'may '
+                                                                          'be '
+                                                                          'parameterized.',
+                                                           'properties': {'basePolyhedron': {'description': 'The '
+                                                                                                            'Type/Class '
+                                                                                                            'of '
+                                                                                                            'Polyhedron '
+                                                                                                            'used '
+                                                                                                            'to '
+                                                                                                            'construct '
+                                                                                                            'the '
+                                                                                                            'Discrete '
+                                                                                                            'Global '
+                                                                                                            'Grid '
+                                                                                                            'System '
+                                                                                                            '- '
+                                                                                                            'if '
+                                                                                                            'it '
+                                                                                                            'is '
+                                                                                                            'constructued '
+                                                                                                            'using '
+                                                                                                            'a '
+                                                                                                            'Base '
+                                                                                                            'Polyhedron.',
+                                                                                             'example': 'icosahedron',
+                                                                                             'type': 'string'},
+                                                                          'constraints': {'properties': {'cellAxisAligned': {'default': False,
+                                                                                                                             'description': 'Set '
+                                                                                                                                            'to '
+                                                                                                                                            'true '
+                                                                                                                                            'if '
+                                                                                                                                            'all '
+                                                                                                                                            'edges '
+                                                                                                                                            'of '
+                                                                                                                                            'the '
+                                                                                                                                            'geometry '
+                                                                                                                                            'of '
+                                                                                                                                            'all '
+                                                                                                                                            'zones '
+                                                                                                                                            'are '
+                                                                                                                                            'aligned '
+                                                                                                                                            'with '
+                                                                                                                                            'one '
+                                                                                                                                            'of '
+                                                                                                                                            'the '
+                                                                                                                                            'axis '
+                                                                                                                                            'of '
+                                                                                                                                            'the '
+                                                                                                                                            '`crs`.',
+                                                                                                                             'type': 'boolean'},
+                                                                                                         'cellConformal': {'default': False,
+                                                                                                                           'type': 'boolean'},
+                                                                                                         'cellEqualSized': {'default': False,
+                                                                                                                            'description': 'Set '
+                                                                                                                                           'to '
+                                                                                                                                           'true '
+                                                                                                                                           'if '
+                                                                                                                                           'the '
+                                                                                                                                           'area '
+                                                                                                                                           'of '
+                                                                                                                                           'all '
+                                                                                                                                           'zones '
+                                                                                                                                           'is '
+                                                                                                                                           'the '
+                                                                                                                                           'same '
+                                                                                                                                           'for '
+                                                                                                                                           'a '
+                                                                                                                                           'particular '
+                                                                                                                                           'zone '
+                                                                                                                                           'geometry '
+                                                                                                                                           'type '
+                                                                                                                                           'of '
+                                                                                                                                           'any '
+                                                                                                                                           'specifc '
+                                                                                                                                           'discrete '
+                                                                                                                                           'global '
+                                                                                                                                           'grid '
+                                                                                                                                           'of '
+                                                                                                                                           'the '
+                                                                                                                                           'DGG '
+                                                                                                                                           'hierarchy.',
+                                                                                                                            'type': 'boolean'},
+                                                                                                         'cellEquiAngular': {'default': False,
+                                                                                                                             'type': 'boolean'},
+                                                                                                         'cellEquiDistant': {'default': False,
+                                                                                                                             'type': 'boolean'}},
+                                                                                          'type': 'object'},
+                                                                          'crs': {'allOf': [{'description': 'The '
+                                                                                                            'native '
+                                                                                                            'Coordinate '
+                                                                                                            'Reference '
+                                                                                                            'System '
+                                                                                                            '(CRS) '
+                                                                                                            'in '
+                                                                                                            'which '
+                                                                                                            'the '
+                                                                                                            'geometry '
+                                                                                                            'of '
+                                                                                                            'the '
+                                                                                                            'zones '
+                                                                                                            'for '
+                                                                                                            'this '
+                                                                                                            'DGG '
+                                                                                                            'hierarchy '
+                                                                                                            'is '
+                                                                                                            'defined.'},
+                                                                                            {'anyOf': [{'example': 'EPSG:7789',
+                                                                                                        'format': 'uri',
+                                                                                                        'type': 'string'},
+                                                                                                       {'$ref': '#/$defs/crs'}]}]},
+                                                                          'refinementRatio': {'description': 'The '
+                                                                                                             'ratio '
+                                                                                                             'of '
+                                                                                                             'the '
+                                                                                                             'area '
+                                                                                                             'of '
+                                                                                                             'zones '
+                                                                                                             'between '
+                                                                                                             'two '
+                                                                                                             'consecutive '
+                                                                                                             'hierarchy '
+                                                                                                             'level '
+                                                                                                             '(the '
+                                                                                                             'ratio '
+                                                                                                             'of '
+                                                                                                             'child '
+                                                                                                             'zones '
+                                                                                                             'to '
+                                                                                                             'parent '
+                                                                                                             'zones, '
+                                                                                                             'also '
+                                                                                                             'called '
+                                                                                                             'the '
+                                                                                                             'aperture).',
+                                                                                              'example': 9,
+                                                                                              'type': 'integer'},
+                                                                          'refinementStrategy': {'description': 'The '
+                                                                                                                'refinement '
+                                                                                                                'strategy '
+                                                                                                                'used '
+                                                                                                                'by '
+                                                                                                                'the '
+                                                                                                                'Discrete '
+                                                                                                                'Global '
+                                                                                                                'Grid '
+                                                                                                                'System',
+                                                                                                 'example': ['nestedChildCell',
+                                                                                                             'nodeCentredChildCell'],
+                                                                                                 'items': {'enum': ['centredChildCell',
+                                                                                                                    'nestedChildCell',
+                                                                                                                    'nodeCentredChildCell',
+                                                                                                                    'edgeCentredChildCell',
+                                                                                                                    'faceCentredChildCell',
+                                                                                                                    'solidCentredChildCell'],
+                                                                                                           'type': 'string'},
+                                                                                                 'type': 'array'},
+                                                                          'spatialDimensions': {'description': 'Number '
+                                                                                                               'of '
+                                                                                                               'Spatial '
+                                                                                                               'Dimensions '
+                                                                                                               'defined '
+                                                                                                               'by '
+                                                                                                               'the '
+                                                                                                               'Discrete '
+                                                                                                               'Global '
+                                                                                                               'Grid '
+                                                                                                               'System.',
+                                                                                                'example': 2,
+                                                                                                'type': 'integer'},
+                                                                          'temporalDimensions': {'description': 'Number '
+                                                                                                                'of '
+                                                                                                                'Temporal '
+                                                                                                                'Dimensions '
+                                                                                                                'defined '
+                                                                                                                'by '
+                                                                                                                'the '
+                                                                                                                'Discrete '
+                                                                                                                'Global '
+                                                                                                                'Grid '
+                                                                                                                'System.',
+                                                                                                 'example': 0,
+                                                                                                 'type': 'integer'},
+                                                                          'zoneTypes': {'example': ['hexagon',
+                                                                                                    'pentagon'],
+                                                                                        'items': {'enum': ['triangle',
+                                                                                                           'square',
+                                                                                                           'hexagon',
+                                                                                                           'pentagon',
+                                                                                                           'rhombus'],
+                                                                                                  'type': 'string'},
+                                                                                        'type': 'array'}},
+                                                           'required': ['spatialDimensions',
+                                                                        'temporalDimensions'],
+                                                           'type': 'object'},
+                                            'parameters': {'description': 'The '
+                                                                          'optional '
+                                                                          'parameters '
+                                                                          'establishing '
+                                                                          'a '
+                                                                          'very '
+                                                                          'specific '
+                                                                          'Discrete '
+                                                                          'Global '
+                                                                          'Grid '
+                                                                          'System, '
+                                                                          'where '
+                                                                          'each '
+                                                                          'zone '
+                                                                          'has '
+                                                                          'a '
+                                                                          'well-defined '
+                                                                          'geometry.',
+                                                           'properties': {'ellipsoid': {'description': 'Globe '
+                                                                                                       'Reference '
+                                                                                                       'System '
+                                                                                                       'Identifier/Specification',
+                                                                                        'example': ['EPGS:7019'],
+                                                                                        'format': 'uri',
+                                                                                        'type': 'string'},
+                                                                          'orientation': {'properties': {'azimuth': {'default': 0.0,
+                                                                                                                     'description': 'Azimuth '
+                                                                                                                                    'in '
+                                                                                                                                    'decimal '
+                                                                                                                                    'degrees '
+                                                                                                                                    'of '
+                                                                                                                                    'second '
+                                                                                                                                    'vertex '
+                                                                                                                                    'relative '
+                                                                                                                                    'to '
+                                                                                                                                    'the '
+                                                                                                                                    'first '
+                                                                                                                                    'vertex.',
+                                                                                                                     'example': 0.0,
+                                                                                                                     'type': 'number'},
+                                                                                                         'description': {'type': 'string'},
+                                                                                                         'latitude': {'description': 'Reference '
+                                                                                                                                     'latitude '
+                                                                                                                                     'in '
+                                                                                                                                     'decimal '
+                                                                                                                                     'degrees '
+                                                                                                                                     'on '
+                                                                                                                                     'reference '
+                                                                                                                                     'globe '
+                                                                                                                                     'of '
+                                                                                                                                     'first '
+                                                                                                                                     'vertex '
+                                                                                                                                     'to '
+                                                                                                                                     'fix '
+                                                                                                                                     'the '
+                                                                                                                                     'orientation '
+                                                                                                                                     'of '
+                                                                                                                                     'the '
+                                                                                                                                     'polyhedron.',
+                                                                                                                      'example': 58.28252559,
+                                                                                                                      'type': 'number'},
+                                                                                                         'longitude': {'description': 'Reference '
+                                                                                                                                      'longitude '
+                                                                                                                                      'in '
+                                                                                                                                      'decimal '
+                                                                                                                                      'degrees '
+                                                                                                                                      'on '
+                                                                                                                                      'reference '
+                                                                                                                                      'globe '
+                                                                                                                                      'of '
+                                                                                                                                      'first '
+                                                                                                                                      'vertex '
+                                                                                                                                      'to '
+                                                                                                                                      'fix '
+                                                                                                                                      'the '
+                                                                                                                                      'orientation '
+                                                                                                                                      'of '
+                                                                                                                                      'the '
+                                                                                                                                      'polyhedron.',
+                                                                                                                       'example': 11.25,
+                                                                                                                       'type': 'number'}},
+                                                                                          'required': ['longitude',
+                                                                                                       'latitude'],
+                                                                                          'type': 'object'}},
+                                                           'type': 'object'}},
+                             'type': 'object'},
+                    'subZoneOrder': {'description': 'The ordering used for '
+                                                    'this Discrete Global '
+                                                    'Grid System Reference '
+                                                    'System when encoding '
+                                                    'the values associated '
+                                                    'with sub-zones at any '
+                                                    'given depth relative '
+                                                    'to a parent zone.',
+                                     'properties': {'description': {'example': 'The '
+                                                                               'zones '
+                                                                               'are '
+                                                                               'ordered '
+                                                                               'in '
+                                                                               'tightly '
+                                                                               'packed '
+                                                                               'scanlines. '
+                                                                               'For '
+                                                                               'an '
+                                                                               'odd '
+                                                                               'relative '
+                                                                               'depth, '
+                                                                               'scanlines '
+                                                                               'start '
+                                                                               'along '
+                                                                               'a '
+                                                                               'hexagon '
+                                                                               'edge, '
+                                                                               'whereas '
+                                                                               'for '
+                                                                               'even '
+                                                                               'relative '
+                                                                               'depths, '
+                                                                               'scanlines '
+                                                                               'start '
+                                                                               'on '
+                                                                               'a '
+                                                                               'hexagon '
+                                                                               'vertex. '
+                                                                               'Scanlines '
+                                                                               'run '
+                                                                               'in '
+                                                                               'a '
+                                                                               'clockwise '
+                                                                               'direction. '
+                                                                               'For '
+                                                                               'sub-zones '
+                                                                               'at '
+                                                                               'an '
+                                                                               'even '
+                                                                               'refinement '
+                                                                               'level, '
+                                                                               'zones '
+                                                                               'are '
+                                                                               'ordered '
+                                                                               'left '
+                                                                               'to '
+                                                                               'right '
+                                                                               'along '
+                                                                               'a '
+                                                                               'scanline '
+                                                                               'and '
+                                                                               'scanlines '
+                                                                               'are '
+                                                                               'ordered '
+                                                                               'from '
+                                                                               'top '
+                                                                               'to '
+                                                                               'bottom '
+                                                                               '(considering '
+                                                                               'the '
+                                                                               'ISEA '
+                                                                               'planar '
+                                                                               'projection). '
+                                                                               'For '
+                                                                               'sub-zones '
+                                                                               'at '
+                                                                               'an '
+                                                                               'odd '
+                                                                               'refinement '
+                                                                               'level, '
+                                                                               'zones '
+                                                                               'are '
+                                                                               'ordered '
+                                                                               'top '
+                                                                               'to '
+                                                                               'bottom '
+                                                                               'along '
+                                                                               'a '
+                                                                               'scanline '
+                                                                               'and '
+                                                                               'scanlines '
+                                                                               'are '
+                                                                               'ordered '
+                                                                               'from '
+                                                                               'left '
+                                                                               'to '
+                                                                               'right. '
+                                                                               'Sub-zones '
+                                                                               'are '
+                                                                               'at '
+                                                                               'an '
+                                                                               'even '
+                                                                               'refinement '
+                                                                               'level '
+                                                                               'when '
+                                                                               'the '
+                                                                               'parity '
+                                                                               '(even/odd) '
+                                                                               'of '
+                                                                               'the '
+                                                                               'parent '
+                                                                               'zone '
+                                                                               'level '
+                                                                               'corresponds '
+                                                                               'to '
+                                                                               'the '
+                                                                               'parity '
+                                                                               'of '
+                                                                               'the '
+                                                                               'relative '
+                                                                               'depth, '
+                                                                               'and '
+                                                                               'at '
+                                                                               'an '
+                                                                               'odd '
+                                                                               'refinement '
+                                                                               'level '
+                                                                               'when '
+                                                                               'the '
+                                                                               'parity '
+                                                                               'of '
+                                                                               'the '
+                                                                               'parent '
+                                                                               'zone '
+                                                                               'level '
+                                                                               'and '
+                                                                               'relative '
+                                                                               'depth '
+                                                                               'do '
+                                                                               'not '
+                                                                               'match. '
+                                                                               'For '
+                                                                               'polar '
+                                                                               'pentagons, '
+                                                                               'the '
+                                                                               'orientation '
+                                                                               'of '
+                                                                               'the '
+                                                                               'scanlines '
+                                                                               'varies '
+                                                                               'in '
+                                                                               'the '
+                                                                               'ISEA '
+                                                                               'planar '
+                                                                               'projection '
+                                                                               'but '
+                                                                               'is '
+                                                                               'always '
+                                                                               'clockwise, '
+                                                                               'the '
+                                                                               'vertex/edge '
+                                                                               'of '
+                                                                               'the '
+                                                                               'first '
+                                                                               'sub-zone '
+                                                                               'is '
+                                                                               'on '
+                                                                               'the '
+                                                                               'left '
+                                                                               'side '
+                                                                               'of '
+                                                                               'the '
+                                                                               'planar '
+                                                                               'ISEA '
+                                                                               'projection '
+                                                                               'for '
+                                                                               'the '
+                                                                               'north '
+                                                                               'pole '
+                                                                               '(in '
+                                                                               'root '
+                                                                               'rhombus '
+                                                                               '0), '
+                                                                               'and '
+                                                                               'on '
+                                                                               'the '
+                                                                               'right '
+                                                                               'side '
+                                                                               'for '
+                                                                               'the '
+                                                                               'south '
+                                                                               'pole '
+                                                                               '(in '
+                                                                               'root '
+                                                                               'rhombus '
+                                                                               '9).\n',
+                                                                    'type': 'string'},
+                                                    'type': {'anyOf': [{'type': 'string'},
+                                                                       {'enum': ['scanline',
+                                                                                 'spiralFromCenter',
+                                                                                 'mortonCurve',
+                                                                                 'hilbertCurve'],
+                                                                        'type': 'string'}]}},
+                                     'required': ['description'],
+                                     'type': 'object'},
+                    'title': {'type': 'string'},
+                    'uri': {'description': 'The authoritative URI '
+                                           'associated with this DGGRS '
+                                           'definition',
+                            'format': 'uri',
+                            'type': 'string'},
+                    'zirs': {'description': 'The Zone Identifier Reference '
+                                            'System used for this Discrete '
+                                            'Global Grid System Reference '
+                                            'System.',
+                             'properties': {'textZIRS': {'description': 'textual '
+                                                                        'zone '
+                                                                        'identifier '
+                                                                        'indexing '
+                                                                        'scheme',
+                                                         'properties': {'description': {'example': 'Topological '
+                                                                                                   'Morton '
+                                                                                                   'Code '
+                                                                                                   '(Space '
+                                                                                                   'Filling '
+                                                                                                   'Curve) '
+                                                                                                   'Identifier. '
+                                                                                                   'With '
+                                                                                                   'a '
+                                                                                                   'Level '
+                                                                                                   '0 '
+                                                                                                   'alphabetical '
+                                                                                                   'identifier '
+                                                                                                   'from '
+                                                                                                   "'A' "
+                                                                                                   'to '
+                                                                                                   "'S' "
+                                                                                                   'followed '
+                                                                                                   'by '
+                                                                                                   'a '
+                                                                                                   'numeric '
+                                                                                                   'reference '
+                                                                                                   'from '
+                                                                                                   '1 '
+                                                                                                   'to '
+                                                                                                   '9 '
+                                                                                                   'for '
+                                                                                                   'all '
+                                                                                                   'subsequent '
+                                                                                                   'levels '
+                                                                                                   'representing '
+                                                                                                   'the '
+                                                                                                   'arrangement '
+                                                                                                   'of '
+                                                                                                   'child '
+                                                                                                   'zones '
+                                                                                                   'following '
+                                                                                                   'a '
+                                                                                                   'Morton '
+                                                                                                   '(Z-code) '
+                                                                                                   'subdivision '
+                                                                                                   'of '
+                                                                                                   'the '
+                                                                                                   'parent '
+                                                                                                   'zone. '
+                                                                                                   'The '
+                                                                                                   'length '
+                                                                                                   'of '
+                                                                                                   'the '
+                                                                                                   'identifier '
+                                                                                                   'represents '
+                                                                                                   'the '
+                                                                                                   'level '
+                                                                                                   'of '
+                                                                                                   'refinement.\n',
+                                                                                        'type': 'string'},
+                                                                        'type': {'anyOf': [{'type': 'string'},
+                                                                                           {'enum': ['hierarchicalConcatenation',
+                                                                                                     'ogc2DTMSHexLevelRowCol',
+                                                                                                     'levelRootFaceHexRowMajorSubZone'],
+                                                                                            'type': 'string'}]}},
+                                                         'required': ['description'],
+                                                         'type': 'object'},
+                                            'uint64ZIRS': {'description': '64-bit '
+                                                                          'unsigned '
+                                                                          'integer '
+                                                                          'zone '
+                                                                          'indexing '
+                                                                          'scheme',
+                                                           'properties': {'description': {'example': 'A '
+                                                                                                     '64-bit '
+                                                                                                     'integer '
+                                                                                                     'with '
+                                                                                                     'the '
+                                                                                                     '30 '
+                                                                                                     'least '
+                                                                                                     'significant '
+                                                                                                     'bits '
+                                                                                                     'corresponds '
+                                                                                                     'to '
+                                                                                                     'a '
+                                                                                                     'column, '
+                                                                                                     'the '
+                                                                                                     'next '
+                                                                                                     '29 '
+                                                                                                     'bits '
+                                                                                                     'corresponding '
+                                                                                                     'to '
+                                                                                                     'a '
+                                                                                                     'row, '
+                                                                                                     'and '
+                                                                                                     'the '
+                                                                                                     '5 '
+                                                                                                     'most '
+                                                                                                     'significant '
+                                                                                                     'bits '
+                                                                                                     'correspond '
+                                                                                                     'to '
+                                                                                                     'a '
+                                                                                                     'level '
+                                                                                                     'of '
+                                                                                                     'an '
+                                                                                                     'OGC '
+                                                                                                     '2D '
+                                                                                                     'Tile '
+                                                                                                     'Matrix '
+                                                                                                     'Set '
+                                                                                                     'identifier, '
+                                                                                                     'with '
+                                                                                                     'individual '
+                                                                                                     'components '
+                                                                                                     'using '
+                                                                                                     'little '
+                                                                                                     'endian.\n',
+                                                                                          'type': 'string'},
+                                                                          'type': {'anyOf': [{'type': 'string'},
+                                                                                             {'enum': ['ogc2DTMSHexLevelRowCol'],
+                                                                                              'type': 'string'}]}},
+                                                           'required': ['description'],
+                                                           'type': 'object'}},
+                             'required': ['textZIRS'],
+                             'type': 'object'}},
+     'required': ['dggh', 'zirs', 'subZoneOrder'],
+     'type': 'object'}
+
+On instance:
+    {'basePolyhedron': 'Icosahedron',
+     'gridConstraint': ['cellEqualSized', 'cellConformal'],
+     'referenceSystemType': {'CRS': 'EPSG:7789',
+                             'GLOBE': 'EPGS:7019',
+                             'MDRS': 'TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2-topological',
+                             'ZIRS': 'TopologicalMortonCode'},
+     'refinementRatio': 9,
+     'refinementStrategy': 'nestedChildCell',
+     'surfaceInterpolation': 'elliptical',
+     'zoneGeometry': {'zoneType': 'triangle'}}
+=== End JSON Schema ===
+
+=== Unknown errors ===
+
+** Validation error **
+Traceback (most recent call last):
+,  File "/src/ogc/bblocks/validate.py", line 184, in _validate_resource
+    result = validator.validate(filename, output_filename, report,
+,  File "/src/ogc/bblocks/validation/rdf.py", line 299, in validate
+    graph = self._load_graph(filename, output_filename, report, contents, base_uri, prefixes)
+,  File "/src/ogc/bblocks/validation/rdf.py", line 146, in _load_graph
+    if not self.jsonld_context and not self.prefixes:
+,AttributeError: 'RdfValidator' object has no attribute 'prefixes'
+
+=== End Unknown errors ===
+

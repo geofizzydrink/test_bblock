@@ -1,0 +1,20 @@
+{
+  "gridConstraint": [
+    "cellEqualSized",
+    "cellConformal"
+  ],
+  "zoneGeometry": {
+    "zoneType": "triangle"
+  },
+  "surfaceInterpolation": "elliptical",
+  "referenceSystemType": {
+    "CRS": "EPSG:7789",
+    "GLOBE": "EPGS:7019",
+    "MDRS": "TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2-topological",
+    "ZIRS": "TopologicalMortonCode"
+  },
+  "refinementStrategy": "nestedChildCell",
+  "refinementRatio": 9,
+  "basePolyhedron": "Icosahedron",
+  "@context": "https://geofizzydrink.github.io/test_bblock/build/annotated/terranexus/dggs/api/OGC-API-DGGS_ZoneQuery-ZoneList_JSON-FG-Encoding/context.jsonld"
+}

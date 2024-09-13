@@ -1,0 +1,86 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+type: object
+properties:
+  dggrs:
+    type: string
+    format: uri
+  zoneId:
+    type: string
+  depths:
+    type: array
+    items:
+      type: integer
+      minimum: 0
+  dimensions:
+    type: array
+    items:
+      type: object
+      properties:
+        name:
+          type: string
+        definition:
+          type: string
+          format: uri
+        unit:
+          type: string
+        unitLang:
+          type: string
+          format: uri
+        grid:
+          type: object
+          properties:
+            cellsCount:
+              type: integer
+            resolution: {}
+            coordinates:
+              type: array
+              items:
+                oneOf:
+                - type: number
+                  nullable: true
+                - type: string
+                  nullable: true
+        interval:
+          type: array
+          items:
+            oneOf:
+            - type: number
+              nullable: true
+            - type: string
+              nullable: true
+      required:
+      - name
+      - interval
+      - grid
+  values:
+    additionalProperties:
+      type: array
+      items:
+        type: object
+        properties:
+          depth:
+            type: integer
+          shape:
+            type: object
+            properties:
+              count:
+                type: integer
+              subZones:
+                type: integer
+              dimensions:
+                type: object
+                additionalProperties:
+                  type: integer
+            required:
+            - count
+            - subZones
+          data:
+            type: array
+            items:
+              type: number
+              nullable: true
+required:
+- dggrs
+- zoneId
+- depths
+- values

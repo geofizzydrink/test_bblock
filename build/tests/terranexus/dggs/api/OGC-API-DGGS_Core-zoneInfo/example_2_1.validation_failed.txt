@@ -1,0 +1,274 @@
+Validation report for pangaea.terranexus.dggs.api.OGC-API-DGGS_Core-zoneInfo - OGC API DGGS
+Generated 2024-09-13T10:21:28.249658+00:00
+=== Files ===
+Using example_2_1.json from examples
+JSON-LD context is present - uplifting
+Output JSON-LD example_2_1.jsonld created
+
+** Validation error **
+**Empty** output Turtle example_2_1.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+
+** Validation error **
+ValidationError: 'id' is a required property
+
+Failed validating 'required' in schema:
+    {'$defs': {'fg-json-feature': {'$schema': 'https://json-schema.org/draft/2019-09/schema',
+                                   'allOf': [{'$ref': 'https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml'},
+                                             {'properties': {'coordRefSys': {'$ref': 'https://beta.schemas.opengis.net/json-fg/coordrefsys.json',
+                                                                             'x-jsonld-id': 'http://www.opengis.net/def/glossary/term/CoordinateReferenceSystemCRS'},
+                                                             'featureType': {'$ref': 'https://beta.schemas.opengis.net/json-fg/featuretype.json',
+                                                                             'x-jsonld-id': '@type'},
+                                                             'geometry': {'$ref': 'https://beta.schemas.opengis.net/json-fg/geometry.json',
+                                                                          'x-jsonld-id': 'https://purl.org/geojson/vocab#geometry'},
+                                                             'id': {'oneOf': [{'type': 'number'},
+                                                                              {'type': 'string'}],
+                                                                    'x-jsonld-id': '@id'},
+                                                             'links': {'items': {'allOf': [{'$ref': 'https://beta.schemas.opengis.net/json-fg/link.json'},
+                                                                                           {'$ref': 'https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.yaml'}]},
+                                                                       'type': 'array',
+                                                                       'x-jsonld-id': 'http://www.w3.org/2000/01/rdf-schema#seeAlso'},
+                                                             'place': {'$ref': 'https://beta.schemas.opengis.net/json-fg/place.json',
+                                                                       'x-jsonld-id': 'http://purl.org/dc/terms/spatial'},
+                                                             'properties': {'oneOf': [{'type': 'null'},
+                                                                                      {'type': 'object'}],
+                                                                            'x-jsonld-id': '@nest'},
+                                                             'time': {'description': 'This '
+                                                                                     'JSON '
+                                                                                     'Schema '
+                                                                                     'is '
+                                                                                     'part '
+                                                                                     'of '
+                                                                                     'JSON-FG '
+                                                                                     'version '
+                                                                                     '0.2.2',
+                                                                      'oneOf': [{'type': 'null'},
+                                                                                {'properties': {'date': {'$ref': '#/$timedefs/date'},
+                                                                                                'interval': {'$ref': '#/$timedefs/interval'},
+                                                                                                'timestamp': {'$ref': '#/$timedefs/timestamp'}},
+                                                                                 'type': 'object'}],
+                                                                      'title': 'the '
+                                                                               'time '
+                                                                               'member',
+                                                                      'x-jsonld-id': 'http://purl.org/dc/terms/time'},
+                                                             'type': {'enum': ['Feature'],
+                                                                      'type': 'string',
+                                                                      'x-jsonld-id': '@type'}}}],
+                                   'description': 'This JSON Schema is '
+                                                  'part of JSON-FG version '
+                                                  '0.1.1',
+                                   'required': ['type',
+                                                'time',
+                                                'place',
+                                                'geometry',
+                                                'properties'],
+                                   'title': 'a JSON-FG Feature',
+                                   'type': 'object',
+                                   'x-jsonld-extra-terms': {'Feature': 'https://purl.org/geojson/vocab#Feature',
+                                                            'FeatureCollection': 'https://purl.org/geojson/vocab#FeatureCollection',
+                                                            'GeometryCollection': 'https://purl.org/geojson/vocab#GeometryCollection',
+                                                            'LineString': 'https://purl.org/geojson/vocab#LineString',
+                                                            'MultiLineString': 'https://purl.org/geojson/vocab#MultiLineString',
+                                                            'MultiPoint': 'https://purl.org/geojson/vocab#MultiPoint',
+                                                            'MultiPolygon': 'https://purl.org/geojson/vocab#MultiPolygon',
+                                                            'MultiPolyhedron': 'https://purl.org/geojson/vocab#MultiPolyhedron',
+                                                            'MultiPrism': {'x-jsonld-context': {'prisms': 'https://purl.org/geojson/vocab#prisms'},
+                                                                           'x-jsonld-id': 'https://purl.org/geojson/vocab#MultiPrism'},
+                                                            'Point': 'https://purl.org/geojson/vocab#Point',
+                                                            'Polygon': 'https://purl.org/geojson/vocab#Polygon',
+                                                            'Polyhedron': 'https://purl.org/geojson/vocab#Polyhedron',
+                                                            'Prism': {'x-jsonld-context': {'base': 'https://purl.org/geojson/vocab#prismBase',
+                                                                                           'lower': 'https://purl.org/geojson/vocab#prismLower',
+                                                                                           'upper': 'https://purl.org/geojson/vocab#prismUpper'},
+                                                                      'x-jsonld-id': 'https://purl.org/geojson/vocab#Prism'},
+                                                            'bbox': {'x-jsonld-container': '@list',
+                                                                     'x-jsonld-id': 'https://purl.org/geojson/vocab#bbox'},
+                                                            'coordinates': {'x-jsonld-container': '@list',
+                                                                            'x-jsonld-id': 'https://purl.org/geojson/vocab#coordinates'},
+                                                            'features': {'x-jsonld-container': '@set',
+                                                                         'x-jsonld-id': 'https://purl.org/geojson/vocab#features'},
+                                                            'geometries': {'x-jsonld-container': '@list',
+                                                                           'x-jsonld-id': 'https://purl.org/geojson/vocab#geometry'}},
+                                   'x-jsonld-prefixes': {'dct': 'http://purl.org/dc/terms/',
+                                                         'geojson': 'https://purl.org/geojson/vocab#',
+                                                         'owlTime': 'http://www.w3.org/2006/time#',
+                                                         'rdfs': 'http://www.w3.org/2000/01/rdf-schema#'}},
+               'link': {'properties': {'href': {'description': 'Supplies '
+                                                               'the URI to '
+                                                               'a remote '
+                                                               'resource '
+                                                               '(or '
+                                                               'resource '
+                                                               'fragment).',
+                                                'example': 'http://data.example.com/buildings/123',
+                                                'type': 'string'},
+                                       'hreflang': {'description': 'A hint '
+                                                                   'indicating '
+                                                                   'what '
+                                                                   'the '
+                                                                   'language '
+                                                                   'of the '
+                                                                   'result '
+                                                                   'of '
+                                                                   'dereferencing '
+                                                                   'the '
+                                                                   'link '
+                                                                   'should '
+                                                                   'be.',
+                                                    'example': 'en',
+                                                    'type': 'string'},
+                                       'length': {'type': 'integer'},
+                                       'rel': {'description': 'The type or '
+                                                              'semantics '
+                                                              'of the '
+                                                              'relation.',
+                                               'example': 'alternate',
+                                               'type': 'string'},
+                                       'title': {'description': 'Used to '
+                                                                'label the '
+                                                                'destination '
+                                                                'of a link '
+                                                                'such that '
+                                                                'it can be '
+                                                                'used as a '
+                                                                'human-readable '
+                                                                'identifier.',
+                                                 'example': 'Trierer '
+                                                            'Strasse 70, '
+                                                            '53115 Bonn',
+                                                 'type': 'string'},
+                                       'type': {'description': 'A hint '
+                                                               'indicating '
+                                                               'what the '
+                                                               'media type '
+                                                               'of the '
+                                                               'result of '
+                                                               'dereferencing '
+                                                               'the link '
+                                                               'should be.',
+                                                'example': 'application/geo+json',
+                                                'type': 'string'}},
+                        'required': ['href', 'rel'],
+                        'type': 'object'}},
+     '$schema': 'https://json-schema.org/draft/2020-12/schema',
+     '$timedefs': {'date': {'pattern': '^\\d{4}-\\d{2}-\\d{2}$',
+                            'type': 'string'},
+                   'interval': {'items': {'oneOf': [{'$ref': '#/$timedefs/date'},
+                                                    {'$ref': '#/$timedefs/timestamp'},
+                                                    {'enum': ['..'],
+                                                     'type': 'string'}]},
+                                'maxItems': 2,
+                                'minItems': 2,
+                                'type': 'array'},
+                   'timestamp': {'pattern': '^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?Z$|^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?\\+00:00$',
+                                 'type': 'string'}},
+     'description': 'Zone information for a particular zone of a DGGS, '
+                    'including useful information such as zone geometry, '
+                    'data access links and statistics',
+     'properties': {'areaMetersSquare': {'description': 'Surface area of '
+                                                        'the zone in '
+                                                        'meters square.',
+                                         'type': 'number'},
+                    'bbox': {'description': 'The spatial envelope of the '
+                                            'zone (bounding box), in the '
+                                            'CRS specified in crs property',
+                             'items': {'maxItems': 6,
+                                       'minItems': 4,
+                                       'type': 'number'},
+                             'type': 'array'},
+                    'centroid': {'description': 'The centroid of the zone, '
+                                                'in the CRS specified in '
+                                                'crs property',
+                                 'items': {'maxItems': 3,
+                                           'minItems': 2,
+                                           'type': 'number'},
+                                 'type': 'array'},
+                    'crs': {'default': '[OGC:CRS84]',
+                            'description': 'The Coordinate Reference '
+                                           'System in which the geometry, '
+                                           'centroid and bbox properties '
+                                           'are specified',
+                            'format': 'uri',
+                            'type': 'string'},
+                    'geometry': {'description': 'Spatial geometry of the '
+                                                'zone.',
+                                 'oneOf': [{'$ref': 'https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml'},
+                                           {'$ref': '#/$defs/fg-json-feature'}]},
+                    'id': {'description': 'Zone identifier based on the '
+                                          'DGGRS.',
+                           'type': 'string'},
+                    'level': {'description': 'The refinement level of this '
+                                             'zone',
+                              'minimum': 0,
+                              'type': 'integer'},
+                    'links': {'description': 'Links to related resources. '
+                                             'A '
+                                             '`[ogc-rel:dggrs-zone-data]` '
+                                             'link to retrieve data for '
+                                             'this zone and a '
+                                             '`[ogc-rel:dggrs]` back to '
+                                             'the `.../dggs` resource must '
+                                             'be included.',
+                              'items': {'$ref': '#/$defs/link'},
+                              'type': 'array'},
+                    'shapeType': {'description': 'The type of shape for '
+                                                 'the zone geometry (e.g., '
+                                                 'hexagon or pentagon)',
+                                  'type': 'string'},
+                    'statistics': {'additionalProperties': {'properties': {'average': {'type': 'number'},
+                                                                           'maximum': {'type': 'number'},
+                                                                           'minimum': {'type': 'number'},
+                                                                           'stdDev': {'type': 'number'}},
+                                                            'type': 'object'},
+                                   'description': 'Statistics for '
+                                                  'individual fields of '
+                                                  'the data (e.g., fields '
+                                                  'of the range of a '
+                                                  'coverage, or relevant '
+                                                  'numeric properties of a '
+                                                  'feature collection)',
+                                   'type': 'object'},
+                    'temporalDurationSeconds': {'description': 'Amount of '
+                                                               'time '
+                                                               'covered by '
+                                                               'the zone '
+                                                               'for a '
+                                                               'temporal '
+                                                               'DGGS.',
+                                                'type': 'number'},
+                    'temporalInterval': {'description': 'Sart and end time '
+                                                        'of the zone.',
+                                         'items': {'type': 'string'},
+                                         'maxItems': 2,
+                                         'minItems': 2,
+                                         'type': 'array'},
+                    'volumeMetersCube': {'description': 'Volume of the '
+                                                        'zone in meters '
+                                                        'cube for a DGGS '
+                                                        'with three '
+                                                        'spatial '
+                                                        'dimension.',
+                                         'type': 'number'}},
+     'required': ['id', 'links'],
+     'title': 'Information for a specific Discrete Global Grid System zone',
+     'type': 'object',
+     'x-jsonld-prefixes': {'dct': 'http://purl.org/dc/terms/',
+                           'geojson': 'https://purl.org/geojson/vocab#',
+                           'owlTime': 'http://www.w3.org/2006/time#',
+                           'rdfs': 'http://www.w3.org/2000/01/rdf-schema#'}}
+
+On instance:
+    {'basePolyhedron': 'Icosahedron',
+     'gridConstraint': ['cellEqualSized', 'cellConformal'],
+     'referenceSystemType': {'CRS': 'EPSG:7789',
+                             'GLOBE': 'EPGS:7019',
+                             'MDRS': 'TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2-topological',
+                             'ZIRS': 'TopologicalMortonCode'},
+     'refinementRatio': 9,
+     'refinementStrategy': 'nestedChildCell',
+     'surfaceInterpolation': 'elliptical',
+     'zoneGeometry': {'zoneType': 'triangle'}}
+=== End JSON Schema ===
+
