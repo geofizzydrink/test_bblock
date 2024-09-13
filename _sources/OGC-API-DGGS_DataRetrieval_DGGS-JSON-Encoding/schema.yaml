@@ -1,0 +1,162 @@
+"$schema": https://json-schema.org/draft/2020-12/schema
+# $id: 'https://schemas.opengis.net/ogcapi/dggs/part1/1.0/openapi/schemas/dggs-json/schema'
+type: object
+properties:
+  dggrs:
+    type: string
+    format: uri
+  zoneId:
+    type: string
+  depths:
+    type: array
+    items:
+      type: integer
+      minimum: 0
+#  schema:
+#  #     $ref: 'https://json-schema.org/draft/2020-12/schema'
+#      $ref: '#/$defs/valueSchema'
+  dimensions:
+    type: array
+    items:
+      type: object
+      properties:
+        name:
+          type: string
+        definition:
+          type: string
+          format: uri
+        unit:
+          type: string
+        unitLang:
+          type: string
+          format: uri
+        grid:
+          type: object
+          properties:
+            cellsCount:
+              type: integer
+            resolution: {}
+            coordinates:
+              type: array
+              items:
+                oneOf:
+                 - type: number
+                   nullable: true
+                 - type: string
+                   nullable: true
+        interval:
+          type: array
+          items:
+            oneOf:
+             - type: number
+               nullable: true
+             - type: string
+               nullable: true
+      required:
+        - name
+        - interval
+        - grid
+  values:
+    additionalProperties:
+      type: array
+      items:
+        type: object
+        properties:
+          depth:
+            type: integer
+          shape:
+            type: object
+            properties:
+              count:
+                type: integer
+              subZones:
+                type: integer
+              dimensions:
+                type: object
+                additionalProperties:
+                  type: integer
+            required:
+              - count
+              - subZones
+          data:
+            type: array
+            items:
+               type: number
+               nullable: true
+required:
+  - dggrs
+  - zoneId
+  - depths
+  - values
+
+#$defs:
+#   valueSchema: 
+#      description: Attributes of the features or fields of a coverage range. Defined by a subset of the JSON Schema for the properties of a feature
+#      type: object
+#      required:
+#      - type
+#      - properties
+#      properties:
+#         type:
+#           type: string
+#           enum:
+#           - object
+#         required:
+#           type: array
+#           minItems: 1
+#           items:
+#              type: string
+#         properties:
+#           type: object
+#           default: {}
+#           additionalProperties:
+#             type: object
+#             properties:
+#               title:
+#                 type: string
+#               description:
+#                 type: string
+#               type:
+#                 type: string
+#                 enum:
+#                 - array
+#                 - boolean
+#                 - integer
+#                 - 'null'
+#                 - number
+#                 - object
+#                 - string
+#               enum:
+#                 type: array
+#                 minItems: 1
+#                 items: {}
+#                 uniqueItems: true
+#               format:
+#                 type: string
+#               contentMediaType:
+#                 type: string
+#               maximum:
+#                 type: number
+#               exclusiveMaximum:
+#                 type: number
+#               minimum:
+#                 type: number
+#               exclusiveMinimum:
+#                 type: number
+#               pattern:
+#                 type: string
+#                 format: regex
+#               maxItems:
+#                 type: integer
+#                 minimum: 0
+#               minItems:
+#                 type: integer
+#                 default: 0
+#                 minimum: 0
+#               x-ogc-definition:
+#                 type: string
+#                 format: uri
+#               x-ogc-unit:
+#                 type: string
+#               x-ogc-unitLang:
+#                 type: stringgggg

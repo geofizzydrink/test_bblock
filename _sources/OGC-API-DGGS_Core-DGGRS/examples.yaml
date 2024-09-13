@@ -10,4 +10,4 @@
 
   snippets:
     - language: json
-      ref: examples/TerraNexus_Example1.json
+      ref: examples/ogcapi-DGGS_Example1.json
