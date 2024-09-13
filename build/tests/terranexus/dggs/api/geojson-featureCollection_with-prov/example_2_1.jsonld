@@ -6002,5 +6002,8 @@
       "generatedAtTime": "2024-09-07T12:28:21.069077+00:00"
     }
   ],
-  "@context": "https://geofizzydrink.github.io/test_bblock/build/annotated/terranexus/dggs/api/geojson-featureCollection_with-prov/context.jsonld"
+  "@context": [
+    "https://geofizzydrink.github.io/test_bblock/build/annotated/terranexus/dggs/api/geojson-featureCollection_with-prov/context.jsonld",
+    "https://terranexus.pangaeainnovations.com/context/geojsonFeatureCollection.jsonld"
+  ]
 }

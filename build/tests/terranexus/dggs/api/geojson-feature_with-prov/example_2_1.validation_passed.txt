@@ -1,5 +1,5 @@
 Validation report for pangaea.terranexus.dggs.api.geojson-feature_with-prov - OGC API Features Feature with PROV Building Block
-Generated 2024-09-07T13:45:40.211227+00:00
+Generated 2024-09-09T02:02:52.935203+00:00
 === Files ===
 Using example_2_1.json from examples
 JSON-LD context is present - uplifting

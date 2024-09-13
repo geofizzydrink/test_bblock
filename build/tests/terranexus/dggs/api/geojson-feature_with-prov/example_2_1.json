@@ -532,5 +532,6 @@
       ],
       "generatedAtTime": "2024-09-07T12:28:21.069077+00:00"
     }
-  ]
+  ],
+  "@context": "https://terranexus.pangaeainnovations.com/context/geojsonFeature.jsonld"
 }
