@@ -1,3 +1,14 @@
 {
-
+    "@context": {
+        "base_href": "https://terranexus.pangaeainnovations.com/",
+        "agents": "base_href:prov/agents/",
+        "activities": "base_href:prov/activities/",
+        "roles": "base_href:prov/roles/",
+        "dggsOperations": "base_href:prov/dggsOperations/",
+        "terranexusProcesses": "base_href:ogcapi/processes/",
+        "terranexusCollections": "base_href:ogcapi/collections/",
+        "terranexusDGGS": "base_href:ogcapi/dggs/",
+        "terranexusJobs": "base_href:ogcapi/jobs/",
+        "terranexusTempData": "base_href:prov/tempData/"
+    }
 }

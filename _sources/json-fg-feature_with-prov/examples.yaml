@@ -4,4 +4,5 @@
 
   snippets:
     - language: json
+      base-uri: http://examples.terranexus.com/dggs-api/
       ref: examples/Feature-wasGeneratedBy_prov_example.json

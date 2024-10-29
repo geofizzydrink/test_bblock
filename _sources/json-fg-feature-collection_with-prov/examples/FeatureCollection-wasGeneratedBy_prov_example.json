@@ -147,7 +147,7 @@
             "has_provenance": [
                 {
                     "provType": "Agent",
-                    "name": "agents:TerraNexus",
+                    "id": "agents:TerraNexus",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:PangaeaInnovations",
                     "qualifiedDelegation": {
@@ -159,7 +159,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:admin%40terranexus.pangaeainnovations.com",
+                    "id": "agents:admin%40terranexus.pangaeainnovations.com",
                     "agentType": "Person",
                     "actedOnBehalfOf": "agents:%3COrganisation%3E",
                     "qualifiedDelegation": {
@@ -171,7 +171,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:MapDataToZones",
+                    "id": "agents:MapDataToZones",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:TerraNexus",
                     "qualifiedDelegation": [
@@ -185,7 +185,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_validate_ogcapi_execute_document",
+                    "id": "agents:_validate_ogcapi_execute_document",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -199,7 +199,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_executeMapDataToZones_process",
+                    "id": "agents:_executeMapDataToZones_process",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -213,7 +213,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data",
+                    "id": "agents:map_data",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
                     "qualifiedDelegation": [
@@ -227,7 +227,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data_execution",
+                    "id": "agents:map_data_execution",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data",
                     "qualifiedDelegation": [
@@ -241,7 +241,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:processData_task",
+                    "id": "agents:processData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data_execution",
                     "qualifiedDelegation": [
@@ -255,7 +255,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:reorganiseData_task",
+                    "id": "agents:reorganiseData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -269,7 +269,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_featureData_task",
+                    "id": "agents:map_featureData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -283,7 +283,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:get_mapped_child_zones_task",
+                    "id": "agents:get_mapped_child_zones_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_featureData_task",
                     "qualifiedDelegation": [
@@ -297,19 +297,19 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:PangaeaInnovations",
+                    "id": "agents:PangaeaInnovations",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:%3COrganisation%3E",
+                    "id": "agents:%3COrganisation%3E",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Activity",
                     "id": "activities:MapDataToZones_64169fd6ebbc",
                     "activityType": "ogcapiProcessJobExecution",
-                    "startedAtTime": "2024-09-07T12:28:15.870964+00:00",
+                    "startedAtTime": "2024-09-07T12:28:15.870964Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:MapDataToZones",
@@ -383,7 +383,7 @@
                     "provType": "Activity",
                     "id": "dggsOperations:reorganiseData_task-2305843009229499373-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:28:26.163972+00:00",
+                    "startedAtTime": "2024-09-07T12:28:26.163972Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -413,13 +413,13 @@
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings/items/2305843009229499373"
                     ],
-                    "endedAtTime": "2024-09-07T12:28:26.387716+00:00"
+                    "endedAtTime": "2024-09-07T12:28:26.387716Z"
                 },
                 {
                     "provType": "Activity",
                     "id": "dggsOperations:map_featureData_task-2305843009229499373-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:28:26.836299+00:00",
+                    "startedAtTime": "2024-09-07T12:28:26.836299Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -458,7 +458,7 @@
                         "terranexusCollections:osm_singapore_buildings___Properties",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "endedAtTime": "2024-09-07T12:29:56.372015+00:00",
+                    "endedAtTime": "2024-09-07T12:29:56.372015Z",
                     "generated": [
                         "terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ]
@@ -471,7 +471,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.792585+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.792585Z",
                     "wasDerivedFrom": "terranexusJobs:MapDataToZones_64169fd6ebbc"
                 },
                 {
@@ -482,7 +482,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.304603+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.304603Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -497,7 +497,7 @@
                     "hadPrimarySource": [
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.773864+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.773864Z",
                     "wasAttributedTo": [
                         "agents:MapDataToZones",
                         "agents:admin%40terranexus.pangaeainnovations.com"
@@ -511,7 +511,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.439676+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.439676Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -526,7 +526,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.512778+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.512778Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json",
@@ -543,7 +543,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:28.137746+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:28.137746Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -559,7 +559,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:31.459547+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:31.459547Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -574,11 +574,11 @@
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:21.069077+00:00"
+                    "generatedAtTime": "2024-09-07T12:28:21.069077Z"
                 }
             ],
             "time": {
-                "timestamp": "2024-09-07T12:28:25.512778+00:00"
+                "timestamp": "2024-09-07T12:28:25.512778Z"
             },
             "place": {
                 "type": "null"
@@ -703,7 +703,7 @@
             "has_provenance": [
                 {
                     "provType": "Agent",
-                    "name": "agents:TerraNexus",
+                    "id": "agents:TerraNexus",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:PangaeaInnovations",
                     "qualifiedDelegation": {
@@ -715,7 +715,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:admin%40terranexus.pangaeainnovations.com",
+                    "id": "agents:admin%40terranexus.pangaeainnovations.com",
                     "agentType": "Person",
                     "actedOnBehalfOf": "agents:%3COrganisation%3E",
                     "qualifiedDelegation": {
@@ -727,7 +727,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:MapDataToZones",
+                    "id": "agents:MapDataToZones",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:TerraNexus",
                     "qualifiedDelegation": [
@@ -741,7 +741,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_validate_ogcapi_execute_document",
+                    "id": "agents:_validate_ogcapi_execute_document",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -755,7 +755,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_executeMapDataToZones_process",
+                    "id": "agents:_executeMapDataToZones_process",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -769,7 +769,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data",
+                    "id": "agents:map_data",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
                     "qualifiedDelegation": [
@@ -783,7 +783,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data_execution",
+                    "id": "agents:map_data_execution",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data",
                     "qualifiedDelegation": [
@@ -797,7 +797,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:processData_task",
+                    "id": "agents:processData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data_execution",
                     "qualifiedDelegation": [
@@ -811,7 +811,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:reorganiseData_task",
+                    "id": "agents:reorganiseData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -825,7 +825,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_featureData_task",
+                    "id": "agents:map_featureData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -839,7 +839,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:get_mapped_child_zones_task",
+                    "id": "agents:get_mapped_child_zones_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_featureData_task",
                     "qualifiedDelegation": [
@@ -853,19 +853,19 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:PangaeaInnovations",
+                    "id": "agents:PangaeaInnovations",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:%3COrganisation%3E",
+                    "id": "agents:%3COrganisation%3E",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Activity",
                     "id": "activities:MapDataToZones_64169fd6ebbc",
                     "activityType": "ogcapiProcessJobExecution",
-                    "startedAtTime": "2024-09-07T12:28:15.870964+00:00",
+                    "startedAtTime": "2024-09-07T12:28:15.870964Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:MapDataToZones",
@@ -939,7 +939,7 @@
                     "provType": "Activity",
                     "id": "dggsOperations:reorganiseData_task-2305843009231960349-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:29:56.799343+00:00",
+                    "startedAtTime": "2024-09-07T12:29:56.799343Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -969,13 +969,13 @@
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings/items/2305843009231960349"
                     ],
-                    "endedAtTime": "2024-09-07T12:29:56.911123+00:00"
+                    "endedAtTime": "2024-09-07T12:29:56.911123Z"
                 },
                 {
                     "provType": "Activity",
                     "id": "dggsOperations:map_featureData_task-2305843009231960349-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:29:57.369261+00:00",
+                    "startedAtTime": "2024-09-07T12:29:57.369261Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -1017,7 +1017,7 @@
                     "generated": [
                         "terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "endedAtTime": "2024-09-07T12:32:14.355554+00:00"
+                    "endedAtTime": "2024-09-07T12:32:14.355554Z"
                 },
                 {
                     "provType": "Entity",
@@ -1027,7 +1027,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.792585+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.792585Z",
                     "wasDerivedFrom": "terranexusJobs:MapDataToZones_64169fd6ebbc"
                 },
                 {
@@ -1038,7 +1038,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.304603+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.304603Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -1053,7 +1053,7 @@
                     "hadPrimarySource": [
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.773864+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.773864Z",
                     "wasAttributedTo": [
                         "agents:MapDataToZones",
                         "agents:admin%40terranexus.pangaeainnovations.com"
@@ -1067,7 +1067,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.439676+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.439676Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -1083,7 +1083,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:28.137746+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:28.137746Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -1099,7 +1099,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:31.459547+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:31.459547Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -1114,7 +1114,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:29:56.416866+00:00",
+                    "generatedAtTime": "2024-09-07T12:29:56.416866Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json",
@@ -1130,11 +1130,11 @@
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:21.069077+00:00"
+                    "generatedAtTime": "2024-09-07T12:28:21.069077Z"
                 }
             ],
             "time": {
-                "timestamp": "2024-09-07T12:29:56.416866+00:00"
+                "timestamp": "2024-09-07T12:29:56.416866Z"
             },
             "place": {
                 "type": "null"
@@ -1251,7 +1251,7 @@
             "has_provenance": [
                 {
                     "provType": "Agent",
-                    "name": "agents:TerraNexus",
+                    "id": "agents:TerraNexus",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:PangaeaInnovations",
                     "qualifiedDelegation": {
@@ -1263,7 +1263,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:admin%40terranexus.pangaeainnovations.com",
+                    "id": "agents:admin%40terranexus.pangaeainnovations.com",
                     "agentType": "Person",
                     "actedOnBehalfOf": "agents:%3COrganisation%3E",
                     "qualifiedDelegation": {
@@ -1275,7 +1275,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:MapDataToZones",
+                    "id": "agents:MapDataToZones",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:TerraNexus",
                     "qualifiedDelegation": [
@@ -1289,7 +1289,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_validate_ogcapi_execute_document",
+                    "id": "agents:_validate_ogcapi_execute_document",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -1303,7 +1303,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_executeMapDataToZones_process",
+                    "id": "agents:_executeMapDataToZones_process",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -1317,7 +1317,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data",
+                    "id": "agents:map_data",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
                     "qualifiedDelegation": [
@@ -1331,7 +1331,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data_execution",
+                    "id": "agents:map_data_execution",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data",
                     "qualifiedDelegation": [
@@ -1345,7 +1345,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:processData_task",
+                    "id": "agents:processData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data_execution",
                     "qualifiedDelegation": [
@@ -1359,7 +1359,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:reorganiseData_task",
+                    "id": "agents:reorganiseData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -1373,7 +1373,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_featureData_task",
+                    "id": "agents:map_featureData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -1387,7 +1387,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:get_mapped_child_zones_task",
+                    "id": "agents:get_mapped_child_zones_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_featureData_task",
                     "qualifiedDelegation": [
@@ -1401,19 +1401,19 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:PangaeaInnovations",
+                    "id": "agents:PangaeaInnovations",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:%3COrganisation%3E",
+                    "id": "agents:%3COrganisation%3E",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Activity",
                     "id": "activities:MapDataToZones_64169fd6ebbc",
                     "activityType": "ogcapiProcessJobExecution",
-                    "startedAtTime": "2024-09-07T12:28:15.870964+00:00",
+                    "startedAtTime": "2024-09-07T12:28:15.870964Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:MapDataToZones",
@@ -1487,7 +1487,7 @@
                     "provType": "Activity",
                     "id": "dggsOperations:reorganiseData_task-2305843009231960466-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:32:15.917439+00:00",
+                    "startedAtTime": "2024-09-07T12:32:15.917439Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -1517,13 +1517,13 @@
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings/items/2305843009231960466"
                     ],
-                    "endedAtTime": "2024-09-07T12:32:16.126674+00:00"
+                    "endedAtTime": "2024-09-07T12:32:16.126674Z"
                 },
                 {
                     "provType": "Activity",
                     "id": "dggsOperations:map_featureData_task-2305843009231960466-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:32:16.761564+00:00",
+                    "startedAtTime": "2024-09-07T12:32:16.761564Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -1565,7 +1565,7 @@
                     "generated": [
                         "terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "endedAtTime": "2024-09-07T12:33:29.106657+00:00"
+                    "endedAtTime": "2024-09-07T12:33:29.106657Z"
                 },
                 {
                     "provType": "Entity",
@@ -1575,7 +1575,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.792585+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.792585Z",
                     "wasDerivedFrom": "terranexusJobs:MapDataToZones_64169fd6ebbc"
                 },
                 {
@@ -1586,7 +1586,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.304603+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.304603Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -1601,7 +1601,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:32:14.625194+00:00",
+                    "generatedAtTime": "2024-09-07T12:32:14.625194Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json",
@@ -1617,7 +1617,7 @@
                     "hadPrimarySource": [
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.773864+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.773864Z",
                     "wasAttributedTo": [
                         "agents:MapDataToZones",
                         "agents:admin%40terranexus.pangaeainnovations.com"
@@ -1631,7 +1631,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.439676+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.439676Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -1647,7 +1647,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:28.137746+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:28.137746Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -1663,7 +1663,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:31.459547+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:31.459547Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -1678,11 +1678,11 @@
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:21.069077+00:00"
+                    "generatedAtTime": "2024-09-07T12:28:21.069077Z"
                 }
             ],
             "time": {
-                "timestamp": "2024-09-07T12:32:14.625194+00:00"
+                "timestamp": "2024-09-07T12:32:14.625194Z"
             },
             "place": {
                 "type": "null"
@@ -1832,7 +1832,7 @@
             "has_provenance": [
                 {
                     "provType": "Agent",
-                    "name": "agents:TerraNexus",
+                    "id": "agents:TerraNexus",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:PangaeaInnovations",
                     "qualifiedDelegation": {
@@ -1844,7 +1844,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:admin%40terranexus.pangaeainnovations.com",
+                    "id": "agents:admin%40terranexus.pangaeainnovations.com",
                     "agentType": "Person",
                     "actedOnBehalfOf": "agents:%3COrganisation%3E",
                     "qualifiedDelegation": {
@@ -1856,7 +1856,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:MapDataToZones",
+                    "id": "agents:MapDataToZones",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:TerraNexus",
                     "qualifiedDelegation": [
@@ -1870,7 +1870,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_validate_ogcapi_execute_document",
+                    "id": "agents:_validate_ogcapi_execute_document",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -1884,7 +1884,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_executeMapDataToZones_process",
+                    "id": "agents:_executeMapDataToZones_process",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -1898,7 +1898,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data",
+                    "id": "agents:map_data",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
                     "qualifiedDelegation": [
@@ -1912,7 +1912,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data_execution",
+                    "id": "agents:map_data_execution",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data",
                     "qualifiedDelegation": [
@@ -1926,7 +1926,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:processData_task",
+                    "id": "agents:processData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data_execution",
                     "qualifiedDelegation": [
@@ -1940,7 +1940,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:reorganiseData_task",
+                    "id": "agents:reorganiseData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -1954,7 +1954,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_featureData_task",
+                    "id": "agents:map_featureData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -1968,7 +1968,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:get_mapped_child_zones_task",
+                    "id": "agents:get_mapped_child_zones_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_featureData_task",
                     "qualifiedDelegation": [
@@ -1982,19 +1982,19 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:PangaeaInnovations",
+                    "id": "agents:PangaeaInnovations",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:%3COrganisation%3E",
+                    "id": "agents:%3COrganisation%3E",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Activity",
                     "id": "activities:MapDataToZones_64169fd6ebbc",
                     "activityType": "ogcapiProcessJobExecution",
-                    "startedAtTime": "2024-09-07T12:28:15.870964+00:00",
+                    "startedAtTime": "2024-09-07T12:28:15.870964Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:MapDataToZones",
@@ -2068,7 +2068,7 @@
                     "provType": "Activity",
                     "id": "dggsOperations:reorganiseData_task-2305843009231960589-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:33:29.745826+00:00",
+                    "startedAtTime": "2024-09-07T12:33:29.745826Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -2098,13 +2098,13 @@
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings/items/2305843009231960589"
                     ],
-                    "endedAtTime": "2024-09-07T12:33:29.856951+00:00"
+                    "endedAtTime": "2024-09-07T12:33:29.856951Z"
                 },
                 {
                     "provType": "Activity",
                     "id": "dggsOperations:map_featureData_task-2305843009231960589-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:33:30.197145+00:00",
+                    "startedAtTime": "2024-09-07T12:33:30.197145Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -2146,7 +2146,7 @@
                     "generated": [
                         "terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "endedAtTime": "2024-09-07T12:35:05.546432+00:00"
+                    "endedAtTime": "2024-09-07T12:35:05.546432Z"
                 },
                 {
                     "provType": "Entity",
@@ -2156,7 +2156,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.792585+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.792585Z",
                     "wasDerivedFrom": "terranexusJobs:MapDataToZones_64169fd6ebbc"
                 },
                 {
@@ -2167,7 +2167,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.304603+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.304603Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -2182,7 +2182,7 @@
                     "hadPrimarySource": [
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.773864+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.773864Z",
                     "wasAttributedTo": [
                         "agents:MapDataToZones",
                         "agents:admin%40terranexus.pangaeainnovations.com"
@@ -2196,7 +2196,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.439676+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.439676Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -2212,7 +2212,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:28.137746+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:28.137746Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -2228,7 +2228,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:31.459547+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:31.459547Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -2243,7 +2243,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:33:29.181566+00:00",
+                    "generatedAtTime": "2024-09-07T12:33:29.181566Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json",
@@ -2259,11 +2259,11 @@
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:21.069077+00:00"
+                    "generatedAtTime": "2024-09-07T12:28:21.069077Z"
                 }
             ],
             "time": {
-                "timestamp": "2024-09-07T12:33:29.181566+00:00"
+                "timestamp": "2024-09-07T12:33:29.181566Z"
             },
             "place": {
                 "type": "null"
@@ -2403,7 +2403,7 @@
             "has_provenance": [
                 {
                     "provType": "Agent",
-                    "name": "agents:TerraNexus",
+                    "id": "agents:TerraNexus",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:PangaeaInnovations",
                     "qualifiedDelegation": {
@@ -2415,7 +2415,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:admin%40terranexus.pangaeainnovations.com",
+                    "id": "agents:admin%40terranexus.pangaeainnovations.com",
                     "agentType": "Person",
                     "actedOnBehalfOf": "agents:%3COrganisation%3E",
                     "qualifiedDelegation": {
@@ -2427,7 +2427,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:MapDataToZones",
+                    "id": "agents:MapDataToZones",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:TerraNexus",
                     "qualifiedDelegation": [
@@ -2441,7 +2441,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_validate_ogcapi_execute_document",
+                    "id": "agents:_validate_ogcapi_execute_document",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -2455,7 +2455,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_executeMapDataToZones_process",
+                    "id": "agents:_executeMapDataToZones_process",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -2469,7 +2469,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data",
+                    "id": "agents:map_data",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
                     "qualifiedDelegation": [
@@ -2483,7 +2483,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data_execution",
+                    "id": "agents:map_data_execution",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data",
                     "qualifiedDelegation": [
@@ -2497,7 +2497,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:processData_task",
+                    "id": "agents:processData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data_execution",
                     "qualifiedDelegation": [
@@ -2511,7 +2511,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:reorganiseData_task",
+                    "id": "agents:reorganiseData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -2525,7 +2525,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_featureData_task",
+                    "id": "agents:map_featureData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -2539,7 +2539,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:get_mapped_child_zones_task",
+                    "id": "agents:get_mapped_child_zones_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_featureData_task",
                     "qualifiedDelegation": [
@@ -2553,19 +2553,19 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:PangaeaInnovations",
+                    "id": "agents:PangaeaInnovations",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:%3COrganisation%3E",
+                    "id": "agents:%3COrganisation%3E",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Activity",
                     "id": "dggsOperations:map_featureData_task-2305843009231960619-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:35:09.197790+00:00",
+                    "startedAtTime": "2024-09-07T12:35:09.197790Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -2604,7 +2604,7 @@
                         "terranexusCollections:osm_singapore_buildings___Properties",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "endedAtTime": "2024-09-07T12:37:34.291040+00:00",
+                    "endedAtTime": "2024-09-07T12:37:34.291040Z",
                     "generated": [
                         "terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ]
@@ -2613,7 +2613,7 @@
                     "provType": "Activity",
                     "id": "activities:MapDataToZones_64169fd6ebbc",
                     "activityType": "ogcapiProcessJobExecution",
-                    "startedAtTime": "2024-09-07T12:28:15.870964+00:00",
+                    "startedAtTime": "2024-09-07T12:28:15.870964Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:MapDataToZones",
@@ -2687,7 +2687,7 @@
                     "provType": "Activity",
                     "id": "dggsOperations:reorganiseData_task-2305843009231960619-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:35:08.565541+00:00",
+                    "startedAtTime": "2024-09-07T12:35:08.565541Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -2717,7 +2717,7 @@
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings/items/2305843009231960619"
                     ],
-                    "endedAtTime": "2024-09-07T12:35:08.728517+00:00"
+                    "endedAtTime": "2024-09-07T12:35:08.728517Z"
                 },
                 {
                     "provType": "Entity",
@@ -2727,7 +2727,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.792585+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.792585Z",
                     "wasDerivedFrom": "terranexusJobs:MapDataToZones_64169fd6ebbc"
                 },
                 {
@@ -2738,7 +2738,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.304603+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.304603Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -2753,7 +2753,7 @@
                     "hadPrimarySource": [
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.773864+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.773864Z",
                     "wasAttributedTo": [
                         "agents:MapDataToZones",
                         "agents:admin%40terranexus.pangaeainnovations.com"
@@ -2767,7 +2767,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.439676+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.439676Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -2783,7 +2783,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:28.137746+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:28.137746Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -2799,7 +2799,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:31.459547+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:31.459547Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -2814,7 +2814,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:35:05.912959+00:00",
+                    "generatedAtTime": "2024-09-07T12:35:05.912959Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json",
@@ -2830,11 +2830,11 @@
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:21.069077+00:00"
+                    "generatedAtTime": "2024-09-07T12:28:21.069077Z"
                 }
             ],
             "time": {
-                "timestamp": "2024-09-07T12:35:05.912959+00:00"
+                "timestamp": "2024-09-07T12:35:05.912959Z"
             },
             "place": {
                 "type": "null"
@@ -2958,7 +2958,7 @@
             "has_provenance": [
                 {
                     "provType": "Agent",
-                    "name": "agents:TerraNexus",
+                    "id": "agents:TerraNexus",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:PangaeaInnovations",
                     "qualifiedDelegation": {
@@ -2970,7 +2970,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:admin%40terranexus.pangaeainnovations.com",
+                    "id": "agents:admin%40terranexus.pangaeainnovations.com",
                     "agentType": "Person",
                     "actedOnBehalfOf": "agents:%3COrganisation%3E",
                     "qualifiedDelegation": {
@@ -2982,7 +2982,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:MapDataToZones",
+                    "id": "agents:MapDataToZones",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:TerraNexus",
                     "qualifiedDelegation": [
@@ -2996,7 +2996,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_validate_ogcapi_execute_document",
+                    "id": "agents:_validate_ogcapi_execute_document",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -3010,7 +3010,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_executeMapDataToZones_process",
+                    "id": "agents:_executeMapDataToZones_process",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -3024,7 +3024,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data",
+                    "id": "agents:map_data",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
                     "qualifiedDelegation": [
@@ -3038,7 +3038,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data_execution",
+                    "id": "agents:map_data_execution",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data",
                     "qualifiedDelegation": [
@@ -3052,7 +3052,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:processData_task",
+                    "id": "agents:processData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data_execution",
                     "qualifiedDelegation": [
@@ -3066,7 +3066,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:reorganiseData_task",
+                    "id": "agents:reorganiseData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -3080,7 +3080,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_featureData_task",
+                    "id": "agents:map_featureData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -3094,7 +3094,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:get_mapped_child_zones_task",
+                    "id": "agents:get_mapped_child_zones_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_featureData_task",
                     "qualifiedDelegation": [
@@ -3108,19 +3108,19 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:PangaeaInnovations",
+                    "id": "agents:PangaeaInnovations",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:%3COrganisation%3E",
+                    "id": "agents:%3COrganisation%3E",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Activity",
                     "id": "activities:MapDataToZones_64169fd6ebbc",
                     "activityType": "ogcapiProcessJobExecution",
-                    "startedAtTime": "2024-09-07T12:28:15.870964+00:00",
+                    "startedAtTime": "2024-09-07T12:28:15.870964Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:MapDataToZones",
@@ -3194,7 +3194,7 @@
                     "provType": "Activity",
                     "id": "dggsOperations:reorganiseData_task-2305843009231960767-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:37:34.548792+00:00",
+                    "startedAtTime": "2024-09-07T12:37:34.548792Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -3224,13 +3224,13 @@
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings/items/2305843009231960767"
                     ],
-                    "endedAtTime": "2024-09-07T12:37:34.632164+00:00"
+                    "endedAtTime": "2024-09-07T12:37:34.632164Z"
                 },
                 {
                     "provType": "Activity",
                     "id": "dggsOperations:map_featureData_task-2305843009231960767-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:37:34.834594+00:00",
+                    "startedAtTime": "2024-09-07T12:37:34.834594Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -3272,7 +3272,7 @@
                     "generated": [
                         "terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "endedAtTime": "2024-09-07T12:39:22.314123+00:00"
+                    "endedAtTime": "2024-09-07T12:39:22.314123Z"
                 },
                 {
                     "provType": "Entity",
@@ -3282,7 +3282,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.792585+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.792585Z",
                     "wasDerivedFrom": "terranexusJobs:MapDataToZones_64169fd6ebbc"
                 },
                 {
@@ -3293,7 +3293,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.304603+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.304603Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -3308,7 +3308,7 @@
                     "hadPrimarySource": [
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.773864+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.773864Z",
                     "wasAttributedTo": [
                         "agents:MapDataToZones",
                         "agents:admin%40terranexus.pangaeainnovations.com"
@@ -3322,7 +3322,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.439676+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.439676Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -3338,7 +3338,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:28.137746+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:28.137746Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -3354,7 +3354,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:31.459547+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:31.459547Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -3369,7 +3369,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:37:34.340138+00:00",
+                    "generatedAtTime": "2024-09-07T12:37:34.340138Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json",
@@ -3385,11 +3385,11 @@
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:21.069077+00:00"
+                    "generatedAtTime": "2024-09-07T12:28:21.069077Z"
                 }
             ],
             "time": {
-                "timestamp": "2024-09-07T12:37:34.340138+00:00"
+                "timestamp": "2024-09-07T12:37:34.340138Z"
             },
             "place": {
                 "type": "null"
@@ -3528,7 +3528,7 @@
             "has_provenance": [
                 {
                     "provType": "Agent",
-                    "name": "agents:TerraNexus",
+                    "id": "agents:TerraNexus",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:PangaeaInnovations",
                     "qualifiedDelegation": {
@@ -3540,7 +3540,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:admin%40terranexus.pangaeainnovations.com",
+                    "id": "agents:admin%40terranexus.pangaeainnovations.com",
                     "agentType": "Person",
                     "actedOnBehalfOf": "agents:%3COrganisation%3E",
                     "qualifiedDelegation": {
@@ -3552,7 +3552,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:MapDataToZones",
+                    "id": "agents:MapDataToZones",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:TerraNexus",
                     "qualifiedDelegation": [
@@ -3566,7 +3566,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_validate_ogcapi_execute_document",
+                    "id": "agents:_validate_ogcapi_execute_document",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -3580,7 +3580,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_executeMapDataToZones_process",
+                    "id": "agents:_executeMapDataToZones_process",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -3594,7 +3594,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data",
+                    "id": "agents:map_data",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
                     "qualifiedDelegation": [
@@ -3608,7 +3608,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data_execution",
+                    "id": "agents:map_data_execution",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data",
                     "qualifiedDelegation": [
@@ -3622,7 +3622,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:processData_task",
+                    "id": "agents:processData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data_execution",
                     "qualifiedDelegation": [
@@ -3636,7 +3636,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:reorganiseData_task",
+                    "id": "agents:reorganiseData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -3650,7 +3650,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_featureData_task",
+                    "id": "agents:map_featureData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -3664,7 +3664,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:get_mapped_child_zones_task",
+                    "id": "agents:get_mapped_child_zones_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_featureData_task",
                     "qualifiedDelegation": [
@@ -3678,19 +3678,19 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:PangaeaInnovations",
+                    "id": "agents:PangaeaInnovations",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:%3COrganisation%3E",
+                    "id": "agents:%3COrganisation%3E",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Activity",
                     "id": "activities:MapDataToZones_64169fd6ebbc",
                     "activityType": "ogcapiProcessJobExecution",
-                    "startedAtTime": "2024-09-07T12:28:15.870964+00:00",
+                    "startedAtTime": "2024-09-07T12:28:15.870964Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:MapDataToZones",
@@ -3764,7 +3764,7 @@
                     "provType": "Activity",
                     "id": "dggsOperations:reorganiseData_task-2305843009231960798-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:39:22.677649+00:00",
+                    "startedAtTime": "2024-09-07T12:39:22.677649Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -3794,13 +3794,13 @@
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings/items/2305843009231960798"
                     ],
-                    "endedAtTime": "2024-09-07T12:39:22.762645+00:00"
+                    "endedAtTime": "2024-09-07T12:39:22.762645Z"
                 },
                 {
                     "provType": "Activity",
                     "id": "dggsOperations:map_featureData_task-2305843009231960798-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:39:22.939115+00:00",
+                    "startedAtTime": "2024-09-07T12:39:22.939115Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -3842,7 +3842,7 @@
                     "generated": [
                         "terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "endedAtTime": "2024-09-07T12:41:05.607417+00:00"
+                    "endedAtTime": "2024-09-07T12:41:05.607417Z"
                 },
                 {
                     "provType": "Entity",
@@ -3855,7 +3855,7 @@
                         "agents:MapDataToZones",
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.773864+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.773864Z",
                     "wasGeneratedBy": "terranexusProcesses:MapDataToZones"
                 },
                 {
@@ -3866,7 +3866,7 @@
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
                     "wasAttributedTo": "dggsOperations:processData_task",
-                    "generatedAtTime": "2024-09-07T12:28:25.439676+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.439676Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -3881,7 +3881,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:28.137746+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:28.137746Z",
                     "wasGeneratedBy": "dggsOperations:map_featureData_task-2305843009229499373-Polygon_0",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -3897,7 +3897,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:31.459547+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:31.459547Z",
                     "wasGeneratedBy": "dggsOperations:map_featureData_task-2305843009229499373-Polygon_0",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -3913,7 +3913,7 @@
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
                     "wasAttributedTo": "dggsOperations:processData_task",
-                    "generatedAtTime": "2024-09-07T12:39:22.393506+00:00",
+                    "generatedAtTime": "2024-09-07T12:39:22.393506Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -3928,7 +3928,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.792585+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.792585Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": "terranexusJobs:MapDataToZones_64169fd6ebbc"
                 },
@@ -3940,7 +3940,7 @@
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
                     "wasAttributedTo": "dggsOperations:processData_task",
-                    "generatedAtTime": "2024-09-07T12:28:25.304603+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.304603Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -3954,12 +3954,12 @@
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:21.069077+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:21.069077Z",
                     "wasGeneratedBy": "dggsOperations:initialiseSurfaceDGGS_TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                 }
             ],
             "time": {
-                "timestamp": "2024-09-07T12:39:22.393506+00:00"
+                "timestamp": "2024-09-07T12:39:22.393506Z"
             },
             "place": {
                 "type": "null"
@@ -4098,7 +4098,7 @@
             "has_provenance": [
                 {
                     "provType": "Agent",
-                    "name": "agents:TerraNexus",
+                    "id": "agents:TerraNexus",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:PangaeaInnovations",
                     "qualifiedDelegation": {
@@ -4110,7 +4110,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:admin%40terranexus.pangaeainnovations.com",
+                    "id": "agents:admin%40terranexus.pangaeainnovations.com",
                     "agentType": "Person",
                     "actedOnBehalfOf": "agents:%3COrganisation%3E",
                     "qualifiedDelegation": {
@@ -4122,7 +4122,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:MapDataToZones",
+                    "id": "agents:MapDataToZones",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:TerraNexus",
                     "qualifiedDelegation": [
@@ -4136,7 +4136,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_validate_ogcapi_execute_document",
+                    "id": "agents:_validate_ogcapi_execute_document",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -4150,7 +4150,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_executeMapDataToZones_process",
+                    "id": "agents:_executeMapDataToZones_process",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -4164,7 +4164,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data",
+                    "id": "agents:map_data",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
                     "qualifiedDelegation": [
@@ -4178,7 +4178,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data_execution",
+                    "id": "agents:map_data_execution",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data",
                     "qualifiedDelegation": [
@@ -4192,7 +4192,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:processData_task",
+                    "id": "agents:processData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data_execution",
                     "qualifiedDelegation": [
@@ -4206,7 +4206,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:reorganiseData_task",
+                    "id": "agents:reorganiseData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -4220,7 +4220,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_featureData_task",
+                    "id": "agents:map_featureData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -4234,7 +4234,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:get_mapped_child_zones_task",
+                    "id": "agents:get_mapped_child_zones_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_featureData_task",
                     "qualifiedDelegation": [
@@ -4248,19 +4248,19 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:PangaeaInnovations",
+                    "id": "agents:PangaeaInnovations",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:%3COrganisation%3E",
+                    "id": "agents:%3COrganisation%3E",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Activity",
                     "id": "dggsOperations:map_featureData_task-2305843009231960865-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:41:06.523423+00:00",
+                    "startedAtTime": "2024-09-07T12:41:06.523423Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -4299,7 +4299,7 @@
                         "terranexusCollections:osm_singapore_buildings___Properties",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "endedAtTime": "2024-09-07T12:43:50.885128+00:00",
+                    "endedAtTime": "2024-09-07T12:43:50.885128Z",
                     "generated": [
                         "terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ]
@@ -4308,7 +4308,7 @@
                     "provType": "Activity",
                     "id": "activities:MapDataToZones_64169fd6ebbc",
                     "activityType": "ogcapiProcessJobExecution",
-                    "startedAtTime": "2024-09-07T12:28:15.870964+00:00",
+                    "startedAtTime": "2024-09-07T12:28:15.870964Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:MapDataToZones",
@@ -4382,7 +4382,7 @@
                     "provType": "Activity",
                     "id": "dggsOperations:reorganiseData_task-2305843009231960865-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:41:05.946979+00:00",
+                    "startedAtTime": "2024-09-07T12:41:05.946979Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -4412,7 +4412,7 @@
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings/items/2305843009231960865"
                     ],
-                    "endedAtTime": "2024-09-07T12:41:06.110968+00:00"
+                    "endedAtTime": "2024-09-07T12:41:06.110968Z"
                 },
                 {
                     "provType": "Entity",
@@ -4422,7 +4422,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.792585+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.792585Z",
                     "wasDerivedFrom": "terranexusJobs:MapDataToZones_64169fd6ebbc"
                 },
                 {
@@ -4433,7 +4433,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.304603+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.304603Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -4448,7 +4448,7 @@
                     "hadPrimarySource": [
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.773864+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.773864Z",
                     "wasAttributedTo": [
                         "agents:MapDataToZones",
                         "agents:admin%40terranexus.pangaeainnovations.com"
@@ -4462,7 +4462,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:25.439676+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.439676Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -4478,7 +4478,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:28.137746+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:28.137746Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -4494,7 +4494,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:31.459547+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:31.459547Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings",
@@ -4509,7 +4509,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:41:05.661235+00:00",
+                    "generatedAtTime": "2024-09-07T12:41:05.661235Z",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json",
@@ -4525,11 +4525,11 @@
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:21.069077+00:00"
+                    "generatedAtTime": "2024-09-07T12:28:21.069077Z"
                 }
             ],
             "time": {
-                "timestamp": "2024-09-07T12:41:05.661235+00:00"
+                "timestamp": "2024-09-07T12:41:05.661235Z"
             },
             "place": {
                 "type": "null"
@@ -4667,7 +4667,7 @@
             "has_provenance": [
                 {
                     "provType": "Agent",
-                    "name": "agents:TerraNexus",
+                    "id": "agents:TerraNexus",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:PangaeaInnovations",
                     "qualifiedDelegation": {
@@ -4679,7 +4679,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:admin%40terranexus.pangaeainnovations.com",
+                    "id": "agents:admin%40terranexus.pangaeainnovations.com",
                     "agentType": "Person",
                     "actedOnBehalfOf": "agents:%3COrganisation%3E",
                     "qualifiedDelegation": {
@@ -4691,7 +4691,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:MapDataToZones",
+                    "id": "agents:MapDataToZones",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:TerraNexus",
                     "qualifiedDelegation": [
@@ -4705,7 +4705,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_validate_ogcapi_execute_document",
+                    "id": "agents:_validate_ogcapi_execute_document",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -4719,7 +4719,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_executeMapDataToZones_process",
+                    "id": "agents:_executeMapDataToZones_process",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -4733,7 +4733,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data",
+                    "id": "agents:map_data",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
                     "qualifiedDelegation": [
@@ -4747,7 +4747,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data_execution",
+                    "id": "agents:map_data_execution",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data",
                     "qualifiedDelegation": [
@@ -4761,7 +4761,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:processData_task",
+                    "id": "agents:processData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data_execution",
                     "qualifiedDelegation": [
@@ -4775,7 +4775,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:reorganiseData_task",
+                    "id": "agents:reorganiseData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -4789,7 +4789,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_featureData_task",
+                    "id": "agents:map_featureData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -4803,7 +4803,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:get_mapped_child_zones_task",
+                    "id": "agents:get_mapped_child_zones_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_featureData_task",
                     "qualifiedDelegation": [
@@ -4817,19 +4817,19 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:PangaeaInnovations",
+                    "id": "agents:PangaeaInnovations",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:%3COrganisation%3E",
+                    "id": "agents:%3COrganisation%3E",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Activity",
                     "id": "activities:MapDataToZones_64169fd6ebbc",
                     "activityType": "ogcapiProcessJobExecution",
-                    "startedAtTime": "2024-09-07T12:28:15.870964+00:00",
+                    "startedAtTime": "2024-09-07T12:28:15.870964Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:MapDataToZones",
@@ -4903,7 +4903,7 @@
                     "provType": "Activity",
                     "id": "dggsOperations:reorganiseData_task-2305843009232899975-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:43:51.286779+00:00",
+                    "startedAtTime": "2024-09-07T12:43:51.286779Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -4933,13 +4933,13 @@
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings/items/2305843009232899975"
                     ],
-                    "endedAtTime": "2024-09-07T12:43:51.402325+00:00"
+                    "endedAtTime": "2024-09-07T12:43:51.402325Z"
                 },
                 {
                     "provType": "Activity",
                     "id": "dggsOperations:map_featureData_task-2305843009232899975-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:43:51.862389+00:00",
+                    "startedAtTime": "2024-09-07T12:43:51.862389Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -4978,7 +4978,7 @@
                         "terranexusCollections:osm_singapore_buildings___Properties",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "endedAtTime": "2024-09-07T12:46:34.558053+00:00",
+                    "endedAtTime": "2024-09-07T12:46:34.558053Z",
                     "generated": [
                         "terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ]
@@ -4994,7 +4994,7 @@
                         "agents:MapDataToZones",
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.773864+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.773864Z",
                     "wasGeneratedBy": "terranexusProcesses:MapDataToZones"
                 },
                 {
@@ -5005,7 +5005,7 @@
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
                     "wasAttributedTo": "dggsOperations:processData_task",
-                    "generatedAtTime": "2024-09-07T12:28:25.439676+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.439676Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -5020,7 +5020,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:28.137746+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:28.137746Z",
                     "wasGeneratedBy": "dggsOperations:map_featureData_task-2305843009229499373-Polygon_0",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -5036,7 +5036,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:31.459547+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:31.459547Z",
                     "wasGeneratedBy": "dggsOperations:map_featureData_task-2305843009229499373-Polygon_0",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -5052,7 +5052,7 @@
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
                     "wasAttributedTo": "dggsOperations:processData_task",
-                    "generatedAtTime": "2024-09-07T12:43:50.942142+00:00",
+                    "generatedAtTime": "2024-09-07T12:43:50.942142Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -5067,7 +5067,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.792585+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.792585Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": "terranexusJobs:MapDataToZones_64169fd6ebbc"
                 },
@@ -5079,7 +5079,7 @@
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
                     "wasAttributedTo": "dggsOperations:processData_task",
-                    "generatedAtTime": "2024-09-07T12:28:25.304603+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.304603Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -5093,12 +5093,12 @@
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:21.069077+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:21.069077Z",
                     "wasGeneratedBy": "dggsOperations:initialiseSurfaceDGGS_TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                 }
             ],
             "time": {
-                "timestamp": "2024-09-07T12:43:50.942142+00:00"
+                "timestamp": "2024-09-07T12:43:50.942142Z"
             },
             "place": {
                 "type": "null"
@@ -5240,7 +5240,7 @@
             "has_provenance": [
                 {
                     "provType": "Agent",
-                    "name": "agents:TerraNexus",
+                    "id": "agents:TerraNexus",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:PangaeaInnovations",
                     "qualifiedDelegation": {
@@ -5252,7 +5252,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:admin%40terranexus.pangaeainnovations.com",
+                    "id": "agents:admin%40terranexus.pangaeainnovations.com",
                     "agentType": "Person",
                     "actedOnBehalfOf": "agents:%3COrganisation%3E",
                     "qualifiedDelegation": {
@@ -5264,7 +5264,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:MapDataToZones",
+                    "id": "agents:MapDataToZones",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:TerraNexus",
                     "qualifiedDelegation": [
@@ -5278,7 +5278,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_validate_ogcapi_execute_document",
+                    "id": "agents:_validate_ogcapi_execute_document",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -5292,7 +5292,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:_executeMapDataToZones_process",
+                    "id": "agents:_executeMapDataToZones_process",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
                     "qualifiedDelegation": [
@@ -5306,7 +5306,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data",
+                    "id": "agents:map_data",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
                     "qualifiedDelegation": [
@@ -5320,7 +5320,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_data_execution",
+                    "id": "agents:map_data_execution",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data",
                     "qualifiedDelegation": [
@@ -5334,7 +5334,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:processData_task",
+                    "id": "agents:processData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_data_execution",
                     "qualifiedDelegation": [
@@ -5348,7 +5348,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:reorganiseData_task",
+                    "id": "agents:reorganiseData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -5362,7 +5362,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:map_featureData_task",
+                    "id": "agents:map_featureData_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:processData_task",
                     "qualifiedDelegation": [
@@ -5376,7 +5376,7 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:get_mapped_child_zones_task",
+                    "id": "agents:get_mapped_child_zones_task",
                     "agentType": "softwareAgent",
                     "actedOnBehalfOf": "agents:map_featureData_task",
                     "qualifiedDelegation": [
@@ -5390,19 +5390,19 @@
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:PangaeaInnovations",
+                    "id": "agents:PangaeaInnovations",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Agent",
-                    "name": "agents:%3COrganisation%3E",
+                    "id": "agents:%3COrganisation%3E",
                     "agentType": "organization"
                 },
                 {
                     "provType": "Activity",
                     "id": "activities:MapDataToZones_64169fd6ebbc",
                     "activityType": "ogcapiProcessJobExecution",
-                    "startedAtTime": "2024-09-07T12:28:15.870964+00:00",
+                    "startedAtTime": "2024-09-07T12:28:15.870964Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:MapDataToZones",
@@ -5476,7 +5476,7 @@
                     "provType": "Activity",
                     "id": "dggsOperations:map_featureData_task-2305843009232900002-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:47:13.237989+00:00",
+                    "startedAtTime": "2024-09-07T12:47:13.237989Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -5518,13 +5518,13 @@
                     "generated": [
                         "terranexusCollections:osm_singapore_buildings___TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "endedAtTime": "2024-09-07T12:49:38.581180+00:00"
+                    "endedAtTime": "2024-09-07T12:49:38.581180Z"
                 },
                 {
                     "provType": "Activity",
                     "id": "dggsOperations:reorganiseData_task-2305843009232900002-Polygon_0",
                     "activityType": "dggsOperation",
-                    "startedAtTime": "2024-09-07T12:46:36.341860+00:00",
+                    "startedAtTime": "2024-09-07T12:46:36.341860Z",
                     "wasAssociatedWith": [
                         "agents:TerraNexus",
                         "agents:admin%40terranexus.pangaeainnovations.com",
@@ -5554,7 +5554,7 @@
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
                         "terranexusCollections:osm_singapore_buildings/items/2305843009232900002"
                     ],
-                    "endedAtTime": "2024-09-07T12:46:37.093281+00:00"
+                    "endedAtTime": "2024-09-07T12:46:37.093281Z"
                 },
                 {
                     "provType": "Entity",
@@ -5567,7 +5567,7 @@
                         "agents:MapDataToZones",
                         "agents:admin%40terranexus.pangaeainnovations.com"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.773864+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.773864Z",
                     "wasGeneratedBy": "terranexusProcesses:MapDataToZones"
                 },
                 {
@@ -5578,7 +5578,7 @@
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
                     "wasAttributedTo": "dggsOperations:processData_task",
-                    "generatedAtTime": "2024-09-07T12:28:25.439676+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.439676Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -5593,7 +5593,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:28.137746+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:28.137746Z",
                     "wasGeneratedBy": "dggsOperations:map_featureData_task-2305843009229499373-Polygon_0",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -5609,7 +5609,7 @@
                         "terranexusCollections:osm_singapore_buildings",
                         "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:31.459547+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:31.459547Z",
                     "wasGeneratedBy": "dggsOperations:map_featureData_task-2305843009229499373-Polygon_0",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -5625,7 +5625,7 @@
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
                     "wasAttributedTo": "dggsOperations:processData_task",
-                    "generatedAtTime": "2024-09-07T12:46:34.683109+00:00",
+                    "generatedAtTime": "2024-09-07T12:46:34.683109Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -5640,7 +5640,7 @@
                     "hadPrimarySource": [
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:22.792585+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:22.792585Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": "terranexusJobs:MapDataToZones_64169fd6ebbc"
                 },
@@ -5652,7 +5652,7 @@
                         "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
                     ],
                     "wasAttributedTo": "dggsOperations:processData_task",
-                    "generatedAtTime": "2024-09-07T12:28:25.304603+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:25.304603Z",
                     "wasGeneratedBy": "activities:MapDataToZones_64169fd6ebbc",
                     "wasDerivedFrom": [
                         "terranexusJobs:MapDataToZones_64169fd6ebbc",
@@ -5666,12 +5666,12 @@
                     "hadPrimarySource": [
                         "agents:TerraNexus"
                     ],
-                    "generatedAtTime": "2024-09-07T12:28:21.069077+00:00",
+                    "generatedAtTime": "2024-09-07T12:28:21.069077Z",
                     "wasGeneratedBy": "dggsOperations:initialiseSurfaceDGGS_TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
                 }
             ],
             "time": {
-                "timestamp": "2024-09-07T12:46:34.683109+00:00"
+                "timestamp": "2024-09-07T12:46:34.683109Z"
             },
             "place": {
                 "type": "null"
@@ -5714,7 +5714,7 @@
     "has_provenance": [
         {
             "provType": "Agent",
-            "name": "agents:TerraNexus",
+            "id": "agents:TerraNexus",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:PangaeaInnovations",
             "qualifiedDelegation": {
@@ -5726,7 +5726,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:admin%40terranexus.pangaeainnovations.com",
+            "id": "agents:admin%40terranexus.pangaeainnovations.com",
             "agentType": "Person",
             "actedOnBehalfOf": "agents:%3COrganisation%3E",
             "qualifiedDelegation": {
@@ -5738,7 +5738,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:MapDataToZones",
+            "id": "agents:MapDataToZones",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:TerraNexus",
             "qualifiedDelegation": [
@@ -5752,7 +5752,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:_validate_ogcapi_execute_document",
+            "id": "agents:_validate_ogcapi_execute_document",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
             "qualifiedDelegation": [
@@ -5766,7 +5766,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:_executeMapDataToZones_process",
+            "id": "agents:_executeMapDataToZones_process",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
             "qualifiedDelegation": [
@@ -5780,7 +5780,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:map_data",
+            "id": "agents:map_data",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
             "qualifiedDelegation": [
@@ -5794,7 +5794,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:map_data_execution",
+            "id": "agents:map_data_execution",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:map_data",
             "qualifiedDelegation": [
@@ -5808,7 +5808,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:processData_task",
+            "id": "agents:processData_task",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:map_data_execution",
             "qualifiedDelegation": [
@@ -5822,19 +5822,19 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:PangaeaInnovations",
+            "id": "agents:PangaeaInnovations",
             "agentType": "organization"
         },
         {
             "provType": "Agent",
-            "name": "agents:%3COrganisation%3E",
+            "id": "agents:%3COrganisation%3E",
             "agentType": "organization"
         },
         {
             "provType": "Activity",
             "id": "activities:MapDataToZones_64169fd6ebbc",
             "activityType": "ogcapiProcessJobExecution",
-            "startedAtTime": "2024-09-07T12:28:15.870964+00:00",
+            "startedAtTime": "2024-09-07T12:28:15.870964Z",
             "wasAssociatedWith": [
                 "agents:TerraNexus",
                 "agents:MapDataToZones",
@@ -5912,7 +5912,7 @@
             "hadPrimarySource": [
                 "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
             ],
-            "generatedAtTime": "2024-09-07T12:28:22.792585+00:00",
+            "generatedAtTime": "2024-09-07T12:28:22.792585Z",
             "wasDerivedFrom": "terranexusJobs:MapDataToZones_64169fd6ebbc"
         },
         {
@@ -5923,7 +5923,7 @@
             "hadPrimarySource": [
                 "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
             ],
-            "generatedAtTime": "2024-09-07T12:28:25.304603+00:00",
+            "generatedAtTime": "2024-09-07T12:28:25.304603Z",
             "wasDerivedFrom": [
                 "terranexusJobs:MapDataToZones_64169fd6ebbc",
                 "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -5938,7 +5938,7 @@
             "hadPrimarySource": [
                 "agents:admin%40terranexus.pangaeainnovations.com"
             ],
-            "generatedAtTime": "2024-09-07T12:28:22.773864+00:00",
+            "generatedAtTime": "2024-09-07T12:28:22.773864Z",
             "wasAttributedTo": [
                 "agents:MapDataToZones",
                 "agents:admin%40terranexus.pangaeainnovations.com"
@@ -5952,7 +5952,7 @@
             "hadPrimarySource": [
                 "https://maps.ecere.com/ogcapi/collections/osm:singapore:buildings/items?limit=10"
             ],
-            "generatedAtTime": "2024-09-07T12:28:25.439676+00:00",
+            "generatedAtTime": "2024-09-07T12:28:25.439676Z",
             "wasDerivedFrom": [
                 "terranexusJobs:MapDataToZones_64169fd6ebbc",
                 "terranexusTempData:osm_singapore_buildings__5b50927634e602daf8844eb8dbc640f7.json"
@@ -5968,7 +5968,7 @@
                 "terranexusCollections:osm_singapore_buildings",
                 "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
             ],
-            "generatedAtTime": "2024-09-07T12:28:28.137746+00:00",
+            "generatedAtTime": "2024-09-07T12:28:28.137746Z",
             "wasDerivedFrom": [
                 "terranexusJobs:MapDataToZones_64169fd6ebbc",
                 "terranexusCollections:osm_singapore_buildings",
@@ -5984,7 +5984,7 @@
                 "terranexusCollections:osm_singapore_buildings",
                 "terranexusDGGS:TerraNexus_S_IT9_GRS80_2d10b58e2088c7e2"
             ],
-            "generatedAtTime": "2024-09-07T12:28:31.459547+00:00",
+            "generatedAtTime": "2024-09-07T12:28:31.459547Z",
             "wasDerivedFrom": [
                 "terranexusJobs:MapDataToZones_64169fd6ebbc",
                 "terranexusCollections:osm_singapore_buildings",
@@ -5999,8 +5999,7 @@
             "hadPrimarySource": [
                 "agents:TerraNexus"
             ],
-            "generatedAtTime": "2024-09-07T12:28:21.069077+00:00"
+            "generatedAtTime": "2024-09-07T12:28:21.069077Z"
         }
-    ],
-    "@context": "https://terranexus.pangaeainnovations.com/context/fgjsonFeatureCollection.jsonld"
+    ]
 }
