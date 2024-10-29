@@ -7,16 +7,6 @@
     },
     {
       "$ref": "https://opengeospatial.github.io/bblocks/annotated-schemas/geo/json-fg/feature/schema.json"
-    },
-    {
-      "type": "object"
-    },
-    {
-      "properties": {
-        "b": {
-          "type": "number"
-        }
-      }
     }
   ]
 }

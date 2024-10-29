@@ -1,0 +1,38 @@
+Validation report for pangaea.terranexus.dggs.api.feature-dggs - JSON-FG Feature with DGGS location data
+Generated 2024-10-29T04:39:11.474250+00:00
+=== General ===
+Test was expected to fail and it did.
+=== End General ===
+
+=== Files ===
+Using no-dggs-fail.json from test resources
+JSON-LD context is present - uplifting
+Output JSON-LD no-dggs-fail.jsonld created
+Output Turtle no-dggs-fail.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+
+** Validation error **
+ValidationError: 'dggsZones' is a required property
+
+Failed validating 'required' in schema['allOf'][1]['properties']['properties']:
+    {'required': ['dggsZones']}
+
+On instance['properties']:
+    {'building': 'yes',
+     'created': 1725712105.790587,
+     'created_by': 'Potlatch 0.6',
+     'feature::id': 2305843009229499373,
+     'geometry_type': 'Polygon',
+     'id': '2305843009229499373',
+     'landuse': 'residential',
+     'record_type': 'Feature',
+     'x_max': -1276078.7650104035,
+     'x_min': -1276125.1697413276,
+     'y_max': 6239991.512113506,
+     'y_min': 6239978.749965917,
+     'z_max': 337695.36020748876,
+     'z_min': 337619.4573208119}
+=== End JSON Schema ===
+

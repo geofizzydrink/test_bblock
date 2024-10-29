@@ -3,14 +3,3 @@ description: CWL Provenance Chain for DGGS actions
 allOf:
 - $ref: https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov/schema.yaml#/$defs/Entity
 - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/json-fg/featureCollection/schema.yaml
-x-jsonld-prefixes:
-  base_href: https://terranexus.pangaeainnovations.com/
-  agents: https://terranexus.pangaeainnovations.com/prov/agents/
-  activities: https://terranexus.pangaeainnovations.com/prov/activities/
-  roles: https://terranexus.pangaeainnovations.com/prov/roles/
-  dggsOperations: https://terranexus.pangaeainnovations.com/prov/dggsOperations/
-  terranexusProcesses: https://terranexus.pangaeainnovations.com/ogcapi/processes/
-  terranexusCollections: https://terranexus.pangaeainnovations.com/ogcapi/collections/
-  terranexusDGGS: https://terranexus.pangaeainnovations.com/ogcapi/dggs/
-  terranexusJobs: https://terranexus.pangaeainnovations.com/ogcapi/jobs/
-  terranexusTempData: https://terranexus.pangaeainnovations.com/prov/tempData/

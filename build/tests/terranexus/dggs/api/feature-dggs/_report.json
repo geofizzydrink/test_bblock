@@ -1,0 +1,136 @@
+{
+  "title": "Validation report for pangaea.terranexus.dggs.api.feature-dggs - JSON-FG Feature with DGGS location data",
+  "bblockName": "JSON-FG Feature with DGGS location data",
+  "bblockId": "pangaea.terranexus.dggs.api.feature-dggs",
+  "generated": "2024-10-29T04:39:11.793858+00:00",
+  "result": true,
+  "items": [
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "_sources/feature-dggs/tests/no-dggs-fail.json",
+        "url": "https://geofizzydrink.github.io/test_bblock/_sources/feature-dggs/tests/no-dggs-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using no-dggs-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "no-dggs-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD no-dggs-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "no-dggs-fail.ttl",
+              "size": 310,
+              "isError": false,
+              "message": "Output Turtle no-dggs-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'dggsZones' is a required property",
+              "isError": true,
+              "message": "ValidationError: 'dggsZones' is a required property\n\nFailed validating 'required' in schema['allOf'][1]['properties']['properties']:\n    {'required': ['dggsZones']}\n\nOn instance['properties']:\n    {'building': 'yes',\n     'created': 1725712105.790587,\n     'created_by': 'Potlatch 0.6',\n     'feature::id': 2305843009229499373,\n     'geometry_type': 'Polygon',\n     'id': '2305843009229499373',\n     'landuse': 'residential',\n     'record_type': 'Feature',\n     'x_max': -1276078.7650104035,\n     'x_min': -1276125.1697413276,\n     'y_max': 6239991.512113506,\n     'y_min': 6239978.749965917,\n     'z_max': 337695.36020748876,\n     'z_min': 337619.4573208119}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "EXAMPLE",
+        "requireFail": false,
+        "filename": "build/tests/terranexus/dggs/api/feature-dggs/example_1_1.json",
+        "url": "https://geofizzydrink.github.io/test_bblock/build/tests/terranexus/dggs/api/feature-dggs/example_1_1.json",
+        "exampleIndex": 1,
+        "snippetIndex": 1,
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using example_1_1.json from examples"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "example_1_1.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD example_1_1.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "example_1_1.ttl",
+              "size": 310,
+              "isError": false,
+              "message": "Output Turtle example_1_1.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": true,
+              "isError": false,
+              "message": "Validation passed"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "globalErrors": {},
+  "counts": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0
+  }
+}

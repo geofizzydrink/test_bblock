@@ -4570,7 +4570,7 @@
         "created_by": NaN,
         "landuse": NaN,
         "building": "commercial",
-        "id": "2305843009232899975",
+        "id": "Giant",
         "record_type": "Feature",
         "geometry_type": "Polygon",
         "created": 1725713031.062454,
@@ -4583,7 +4583,6 @@
         "line::hidden": NaN,
         "amenity": NaN,
         "parking": NaN,
-        "name": "Giant",
         "is_in": "Seksyen 18, Shah Alam, Selangor, Malaysia",
         "shop": "supermarket",
         "dggsZones": {
@@ -5155,7 +5154,7 @@
         "created_by": NaN,
         "landuse": NaN,
         "building": "commercial",
-        "id": "2305843009232900002",
+        "id": "Mydin",
         "record_type": "Feature",
         "geometry_type": "Polygon",
         "created": 1725713195.153711,
@@ -5168,7 +5167,6 @@
         "line::hidden": NaN,
         "amenity": NaN,
         "parking": NaN,
-        "name": "Mydin",
         "is_in": "Seksyen 18, Shah Alam, Selangor, Malaysia",
         "shop": "supermarket",
         "dggsZones": {
