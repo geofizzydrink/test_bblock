@@ -4,6 +4,172 @@
     "featureType": "geojson:collectionFeatureType",
     "entityType": "@type",
     "has_provenance": {
+      "@context": {
+        "activityType": "@type",
+        "endedAtTime": {
+          "@id": "prov:endedAtTime",
+          "@type": "xsd:dateTime"
+        },
+        "wasAssociatedWith": {
+          "@context": {
+            "href": {
+              "@type": "@id",
+              "@id": "oa:hasTarget"
+            },
+            "rel": {
+              "@context": {
+                "@base": "http://www.iana.org/assignments/relation/"
+              },
+              "@id": "http://www.iana.org/assignments/relation",
+              "@type": "@id"
+            },
+            "type": "dct:type",
+            "hreflang": "dct:language",
+            "title": "rdfs:label",
+            "length": "dct:extent"
+          },
+          "@id": "prov:wasAssociatedWith",
+          "@type": "@id"
+        },
+        "wasInformedBy": {
+          "@id": "prov:wasInformedBy",
+          "@type": "@id"
+        },
+        "used": {
+          "@id": "prov:used",
+          "@type": "@id"
+        },
+        "wasStartedBy": {
+          "@id": "prov:wasStartedBy",
+          "@type": "@id"
+        },
+        "wasEndedBy": {
+          "@id": "prov:wasEndedBy",
+          "@type": "@id"
+        },
+        "invalidated": {
+          "@id": "prov:invalidated",
+          "@type": "@id"
+        },
+        "generated": {
+          "@id": "prov:generated",
+          "@type": "@id"
+        },
+        "qualifiedUsage": {
+          "@context": {
+            "atTime": {
+              "@id": "prov:atTime",
+              "@type": "xsd:dateTime"
+            },
+            "entity": {
+              "@id": "prov:entity",
+              "@type": "@id"
+            }
+          },
+          "@id": "prov:qualifiedUsage",
+          "@type": "@id"
+        },
+        "qualifiedCommunication": {
+          "@context": {
+            "atTime": {
+              "@id": "prov:atTime",
+              "@type": "xsd:dateTime"
+            },
+            "hadRole": {
+              "@id": "prov:hadRole",
+              "@type": "@id"
+            },
+            "influencer": {
+              "@id": "prov:influencer",
+              "@type": "@id"
+            },
+            "hadActivity": {
+              "@id": "prov:hadActivity",
+              "@type": "@id"
+            },
+            "activity": {
+              "@id": "prov:activity",
+              "@type": "@id"
+            }
+          },
+          "@id": "prov:qualifiedCommunication",
+          "@type": "@id"
+        },
+        "qualifiedStart": {
+          "@context": {
+            "atTime": {
+              "@id": "prov:atTime",
+              "@type": "xsd:dateTime"
+            },
+            "entity": {
+              "@id": "prov:entity",
+              "@type": "@id"
+            },
+            "hadActivity": {
+              "@id": "prov:hadActivity",
+              "@type": "@id"
+            }
+          },
+          "@id": "prov:qualifiedStart",
+          "@type": "@id"
+        },
+        "qualifiedEnd": {
+          "@context": {
+            "atTime": {
+              "@id": "prov:atTime",
+              "@type": "xsd:dateTime"
+            },
+            "entity": {
+              "@id": "prov:entity",
+              "@type": "@id"
+            },
+            "hadActivity": {
+              "@id": "prov:hadActivity",
+              "@type": "@id"
+            }
+          },
+          "@id": "prov:qualifiedEnd",
+          "@type": "@id"
+        },
+        "qualifiedAssociation": {
+          "@context": {
+            "agent": {
+              "@id": "prov:agent",
+              "@type": "@id"
+            },
+            "hadRole": {
+              "@id": "prov:hadRole",
+              "@type": "@id"
+            },
+            "hadPlan": {
+              "@id": "prov:hadPlan",
+              "@type": "@id"
+            }
+          },
+          "@id": "prov:qualifiedAssociation",
+          "@type": "@id"
+        },
+        "agentType": "@type",
+        "name": "rdfs:label",
+        "actedOnBehalfOf": {
+          "@id": "prov:actedOnBehalfOf",
+          "@type": "@id"
+        },
+        "qualifiedDelegation": {
+          "@context": {
+            "agent": {
+              "@id": "prov:agent",
+              "@type": "@id"
+            },
+            "hadActivity": {
+              "@id": "prov:hadActivity",
+              "@type": "@id"
+            }
+          },
+          "@id": "prov:qualifiedDelegation",
+          "@type": "@id"
+        }
+      },
       "@id": "dct:provenance",
       "@type": "@id"
     },
@@ -27,7 +193,27 @@
         "type": "dct:type",
         "hreflang": "dct:language",
         "title": "rdfs:label",
-        "length": "dct:extent"
+        "length": "dct:extent",
+        "agentType": "@type",
+        "name": "rdfs:label",
+        "actedOnBehalfOf": {
+          "@id": "prov:actedOnBehalfOf",
+          "@type": "@id"
+        },
+        "qualifiedDelegation": {
+          "@context": {
+            "agent": {
+              "@id": "prov:agent",
+              "@type": "@id"
+            },
+            "hadActivity": {
+              "@id": "prov:hadActivity",
+              "@type": "@id"
+            }
+          },
+          "@id": "prov:qualifiedDelegation",
+          "@type": "@id"
+        }
       },
       "@id": "prov:wasAttributedTo",
       "@type": "@id"
@@ -161,6 +347,156 @@
           "@type": "@id"
         },
         "hadActivity": {
+          "@context": {
+            "activityType": "@type",
+            "endedAtTime": {
+              "@id": "prov:endedAtTime",
+              "@type": "xsd:dateTime"
+            },
+            "wasAssociatedWith": {
+              "@context": {
+                "href": {
+                  "@type": "@id",
+                  "@id": "oa:hasTarget"
+                },
+                "rel": {
+                  "@context": {
+                    "@base": "http://www.iana.org/assignments/relation/"
+                  },
+                  "@id": "http://www.iana.org/assignments/relation",
+                  "@type": "@id"
+                },
+                "type": "dct:type",
+                "hreflang": "dct:language",
+                "title": "rdfs:label",
+                "length": "dct:extent",
+                "agentType": "@type",
+                "name": "rdfs:label",
+                "actedOnBehalfOf": {
+                  "@id": "prov:actedOnBehalfOf",
+                  "@type": "@id"
+                },
+                "qualifiedDelegation": {
+                  "@context": {
+                    "agent": {
+                      "@id": "prov:agent",
+                      "@type": "@id"
+                    }
+                  },
+                  "@id": "prov:qualifiedDelegation",
+                  "@type": "@id"
+                }
+              },
+              "@id": "prov:wasAssociatedWith",
+              "@type": "@id"
+            },
+            "wasInformedBy": {
+              "@id": "prov:wasInformedBy",
+              "@type": "@id"
+            },
+            "used": {
+              "@id": "prov:used",
+              "@type": "@id"
+            },
+            "wasStartedBy": {
+              "@id": "prov:wasStartedBy",
+              "@type": "@id"
+            },
+            "wasEndedBy": {
+              "@id": "prov:wasEndedBy",
+              "@type": "@id"
+            },
+            "invalidated": {
+              "@id": "prov:invalidated",
+              "@type": "@id"
+            },
+            "generated": {
+              "@id": "prov:generated",
+              "@type": "@id"
+            },
+            "qualifiedUsage": {
+              "@context": {
+                "atTime": {
+                  "@id": "prov:atTime",
+                  "@type": "xsd:dateTime"
+                }
+              },
+              "@id": "prov:qualifiedUsage",
+              "@type": "@id"
+            },
+            "qualifiedCommunication": {
+              "@context": {
+                "atTime": {
+                  "@id": "prov:atTime",
+                  "@type": "xsd:dateTime"
+                },
+                "hadRole": {
+                  "@id": "prov:hadRole",
+                  "@type": "@id"
+                },
+                "influencer": {
+                  "@id": "prov:influencer",
+                  "@type": "@id"
+                },
+                "activity": {
+                  "@id": "prov:activity",
+                  "@type": "@id"
+                }
+              },
+              "@id": "prov:qualifiedCommunication",
+              "@type": "@id"
+            },
+            "qualifiedStart": {
+              "@context": {
+                "atTime": {
+                  "@id": "prov:atTime",
+                  "@type": "xsd:dateTime"
+                }
+              },
+              "@id": "prov:qualifiedStart",
+              "@type": "@id"
+            },
+            "qualifiedEnd": {
+              "@context": {
+                "atTime": {
+                  "@id": "prov:atTime",
+                  "@type": "xsd:dateTime"
+                }
+              },
+              "@id": "prov:qualifiedEnd",
+              "@type": "@id"
+            },
+            "qualifiedAssociation": {
+              "@context": {
+                "agent": {
+                  "@context": {
+                    "agentType": "@type",
+                    "name": "rdfs:label",
+                    "actedOnBehalfOf": {
+                      "@id": "prov:actedOnBehalfOf",
+                      "@type": "@id"
+                    },
+                    "qualifiedDelegation": {
+                      "@id": "prov:qualifiedDelegation",
+                      "@type": "@id"
+                    }
+                  },
+                  "@id": "prov:agent",
+                  "@type": "@id"
+                },
+                "hadRole": {
+                  "@id": "prov:hadRole",
+                  "@type": "@id"
+                },
+                "hadPlan": {
+                  "@id": "prov:hadPlan",
+                  "@type": "@id"
+                }
+              },
+              "@id": "prov:qualifiedAssociation",
+              "@type": "@id"
+            }
+          },
           "@id": "prov:hadActivity",
           "@type": "@id"
         },
@@ -185,6 +521,24 @@
     "qualifiedAttribution": {
       "@context": {
         "agent": {
+          "@context": {
+            "agentType": "@type",
+            "name": "rdfs:label",
+            "actedOnBehalfOf": {
+              "@id": "prov:actedOnBehalfOf",
+              "@type": "@id"
+            },
+            "qualifiedDelegation": {
+              "@context": {
+                "hadActivity": {
+                  "@id": "prov:hadActivity",
+                  "@type": "@id"
+                }
+              },
+              "@id": "prov:qualifiedDelegation",
+              "@type": "@id"
+            }
+          },
           "@id": "prov:agent",
           "@type": "@id"
         }
@@ -223,169 +577,67 @@
       "@id": "prov:hadMember",
       "@type": "@id"
     },
-    "activityType": "@type",
-    "endedAtTime": {
-      "@id": "prov:endedAtTime",
-      "@type": "xsd:dateTime"
+    "type": "@type",
+    "properties": "@nest",
+    "geometry": "geojson:geometry",
+    "bbox": {
+      "@container": "@list",
+      "@id": "geojson:bbox"
     },
-    "wasAssociatedWith": {
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "LineString": "geojson:LineString",
+    "MultiLineString": "geojson:MultiLineString",
+    "MultiPoint": "geojson:MultiPoint",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Point": "geojson:Point",
+    "Polygon": "geojson:Polygon",
+    "features": {
+      "@container": "@set",
+      "@id": "geojson:features",
       "@context": {
-        "href": {
-          "@type": "@id",
-          "@id": "oa:hasTarget"
-        },
-        "rel": {
+        "links": {
           "@context": {
-            "@base": "http://www.iana.org/assignments/relation/"
+            "href": {
+              "@type": "@id",
+              "@id": "oa:hasTarget"
+            },
+            "rel": {
+              "@context": {
+                "@base": "http://www.iana.org/assignments/relation/"
+              },
+              "@id": "http://www.iana.org/assignments/relation",
+              "@type": "@id"
+            },
+            "type": "dct:type",
+            "hreflang": "dct:language",
+            "title": "rdfs:label",
+            "length": "dct:extent"
           },
-          "@id": "http://www.iana.org/assignments/relation",
-          "@type": "@id"
+          "@id": "rdfs:seeAlso"
         },
-        "type": "dct:type",
-        "hreflang": "dct:language",
-        "title": "rdfs:label",
-        "length": "dct:extent"
-      },
-      "@id": "prov:wasAssociatedWith",
-      "@type": "@id"
-    },
-    "wasInformedBy": {
-      "@id": "prov:wasInformedBy",
-      "@type": "@id"
-    },
-    "used": {
-      "@id": "prov:used",
-      "@type": "@id"
-    },
-    "wasStartedBy": {
-      "@id": "prov:wasStartedBy",
-      "@type": "@id"
-    },
-    "wasEndedBy": {
-      "@id": "prov:wasEndedBy",
-      "@type": "@id"
-    },
-    "invalidated": {
-      "@id": "prov:invalidated",
-      "@type": "@id"
-    },
-    "generated": {
-      "@id": "prov:generated",
-      "@type": "@id"
-    },
-    "qualifiedUsage": {
-      "@context": {
-        "atTime": {
-          "@id": "prov:atTime",
-          "@type": "xsd:dateTime"
+        "featureType": "@type",
+        "time": {
+          "@context": {
+            "date": {
+              "@id": "owlTime:hasTime",
+              "@type": "xsd:date"
+            },
+            "timestamp": {
+              "@id": "owlTime:hasTime",
+              "@type": "xsd:dateTime"
+            },
+            "interval": {
+              "@id": "owlTime:hasTime",
+              "@container": "@list"
+            }
+          },
+          "@id": "dct:time"
         },
-        "entity": {
-          "@id": "prov:entity",
-          "@type": "@id"
-        }
-      },
-      "@id": "prov:qualifiedUsage",
-      "@type": "@id"
-    },
-    "qualifiedCommunication": {
-      "@context": {
-        "atTime": {
-          "@id": "prov:atTime",
-          "@type": "xsd:dateTime"
-        },
-        "hadRole": {
-          "@id": "prov:hadRole",
-          "@type": "@id"
-        },
-        "influencer": {
-          "@id": "prov:influencer",
-          "@type": "@id"
-        },
-        "hadActivity": {
-          "@id": "prov:hadActivity",
-          "@type": "@id"
-        },
-        "activity": {
-          "@id": "prov:activity",
-          "@type": "@id"
-        }
-      },
-      "@id": "prov:qualifiedCommunication",
-      "@type": "@id"
-    },
-    "qualifiedStart": {
-      "@context": {
-        "atTime": {
-          "@id": "prov:atTime",
-          "@type": "xsd:dateTime"
-        },
-        "entity": {
-          "@id": "prov:entity",
-          "@type": "@id"
-        },
-        "hadActivity": {
-          "@id": "prov:hadActivity",
-          "@type": "@id"
-        }
-      },
-      "@id": "prov:qualifiedStart",
-      "@type": "@id"
-    },
-    "qualifiedEnd": {
-      "@context": {
-        "atTime": {
-          "@id": "prov:atTime",
-          "@type": "xsd:dateTime"
-        },
-        "entity": {
-          "@id": "prov:entity",
-          "@type": "@id"
-        },
-        "hadActivity": {
-          "@id": "prov:hadActivity",
-          "@type": "@id"
-        }
-      },
-      "@id": "prov:qualifiedEnd",
-      "@type": "@id"
-    },
-    "qualifiedAssociation": {
-      "@context": {
-        "agent": {
-          "@id": "prov:agent",
-          "@type": "@id"
-        },
-        "hadRole": {
-          "@id": "prov:hadRole",
-          "@type": "@id"
-        },
-        "hadPlan": {
-          "@id": "prov:hadPlan",
-          "@type": "@id"
-        }
-      },
-      "@id": "prov:qualifiedAssociation",
-      "@type": "@id"
-    },
-    "agentType": "@type",
-    "name": "rdfs:label",
-    "actedOnBehalfOf": {
-      "@id": "prov:actedOnBehalfOf",
-      "@type": "@id"
-    },
-    "qualifiedDelegation": {
-      "@context": {
-        "agent": {
-          "@id": "prov:agent",
-          "@type": "@id"
-        },
-        "hadActivity": {
-          "@id": "prov:hadActivity",
-          "@type": "@id"
-        }
-      },
-      "@id": "prov:qualifiedDelegation",
-      "@type": "@id"
+        "coordRefSys": "http://www.opengis.net/def/glossary/term/CoordinateReferenceSystemCRS",
+        "place": "dct:spatial"
+      }
     },
     "Activity": "prov:Activity",
     "ActivityInfluence": "prov:ActivityInfluence",
@@ -531,83 +783,29 @@
       "@id": "prov:mentionOf",
       "@type": "@id"
     },
-    "type": "@type",
-    "properties": "@nest",
-    "geometry": {
+    "Polyhedron": "geojson:Polyhedron",
+    "MultiPolyhedron": "geojson:MultiPolyhedron",
+    "Prism": {
+      "@id": "geojson:Prism",
       "@context": {
-        "coordinates": {
-          "@container": "@list",
-          "@id": "geojson:coordinates"
-        }
-      },
-      "@id": "geojson:geometry"
-    },
-    "bbox": {
-      "@container": "@list",
-      "@id": "geojson:bbox"
-    },
-    "Feature": "geojson:Feature",
-    "FeatureCollection": "geojson:FeatureCollection",
-    "GeometryCollection": "geojson:GeometryCollection",
-    "LineString": "geojson:LineString",
-    "MultiLineString": "geojson:MultiLineString",
-    "MultiPoint": "geojson:MultiPoint",
-    "MultiPolygon": "geojson:MultiPolygon",
-    "Point": "geojson:Point",
-    "Polygon": "geojson:Polygon",
-    "features": {
-      "@container": "@set",
-      "@id": "geojson:features",
-      "@context": {
-        "links": {
-          "@context": {
-            "href": {
-              "@type": "@id",
-              "@id": "oa:hasTarget"
-            },
-            "rel": {
-              "@context": {
-                "@base": "http://www.iana.org/assignments/relation/"
-              },
-              "@id": "http://www.iana.org/assignments/relation",
-              "@type": "@id"
-            },
-            "type": "dct:type",
-            "hreflang": "dct:language",
-            "title": "rdfs:label",
-            "length": "dct:extent"
-          },
-          "@id": "rdfs:seeAlso"
-        },
-        "featureType": "@type",
-        "time": "dct:time",
-        "coordRefSys": "http://www.opengis.net/def/glossary/term/CoordinateReferenceSystemCRS",
-        "place": "dct:spatial",
-        "Polyhedron": "geojson:Polyhedron",
-        "MultiPolyhedron": "geojson:MultiPolyhedron",
-        "Prism": {
-          "@id": "geojson:Prism",
-          "@context": {
-            "base": "geojson:prismBase",
-            "lower": "geojson:prismLower",
-            "upper": "geojson:prismUpper"
-          }
-        },
-        "MultiPrism": {
-          "@id": "geojson:MultiPrism",
-          "@context": {
-            "prisms": "geojson:prisms"
-          }
-        },
-        "coordinates": {
-          "@container": "@list",
-          "@id": "geojson:coordinates"
-        },
-        "geometries": {
-          "@id": "geojson:geometry",
-          "@container": "@list"
-        }
+        "base": "geojson:prismBase",
+        "lower": "geojson:prismLower",
+        "upper": "geojson:prismUpper"
       }
+    },
+    "MultiPrism": {
+      "@id": "geojson:MultiPrism",
+      "@context": {
+        "prisms": "geojson:prisms"
+      }
+    },
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "geometries": {
+      "@id": "geojson:geometry",
+      "@container": "@list"
     },
     "prov": "http://www.w3.org/ns/prov#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
@@ -615,8 +813,19 @@
     "dct": "http://purl.org/dc/terms/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "oa": "http://www.w3.org/ns/oa#",
+    "base_href": "https://terranexus.pangaeainnovations.com/",
+    "agents": "base_href:prov/agents/",
+    "activities": "base_href:prov/activities/",
+    "roles": "base_href:prov/roles/",
+    "dggsOperations": "base_href:prov/dggsOperations/",
+    "terranexusProcesses": "base_href:ogcapi/processes/",
+    "terranexusCollections": "base_href:ogcapi/collections/",
+    "terranexusDGGS": "base_href:ogcapi/dggs/",
+    "terranexusJobs": "base_href:ogcapi/jobs/",
+    "terranexusTempData": "base_href:prov/tempData/",
     "geojson": "https://purl.org/geojson/vocab#",
     "owlTime": "http://www.w3.org/2006/time#",
+    "time": "http://www.w3.org/2006/time#",
     "@version": 1.1
   }
 }

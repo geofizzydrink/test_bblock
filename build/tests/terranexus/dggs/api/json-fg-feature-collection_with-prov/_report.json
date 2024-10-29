@@ -2,8 +2,8 @@
   "title": "Validation report for pangaea.terranexus.dggs.api.json-fg-feature-collection_with-prov - JSON-FG Feature Collection with PROV Building Block",
   "bblockName": "JSON-FG Feature Collection with PROV Building Block",
   "bblockId": "pangaea.terranexus.dggs.api.json-fg-feature-collection_with-prov",
-  "generated": "2024-09-13T10:21:34.237869+00:00",
-  "result": false,
+  "generated": "2024-10-29T00:10:41.489994+00:00",
+  "result": true,
   "items": [
     {
       "source": {
@@ -15,7 +15,7 @@
         "snippetIndex": 1,
         "language": "json"
       },
-      "result": false,
+      "result": true,
       "sections": [
         {
           "name": "FILES",
@@ -29,6 +29,20 @@
               "op": "jsonld-uplift",
               "isError": false,
               "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "example_1_1.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD example_1_1.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "example_1_1.ttl",
+              "size": 1698,
+              "isError": false,
+              "message": "Output Turtle example_1_1.ttl created"
             }
           ]
         },
@@ -43,17 +57,6 @@
               "message": "Validation passed"
             }
           ]
-        },
-        {
-          "name": "UNKNOWN",
-          "title": "Unknown errors",
-          "entries": [
-            {
-              "exception": "HTTPError",
-              "isError": true,
-              "message": "Traceback (most recent call last):\n,  File \"/src/ogc/bblocks/validate.py\", line 184, in _validate_resource\n    result = validator.validate(filename, output_filename, report,\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 299, in validate\n    graph = self._load_graph(filename, output_filename, report, contents, base_uri, prefixes)\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 189, in _load_graph\n    graph = Graph().parse(data=json.dumps(jsonld_uplifted), format='json-ld', base=base_uri)\n,  File \"/venv/lib/python3.10/site-packages/rdflib/graph.py\", line 1494, in parse\n    parser.parse(source, self, **args)\n,  File \"/venv/lib/python3.10/site-packages/rdflib/plugins/parsers/jsonld.py\", line 119, in parse\n    to_rdf(data, conj_sink, base, context_data, version, generalized_rdf,\n,  File \"/venv/lib/python3.10/site-packages/rdflib/plugins/parsers/jsonld.py\", line 141, in to_rdf\n    return parser.parse(data, context, dataset)\n,  File \"/venv/lib/python3.10/site-packages/rdflib/plugins/parsers/jsonld.py\", line 163, in parse\n    context.load(local_context, context.base)\n,  File \"/venv/lib/python3.10/site-packages/rdflib/plugins/shared/jsonld/context.py\", line 403, in load\n    self._prep_sources(base, source, sources, referenced_contexts)\n,  File \"/venv/lib/python3.10/site-packages/rdflib/plugins/shared/jsonld/context.py\", line 432, in _prep_sources\n    new_ctx = self._fetch_context(\n,  File \"/venv/lib/python3.10/site-packages/rdflib/plugins/shared/jsonld/context.py\", line 477, in _fetch_context\n    source = source_to_json(source_url)  # type: ignore[assignment]\n,  File \"/venv/lib/python3.10/site-packages/rdflib/plugins/shared/jsonld/util.py\", line 44, in source_to_json\n    source = create_input_source(source, format=\"json-ld\")\n,  File \"/venv/lib/python3.10/site-packages/rdflib/parser.py\", line 416, in create_input_source\n    ) = _create_input_source_from_location(\n,  File \"/venv/lib/python3.10/site-packages/rdflib/parser.py\", line 478, in _create_input_source_from_location\n    input_source = URLInputSource(absolute_location, format)\n,  File \"/venv/lib/python3.10/site-packages/rdflib/parser.py\", line 285, in __init__\n    response: addinfourl = _urlopen(req)\n,  File \"/venv/lib/python3.10/site-packages/rdflib/parser.py\", line 272, in _urlopen\n    return urlopen(req)\n,  File \"/usr/local/lib/python3.10/urllib/request.py\", line 216, in urlopen\n    return opener.open(url, data, timeout)\n,  File \"/usr/local/lib/python3.10/urllib/request.py\", line 525, in open\n    response = meth(req, response)\n,  File \"/usr/local/lib/python3.10/urllib/request.py\", line 634, in http_response\n    response = self.parent.error(\n,  File \"/usr/local/lib/python3.10/urllib/request.py\", line 563, in error\n    return self._call_chain(*args)\n,  File \"/usr/local/lib/python3.10/urllib/request.py\", line 496, in _call_chain\n    result = func(*args)\n,  File \"/usr/local/lib/python3.10/urllib/request.py\", line 643, in http_error_default\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\n,urllib.error.HTTPError: HTTP Error 502: Bad Gateway\n"
-            }
-          ]
         }
       ]
     }
@@ -61,7 +64,7 @@
   "globalErrors": {},
   "counts": {
     "total": 1,
-    "passed": 0,
-    "failed": 1
+    "passed": 1,
+    "failed": 0
   }
 }
