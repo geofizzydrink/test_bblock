@@ -3,11 +3,4 @@ description: CWL Provenance Chain for DGGS actions
 allOf: 
     - $ref: https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov/schema.yaml
     - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml
-    - type: object
-    - properties:
-        a:
-          type: string
-          format: uri
-        b:
-          type: number
 

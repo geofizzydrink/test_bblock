@@ -4583,7 +4583,7 @@
                 "line::hidden": NaN,
                 "amenity": NaN,
                 "parking": NaN,
-                "name": "Giant",
+                "id": "Giant",
                 "is_in": "Seksyen 18, Shah Alam, Selangor, Malaysia",
                 "shop": "supermarket",
                 "dggsZones": {
@@ -5168,7 +5168,7 @@
                 "line::hidden": NaN,
                 "amenity": NaN,
                 "parking": NaN,
-                "name": "Mydin",
+                "id": "Mydin",
                 "is_in": "Seksyen 18, Shah Alam, Selangor, Malaysia",
                 "shop": "supermarket",
                 "dggsZones": {

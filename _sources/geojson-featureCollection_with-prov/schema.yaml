@@ -1,8 +1,8 @@
 "$schema": https://json-schema.org/draft/2020-12/schema
 description: CWL Provenance Chain for DGGS actions
 allOf: 
-    - $ref: https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov/schema.yaml
-    - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/featureCollection/schema.yaml
+    - $ref: bblocks://ogc.ogc-utils.prov#/$defs/Entity
+    - $ref: bblocks://ogc.geo.features.featureCollection
     - type: object
     - properties:
         a:

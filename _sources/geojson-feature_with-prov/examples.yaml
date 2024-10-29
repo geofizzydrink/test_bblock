@@ -11,11 +11,16 @@ prefixes:
   terranexusTempData: base_href:prov/tempData/
 
 examples:
-  - title: Feature Collection
+  - title: This is an example with just a description and no code snippets.
     content: |-
-      Terranexus derived Feature Collection with provenance
+      This is the content of the example.
+      
+      In **Markdown** format.
+
+  - title: Examples can have content and/or code snippets.
+    content: |-
+      The content of this example. 
 
     snippets:
       - language: json
-        base-uri: http://examples.terranexus.com/dggs-api/
-        ref: examples/FeatureCollection-wasGeneratedBy_prov_example.json
+        ref: examples/GeoJSONFeature-wasGeneratedBy_prov_example.json

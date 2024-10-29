@@ -3,8 +3,3 @@ description: JSON-FG Feature Collection with Provenance Chain for DGGS actions
 allOf: 
     - $ref: bblocks://ogc.ogc-utils.prov#/$defs/Entity
     - $ref: bblocks://ogc.geo.json-fg.feature
-    # - $ref: "#/$defs/fg-json-feature"
-    - type: object
-    - properties:
-        b:
-          type: number

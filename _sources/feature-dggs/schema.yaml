@@ -1,0 +1,10 @@
+"$schema": https://json-schema.org/draft/2020-12/schema
+description: JSON-FG Feature Collection with Provenance Chain for DGGS actions
+allOf:
+    - anyOf:
+        - $ref: bblocks://pangaea.terranexus.dggs.api.geojson-feature_with-prov
+        - $ref: bblocks://pangaea.terranexus.dggs.api.json-fg-feature_with-prov
+    - properties:
+          properties:
+              required:
+                  - dggsZones

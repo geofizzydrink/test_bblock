@@ -103,7 +103,7 @@
     "has_provenance": [
         {
             "provType": "Agent",
-            "name": "agents:TerraNexus",
+            "id": "agents:TerraNexus",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:PangaeaInnovations",
             "qualifiedDelegation": {
@@ -115,7 +115,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:admin%40terranexus.pangaeainnovations.com",
+            "id": "agents:admin%40terranexus.pangaeainnovations.com",
             "agentType": "Person",
             "actedOnBehalfOf": "agents:%3COrganisation%3E",
             "qualifiedDelegation": {
@@ -127,7 +127,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:MapDataToZones",
+            "id": "agents:MapDataToZones",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:TerraNexus",
             "qualifiedDelegation": [
@@ -141,7 +141,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:_validate_ogcapi_execute_document",
+            "id": "agents:_validate_ogcapi_execute_document",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
             "qualifiedDelegation": [
@@ -155,7 +155,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:_executeMapDataToZones_process",
+            "id": "agents:_executeMapDataToZones_process",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "terranexusProcesses:MapDataToZones",
             "qualifiedDelegation": [
@@ -169,7 +169,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:map_data",
+            "id": "agents:map_data",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:_executeMapDataToZones_process",
             "qualifiedDelegation": [
@@ -183,7 +183,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:map_data_execution",
+            "id": "agents:map_data_execution",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:map_data",
             "qualifiedDelegation": [
@@ -197,7 +197,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:processData_task",
+            "id": "agents:processData_task",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:map_data_execution",
             "qualifiedDelegation": [
@@ -211,7 +211,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:reorganiseData_task",
+            "id": "agents:reorganiseData_task",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:processData_task",
             "qualifiedDelegation": [
@@ -225,7 +225,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:map_featureData_task",
+            "id": "agents:map_featureData_task",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:processData_task",
             "qualifiedDelegation": [
@@ -239,7 +239,7 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:get_mapped_child_zones_task",
+            "id": "agents:get_mapped_child_zones_task",
             "agentType": "softwareAgent",
             "actedOnBehalfOf": "agents:map_featureData_task",
             "qualifiedDelegation": [
@@ -253,12 +253,12 @@
         },
         {
             "provType": "Agent",
-            "name": "agents:PangaeaInnovations",
+            "id": "agents:PangaeaInnovations",
             "agentType": "organization"
         },
         {
             "provType": "Agent",
-            "name": "agents:%3COrganisation%3E",
+            "id": "agents:%3COrganisation%3E",
             "agentType": "organization"
         },
         {
@@ -532,6 +532,5 @@
             ],
             "generatedAtTime": "2024-09-07T12:28:21.069077+00:00"
         }
-    ],
-    "@context": "https://terranexus.pangaeainnovations.com/context/geojsonFeature.jsonld"
+    ]
 }
